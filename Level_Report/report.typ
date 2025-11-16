@@ -12,7 +12,6 @@
 
 #{
   set align(center)
-  set text(size: 25pt)
 
   text(size: 30pt)[*Report*]
   v(0cm)
@@ -331,7 +330,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 
 == PM-Wahlelemente
-=== 04.03.01 Strategie - optional
+=== 04.03.01 Strategie
 ==== 04.03.01.01 Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen
 #todo("Schreiben")
 ==== 04.03.01.02 Chancen identifizieren und ausschöpfen, die Strategie der Organisation zu beeinflussen
@@ -342,14 +341,14 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.03.01.05 Key Performance Indikatoren (KPI) bestimmen, beurteilen und überprüfen
 #todo("Schreiben")
-=== 04.03.05 Kultur und Werte - optional
+=== 04.03.05 Kultur und Werte
 ==== 04.03.05.01 Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen
 #todo("Schreiben")
 ==== 04.03.05.02 Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen
 #todo("Schreiben")
 ==== 04.03.05.03 Die informelle Kultur und Werte der Organisation und deren Auswirkungen auf das Projekt beurteilen
 #todo("Schreiben")
-=== 04.04.01 Selbstreflexion und Selbstmanagement - optional
+=== 04.04.01 Selbstreflexion und Selbstmanagement
 ==== 04.04.01.01 Einfluss der eigenen Werte und persönlichen Erfahrungen auf die Arbeit identifizieren und reflektieren
 #todo("Schreiben")
 ==== 04.04.01.02 Selbstvertrauen auf der Basis von persönlichen Stärken und Schwächen aufbauen
@@ -360,7 +359,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.01.05 Verantwortung für das persönliche Lernen und die persönliche Weiterentwicklung übernehmen
 #todo("Schreiben")
-=== 04.04.02 Persönliche Integrität und Verlässlichkeit - optional
+=== 04.04.02 Persönliche Integrität und Verlässlichkeit
 ==== 04.04.02.01 Ethische Werte bei allen Entscheidungen und Handlungen anerkennen und anwenden
 #todo("Schreiben")
 ==== 04.04.02.02 Nachhaltigkeit von Leistungen und Ergebnissen fördern
@@ -371,7 +370,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.02.05 Aufgaben sorgfältig erfüllen, um Vertrauen bei anderen zu schaffen
 #todo("Schreiben")
-=== 04.04.03 Persönliche Kommunikation - optional
+=== 04.04.03 Persönliche Kommunikation
 ==== 04.04.03.01 Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
 #todo("Schreiben")
 ==== 04.04.03.02 Offene Kommunikation ermöglichen und fördern
@@ -382,7 +381,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.03.05 Humor und Perspektivenwechsel angemessen verwenden
 #todo("Schreiben")
-=== 04.04.04 Beziehungen und Engagement - optional
+=== 04.04.04 Beziehungen und Engagement
 ==== 04.04.04.01 Persönliche und berufliche Beziehungen aufbauen und pflegen
 #todo("Schreiben")
 ==== 04.04.04.02 Soziale Netzwerke aufbauen, moderieren und an ihnen teilnehmen
@@ -393,7 +392,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.04.05 Eigene Visionen und Ziele kommunizieren, um Engagement und Commitment Dritter zu erreichen
 #todo("Schreiben")
-=== 04.04.06 Teamwork - optional
+=== 04.04.06 Teamwork
 ==== 04.04.06.01 Das Team zusammenstellen und entwickeln
 #todo("Schreiben")
 ==== 04.04.06.02 Zusammenarbeit und Netzwerken zwischen Teammitgliedern fördern
@@ -404,7 +403,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.06.05 Fehler erkennen, um das Lernen aus Fehlern zu ermöglichen
 #todo("Schreiben")
-=== 04.04.07 Konflikte und Krisen - optional
+=== 04.04.07 Konflikte und Krisen
 #todo("Schreiben")
 ==== 04.04.07.01 Konflikte und Krisen antizipieren und, wenn möglich, verhindern
 #todo("Schreiben")
@@ -414,7 +413,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.07.04 Lernergebnisse aus Konflikten und Krisen identifizieren und weitergeben, um die zukünftige Arbeit zu verbessern
 #todo("Schreiben")
-=== 04.04.08 Vielseitigkeit - optional
+=== 04.04.08 Vielseitigkeit
 ==== 04.04.08.01 Ein offenes und kreatives Umfeld schaffen und unterstützen
 #todo("Schreiben")
 ==== 04.04.08.02 Konzeptionelles Denken anwenden, um Situationen zu analysieren und Lösungsstrategien zu definieren
@@ -425,7 +424,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.08.05 Ganzheitliche Sicht auf das Projekt und seinen Kontext fördern, um den Entscheidungsprozess zu verbessern
 #todo("Schreiben")
-=== 04.04.09 Verhandlungen - optional
+=== 04.04.09 Verhandlungen
 ==== 04.04.09.01 Interessen aller Parteien, die an den Verhandlungen beteiligt sind, identifizieren und analysieren
 #todo("Schreiben")
 ==== 04.04.09.02 Optionen und Alternativen entwickeln und evaluieren, die das Potenzial haben, die Bedürfnisse aller Beteiligten zu erfüllen
@@ -436,7 +435,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.09.05 Zusätzliche Verkaufs- und Akquisitionsmöglichkeiten entdecken und ausschöpfen
 #todo("Schreiben")
-=== 04.04.10 Ergebnisorientierung - optional
+=== 04.04.10 Ergebnisorientierung
 ==== 04.04.10.01 Alle Entscheidungen und Handlungen hinsichtlich ihrer Auswirkung auf den Projekterfolg und die Ziele der Organisation evaluieren
 #todo("Schreiben")
 ==== 04.04.10.02 Bedürfnisse und Mittel aufeinander abstimmen, um Ergebnisse und Erfolge zu optimieren
@@ -447,7 +446,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.10.05 Ergebnisse liefern und Akzeptanz erhalten
 #todo("Schreiben")
-=== 04.05.13 Change und Transformation - optional
+=== 04.05.13 Change und Transformation
 ==== 04.05.13.01 Adaptionsfähigkeit der Organisation(en) zu Veränderung beurteilen
 #todo("Schreiben")
 ==== 04.05.13.02 Veränderungsanforderungen und Transformationschancen identifizieren
