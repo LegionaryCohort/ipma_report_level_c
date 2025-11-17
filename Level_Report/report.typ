@@ -158,6 +158,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 
 = Beschreibung der Management-Herausforderungen
 == PM-Pflichtelemente
+
+#pagebreak()
 === 04.03.02 Governance, Strukturen und Prozesse
 ==== 04.03.02.01 Die Grundlagen des Projektmanagements und deren Einführung kennen
 #todo("Schreiben")
@@ -173,6 +175,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.03.02.07 Das Projekt mit den Finanz- und Controlling-Prozessen in Einklang bringen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.03.03 Compliance, Standards und Regularien
 ==== 04.03.03.01 Die für das Projekt gültigen Rechtsvorschriften identifizieren und einhalten
 #todo("Schreiben")
@@ -186,6 +190,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.03.03.06 Die Projektmanagementkompetenz der Organisation beurteilen, vergleichen und verbessern
 #todo("Schreiben")
+
+#pagebreak()
 === 04.03.04 Macht und Interessen
 ==== 04.03.04.01 Persönliche Ambitionen und Interessen Dritter und deren potenzielle Auswirkungen auf das Projekt beurteilen sowie diese Kenntnisse zum Nutzen des Projekts einsetzen
 #todo("Schreiben")
@@ -193,6 +199,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.03.04.03 Persönlichkeiten und Arbeitsstile Dritter beurteilen und zum Nutzen des Projekts einsetzen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.05 Führung
 ==== 04.04.05.01 Initiative ergreifen und proaktiv mit Rat und Tat zur Seite stehen
 #todo("Schreiben")
@@ -204,6 +212,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.05.05 Entscheidungen treffen, durchsetzen und überprüfen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.01 Projektdesign
 ==== 04.05.01.01 Erfolgskriterien anerkennen, priorisieren und überprüfen
 #todo("Schreiben")
@@ -215,6 +225,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.01.05 Konzept für die Projektdurchführung entwerfen, überwachen und anpassen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.02 Anforderungen und Ziele
 ==== 04.05.02.01 Hierarchie der Projektziele definieren und entwickeln
 #todo("Schreiben")
@@ -222,6 +234,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.02.03 Anforderungen und Abnahmekriterien priorisieren und darüber entscheiden
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.03 Leistungsumfang und Lieferobjekte
 ==== 04.05.03.01 Lieferobjekte definieren
 #todo("Schreiben")
@@ -231,6 +245,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.03.04 Konfiguration des Leistungsumfangs erstellen und aufrechterhalten
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.04 Ablauf und Termine
 ==== 04.05.04.01 Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
 #todo("Schreiben")
@@ -242,6 +258,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.04.05 Fortschritt anhand des Terminplans überwachen und notwendige Anpassungen vornehmen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.05 Organisation, Information und Dokumentation
 ==== 04.05.05.01 Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen
 #todo("Schreiben")
@@ -251,6 +269,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.05.04 Organisation des Projekts implementieren, überwachen und anpassen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.06 Qualität
 ==== 04.05.06.01 Qualitätsmanagementplan für das Projekt entwickeln, die Implementierung überwachen und gegebenenfalls überarbeiten
 #todo("Schreiben")
@@ -262,6 +282,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.06.05 Qualität im Verlauf des Projekts sicherstellen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.07 Kosten und Finanzierung
 ==== 04.05.07.01 Projektkosten abschätzen
 #todo("Schreiben")
@@ -273,6 +295,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.07.05 Finanzen überwachen, um Abweichungen vom Projektplan zu identifizieren und zu korrigieren
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.08 Ressourcen
 ==== 04.05.08.01 Strategische Ressourcenplanung entwickeln, um die Projektergebnisse liefern zu können
 #todo("Schreiben")
@@ -284,6 +308,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.08.05 Ressourcenverbrauch evaluieren und erforderliche Korrekturmaßnahmen ergreifen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.09 Beschaffung
 ==== 04.05.09.01 Beschaffungsbedarf, Optionen und Prozesse vereinbaren
 #todo("Schreiben")
@@ -293,6 +319,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.09.04 Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.10 Planung und Steuerung
 ==== 04.05.10.01 Projekt starten, Projektmanagement-Plan entwickeln und Zustimmung einholen
 #todo("Schreiben")
@@ -306,6 +334,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.10.06 Eine Phase oder das Projekt abschließen und evaluieren
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.11 Chancen und Risiken
 ==== 04.05.11.01 Chancen- und Risikomanagementstruktur entwickeln und implementieren
 #todo("Schreiben")
@@ -317,6 +347,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.05.11.05 Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.12 Stakeholder
 ==== 04.05.12.01 Stakeholder identifizieren und ihre Interessen sowie ihren Einfluss analysieren
 #todo("Schreiben")
@@ -329,6 +361,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 ==== 04.05.12.05 Netzwerke und Allianzen aufbauen, aufrechterhalten und beenden
 #todo("Schreiben")
 
+#pagebreak()
 == PM-Wahlelemente
 === 04.03.01 Strategie
 ==== 04.03.01.01 Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen
@@ -341,6 +374,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.03.01.05 Key Performance Indikatoren (KPI) bestimmen, beurteilen und überprüfen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.03.05 Kultur und Werte
 ==== 04.03.05.01 Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen
 #todo("Schreiben")
@@ -348,6 +383,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.03.05.03 Die informelle Kultur und Werte der Organisation und deren Auswirkungen auf das Projekt beurteilen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.01 Selbstreflexion und Selbstmanagement
 ==== 04.04.01.01 Einfluss der eigenen Werte und persönlichen Erfahrungen auf die Arbeit identifizieren und reflektieren
 #todo("Schreiben")
@@ -359,6 +396,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.01.05 Verantwortung für das persönliche Lernen und die persönliche Weiterentwicklung übernehmen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.02 Persönliche Integrität und Verlässlichkeit
 ==== 04.04.02.01 Ethische Werte bei allen Entscheidungen und Handlungen anerkennen und anwenden
 #todo("Schreiben")
@@ -370,6 +409,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.02.05 Aufgaben sorgfältig erfüllen, um Vertrauen bei anderen zu schaffen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.03 Persönliche Kommunikation
 ==== 04.04.03.01 Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
 #todo("Schreiben")
@@ -381,6 +422,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.03.05 Humor und Perspektivenwechsel angemessen verwenden
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.04 Beziehungen und Engagement
 ==== 04.04.04.01 Persönliche und berufliche Beziehungen aufbauen und pflegen
 #todo("Schreiben")
@@ -392,6 +435,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.04.05 Eigene Visionen und Ziele kommunizieren, um Engagement und Commitment Dritter zu erreichen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.06 Teamwork
 ==== 04.04.06.01 Das Team zusammenstellen und entwickeln
 #todo("Schreiben")
@@ -403,8 +448,9 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.06.05 Fehler erkennen, um das Lernen aus Fehlern zu ermöglichen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.07 Konflikte und Krisen
-#todo("Schreiben")
 ==== 04.04.07.01 Konflikte und Krisen antizipieren und, wenn möglich, verhindern
 #todo("Schreiben")
 ==== 04.04.07.02 Ursachen und Auswirkungen von Konflikten und Krisen analysieren und angemessene Reaktionen auswählen
@@ -413,6 +459,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.07.04 Lernergebnisse aus Konflikten und Krisen identifizieren und weitergeben, um die zukünftige Arbeit zu verbessern
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.08 Vielseitigkeit
 ==== 04.04.08.01 Ein offenes und kreatives Umfeld schaffen und unterstützen
 #todo("Schreiben")
@@ -424,6 +472,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.08.05 Ganzheitliche Sicht auf das Projekt und seinen Kontext fördern, um den Entscheidungsprozess zu verbessern
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.09 Verhandlungen
 ==== 04.04.09.01 Interessen aller Parteien, die an den Verhandlungen beteiligt sind, identifizieren und analysieren
 #todo("Schreiben")
@@ -435,6 +485,8 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.09.05 Zusätzliche Verkaufs- und Akquisitionsmöglichkeiten entdecken und ausschöpfen
 #todo("Schreiben")
+
+#pagebreak()
 === 04.04.10 Ergebnisorientierung
 ==== 04.04.10.01 Alle Entscheidungen und Handlungen hinsichtlich ihrer Auswirkung auf den Projekterfolg und die Ziele der Organisation evaluieren
 #todo("Schreiben")
@@ -446,15 +498,13 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 ==== 04.04.10.05 Ergebnisse liefern und Akzeptanz erhalten
 #todo("Schreiben")
+
+#pagebreak()
 === 04.05.13 Change und Transformation
 ==== 04.05.13.01 Adaptionsfähigkeit der Organisation(en) zu Veränderung beurteilen
-#todo("Schreiben")
 ==== 04.05.13.02 Veränderungsanforderungen und Transformationschancen identifizieren
-#todo("Schreiben")
 ==== 04.05.13.03 Veränderungs- oder Transformationsstrategie für das Projekt entwickeln
-#todo("Schreiben")
 ==== 04.05.13.04 Veränderungs- oder Transformationsmanagement implementieren
-#todo("Schreiben")
 
 <main_numbering_end>
 #set page(footer: page_footer(<appendix_numbering_end>), numbering: "i")
