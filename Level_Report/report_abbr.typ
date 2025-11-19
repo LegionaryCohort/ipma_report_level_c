@@ -20,6 +20,22 @@
       _Das Hilfsmittelverzeichnis ist ein Verzeichnis aller medizinischen Hilfsmittel, die über die Krankenkassen abgerechnet werden. Jedes abrechenbare Gerät bekommt dazu im Verzeichnis eine eindeutige Nummer zur Identifikation._
     ],
   ),
+  qrs: (
+    link(<qrs>, "QRS"),
+    [QRS <qrs>],
+    [
+      Quality-Reporting-System\
+      _Teilsystem des Datenbankmanagementsystems, das für die Überprüfung und Verbesserung der Datenqualität zuständig ist._
+    ],
+  ),
+  gtin: (
+    link(<gtin>, "GTIN"),
+    [GTIN <gtin>],
+    [
+      Global Trade Item Number\
+      _Die Global Trade Item Number ist eine Identifikationsnummer, mit der Handelseinheiten ausgezeichnet werden._
+    ],
+  ),
 )
 
 #let abbr(name) = {

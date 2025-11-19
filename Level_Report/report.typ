@@ -322,14 +322,41 @@ Somit konnten wir hier sehr schnell die Zielsetzung priorisieren und haben die L
 
 #pagebreak()
 === 04.05.03 Leistungsumfang und Lieferobjekte
+Die folgenden KCIs werden im Kontext des Projektes beschrieben, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
+Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
+
+Es war recht früh klar, dass für die Erfüllung des Kernziels eine Erweiterung unseres Datenbank-Management-Systems notwendig sein würde.
+In der Planung des Projektes haben wir per Brainstorming zunächst den Funktionsumfang der Erweiterung ausdefiniert.
+Anschließend habe ich daraus die benötigten Systemmodule abgeleitet und den typischen Ablauf einer Qualitätsprüfung designed.
+Aus diesem Design ergab sich schließlich die Stuktur der tatsächlichen Report-Spezifikationen, die die zu prüfenden Inhalte, sowie die Details der Reporting- & Korrektur-Vorgänge beinhalten.\
+Das gesamte Design im Überblick ist nochmal in @qrs_design visuell dargestellt.
+
 ==== *04.05.03.01* Lieferobjekte definieren
-#todo("Schreiben")
+Die Lieferobjekte, die letztlich von dem Projekt erzeugt wurden, ergaben sich aus dem oben beschriebenen Design.
+Konkret waren die Lieferobjekte folgende:
+- Das #abbr("qrs") Framework (zuständig für die gesamte Ausführung von #abbr("qrs")-Reports)
+  - Das Datenbank-Prüf-Modul (zuständig für die Ausführung der Report-Prüfungs-Ablaufe)
+  - Das Report-Protokoll-Modul (zuständig für die Erstellung der Report-Prüf-Protokolle)
+  - Das Import-Modul (zuständig für die Durchführung von Report-Korrektur-Vorgängen)
+- Mehrere #abbr("qrs")-Reports zu konkreten Qualitätskriterien
+  - Überprüfung von Artikelnummern und #abbr("gtin")s
+  - Überpüfung von Produktverknüpfungen und #abbr("hmv")-Nummern
+- Dokumentation zur Verwendung des QRS für die Kollegen, die damit arbeiten sollten
+
 ==== *04.05.03.02* Leistungsumfang strukturieren
-#todo("Schreiben")
+Der Leistungsumfang wurde in der oben bereits beschriebenen Form heruntergebrochen und strukturiert.
+Weiterführende Unterteilung fand nur informell in mündlicher Form statt, wenn wir in unseren Daily-Meetings über das Projekt gesprochen haben, und wurde nicht verschriftlicht.
+
 ==== *04.05.03.03* Arbeitspakete definieren
-#todo("Schreiben")
+Da das Projekt, wie alle Projekte bei der Audoora GmbH, in einem hybriden Format durchgeführt wurden, wurden aus den oben gelisteten Lieferobjekte erst im Laufe des Projektes konkretere Arbeitspakete definiert.
+Dazu habe ich vor Beginn der Bearbeitung eines Lieferobjektes die konkreten Anforderungen und Schnittstellen aufgelistet und daraus eine vorläufige Code-Struktur abgeleitet.
+Anhand dieser Code-Struktur ergaben sich dann automatisch konkrete Arbeitspakete für die Umsetzung der einzelnen Code-Komponenten.
+
 ==== *04.05.03.04* Konfiguration des Leistungsumfangs erstellen und aufrechterhalten
-#todo("Schreiben")
+Über die Laufzeit des Projektes wurde der Fortschritt an den Lieferobjekten gemessen.
+Da die Entwicklung des #abbr("qrs")-Frameworks und der #abbr("qrs")-Reports parallel stattfand, wurden diese nochmals unterteilt in die Phasen "Implementation", "Local Tests" und "Deployed Tests".
+Der Fortschritt wurde dann zusätzlich an dem Abschluss dieser Phasen festgemacht, um ein feineres Bild zu erzeugen.
+Wir haben uns explizit dagegen entschieden den Fortschritt anhand einzelner Arbeitspakete zu messen, da diese im Rahmen unserer hybriden Arbeitsweise sehr dynamisch festgelegt und bearbeitet wurden.
 
 #pagebreak()
 === 04.05.04 Ablauf und Termine
@@ -445,6 +472,11 @@ Somit konnten wir hier sehr schnell die Zielsetzung priorisieren und haben die L
 #todo("Schreiben")
 ==== *04.05.12.05* Netzwerke und Allianzen aufbauen, aufrechterhalten und beenden
 #todo("Schreiben")
+
+//
+//
+//
+//
 
 #pagebreak()
 == PM-Wahlelemente
@@ -620,4 +652,8 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 = Glossar
 #todo("Brauche ich eins?")
 
-<appendix_numbering_end>
+= Anhang
+#todo("Graphik nochmal als Vektor-Graphik bauen")
+#figure(caption: "Design des QRS im Überblick", [#image("QRS_design.pdf")])<qrs_design>
+
+#[]<appendix_numbering_end>
