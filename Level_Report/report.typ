@@ -375,13 +375,40 @@ Wir haben uns explizit dagegen entschieden den Fortschritt anhand einzelner Arbe
 #pagebreak()
 === 04.05.05 Organisation, Information und Dokumentation
 ==== *04.05.05.01* Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen
-#todo("Schreiben")
+Primärer Stakeholder für das gesamte Programm war unsere Geschäftsführung, mit der ich eng zusammengearbeitet habe, um das Ganze auf die Beine zu stellen.
+Die Geschäftsführung wollte dabei möglichst wenig in den Details involviert sein, hatte aber dennoch ein hohes Interesse am Status der verschiedenen Projekte.
+Aus diesem Grund haben wir uns zu Beginn zusammengesetzt und ausdefiniert, dass ich im bereits üblichen täglichen Meeting über akute Probleme oder Hindernisse berichte und alles weitere in regelmäßigen Meetings alle 2 bis 4 Wochen besprochen wird.
+Die konkreten Arbeitspakete und ihren Fortschritt habe ich über #glossary("notion") getracked, dieselbe Managementplattform die wir bereits in allen anderen Projekten verwendet haben.
+
 ==== *04.05.05.02* Struktur, Rollen und Verantwortlichkeiten im Projekt definieren
-#todo("Schreiben")
+Von der Geschäftsführung wurde mir die Gesamtverantwortung für den gesamten Bereich "Produktdaten" übertragen.
+Allgemein sind wir im Unternehmen Aufgaben sehr oft kollaborativ angegangen, d.h. Verantwortung für Aufgaben wurde nicht auf Einzelpersonen übertragen, sondern auf mehrere Personen zusammen (in den allermeisten Fällen Personenpaare).
+Da sich dieser Ansatz in der Vergangenheit bewährt hatte, haben wir entschieden für das Programm nichts Neues aufzusetzen, sofern sich nicht ein konkreter Bedarf auszeichnet.
+Ich war zwar für die Umsetzung der Leistungen in den mir übertragenen Projekten alleine verantwortlich, die Planung der Leistungen, sowie die Zeit- und Budget-Ziele, wurden jedoch in gewohnter Manier kollaborativ verantwortet (in diesem Fall zusammen mit einem der Geschäftsführer).
+
 ==== *04.05.05.03* Infrastruktur, Prozesse und Informationssysteme aufbauen
-#todo("Schreiben")
+Projekte wurden allgemein in #glossary("notion") geplant und überwacht.
+Dabei wurde sehr klar zwischen internen und externen Projekten unterschieden.
+Für externe Projekte, also solche, die einen Kunden haben, dem das Projekt in Rechnung gestellt wird, wurde je ein eigener Bereich in #glossary("notion") angelegt.
+Für diese Bereiche, sowie das gesamte Dokumentations- und Berichtswesen, gab es fertige Templates, die für jedes Projekt zum Einsatz kamen.
+Diese Templates wurden für externe Projekte unter meiner Verwantwortung ohne Veränderung übernommen.
+
+Für interne Projekte wurden keine eigenen Bereiche angelegt.
+Stattdessen wurden diese gesammelt in einem Bereich verwaltet, in dem unserer Geschäftsführung auch ihre strategische Planung vornahm.
+Die einzelnen Arbeitspakete wurden pro Mitarbeiter in einem allgemeinen Kanban-Board verwaltet.
+Für die internen Projekte, die ich verantwortet habe, habe ich selbstständig eigene Bereiche angelegt, um dort vor allem die Dokumentation und Hierarchie der Arbeitspakete zu verwalten.
+Die Arbeitspakete selbst wurden weiterhin im allgemeinen Kanban-Board gepflegt, um den bestehenden (stress-getesteten) Prozess so wenig wie möglich anzupassen.
+
 ==== *04.05.05.04* Organisation des Projekts implementieren, überwachen und anpassen
-#todo("Schreiben")
+In regelmäßigen Meetings (alle 2-4 Wochen) zwischen der Geschäftsführung und mir, haben wir unter anderem meine Arbeitsweise und die allgemeine organisatorische Struktur der Projekte unter meiner Verantwortung näher beleuchtet.
+Probleme oder Risiken, die dabei (oder zuvor im Verlaufe der Projekte) aufgefallen sind, wurden im Gespräch näher erörtert und daraus Maßnahmen abgeleitet.
+
+Beispielsweise kam an einem Punkt auf, dass ich die Geschäftsführung nicht hinreichend über den Status der Projekte informiert habe.
+Dadurch entstand bei der Geschäftsführung der Eindruck, dass es in den Projekten nicht voran gehen würde.
+Nachdem wir, wie oben beschrieben, das Problem in einem unserer Meetings unter die Lupe genommen hatten, konnten wir identifizieren, dass das Problem in meiner Dokumentation der Fortschrittskontrolle lag.
+Konkreter habe ich Fortschritte innerhalb der Projekte zwar sinnvoll beurteilt, aber aufgrund der Art, wie ich die Arbeitspakete in #glossary("notion") hinterlegt habe, waren diese nicht klar sichtbar.
+Ich haben daraufhin weitere Metadaten an alle Arbeitspakete gehängt.
+Über diese konnte die Geschäftsführung dann die Fortschritte klar nachvollziehen.
 
 #pagebreak()
 === 04.05.06 Qualität
