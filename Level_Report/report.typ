@@ -3,6 +3,7 @@
 #show: checklist
 
 #import "report_abbr.typ": abbr, abbr_entries
+#import "report_glossary.typ": glossary, glossary_entries
 
 #let report_version = "0.1"
 #let report_date = "13.11.2025"
@@ -645,12 +646,17 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 
 #pagebreak()
 
-= Abkürzungsverzeichnis
 #show table.cell.where(y: 0): set text(weight: "bold")
+= Abkürzungsverzeichnis
 #table(columns: (1fr, 3fr), stroke: none, table.header("Abkürzung", "Bedeutung"), ..abbr_entries)
 
 = Glossar
-#todo("Brauche ich eins?")
+#table(
+  columns: (1fr, 3fr),
+  stroke: none,
+  table.header("Begriff", "Erläuterung"),
+  ..glossary_entries,
+)
 
 = Anhang
 #todo("Graphik nochmal als Vektor-Graphik bauen")

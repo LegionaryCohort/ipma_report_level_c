@@ -41,4 +41,4 @@
 #let abbr(name) = {
   abbr_dict.at(name).at(0)
 }
-#let abbr_entries = abbr_dict.values().map(data=>(data.at(1), data.at(2))).flatten()
+#let abbr_entries = abbr_dict.pairs().sorted(key: pair => pair.at(0)).map(pair=>(pair.at(1).at(1), pair.at(1).at(2))).flatten()
