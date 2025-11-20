@@ -1,5 +1,12 @@
 
 #let glossary_dict = (
+  amparex: (
+    link(<gl_amparex>, [_Amparex_]),
+    [Amparex <gl_amparex>],
+    [
+      Ein in der Hörakustik-Branche weit verbreitetes ERP-System für Hörakustiker, Optiker und Therapeuten
+    ],
+  ),
   notion: (
     link(<gl_notion>, [_Notion_]),
     [Notion <gl_notion>],
