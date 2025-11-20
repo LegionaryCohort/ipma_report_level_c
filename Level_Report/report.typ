@@ -121,6 +121,10 @@
   let style = if it.level >= 4 { "italic" } else { "normal" }
   set text(size, weight: weight, style: style)
   it
+  if it.level >= 4 {
+    v(-10pt)
+    line(length: 100%)
+  }
 }
 
 #pagebreak()
