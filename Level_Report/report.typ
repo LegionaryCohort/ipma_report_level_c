@@ -144,7 +144,7 @@ Für die Umsetzung dieser abgeleiteten Ziele habe ich dann konkrete Projekte def
 Diese Ziele umfassten zum Beispiel:
 - _Nutzungsziel:_ Unsere Produktdaten lassen sich mittels standardisierten Katalogen in die gängigen ERP-Systeme der Branche importieren (um den Arbeitsaufwand der Akustiker zu reduzieren).
 - _strategisches Ziel:_ Die Qualität unserer Daten ist hoch und überzeugt potentionelle Partner davon, unser Produkdatensystem zu nutzen.
-- _Nutzungs- & strategisches Ziel:_ Unsere Daten werden automatisch mit dem neuen ERP-System _"optadata focus"_ synchronisiert (um neue potentielle Kunden zu erreichen).
+- _Nutzungs- & strategisches Ziel:_ Unsere Daten werden automatisch mit dem neuen ERP-System #glossary("optadata_focus") synchronisiert (um neue potentielle Kunden zu erreichen).
 
 == Kontext & Umfeld
 Die Audoora GmbH ist ein IT-Startup aus Köln, das sich auf die Hörgerätebranche spezialisiert hat.
@@ -194,48 +194,48 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 
 #pagebreak()
 === 04.03.04 Macht und Interessen
-In den folgenden 3 KCIs geht es jeweils um dasselbe Projekt, in dem wir eine Produktdatenschnittstelle zu dem neuen, in Entwicklung befindlichen, ERP-System _optadata focus_ aufgebaut haben.
-Im Laufe des Projektes sind wir darauf aufmerksam geworden, dass die große Einkaufsgemeinschaft _MediTrend_ ebenfalls ihre Produktdatenkataloge anbieten und damit in direkte Konkurrenz mit uns treten will.
-Zuständig hierfür war die _Sonimatik GmbH_, die de facto IT-Abteilung der _MediTrend_-Gruppe.
+In den folgenden 3 KCIs geht es jeweils um dasselbe Projekt, in dem wir eine Produktdatenschnittstelle zu dem neuen, in Entwicklung befindlichen, ERP-System #glossary("optadata_focus") aufgebaut haben.
+Im Laufe des Projektes sind wir darauf aufmerksam geworden, dass die große Einkaufsgemeinschaft #glossary("meditrend") ebenfalls ihre Produktdatenkataloge anbieten und damit in direkte Konkurrenz mit uns treten will.
+Zuständig hierfür war die #glossary("sonimatik"), die de facto IT-Abteilung der #glossary("meditrend")-Gruppe.
 
 ==== *04.03.04.01* Persönliche Ambitionen und Interessen Dritter und deren potenzielle Auswirkungen auf das Projekt beurteilen sowie diese Kenntnisse zum Nutzen des Projekts einsetzen
-Der Geschäftsführer der _Sonimatik_, Eduard Breitenbach, war uns aus vorherigem Kontakt bereits bekannt.
-Wir wussten, dass er der Produktdaten-Strategie der _MediTrend_ gegenüber nicht allzu positiv gestimmt war.
+Der Geschäftsführer der #glossary("sonimatik"), Eduard Breitenbach, war uns aus vorherigem Kontakt bereits bekannt.
+Wir wussten, dass er der Produktdaten-Strategie der #glossary("meditrend") gegenüber nicht allzu positiv gestimmt war.
 Die Priorisierung des Aufbaus eigener Produktkataloge bedeutet für ihn vor allem, dass er Mitarbeiter aus anderen Projekten rausziehen muss, damit diese sich mit einem für sie komplett neuen Thema befassen können.
 Da es sich dabei um ein Thema handelte, in dem wir bereits einige Jahre an Expertise aufgebaut hatten, wollte er mit uns in Kooperation treten, statt das Thema selbst zu behandeln.
 
 Aufgrund dieses Wissens haben wir beschlossen proaktiv auf Eduard zuzugehen und ihm eine Kooperation anzubieten.
-Das Ziel hierbei war es, die _MediTrend_ dazu zu bewegen ihre konkurrierenden Kataloge gar nicht erst aufzubauen und stattdessen unsere Kataloge mit zu unterstützen (im Gegenzug für den Zugang zu unseren Katalogen, die sie ihren Mitgliedern anbieten können).
+Das Ziel hierbei war es, die #glossary("meditrend") dazu zu bewegen ihre konkurrierenden Kataloge gar nicht erst aufzubauen und stattdessen unsere Kataloge mit zu unterstützen (im Gegenzug für den Zugang zu unseren Katalogen, die sie ihren Mitgliedern anbieten können).
 Im direkten Gespräch stimmte er uns zu, dass es für ihn wirtschaftlicher wäre, die Kooperation mit uns einzugehen.
-Da es sich auf seiner Seite aber um ein Projekt drehte, das vom Vorstand der _MediTrend_ beauftragt wurde, hatte er nicht die notwendigen Befugnisse diese Entscheidung selbst zu treffen.
+Da es sich auf seiner Seite aber um ein Projekt drehte, das vom Vorstand der #glossary("meditrend") beauftragt wurde, hatte er nicht die notwendigen Befugnisse diese Entscheidung selbst zu treffen.
 
-Schlussendlich kam keine Kooperation zustande, da der Vorstand der _MediTrend_ sich dagegen ausgesprochen hat (vermutlich aus strategischen Gründen).
+Schlussendlich kam keine Kooperation zustande, da der Vorstand der #glossary("meditrend") sich dagegen ausgesprochen hat (vermutlich aus strategischen Gründen).
 Die genauen Gründe hierfür sind uns nicht bekannt.
-Ich gehe aber davon aus, dass es sich um eine rein strategische Entscheidung handelte, da die _MediTrend_ sich in der Vergangenheit schon öfters gegen uns gestellt hat.
+Ich gehe aber davon aus, dass es sich um eine rein strategische Entscheidung handelte, da die #glossary("meditrend") sich in der Vergangenheit schon öfters gegen uns gestellt hat.
 
-Aus dem positiven Austausch mit Eduard haben wir uns allerings mitgenommen, dass wir bei zukünftigen Vorhaben mit Bezug zur _MediTrend_ in ihm einen wichtigen Unterstützer haben.
-Zudem haben wir unsere Vermutung festigen können, dass der Vorstand der _MediTrend_ uns als strategischen Gegner sieht und entsprechende Entscheidungen trifft (siehe nächstes KCI).
+Aus dem positiven Austausch mit Eduard haben wir uns allerings mitgenommen, dass wir bei zukünftigen Vorhaben mit Bezug zur #glossary("meditrend") in ihm einen wichtigen Unterstützer haben.
+Zudem haben wir unsere Vermutung festigen können, dass der Vorstand der #glossary("meditrend") uns als strategischen Gegner sieht und entsprechende Entscheidungen trifft (siehe nächstes KCI).
 
 ==== *04.03.04.02* Informellen Einfluss von Einzelpersonen und Personengruppen und deren potenzielle Auswirkungen auf das Projekt beurteilen sowie diese Kenntnisse zum Nutzen des Projekts verwenden
-Wir hatten schon vor diesem Projekt aufgrund vergangener Erfahrungen die Vermutung, dass der Vorstand der _MediTrend eG_ uns als strategischen Gegner sieht.
+Wir hatten schon vor diesem Projekt aufgrund vergangener Erfahrungen die Vermutung, dass der Vorstand der #glossary("meditrend") uns als strategischen Gegner sieht.
 Mit der im letzten KCI beschriebenen Erfahrung konnten wir diese Vermutung weiter bestätigen.
 
-Teil der eingeführten Schnittstelle zum _optadata focus_ System waren Texte & Bilder, mit denen die Produktkataloge den Nutzern angezeigt werden.
+Teil der eingeführten Schnittstelle zum #glossary("optadata_focus") System waren Texte & Bilder, mit denen die Produktkataloge den Nutzern angezeigt werden.
 Da die Nutzer sich zu Beginn für einen der Kataloge entscheiden müssen und eine spätere Änderung teuer wäre, war dieser erste Kontaktpunkt von erheblicher Bedeutung für die Verbreitung und Nutzung der Kataloge.
 
-Sowohl wir, als auch die _MediTrend_, hatten Zugang zu dem Testsystem, in dem diese Bilder und Texte bereits eingepflegt wurden.
-Wir sind davon ausgegangen, dass die _MediTrend_ sich anschauen würde, wie wir unsere Produktkataloge präsentieren, um ihre eigene Präsentation dagegen zu optimieren.
+Sowohl wir, als auch die #glossary("meditrend"), hatten Zugang zu dem Testsystem, in dem diese Bilder und Texte bereits eingepflegt wurden.
+Wir sind davon ausgegangen, dass die #glossary("meditrend") sich anschauen würde, wie wir unsere Produktkataloge präsentieren, um ihre eigene Präsentation dagegen zu optimieren.
 Um dem entgegen zu wirken, haben wir zwei Varianten der Bilder und Texte erstellt: Eine sehr schlichte und wenig-sagende Version, die wir ins Test-System haben einbauen lassen, sowie eine zweite, für den Launch gedachte, Version, die wir zurückgehalten haben.
-Parallel haben wir mit _optadata_ geklärt, dass wir nachträglich noch Änderungen an den Bildern und Texten vornehmen können.
+Parallel haben wir mit #glossary("optadata") geklärt, dass wir nachträglich noch Änderungen an den Bildern und Texten vornehmen können.
 
-Der Plan war es, dass wir mit unserer mittelmäßigen Präsentation die _MediTrend_ dazu verleiten, selbst wenig Aufwand in ihre Präsentation zu stecken.
-Kurz vor dem Launch von _optadata focus_ sollen dann die volle Version der Bilder und Texte eingefügt werden, um somit unsere Kataloge besser zu platzieren als die der _MediTrend_.
+Der Plan war es, dass wir mit unserer mittelmäßigen Präsentation die #glossary("meditrend") dazu verleiten, selbst wenig Aufwand in ihre Präsentation zu stecken.
+Kurz vor dem Launch von #glossary("optadata_focus") sollen dann die volle Version der Bilder und Texte eingefügt werden, um somit unsere Kataloge besser zu platzieren als die der #glossary("meditrend").
 
-Dieser Plan ist insofern aufgegangen, dass die _MediTrend_ in der Tat wenig Aufwand in ihre eigene Präsentation gesteckt hat.
-Da ich das Unternehmen vor dem Launch von _optadata focus_ verlassen habe, kann ich leider nichts weiter dazu sagen inwiefern der Rest der Strategie aufgegangen ist.
+Dieser Plan ist insofern aufgegangen, dass die #glossary("meditrend") in der Tat wenig Aufwand in ihre eigene Präsentation gesteckt hat.
+Da ich das Unternehmen vor dem Launch von #glossary("optadata_focus") verlassen habe, kann ich leider nichts weiter dazu sagen inwiefern der Rest der Strategie aufgegangen ist.
 
 ==== *04.03.04.03* Persönlichkeiten und Arbeitsstile Dritter beurteilen und zum Nutzen des Projekts einsetzen
-Der Projektleiter des Gesamtprojektes auf Seiten der _optadata_, Thomas Schraga, war durchweg sehr bedacht darauf den Aufwand für sein Team so gering wie möglich zu halten.
+Der Projektleiter des Gesamtprojektes auf Seiten der #glossary("optadata"), Thomas Schraga, war durchweg sehr bedacht darauf den Aufwand für sein Team so gering wie möglich zu halten.
 Um das zu erreichen, war er auch bereit Entscheidungen über Details abzugeben.
 
 Im Rahmen des Projektes gab es diverse Schnittstellen-Formate und -Prozesse zu definieren.
@@ -273,7 +273,7 @@ Dadurch hatten wir die Möglichkeit die Schnittstelle für uns optimal zu design
 In den folgenden KCIs geht es um ein Projekt, in dem wir in unserem System den Support für das Import-Format (#abbr("axc")) des weit verbreiteten ERP-Systems #glossary("amparex").
 
 Folgendes fachliches Detail ist für die nachfolgend beschriebenen Situationen relevant:
-Es gibt eine Kategorie von Hörgeräten, die als #abbr("ric")-Geräte bezeichnet werden.
+Es gibt eine Kategorie von Hörgeräten, die als "#abbr("ric")-Geräte" bezeichnet werden.
 Diese Geräte kommen immer in Kombination mit einem Empfänger, der ins Ohr eingesetzt wird,
 zum Einsatz.
 Das Hörgerät und die Empfänger werden dabei seperat verkauft, da sich diese Art von Hörgeräten mit verschiedenen Empfängern kombinieren lassen.
@@ -286,7 +286,9 @@ Daraus ergab sich das zweite Ziel, bei den erreichten Endanwendern eine hohe Zuf
 
 Aus diesen beiden Zielen wurden weitere konkretere Ziele abgeleitet.
 Dabei haben wir uns zunächst auf die Qualitätsziele konzentriert, da diese eines unserer Alleinstellungsmerkmale am Markt darstellen.
-Die abgeleiteten Qualitätsziele umfassten Ziele wie "Die Daten sind möglichst vollständig im #glossary("amparex")-System abgebildet." und "Die Struktur der Produktdaten orientiert sich so nah wie möglich an unserer eigenen Datenstruktur.".
+Die abgeleiteten Qualitätsziele umfassten Ziele wie:
+- "Die Daten sind möglichst vollständig im #glossary("amparex")-System abgebildet"
+- "Die Struktur der Produktdaten orientiert sich so nah wie möglich an unserer eigenen Datenstruktur"
 
 Zusätzlich haben wir im Laufe des Brainstormings weitere Kann-Ziele festgehalten.
 Um ein Beispiel hierfür zu nennen:

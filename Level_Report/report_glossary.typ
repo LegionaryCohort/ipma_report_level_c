@@ -14,6 +14,21 @@
       Eine Plattform, die diverse Produktivitätswerkzeuge wie Notizen, Aufgabenmanagement, Projektverwaltung und Lesezeichen anbietet
     ],
   ),
+  optadata: (link(<gl_optadata>, [_optadata_]), [optadata <gl_optadata>], [
+    Unternehmensgruppe, die Software-Lösungen unter anderem für die Hörakustik herstellt\
+    Baut das neue ERP-System _optadata focus_ (s.u.)
+  ],),
+  optadata_focus: (link(<gl_opta_focus>, [_optadata focus_]), [optadata focus <gl_opta_focus>], [
+    Ein neues ERP-System für Hörakustiker und Optiker, befindet sich noch in Entwicklung\
+    Stellt den Nachfolger der bestehenden ERP-Systeme _AkuWin_ und _asego.net_ dar
+  ],),
+  meditrend: (link(<gl_meditrend>, [_MediTrend_]), [MediTrend eG <gl_meditrend>], [
+    Größte Einkaufsgemeinschaft der deutschen Hörakustik-Branche
+  ],),
+  sonimatik: (link(<gl_sonimatik>, [_Sonimatik GmbH_]), [Sonimatik GmbH <gl_sonimatik>], [
+    Hersteller von Software-Lösungen für die Hörakustik-Branche\
+    Gehört zur MediTrend-Gruppe und fungiert de facto als deren IT-Abteilung
+  ],),
 )
 
 #let glossary(name) = {

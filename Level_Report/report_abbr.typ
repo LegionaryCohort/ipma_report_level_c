@@ -17,7 +17,7 @@
     [HMV <hmv>],
     [
       Hilfsmittelverzeichnis\
-      _Das Hilfsmittelverzeichnis ist ein Verzeichnis aller medizinischen Hilfsmittel, die über die Krankenkassen abgerechnet werden. Jedes abrechenbare Gerät bekommt dazu im Verzeichnis eine eindeutige Nummer zur Identifikation._
+      _Das Hilfsmittelverzeichnis ist ein Verzeichnis aller medizinischen Hilfsmittel, die über die Krankenkassen abgerechnet werden. Jedes abrechenbare Gerät bekommt dazu im Verzeichnis eine eindeutige Nummer zur Identifikation_
     ],
   ),
   qrs: (
@@ -25,7 +25,7 @@
     [QRS <qrs>],
     [
       Quality-Reporting-System\
-      _Teilsystem des Datenbankmanagementsystems, das für die Überprüfung und Verbesserung der Datenqualität zuständig ist._
+      _Teilsystem des Datenbankmanagementsystems, das für die Überprüfung und Verbesserung der Datenqualität zuständig ist_
     ],
   ),
   gtin: (
@@ -33,7 +33,7 @@
     [GTIN <gtin>],
     [
       Global Trade Item Number\
-      _Die Global Trade Item Number ist eine Identifikationsnummer, mit der Handelseinheiten ausgezeichnet werden._
+      _Die Global Trade Item Number ist eine Identifikationsnummer, mit der Handelseinheiten ausgezeichnet werden_
     ],
   ),
 )
