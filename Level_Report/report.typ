@@ -489,21 +489,50 @@ Ich haben daraufhin weitere Metadaten an alle Arbeitspakete gehängt.
 
 #pagebreak()
 === 04.05.09 Beschaffung
-- Datenverarbeitungsvertrag mit optadata
-- Nicht wirklich Beschaffung
-- Inhalte
-  - Kataloge dürfen auf dem optadata-System gecached werden
-  - Katalogdaten dürfen nur an verifizierte User ausgegeben werden
-  - User müssen über das Gateway verifiziert werden
+Über die aufgebaute Schnittstelle zu #glossary("optadata_focus") werden in regelmäßigen Abständen unsere Produktdaten übertragen.
+Um für Nutzer eine möglichst gute User-Experience sicherzustellen, sollten unsere Daten in #glossary("optadata_focus") zwischengespeichert werden, um sie von dort aus schneller an Nutzer verteilen zu können.
+Dabei sollte weiterhin die Hoheit über die Daten, also die Vergabe von Zugängen, bei uns bleiben.
 
 ==== *04.05.09.01* Beschaffungsbedarf, Optionen und Prozesse vereinbaren
-#todo("Schreiben")
+Unsere Geschäftsführung benötigte Unterstützung in der Vorbereitung des Kooperationsvertrages, insb. dessen fachlichen Inhalte.
+
+Ich habe die konkreten Risiken, die sich aus der Herausgabe unserer Daten ergeben, beurteilt und daraus konkrete Anforderungen, die von der #glossary("optadata") zu erfüllen waren, abgeleitet.
+Diese beinhalteten technische Anforderungen an die Absicherung der in #glossary("optadata_focus") liegenden Daten gegen unberechtigten Zugriff, die Beschränkung des Zugriffs auf berechtigte User, sowie die Überprüfung von User-Berechtigungen über von uns zur Verfügung gestellte Gateway-Endpoints.\
+Zudem habe ich die Anforderungen seitens #glossary("optadata") bzgl. der Verfügbarkeit unseres Gateways im Gespräch geklärt und in die Zusammenstellung der vertraglich festzuhaltenden Anforderungen mit aufgenommen.
+
+Die Geschäftsführung hat anschließend aus der Aufstellung der Anforderungen den Kooperationsvertrag erstellt.
+
 ==== *04.05.09.02* Zur Evaluation und Auswahl von Lieferanten und Partnern beitragen
-#todo("Schreiben")
+Es musste beurteilt werden, welche Besonderheiten in der Zusammenarbeit mit #glossary("optadata") existierten, und ein geeignetes Partnerschaftsmodell entschieden werden.
+
+Zunächst habe ich zwei mögliche Modelle für die Absicherung unserer Daten entworfen, die unterschiedliche Level an Kontrolle über die Daten abbilden:
+- #underline[Nutzerschlüssel]: Wir sichern unsere Daten selber mittels Zugangsschlüsseln gegen unbefugten Zugriff ab. Jeder User erhält dabei einen Schlüssel, der nur dem User (und nicht der #glossary("optadata")) bekannt ist.
+- #underline[Kooperationsvertrag]: Wir sichern den Zugang zu unseren Daten nur so ab, dass außer der #glossary("optadata") niemand sonst Zugriff hat. Die Herausgabe unserer Daten an die Nutzer von #glossary("optadata_focus") wird dabei über einen Kooperationsvertrag geregelt.
+#v(-10pt)
+Diese Modelle habe ich anschließend im Austausch mit der Geschäftsführung gegenübergestellt und die Vor- und Nachteile mit ihnen diskutiert.
+
+Die Geschäftsführung hat sich für die Vereinbarung eines Kooperationsvertrages entschieden.
+
 ==== *04.05.09.03* Zu Verhandlungen und Vereinbarungen von Vertragsbestimmungen beitragen, um diese in Einklang mit den Projektzielen zu bringen
-#todo("Schreiben")
+Eine der Bestimmungen des Kooperationsvertrages war es, dass wir eine hohe Zuverlässigkeit in unserem Gateway sicherzustellen hatten.
+
+Es galt diese Vertragsbestimmung und ihre Auswirkungen auf das Projekt zu reflektieren.
+
+Ich habe analysiert wie die beiden größten Faktoren für die geforderte Zuverlässigkeit, Serverlast und Antwortgeschwindigkeit, in unserem Gateway optimiert werden können.
+Dabei habe ich eine handvoll möglicher Änderungen in unseren geplanten Gateway-Endpoints identifiziert.
+Die Änderungen habe ich zudem in ihrem Umfang eingeschätzt.
+
+Die notwendigen Änderungen konnten anschließend eingeplant und umgesetzt werden (s.u.).
+
 ==== *04.05.09.04* Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen
-#todo("Schreiben")
+Es galt die identifizierten Maßnahmen zum Managen der Vertragserfüllung umzusetzen.
+
+Die im vorherigen KCI identifizierten Änderungen an unseren Endpoints habe ich in die entsprechenden Arbeitspakete mit eingeplant.
+Da ich eingeschätzt hatte, dass es sich dabei weitesgehend um geringfügige Anpassungen handelte, änderte der Umfang der Arbeitspakete sich nicht nennenswert.
+Eine Anpassung des Terminplans habe ich entsprechend als nicht notwendig bewertet.
+
+Durch die Einführung der Änderungen in unseren Endpoints wurde die Serverlast reduziert und eine höhere Antwortgeschwindigkeit sichergestellt.
+Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und unsere vertragliche Verpflichtung erfüllt.
 
 #pagebreak()
 === 04.05.10 Planung und Steuerung
