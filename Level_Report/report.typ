@@ -134,6 +134,11 @@
 In diesem Report gehe ich auf die verschiedenen Herausforderungen und Management-Situationen ein, die im Laufe des Produktdaten-Programms bei der Audoora GmbH aufgetreten sind.
 Für das Produktdaten-Programms war ich vollständig verantwortlich, wobei die Planung und Überwachung von Zeit- und Budget-Zielen stets in direkter Zusammenarbeit mit der Geschäftsführung stattfand.
 
+== Anmerkung zum Inhalt dieses Reports
+Ich arbeite nicht mehr bei der Audoora GmbH und habe daher keinen Zugriff auf die entsprechenden Unterlagen.
+Alle Inhalte in diesem Report sind nach besten Wissen und Gewissen aus meinem Gedächtnis heraus wiedergegeben.
+Die im Anhang befindlichen Abbildungen und Diagramme sind teils Rekonstruktionen von tatsächlichen Unterlagen, die ich erstellt hatte, oder dienen einzig der visuellen Darstellungen von Informationen und Strukturen, auf die im Text Bzug genommen wird.
+
 == Ziele des Programms
 Die Audoora GmbH verfolgt als Unternehmen das Gesamtziel die Hörgesundheitsversorgung in Deutschland zugänglicher und umfassender zu gestalten. Ein großes Hindernis hierfür ist, dass die Hersteller und Einkaufsgemeinschaften, die die Branche derzeit dominieren, die Preise ihrer Produkte unter anderem damit hoch halten, dass sie Informationen über ihre Produkte streng kontrollieren und Vergleiche zwischen Produkten (und damit den Wettbewerb allgemein) schwieriger gestalten.\
 
@@ -163,8 +168,6 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 
 = Beschreibung der Management-Herausforderungen
 == PM-Pflichtelemente
-
-#pagebreak()
 === 04.03.02 Governance, Strukturen und Prozesse
 ==== *04.03.02.01* Die Grundlagen des Projektmanagements und deren Einführung kennen
 #todo("Schreiben")
