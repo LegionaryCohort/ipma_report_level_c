@@ -721,9 +721,13 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #pagebreak()
 === 04.05.13 Change und Transformation
 ==== *04.05.13.01* Adaptionsfähigkeit der Organisation(en) zu Veränderung beurteilen
+#todo("Schreiben")
 ==== *04.05.13.02* Veränderungsanforderungen und Transformationschancen identifizieren
+#todo("Schreiben")
 ==== *04.05.13.03* Veränderungs- oder Transformationsstrategie für das Projekt entwickeln
+#todo("Schreiben")
 ==== *04.05.13.04* Veränderungs- oder Transformationsmanagement implementieren
+#todo("Schreiben")
 
 <main_numbering_end>
 #set page(footer: page_footer(<appendix_numbering_end>), numbering: "i")
