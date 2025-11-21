@@ -371,15 +371,39 @@ Wir haben uns explizit dagegen entschieden den Fortschritt anhand einzelner Arbe
 #pagebreak()
 === 04.05.04 Ablauf und Termine
 ==== *04.05.04.01* Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
-#todo("Schreiben")
+Für das Projekt, bei dem wir die Schnittstelle zu #glossary("optadata_focus") gebaut haben, haben ich für die Kalkulation des Angebotspreises, sowie die spätere Planung und Überwachung der Umsetzung, einen groben Plan der notwendigen Aufgaben aufgestellt (siehe @gateway_tasks).
+Dabei habe ich zwischen den verschiedenen Bereichen unterschieden, in denen die Umsetzung stattfinden muss:
+- Backend API (gelb): _Änderungen an unserer bestehenden Produktdatenverwaltung_
+- Gateway (extern blau, intern grün): _Aufbau eines Gateway-Servers, über den die Verbindung zu unserer Produktdatenverwaltung an außenstehende Dienste angebunden werden kann_
+- optadata focus (lila): _Änderungen, die innerhalb des #glossary("optadata_focus") Systems für die Integration notwendig sind_
+- Admin interface (orange): _Aufbau einer internen Verwaltungsansicht in unserer bestehenden Admin-Console_
+- Integration Test (rot): _Abschließender Test des gesamten Workflows als Einheit (die einzelnen Komponenten wurden jeweils als Teil des entsprechenden Arbeitspaketes getestet)_
+
 ==== *04.05.04.02* Arbeitsaufwand und Dauer von Aktivitäten festlegen
-#todo("Schreiben")
+Der Arbeitsaufwand für die einzelnen Pakete wurde nicht näher eingeschätzt.
+Mein Ansatz war in umgekehrter Richtung:
+Arbeitspakete wurden so definiert, dass ihre Umsetzung jeweils maximal 3 Arbeitstage in Anspruch nimmt.
+
+Einzige Ausnahme hierfür sind die #glossary("optadata_focus") Arbeitspakete, deren Umsetzung in der Hand unseres Kunden #glossary("optadata") lag.
+Der Aufwand wurde für diese von uns nicht eingeschätzt.
+Stattdessen haben wir uns mit #glossary("optadata") auf eine Deadline geeinigt, zu der die Pakete fertig sein müssen.
+
 ==== *04.05.04.03* Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen
-#todo("Schreiben")
+Das Projekt wurde in 3 Phasen bearbeitet:
+- Spezifikationsphase: _Festlegung der Gateway-Endpoint Details_
+- Aufbau des Gateways: _Bereitstellung des Gateway-Servers mit den Gateway-Endpoints_
+- Testing & Fine-Tuning: _Integrations-Test des vollen Schnittstellenprozesses_
+Zu jeder Phase wurde mit der #glossary("optadata") ein Meilenstein vereinbart, der von beiden Seiten einzuhalten war.
+
 ==== *04.05.04.04* Abfolge der Projektaktivitäten bestimmen und einen Ablauf- und Terminplan erstellen
-#todo("Schreiben")
+Die Reihenfolge, vorgegeben durch die Abhängigkeiten der Pakete untereinander, wurde direkt zusammen mit der Definition der Arbeitspakete festgehalten und in dieselbe Darstellung (@gateway_tasks) mit eingebaut.
+Die Arbeitspakete wurden in der Reihenfolge ihrer Abhängigkeiten abgearbeitet.
+Ein konkreter Terminplan wurde nicht erstellt, da die Termine der Meilensteine mehr als genug Puffer für die Umsetzung belassen haben, dass wir eine engere Kontrolle nicht für notwendig erachtet haben.
+
 ==== *04.05.04.05* Fortschritt anhand des Terminplans überwachen und notwendige Anpassungen vornehmen
-#todo("Schreiben")
+Der Fortschritt im Projekt wurde direkt anhand der Arbeitspakete ermittelt.
+Zum Abschluss eines Arbeitspaketes habe ich überprüft, ob die verbleibende Zeit bis zum entsprechenden Meilenstein noch ausreicht, um die notwendigen Arbeitspakete abzuschließen (ausgehend von der Plandauer von 3 Tagen pro Paket).
+Da dies zu jedem Zeitpunkt der Fall war, waren keine Anpassungen notwendig, um die Meilensteine einzuhalten.
 
 #pagebreak()
 === 04.05.05 Organisation, Information und Dokumentation
@@ -696,6 +720,8 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 
 = Anhang
 #todo("Graphik nochmal als Vektor-Graphik bauen")
-#figure(caption: "Design des QRS im Überblick", [#image("QRS_design.pdf")])<qrs_design>
+#figure(caption: "Design des QRS im Überblick", image("QRS_design.pdf"))<qrs_design>
+
+#figure(caption: "", image("optadata_gateway_tasks.svg"))<gateway_tasks>
 
 #[]<appendix_numbering_end>

@@ -36,6 +36,14 @@
       _Die Global Trade Item Number ist eine Identifikationsnummer, mit der Handelseinheiten ausgezeichnet werden_
     ],
   ),
+  himsa: (
+    link(<himsa>, "HIMSA"),
+    [HIMSA <himsa>],
+    [
+      Hearing Instrument Manufacturers' Software Association\
+      _Internationale Organisation, die Software- und Daten-Standards für Hörgeräte-bezogene digitale Infrastruktur definiert_
+    ],
+  ),
 )
 
 #let abbr(name) = {
