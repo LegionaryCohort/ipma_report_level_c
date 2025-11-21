@@ -201,6 +201,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 
 #pagebreak()
 === 04.03.04 Macht und Interessen
+#todo("Überarbeiten")
 In den folgenden 3 KCIs geht es jeweils um dasselbe Projekt, in dem wir eine Produktdatenschnittstelle zu dem neuen, in Entwicklung befindlichen, ERP-System #glossary("optadata_focus") aufgebaut haben.
 Im Laufe des Projektes sind wir darauf aufmerksam geworden, dass die große Einkaufsgemeinschaft #glossary("meditrend") ebenfalls ihre Produktdatenkataloge anbieten und damit in direkte Konkurrenz mit uns treten will.
 Zuständig hierfür war die #glossary("sonimatik"), die de facto IT-Abteilung der #glossary("meditrend")-Gruppe.
@@ -277,6 +278,7 @@ Dadurch hatten wir die Möglichkeit die Schnittstelle für uns optimal zu design
 
 #pagebreak()
 === 04.05.02 Anforderungen und Ziele
+#todo("Überarbeiten")
 In den folgenden KCIs geht es um ein Projekt, in dem wir in unserem System den Support für das Import-Format (#abbr("axc")) des weit verbreiteten ERP-Systems #glossary("amparex").
 
 Folgendes fachliches Detail ist für die nachfolgend beschriebenen Situationen relevant:
@@ -332,6 +334,7 @@ Somit konnten wir hier sehr schnell die Zielsetzung priorisieren und haben die L
 
 #pagebreak()
 === 04.05.03 Leistungsumfang und Lieferobjekte
+#todo("Überarbeiten")
 Die folgenden KCIs werden im Kontext des Projektes beschrieben, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
 Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
 
@@ -370,6 +373,7 @@ Wir haben uns explizit dagegen entschieden den Fortschritt anhand einzelner Arbe
 
 #pagebreak()
 === 04.05.04 Ablauf und Termine
+#todo("Überarbeiten")
 ==== *04.05.04.01* Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
 Für das Projekt, bei dem wir die Schnittstelle zu #glossary("optadata_focus") gebaut haben, haben ich für die Kalkulation des Angebotspreises, sowie die spätere Planung und Überwachung der Umsetzung, einen groben Plan der notwendigen Aufgaben aufgestellt (siehe @gateway_tasks).
 Dabei habe ich zwischen den verschiedenen Bereichen unterschieden, in denen die Umsetzung stattfinden muss:
@@ -407,6 +411,7 @@ Da dies zu jedem Zeitpunkt der Fall war, waren keine Anpassungen notwendig, um d
 
 #pagebreak()
 === 04.05.05 Organisation, Information und Dokumentation
+#todo("Überarbeiten")
 ==== *04.05.05.01* Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen
 Primärer Stakeholder für das gesamte Programm war unsere Geschäftsführung, mit der ich eng zusammengearbeitet habe, um das Ganze auf die Beine zu stellen.
 Die Geschäftsführung wollte dabei möglichst wenig in den Details involviert sein, hatte aber dennoch ein hohes Interesse am Status der verschiedenen Projekte.
@@ -484,6 +489,13 @@ Ich haben daraufhin weitere Metadaten an alle Arbeitspakete gehängt.
 
 #pagebreak()
 === 04.05.09 Beschaffung
+- Datenverarbeitungsvertrag mit optadata
+- Nicht wirklich Beschaffung
+- Inhalte
+  - Kataloge dürfen auf dem optadata-System gecached werden
+  - Katalogdaten dürfen nur an verifizierte User ausgegeben werden
+  - User müssen über das Gateway verifiziert werden
+
 ==== *04.05.09.01* Beschaffungsbedarf, Optionen und Prozesse vereinbaren
 #todo("Schreiben")
 ==== *04.05.09.02* Zur Evaluation und Auswahl von Lieferanten und Partnern beitragen
