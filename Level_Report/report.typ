@@ -476,16 +476,52 @@ Ich haben daraufhin weitere Metadaten an alle Arbeitspakete gehängt.
 
 #pagebreak()
 === 04.05.08 Ressourcen
+Das Projekt für die Entwicklung des #abbr("qrs") deckte mehrere Bereiche von bereits bestehender Software ab, die weiterentwickelt werden sollte.
+Für diese Bereiche, sowie die anfallenden Aufgaben, waren unsere verschiedenen Entwickler unterschiedlich qualifiziert.
+
 ==== *04.05.08.01* Strategische Ressourcenplanung entwickeln, um die Projektergebnisse liefern zu können
-#todo("Schreiben")
+Auf Grundlage der Ressourcenplanung waren die für das Projekt erforderlichen Entwickler zu ermitteln.
+
+Anhand der angereicherten Arbeitspaket-Übersicht (im nächsten KCI beschrieben), konnte ich den Arbeitspaketen jeweils die am besten dafür geeigneten Entwickler (einschließlich mir selbst) zuweisen.
+Dabei habe ich sowohl eine "erste Wahl" definiert, also der am besten geeignete Entwickler für die Aufgabe, sowie weitere Fallback-Optionen von Entwicklern, die auch in der Lage wären die Aufgabe zu übernehmen.
+Mit dieser Übersicht habe ich abschließend zusammengestellt, wer für das Projekt absolut notwendig ist, sowie welche Entwickler ich noch gebrauchen könnte, um das Projekt zu beschleunigen.
+
+Eine Übersicht über die erforderlichen Entwickler wurde erstellt und der Geschäftsführung vorgelegt.
+Diese hat, nach etwas Verhandlung (s.u.), beschlossen wer dem Projekt für wie lange zugeteilt wird.
+
 ==== *04.05.08.02* Qualität und Menge der benötigten Ressourcen definieren
-#todo("Schreiben")
+Für die Umsetzung des gesamten Projektes galt es, eine Ressourcenplanung aufzustellen.
+
+Ich habe für jedes Arbeitspaket, das ich in meiner vorherigen Planung definiert hatte, den Bedarf an Wissen & Kompetenzen bestimmt.
+Dabei habe ich die benötigten Frontend- und Backend-Entwicklungsskills beurteilt, sowie die benötigten Vorkenntnisse zu bestehenden Systemen (sofern relevant).
+
+Die Übersicht der Arbeitspakete wurde mit den dafür notwendigen Kompetenzen angereichert und stand für die weitere Planung zur Verfügung.
+
 ==== *04.05.08.03* Potenzielle Ressourcenquellen identifizieren und ihre Beschaffung verhandeln
-#todo("Schreiben")
+Unter anderem sollten die Funktionen des #abbr("qrs") über die bereits bestehende Management-Plattform verfügbar gemacht werden.
+Der Entwickler, der diese Management-Plattform designed hatte, sollte auch die Integration aufbauen.
+Dieser Entwickler war jedoch bereits in anderen Projekten stark eingebunden.
+
+Die Verfügbarkeit dieses Entwicklers war mit der Geschäftsführung zu verhandeln.
+
+Ich habe zu diesem Zweck zunächst mit der Geschäftsführung zusammen gegenübergestellt, welche Prioritäten die verschiedenen betroffenen Projekte untereinander haben.
+Dabei stellte sich heraus, dass mein Projekt strategisch auf derselben Ebene stand wie die anderen, in denen der Entwickler bereits eingeplant war.
+Ich habe daher das Arbeitspaket für die Integration nochmals in zwei Teile zerlegt.
+Einen, für den das Spezialwissen des Entwicklers von hoher Wichtigkeit war, sowie ein zweites, das auch von jemand anderem umgesetzt werden kann, sofern der erste Teil bereits abgearbeitet wurde.
+Ich habe anschließend der Geschäftsführung die Option angeboten, den Entwickler nur für das erste Teilpaket einzusetzen, um die Verzögerung in den anderen Projekten so gering wie möglich zu halten.
+
+Der Entwickler wurde für begrenzte Zeit meinem Projekt zugewiesen, wobei der Umfang der Aufgaben wie vereinbart reduziert wurde.
+
 ==== *04.05.08.04* Ressourcen gemäß dem festgelegten Bedarf zuweisen und verteilen
-#todo("Schreiben")
-==== *04.05.08.05* Ressourcenverbrauch evaluieren und erforderliche Korrekturmaßnahmen ergreifen
-#todo("Schreiben")
+Für den im letzten KCI beschriebenen Entwickler war eine klare Aufgabenliste zu erstellen.
+
+Um die Aufteilung des oben beschriebenen Arbeitspaketes zu ermöglichen, hatte ich zunächst das anvisierte Ergebnis des Arbeitspaketes in die kleinstmöglichen Teilergebnisse zerlegt und diese dann wie beschrieben unterteilt.
+Daraus ergab sich bereits eine klare Liste von Aufgaben, sowie eine Liste von Aufgaben, die explizit nicht durch den Entwickler zu erledigen waren.
+Diese Listen habe ich in einer für den Entwickler sinnvollen Form abgefasst.
+
+Der Entwickler hat eine Liste von Aufgaben vorgelegt bekommen, sowie eine Liste expliziter Abgrenzungen zu Teilen, die nicht durch ihn zu implementieren waren.
+
+==== #strike[*04.05.08.05* Ressourcenverbrauch evaluieren und erforderliche Korrekturmaßnahmen ergreifen]
 
 #pagebreak()
 === 04.05.09 Beschaffung
