@@ -202,55 +202,38 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 
 #pagebreak()
-=== #TODO 04.03.04 Macht und Interessen
-#todo("Überarbeiten")
-In den folgenden 3 KCIs geht es jeweils um dasselbe Projekt, in dem wir eine Produktdatenschnittstelle zu dem neuen, in Entwicklung befindlichen, ERP-System #glossary("optadata_focus") aufgebaut haben.
-Im Laufe des Projektes sind wir darauf aufmerksam geworden, dass die große Einkaufsgemeinschaft #glossary("meditrend") ebenfalls ihre Produktdatenkataloge anbieten und damit in direkte Konkurrenz mit uns treten will.
-Zuständig hierfür war die #glossary("sonimatik"), die de facto IT-Abteilung der #glossary("meditrend")-Gruppe.
+=== 04.03.04 Macht und Interessen
+Im Rahmen des #glossary("optadata_focus") Projektes hatten wir unter anderem Kontakt mit der Einkaufsgemeinschaft #glossary("meditrend"), die ebenfalls ihre Produktdatenkataloge im neuen ERP-System anbieten und damit in direkte Konkurrenz mit uns treten wollten.
 
 ==== *04.03.04.01* Persönliche Ambitionen und Interessen Dritter und deren potenzielle Auswirkungen auf das Projekt beurteilen sowie diese Kenntnisse zum Nutzen des Projekts einsetzen
-Der Geschäftsführer der #glossary("sonimatik"), Eduard Breitenbach, war uns aus vorherigem Kontakt bereits bekannt.
-Wir wussten, dass er der Produktdaten-Strategie der #glossary("meditrend") gegenüber nicht allzu positiv gestimmt war.
-Die Priorisierung des Aufbaus eigener Produktkataloge bedeutet für ihn vor allem, dass er Mitarbeiter aus anderen Projekten rausziehen muss, damit diese sich mit einem für sie komplett neuen Thema befassen können.
-Da es sich dabei um ein Thema handelte, in dem wir bereits einige Jahre an Expertise aufgebaut hatten, wollte er mit uns in Kooperation treten, statt das Thema selbst zu behandeln.
+Der Projektleiter seitens der #glossary("optadata"), Thomas Schraga, war durchweg mit viel Energie bemüht darum, das Projekt voranzubringen. Er hat zudem selbst aktiv daran gearbeitet das Projekt mit "Bonus-Features" möglichst gut dastehen zu lassen.
 
-Aufgrund dieses Wissens haben wir beschlossen proaktiv auf Eduard zuzugehen und ihm eine Kooperation anzubieten.
-Das Ziel hierbei war es, die #glossary("meditrend") dazu zu bewegen ihre konkurrierenden Kataloge gar nicht erst aufzubauen und stattdessen unsere Kataloge mit zu unterstützen (im Gegenzug für den Zugang zu unseren Katalogen, die sie ihren Mitgliedern anbieten können).
-Im direkten Gespräch stimmte er uns zu, dass es für ihn wirtschaftlicher wäre, die Kooperation mit uns einzugehen.
-Da es sich auf seiner Seite aber um ein Projekt drehte, das vom Vorstand der #glossary("meditrend") beauftragt wurde, hatte er nicht die notwendigen Befugnisse diese Entscheidung selbst zu treffen.
+Die persönlichen Ambitionen und Interessen waren herauszufinden und zu berurteilen.
 
-Schlussendlich kam keine Kooperation zustande, da der Vorstand der #glossary("meditrend") sich dagegen ausgesprochen hat (vermutlich aus strategischen Gründen).
-Die genauen Gründe hierfür sind uns nicht bekannt.
-Ich gehe aber davon aus, dass es sich um eine rein strategische Entscheidung handelte, da die #glossary("meditrend") sich in der Vergangenheit schon öfters gegen uns gestellt hat.
+In meinen regelmäßigen Update-Meetings mit Thomas habe ich neben den Themen, für die wir zuständig waren, mit ihm auch über das gesamte Projekt gesprochen.
+Mein Ziel war es dabei sowohl seine persönlichen Beweggründe herauszufinden, als auch nach weiteren Themen zu suchen, bei denen wir unterstützen können.
+Dabei konnte ich herausfinden, dass die Abteilung, die er anleitet, erst vor kurzem aufgestellt wurde, um das #glossary("optadata_focus") Projekt umzusetzen.
+Da in dieser Abteilung langfristig mehrere Entwicklungsbereiche zusammengeführt werden sollen, ist das Projekt quasi der Test, ob die Abteilung in ihrer jetzigen Form effektiv arbeiten kann.
+Wenn das Projekt ein Erfolg wird, dann bleibt Thomas in seiner Position bestehen und fördert damit seine eigene Karriere.
 
-Aus dem positiven Austausch mit Eduard haben wir uns allerings mitgenommen, dass wir bei zukünftigen Vorhaben mit Bezug zur #glossary("meditrend") in ihm einen wichtigen Unterstützer haben.
-Zudem haben wir unsere Vermutung festigen können, dass der Vorstand der #glossary("meditrend") uns als strategischen Gegner sieht und entsprechende Entscheidungen trifft (siehe nächstes KCI).
+Aus den Erkenntnissen aus dem persönlichen Austausch konnte ich folgern, dass Thomas ein sowohl organisationales als auch persönliches Interesse am Projekterfolg hat und auf seine Unterstützung gezählt werden kann.
 
 ==== *04.03.04.02* Informellen Einfluss von Einzelpersonen und Personengruppen und deren potenzielle Auswirkungen auf das Projekt beurteilen sowie diese Kenntnisse zum Nutzen des Projekts verwenden
-Wir hatten schon vor diesem Projekt aufgrund vergangener Erfahrungen die Vermutung, dass der Vorstand der #glossary("meditrend") uns als strategischen Gegner sieht.
-Mit der im letzten KCI beschriebenen Erfahrung konnten wir diese Vermutung weiter bestätigen.
+Der Vorstand der #glossary("meditrend"), Maximilian Schwab, hatte bereits in der Vergangenheit unsere verschiedenen Vorhaben blockiert oder zumindest versucht zu bremsen.
 
-Teil der eingeführten Schnittstelle zum #glossary("optadata_focus") System waren Texte & Bilder, mit denen die Produktkataloge den Nutzern angezeigt werden.
-Da die Nutzer sich zu Beginn für einen der Kataloge entscheiden müssen und eine spätere Änderung teuer wäre, war dieser erste Kontaktpunkt von erheblicher Bedeutung für die Verbreitung und Nutzung der Kataloge.
+Es galt seine Macht, sowie seinen konkreten Einfluss und Wirkungsbereich, einzuschätzen.
 
-Sowohl wir, als auch die #glossary("meditrend"), hatten Zugang zu dem Testsystem, in dem diese Bilder und Texte bereits eingepflegt wurden.
-Wir sind davon ausgegangen, dass die #glossary("meditrend") sich anschauen würde, wie wir unsere Produktkataloge präsentieren, um ihre eigene Präsentation dagegen zu optimieren.
-Um dem entgegen zu wirken, haben wir zwei Varianten der Bilder und Texte erstellt: Eine sehr schlichte und wenig-sagende Version, die wir ins Test-System haben einbauen lassen, sowie eine zweite, für den Launch gedachte, Version, die wir zurückgehalten haben.
-Parallel haben wir mit #glossary("optadata") geklärt, dass wir nachträglich noch Änderungen an den Bildern und Texten vornehmen können.
+Für die Einschätzung musste ich beachten, dass in der Hörakustik-Branche, aufgrund ihrer geringen Größe, viele Geschäfte und Absprachen hinter verschlossenen Türen stattfinden.
+Dabei stehen insb. die Geschäftsführungen der verschiedenen Unternehmen in sehr engem Kontakt.
+Aus diesem Wissen konnte ich schließen, dass sich der Wirkungsbereich von Hr. Schwab potentiell über die gesamte Branche erstrecken könnte.
+Realistisch sind dem natürlich Grenzen gesetzt, diese sind allerdings schwierig genau zu identifizieren.\
+Gleichermaßen musste ich berücksichtigen, dass er gegenüber den Mitgliedern der #glossary("meditrend") einen erhebliche Einfluss besitzt.
+Auch wenn er keine formelle Befugnis hat, diesen unternehmerische Vorgaben zu machen, so tragen seine Aussagen dennoch Gewicht, da davon auszugehen ist, dass sich die Mitglieder in ihren unternehmerischen Entscheidungen nach dem richten werden, was der Vorstand ihrer Einkaufsgemeinschaft so von sich gibt.
 
-Der Plan war es, dass wir mit unserer mittelmäßigen Präsentation die #glossary("meditrend") dazu verleiten, selbst wenig Aufwand in ihre Präsentation zu stecken.
-Kurz vor dem Launch von #glossary("optadata_focus") sollen dann die volle Version der Bilder und Texte eingefügt werden, um somit unsere Kataloge besser zu platzieren als die der #glossary("meditrend").
+Wir haben festgehalten, dass seine Möglichkeiten Einfluss auf unsere Projekte zu nehmen sehr umfassend sind.
+Entsprechend haben wir in unserer Kommunikationsstrategie eingeplant damit umzugehen und dem proaktiv entgegenzuwirken.
 
-Dieser Plan ist insofern aufgegangen, dass die #glossary("meditrend") in der Tat wenig Aufwand in ihre eigene Präsentation gesteckt hat.
-Da ich das Unternehmen vor dem Launch von #glossary("optadata_focus") verlassen habe, kann ich leider nichts weiter dazu sagen inwiefern der Rest der Strategie aufgegangen ist.
-
-==== *04.03.04.03* Persönlichkeiten und Arbeitsstile Dritter beurteilen und zum Nutzen des Projekts einsetzen
-Der Projektleiter des Gesamtprojektes auf Seiten der #glossary("optadata"), Thomas Schraga, war durchweg sehr bedacht darauf den Aufwand für sein Team so gering wie möglich zu halten.
-Um das zu erreichen, war er auch bereit Entscheidungen über Details abzugeben.
-
-Im Rahmen des Projektes gab es diverse Schnittstellen-Formate und -Prozesse zu definieren.
-Aufgrund seiner Einstellung habe ich Thomas angeboten das Design dieser Schnittstellen vollständig auf unsere Seite des Projektes zu übernehmen.
-Dadurch hatten wir die Möglichkeit die Schnittstelle für uns optimal zu designen und mussten an keiner Stelle Kompromisse im Design eingehen.
+==== #strike[*04.03.04.03* Persönlichkeiten und Arbeitsstile Dritter beurteilen und zum Nutzen des Projekts einsetzen]
 
 #pagebreak()
 === #TODO 04.04.05 Führung
