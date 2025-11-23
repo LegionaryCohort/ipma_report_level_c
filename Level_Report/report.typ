@@ -2,6 +2,8 @@
 #import "@preview/cheq:0.3.0": checklist
 #show: checklist
 
+#let TODO = text(fill: red, weight: "bold", "TODO")
+
 #import "report_abbr.typ": abbr, abbr_entries
 #import "report_glossary.typ": glossary, glossary_entries
 
@@ -168,7 +170,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 
 = Beschreibung der Management-Herausforderungen
 == PM-Pflichtelemente
-=== 04.03.02 Governance, Strukturen und Prozesse
+=== #TODO 04.03.02 Governance, Strukturen und Prozesse
 ==== *04.03.02.01* Die Grundlagen des Projektmanagements und deren Einführung kennen
 #todo("Schreiben")
 ==== *04.03.02.02* Die Grundlagen des Programmmanagements und deren Einführung kennen
@@ -185,7 +187,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.03.03 Compliance, Standards und Regularien
+=== #TODO 04.03.03 Compliance, Standards und Regularien
 ==== *04.03.03.01* Die für das Projekt gültigen Rechtsvorschriften identifizieren und einhalten
 #todo("Schreiben")
 ==== *04.03.03.02* Alle für das Projekt relevanten Vorschriften für Sicherheit, Gesundheit, und Umweltschutz (SGU) identifizieren und einhalten
@@ -200,7 +202,7 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.03.04 Macht und Interessen
+=== #TODO 04.03.04 Macht und Interessen
 #todo("Überarbeiten")
 In den folgenden 3 KCIs geht es jeweils um dasselbe Projekt, in dem wir eine Produktdatenschnittstelle zu dem neuen, in Entwicklung befindlichen, ERP-System #glossary("optadata_focus") aufgebaut haben.
 Im Laufe des Projektes sind wir darauf aufmerksam geworden, dass die große Einkaufsgemeinschaft #glossary("meditrend") ebenfalls ihre Produktdatenkataloge anbieten und damit in direkte Konkurrenz mit uns treten will.
@@ -251,7 +253,7 @@ Aufgrund seiner Einstellung habe ich Thomas angeboten das Design dieser Schnitts
 Dadurch hatten wir die Möglichkeit die Schnittstelle für uns optimal zu designen und mussten an keiner Stelle Kompromisse im Design eingehen.
 
 #pagebreak()
-=== 04.04.05 Führung
+=== #TODO 04.04.05 Führung
 ==== *04.04.05.01* Initiative ergreifen und proaktiv mit Rat und Tat zur Seite stehen
 #todo("Schreiben")
 ==== *04.04.05.02* Ownership übernehmen und Commitment zeigen
@@ -264,7 +266,7 @@ Dadurch hatten wir die Möglichkeit die Schnittstelle für uns optimal zu design
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.05.01 Projektdesign
+=== #TODO 04.05.01 Projektdesign
 ==== *04.05.01.01* Erfolgskriterien anerkennen, priorisieren und überprüfen
 #todo("Schreiben")
 ==== *04.05.01.02* Lessons Learned aus --und mit-- anderen Projekten überprüfen, anwenden und austauschen
@@ -277,7 +279,7 @@ Dadurch hatten wir die Möglichkeit die Schnittstelle für uns optimal zu design
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.05.02 Anforderungen und Ziele
+=== #TODO 04.05.02 Anforderungen und Ziele
 #todo("Überarbeiten")
 In den folgenden KCIs geht es um ein Projekt, in dem wir in unserem System den Support für das Import-Format (#abbr("axc")) des weit verbreiteten ERP-Systems #glossary("amparex").
 
@@ -333,7 +335,7 @@ Die hierarchische Struktur der Daten wurde mehr als Bonus gesehen.
 Somit konnten wir hier sehr schnell die Zielsetzung priorisieren und haben die Lösung gewählt, bei der die Verknüpfungen zwischen Produkten importiert werden.
 
 #pagebreak()
-=== 04.05.03 Leistungsumfang und Lieferobjekte
+=== #TODO 04.05.03 Leistungsumfang und Lieferobjekte
 #todo("Überarbeiten")
 Die folgenden KCIs werden im Kontext des Projektes beschrieben, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
 Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
@@ -372,7 +374,7 @@ Der Fortschritt wurde dann zusätzlich an dem Abschluss dieser Phasen festgemach
 Wir haben uns explizit dagegen entschieden den Fortschritt anhand einzelner Arbeitspakete zu messen, da diese im Rahmen unserer hybriden Arbeitsweise sehr dynamisch festgelegt und bearbeitet wurden.
 
 #pagebreak()
-=== 04.05.04 Ablauf und Termine
+=== #TODO 04.05.04 Ablauf und Termine
 #todo("Überarbeiten")
 ==== *04.05.04.01* Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
 Für das Projekt, bei dem wir die Schnittstelle zu #glossary("optadata_focus") gebaut haben, haben ich für die Kalkulation des Angebotspreises, sowie die spätere Planung und Überwachung der Umsetzung, einen groben Plan der notwendigen Aufgaben aufgestellt (siehe @gateway_tasks).
@@ -410,7 +412,7 @@ Zum Abschluss eines Arbeitspaketes habe ich überprüft, ob die verbleibende Zei
 Da dies zu jedem Zeitpunkt der Fall war, waren keine Anpassungen notwendig, um die Meilensteine einzuhalten.
 
 #pagebreak()
-=== 04.05.05 Organisation, Information und Dokumentation
+=== #TODO 04.05.05 Organisation, Information und Dokumentation
 #todo("Überarbeiten")
 ==== *04.05.05.01* Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen
 Primärer Stakeholder für das gesamte Programm war unsere Geschäftsführung, mit der ich eng zusammengearbeitet habe, um das Ganze auf die Beine zu stellen.
@@ -449,7 +451,7 @@ Ich haben daraufhin weitere Metadaten an alle Arbeitspakete gehängt.
 Über diese konnte die Geschäftsführung dann die Fortschritte klar nachvollziehen.
 
 #pagebreak()
-=== 04.05.06 Qualität
+=== #TODO 04.05.06 Qualität
 ==== *04.05.06.01* Qualitätsmanagementplan für das Projekt entwickeln, die Implementierung überwachen und gegebenenfalls überarbeiten
 #todo("Schreiben")
 ==== *04.05.06.02* Projekt mit seinen Lieferobjekten überprüfen, um sicherzustellen, dass sie die Anforderungen des Qualitätsmanagementplans weiterhin erfüllen
@@ -462,7 +464,7 @@ Ich haben daraufhin weitere Metadaten an alle Arbeitspakete gehängt.
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.05.07 Kosten und Finanzierung
+=== #TODO 04.05.07 Kosten und Finanzierung
 ==== *04.05.07.01* Projektkosten abschätzen
 #todo("Schreiben")
 ==== *04.05.07.02* Projektbudget erstellen
@@ -571,7 +573,7 @@ Durch die Einführung der Änderungen in unseren Endpoints wurde die Serverlast 
 Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und unsere vertragliche Verpflichtung erfüllt.
 
 #pagebreak()
-=== 04.05.10 Planung und Steuerung
+=== #TODO 04.05.10 Planung und Steuerung
 ==== *04.05.10.01* Projekt starten, Projektmanagement-Plan entwickeln und Zustimmung einholen
 #todo("Schreiben")
 ==== *04.05.10.02* Übergang in eine neue Projektphase einleiten und managen
@@ -586,7 +588,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.05.11 Chancen und Risiken
+=== #TODO 04.05.11 Chancen und Risiken
 ==== *04.05.11.01* Chancen- und Risikomanagementstruktur entwickeln und implementieren
 #todo("Schreiben")
 ==== *04.05.11.02* Chancen und Risiken identifizieren
@@ -599,7 +601,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.05.12 Stakeholder
+=== #TODO 04.05.12 Stakeholder
 ==== *04.05.12.01* Stakeholder identifizieren und ihre Interessen sowie ihren Einfluss analysieren
 #todo("Schreiben")
 ==== *04.05.12.02* Stakeholder Strategie und einen Kommunikationsplan entwickeln und aufrechterhalten
@@ -618,7 +620,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 
 #pagebreak()
 == PM-Wahlelemente
-=== 04.03.01 Strategie
+=== #TODO 04.03.01 Strategie
 ==== *04.03.01.01* Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen
 #todo("Schreiben")
 ==== *04.03.01.02* Chancen identifizieren und ausschöpfen, die Strategie der Organisation zu beeinflussen
@@ -631,7 +633,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.03.05 Kultur und Werte
+=== #TODO 04.03.05 Kultur und Werte
 ==== *04.03.05.01* Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen
 #todo("Schreiben")
 ==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen
@@ -640,7 +642,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.04.01 Selbstreflexion und Selbstmanagement
+=== #TODO 04.04.01 Selbstreflexion und Selbstmanagement
 ==== *04.04.01.01* Einfluss der eigenen Werte und persönlichen Erfahrungen auf die Arbeit identifizieren und reflektieren
 #todo("Schreiben")
 ==== *04.04.01.02* Selbstvertrauen auf der Basis von persönlichen Stärken und Schwächen aufbauen
@@ -653,7 +655,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.04.02 Persönliche Integrität und Verlässlichkeit
+=== #TODO 04.04.02 Persönliche Integrität und Verlässlichkeit
 ==== *04.04.02.01* Ethische Werte bei allen Entscheidungen und Handlungen anerkennen und anwenden
 #todo("Schreiben")
 ==== *04.04.02.02* Nachhaltigkeit von Leistungen und Ergebnissen fördern
@@ -666,7 +668,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.04.03 Persönliche Kommunikation
+=== #TODO 04.04.03 Persönliche Kommunikation
 ==== *04.04.03.01* Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
 #todo("Schreiben")
 ==== *04.04.03.02* Offene Kommunikation ermöglichen und fördern
@@ -679,7 +681,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.04.04 Beziehungen und Engagement
+=== #TODO 04.04.04 Beziehungen und Engagement
 ==== *04.04.04.01* Persönliche und berufliche Beziehungen aufbauen und pflegen
 #todo("Schreiben")
 ==== *04.04.04.02* Soziale Netzwerke aufbauen, moderieren und an ihnen teilnehmen
@@ -692,7 +694,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.04.06 Teamwork
+=== #TODO 04.04.06 Teamwork
 ==== *04.04.06.01* Das Team zusammenstellen und entwickeln
 #todo("Schreiben")
 ==== *04.04.06.02* Zusammenarbeit und Netzwerken zwischen Teammitgliedern fördern
@@ -705,7 +707,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.04.07 Konflikte und Krisen
+=== #TODO 04.04.07 Konflikte und Krisen
 ==== *04.04.07.01* Konflikte und Krisen antizipieren und, wenn möglich, verhindern
 #todo("Schreiben")
 ==== *04.04.07.02* Ursachen und Auswirkungen von Konflikten und Krisen analysieren und angemessene Reaktionen auswählen
@@ -716,7 +718,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.04.08 Vielseitigkeit
+=== #TODO 04.04.08 Vielseitigkeit
 ==== *04.04.08.01* Ein offenes und kreatives Umfeld schaffen und unterstützen
 #todo("Schreiben")
 ==== *04.04.08.02* Konzeptionelles Denken anwenden, um Situationen zu analysieren und Lösungsstrategien zu definieren
@@ -729,7 +731,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.04.09 Verhandlungen
+=== #TODO 04.04.09 Verhandlungen
 ==== *04.04.09.01* Interessen aller Parteien, die an den Verhandlungen beteiligt sind, identifizieren und analysieren
 #todo("Schreiben")
 ==== *04.04.09.02* Optionen und Alternativen entwickeln und evaluieren, die das Potenzial haben, die Bedürfnisse aller Beteiligten zu erfüllen
@@ -742,7 +744,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.04.10 Ergebnisorientierung
+=== #TODO 04.04.10 Ergebnisorientierung
 ==== *04.04.10.01* Alle Entscheidungen und Handlungen hinsichtlich ihrer Auswirkung auf den Projekterfolg und die Ziele der Organisation evaluieren
 #todo("Schreiben")
 ==== *04.04.10.02* Bedürfnisse und Mittel aufeinander abstimmen, um Ergebnisse und Erfolge zu optimieren
@@ -755,7 +757,7 @@ Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und u
 #todo("Schreiben")
 
 #pagebreak()
-=== 04.05.13 Change und Transformation
+=== #TODO 04.05.13 Change und Transformation
 ==== *04.05.13.01* Adaptionsfähigkeit der Organisation(en) zu Veränderung beurteilen
 #todo("Schreiben")
 ==== *04.05.13.02* Veränderungsanforderungen und Transformationschancen identifizieren
