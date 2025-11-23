@@ -262,60 +262,55 @@ Entsprechend haben wir in unserer Kommunikationsstrategie eingeplant damit umzug
 #todo("Schreiben")
 
 #pagebreak()
-=== #TODO 04.05.02 Anforderungen und Ziele
-#todo("Überarbeiten")
-In den folgenden KCIs geht es um ein Projekt, in dem wir in unserem System den Support für das Import-Format (#abbr("axc")) des weit verbreiteten ERP-Systems #glossary("amparex").
-
-Folgendes fachliches Detail ist für die nachfolgend beschriebenen Situationen relevant:
-Es gibt eine Kategorie von Hörgeräten, die als "#abbr("ric")-Geräte" bezeichnet werden.
-Diese Geräte kommen immer in Kombination mit einem Empfänger, der ins Ohr eingesetzt wird,
-zum Einsatz.
-Das Hörgerät und die Empfänger werden dabei seperat verkauft, da sich diese Art von Hörgeräten mit verschiedenen Empfängern kombinieren lassen.
-Jede Kombination hat dabei eine eigene #abbr("hmv")-Nummer, mit der die Gerätekombination bei den Krankenkassen abgerechnet wird.
+=== 04.05.02 Anforderungen und Ziele
+Im Folgenden geht es um ein Projekt, in dem wir in unserem System den Support für das Import-Format "#abbr("axc")" des weit verbreiteten ERP-Systems #glossary("amparex") eingebaut haben.
 
 ==== *04.05.02.01* Hierarchie der Projektziele definieren und entwickeln
-Oberstes Ziel des Projektes war es, den Import unserer Produktdatenkataloge in das #glossary("amparex") ERP-System zu ermöglichen.
-Dabei war die Motivation dahinter, dass wir mehr Akustiker mit unseren Daten unterstützen können und somit mehr potentielle Partnerunternehmen für uns gewinnen können.
-Daraus ergab sich das zweite Ziel, bei den erreichten Endanwendern eine hohe Zufriedenheit zu erzeugen.
+Das Projekt verfolgte im Kern zwei strategische Ziele:
+- Die Zufriedenheit der Akustiker innerhalb unseres Netzwerkes, die #glossary("amparex") verwenden, erhöhen
+- Das Netzwerk Hörgesundheit durch unser Angebot attraktiver für neue Partner, die ebenfalls #glossary("amparex") verwenden, zu gestalten
 
-Aus diesen beiden Zielen wurden weitere konkretere Ziele abgeleitet.
-Dabei haben wir uns zunächst auf die Qualitätsziele konzentriert, da diese eines unserer Alleinstellungsmerkmale am Markt darstellen.
-Die abgeleiteten Qualitätsziele umfassten Ziele wie:
-- "Die Daten sind möglichst vollständig im #glossary("amparex")-System abgebildet"
-- "Die Struktur der Produktdaten orientiert sich so nah wie möglich an unserer eigenen Datenstruktur"
+Die operativen Zielen des Projekts mussten definiert werden und zu den strategischen Zielen in Bezug gesetzt werden.
 
-Zusätzlich haben wir im Laufe des Brainstormings weitere Kann-Ziele festgehalten.
-Um ein Beispiel hierfür zu nennen:
-Wir haben überlegt den Prozess vollständig zu automatisieren, um den Akustikern damit die Möglichkeit zu geben, diese Import-Aufgabe komplett abgeben zu können.
-Da dies jedoch aus unserer Sicht ein Bonus darstellte, haben wir das Ganze als optional eingestuft.
+Als primäres operatives Ziel habe ich abgeleitet, dass wir das Import-Format "#abbr("axc")" in unserem Produktdaten-Download-Center mit unterstützen müssen.
+Darunter habe ich weitere Qualitätsziele abgeleitet, um beide strategischen Ziele zu erfüllen:
+- Die Daten sind möglichst vollständig im #glossary("amparex")-System abgebildet
+- Alle Verknüpfungen zwischen Daten (z.B. Zugehörigkeiten zwischen Geräten und Zubehör) sind im #glossary("amparex")-System abgebildet
+- Alle Daten sind hierarchisch sauber abgebildet (Produktfamilien als Gruppierung, Produktvarianten als Unterteilung, etc.)
+#v(-10pt)
+Um zusätzlich das erste strategische Ziel besser zu erfüllen, haben wir die Etablierung von direktem Support von Import-Vorgängen mit Video-Calls als weiteres operatives Ziel mit aufgenommen.
+
+Als Ergebnis hatten wir einen klaren Überblick über die konkreten Ziele des Projektes und zugleich die Sicherheit, dass der Projektscope auf das Notwendige beschränkt wurde.
 
 ==== *04.05.02.02* Bedürfnisse und Anforderungen der Projekt-Stakeholder identifizieren und analysieren
-Im Rahmen der oben beschriebenen Erarbeitung der Ziele habe ich Kontakt mit einigen Akustikern aufgenommen, die uns zuvor signalisiert hatten, dass sie Interesse an dem geplanten Import-Support haben.
-In diesen Gesprächen haben wir systematisch durchleuchtet, wie genau die Akustiker mit den Produktdaten arbeiten und welche der verfügbaren Daten sie für besonders wichtig halten.
-Mir wurde zudem schnell klar, dass das vorhandene technische Verständnis im Schnitt sehr gering war.
-Die Bereitschaft sich intensiver mit so etwas wie einem Import-Prozess auseinanderzusetzen, habe ich dementsprechend als ebenso gering einstufen können, zumal sich die Akustiker logischerweise mehr mit ihren Kunden befassen wollen, als mit einem trockenen technischen Vorgang.
+Eine wichtige Stakeholder-Gruppe des Projektes waren die Endanwender in den Akustiker-Unternehmen.
 
-Aus diesen Interaktionen konnte ich einige Schwerpunkte identifizieren, die von besonderer Wichtigkeit waren, so z.B. die #abbr("hmv")-Nummern.
-Auch habe ich das Ziel mit aufgenommen, den gesamten Import-Prozess so einfach und verständlich wie möglich zu gestalten.
+Die Bedürfnisse und Anforderungen der Endanwender waren zu identifizieren und dokumentieren.
 
-Neben dieser Interaktion habe ich auch Kontakt zu #glossary("amparex") selbst aufgenommen, um herauszufinden inwiefern wir das oben beschriebene Kann-Ziel in die Tat umsetzen könnten.
-Dabei habe ich in Erfahrung bringen können, dass #glossary("amparex") derzeit an einer neuen Version ihres Systems arbeitet und somit gänzlich kein Interesse besteht, die bestehende Version um eine Schnittstelle zu uns zu erweitern.
-Das Kann-Ziel haben wir gemäß dieser Erkenntnis gestrichen und uns stattdessen auf die Erfüllung der Wünsche der Endanwendet konzentriert.
+Wir hatten bereits ein Netzwerk an Akustikern, die an einer Import-Lösung für #glossary("amparex") interessiert waren.
+Mit diesen habe ich Kontakt aufgenommen und in den Gesprächen systematisch durchleuchtet, wie die Akustiker mit den Produktdaten arbeiten.
+Dabei konnte ich einige konkrete Anforderungen an die Produktdaten ableiten, z.B. die Vollständigkeit und Korrektheit der #abbr("hmv")-Nummern, sowie dass insb. die Daten neuerer Produkte regelmäßig zur Verfügung gestellt werden.
+Zusätzlich konnte ich im Laufe der Gespräche einige Bedürfnisse einschätzen, z.B. dass die Akustiker gerne einen möglichst einfachen Import-Prozess mit wenigen Schritten möchten.
+Das konnte ich daraus schließen, dass nur wenig technisches Verständnis vorhanden war und dass die Aufgabe insgesamt als eine notwendige aber nervige Ablenkung von ihrer eigentlichen Arbeit mit ihren Kunden wahrgenommen wurde.
+
+Nach den Gesprächen hatte ich eine Übersicht über die Anforderungen und Bedürfnisse der Endanwender, mit der ich die konkreten Features des Imports planen konnte.
 
 ==== *04.05.02.03* Anforderungen und Abnahmekriterien priorisieren und darüber entscheiden
-#abbr("ric")-Geräte sind typischerweise in verschiedenen Farbvarianten erhältlich.
-Die zugehörigen Empfänger gibt es in unterschiedlichen Lautsprecher-Stärken.
-Diese Varianten lassen sich alle beliebig miteinander kombinieren, wobei jede Kombination abhängig von der gewählten Empfänger-Variante eine eigene #abbr("hmv")-Nummer erhält.
+Hörgeräte sind fast immer in verschiedenen Farbvarianten erhältlich.
+Für #abbr("ric")-Geräte, eine Unterkategorie von Hörgeräten, gibt es zugehörige Empfänger mit unterschiedlichen Lautsprecher-Stärken.
+Die Farb- und Empfängervarianten lassen sich beliebig miteinander kombinieren.
+#abbr("hmv")-Nummern werden nur für Kombinationen vergeben, wobei sich manche Kombinationen dieselbe #abbr("hmv")-Nummer teilen.\
+Das Datenmodell, mit dem diese Daten in unserer Datenbank abgebildet sind, ist inkompatibel mit dem Datenmodell des #glossary("amparex")-Systems.
+In diesem konnten wir entweder die Hierarchie von Produkten und Varianten oder die Verknüpfungen mit den #abbr("hmv")-Nummern exakt abbilden.
 
-In unserer eigenen Datenbank werden die Produkte wie oben beschrieben abgebildet, also als Hauptprodukte mit Untervarianten.
-Die Kombinationen inkl. #abbr("hmv")-Nummern werden dabei mittels Verknüpfungen zwischen den Produktvarianten abgebildet.
+Gegeben dieser Einschränkung, galt es die Bedürfnisse und Anforderungen der Endanwender zu priorisieren.
 
-Im Rahmen der Implementierung stellte sich heraus, dass es aufgrund technischer Einschränkung im #glossary("amparex")-System nicht möglich sein würde, dieses Datenmodell 1-zu-1 zu übernehmen.
-Wir hatten nun die Wahl, entweder die Hierarchie von Produkten und Untervarianten exakt abzubilden (und dabei die Verknüpfungen zu verlieren), oder die Verknüpfungen zwischen den Produkten korrekt abzubilden, aber dafür jede Produktvariante als eigenes Produkt im System zu hinterlegen.
+Um diese Gegenüberstellung zu klären, bin ich mit einigen Endanwendern erneut in den Austausch gegangen.
+Dadurch konnte ich bestimmen, dass die Vollständigkeit und Korrektheit der #abbr("hmv")-Nummern von hoher Wichtigkeit sind.
+Die hierarchische Struktur der Daten hingegen wurde nur als Bonus gesehen.
+Entsprechend habe ich die Abbildung der #abbr("hmv")-Nummern priorisiert.
 
-Im vorherigen Austausch mit einigen Endanwendern (s.o.) hatten wir identifiziert, dass die Verfügbarkeit und korrekte Zuordnung der #abbr("hmv")-Nummern von hoher Wichtigkeit sind.
-Die hierarchische Struktur der Daten wurde mehr als Bonus gesehen.
-Somit konnten wir hier sehr schnell die Zielsetzung priorisieren und haben die Lösung gewählt, bei der die Verknüpfungen zwischen Produkten importiert werden.
+Gemäß der Priorisierung wurden die betroffenen Arbeitspakete angepasst.
 
 #pagebreak()
 === #TODO 04.05.03 Leistungsumfang und Lieferobjekte
