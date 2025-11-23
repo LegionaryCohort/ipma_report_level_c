@@ -313,20 +313,19 @@ Entsprechend habe ich die Abbildung der #abbr("hmv")-Nummern priorisiert.
 Gemäß der Priorisierung wurden die betroffenen Arbeitspakete angepasst.
 
 #pagebreak()
-=== #TODO 04.05.03 Leistungsumfang und Lieferobjekte
-#todo("Überarbeiten")
-Die folgenden KCIs werden im Kontext des Projektes beschrieben, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
+=== 04.05.03 Leistungsumfang und Lieferobjekte
+Im Folgenden geht es um das Projekt, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
 Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
 
-Es war recht früh klar, dass für die Erfüllung des Kernziels eine Erweiterung unseres Datenbank-Management-Systems notwendig sein würde.
-In der Planung des Projektes haben wir per Brainstorming zunächst den Funktionsumfang der Erweiterung ausdefiniert.
-Anschließend habe ich daraus die benötigten Systemmodule abgeleitet und den typischen Ablauf einer Qualitätsprüfung designed.
-Aus diesem Design ergab sich schließlich die Stuktur der tatsächlichen Report-Spezifikationen, die die zu prüfenden Inhalte, sowie die Details der Reporting- & Korrektur-Vorgänge beinhalten.\
-Das gesamte Design im Überblick ist nochmal in @qrs_design visuell dargestellt.
-
 ==== *04.05.03.01* Lieferobjekte definieren
-Die Lieferobjekte, die letztlich von dem Projekt erzeugt wurden, ergaben sich aus dem oben beschriebenen Design.
-Konkret waren die Lieferobjekte folgende:
+Die Lieferobjekte waren zu definieren.
+
+Das #abbr("qrs") war dabei als eine Erweiterung unseres Datenbank-Management-Systems vorgesehen.
+In der Planung des Projektes haben wir per Brainstorming zunächst den Funktionsumfang der Erweiterung ausdefiniert.
+Anschließend habe ich den typischen Ablauf einer Qualitätsprüfung designed.
+Aus diesem Design habe ich die benötigten Systemmodule abgeleitet und die Stuktur der tatsächlichen Report-Spezifikationen festgelegt.
+Das gesamte Design im Überblick ist nochmal in @qrs_design visuell dargestellt.\
+Aus diesem Design habe ich folgende Lieferobjekte abgeleitet:
 - Das #abbr("qrs") Framework (zuständig für die gesamte Ausführung von #abbr("qrs")-Reports)
   - Das Datenbank-Prüf-Modul (zuständig für die Ausführung der Report-Prüfungs-Ablaufe)
   - Das Report-Protokoll-Modul (zuständig für die Erstellung der Report-Prüf-Protokolle)
@@ -336,20 +335,30 @@ Konkret waren die Lieferobjekte folgende:
   - Überpüfung von Produktverknüpfungen und #abbr("hmv")-Nummern
 - Dokumentation zur Verwendung des QRS für die Kollegen, die damit arbeiten sollten
 
+Anhand der definierten Lieferobjekte wurde die weitere Arbeitspaketplanung vorgenommen.
+
 ==== *04.05.03.02* Leistungsumfang strukturieren
-Der Leistungsumfang wurde in der oben bereits beschriebenen Form heruntergebrochen und strukturiert.
-Weiterführende Unterteilung fand nur informell in mündlicher Form statt, wenn wir in unseren Daily-Meetings über das Projekt gesprochen haben, und wurde nicht verschriftlicht.
+Für das Projekt musste nun ein Vorgehensmodell begründet ausgewählt werden.
+
+Auf der einen Seite hatte ich die Lieferobjekte klar definiert und konnte daraus bereits erste Arbeitspakete ableiten.
+Auf der anderen Seite hatten die Entwickler im Unternehmen sich im Laufe vergangener Projekte auf eine agile Arbeitsweise eingependelt.
+Um den etablierten und gewohnten Workflow aufrecht zu erhalten, aber die Klarheit der vorhandenen Planung voll auszunutzen, habe ich mich für einen hybriden Ansatz entschieden.
+Dabei wurden die einzelnen Arbeitspakete in dem üblichen Ablauf bearbeitet, aber die übergreifende Planung folgte einem planbasierten Ansatz.
+
+Entsprechend stand das Vorgehensmodell fest und wurde anschließend umgesetzt.
 
 ==== *04.05.03.03* Arbeitspakete definieren
-Da das Projekt, wie alle Projekte bei der Audoora GmbH, in einem hybriden Format durchgeführt wurden, wurden aus den oben gelisteten Lieferobjekte erst im Laufe des Projektes konkretere Arbeitspakete definiert.
-Dazu habe ich vor Beginn der Bearbeitung eines Lieferobjektes die konkreten Anforderungen und Schnittstellen aufgelistet und daraus eine vorläufige Code-Struktur abgeleitet.
-Anhand dieser Code-Struktur ergaben sich dann automatisch konkrete Arbeitspakete für die Umsetzung der einzelnen Code-Komponenten.
+Für die Projektumsetzung waren Arbeitspakete zu definieren.
 
-==== *04.05.03.04* Konfiguration des Leistungsumfangs erstellen und aufrechterhalten
-Über die Laufzeit des Projektes wurde der Fortschritt an den Lieferobjekten gemessen.
-Da die Entwicklung des #abbr("qrs")-Frameworks und der #abbr("qrs")-Reports parallel stattfand, wurden diese nochmals unterteilt in die Phasen "Implementation", "Local Tests" und "Deployed Tests".
-Der Fortschritt wurde dann zusätzlich an dem Abschluss dieser Phasen festgemacht, um ein feineres Bild zu erzeugen.
-Wir haben uns explizit dagegen entschieden den Fortschritt anhand einzelner Arbeitspakete zu messen, da diese im Rahmen unserer hybriden Arbeitsweise sehr dynamisch festgelegt und bearbeitet wurden.
+Die Arbeitspakete habe ich Schrittweise im Laufe des Projektes aus den Lieferobjekten abgeleitet.
+Da zu Beginn die Details des #abbr("qrs")-Frameworks noch nicht alle feststanden, habe ich zunächst ein Arbeitspaket für den einfachsten der #abbr("qrs")-Reports erstellt, damit dieser als Orientierung für das Design des Frameworks verwendet werden kann.
+Für die einzelnen Module des Frameworks habe ich jeweils ein Arbeitspaket definiert, um aus den bekannten Schnittstellen und Rahmenbedingungen eine erste Struktur zu entwickeln.
+Weitere Pakete habe ich eingeplant, um aus den ersten Strukturen und dem ersten Report anschließend das Framework zu verfeinern und weiter auszubauen.
+Diese "Ausbau"-Pakete wurden mit den Erkenntnissen aus den vorangegangenen Paketen (nach deren Abschluss) verfeinert und finalisiert.
+
+Mit der beschriebenen Planung von Arbeitspaketen stand zu jedem Zeitpunkt fest, woran aktuell zu arbeiten ist, sowie welche Aufgaben zukünftig noch zu bearbeiten sind (auch wenn letztere meist noch nicht abschließend feststanden).
+
+==== #strike[*04.05.03.04* Konfiguration des Leistungsumfangs erstellen und aufrechterhalten]
 
 #pagebreak()
 === #TODO 04.05.04 Ablauf und Termine
