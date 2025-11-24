@@ -132,7 +132,8 @@
 #pagebreak()
 #counter(page).update(1)
 
-= Management-Zusammenfassung
+= #TODO Management-Zusammenfassung
+#todo("Überarbeiten")
 In diesem Report gehe ich auf die verschiedenen Herausforderungen und Management-Situationen ein, die im Laufe des Produktdaten-Programms bei der Audoora GmbH aufgetreten sind.
 Für das Produktdaten-Programms war ich vollständig verantwortlich, wobei die Planung und Überwachung von Zeit- und Budget-Zielen stets in direkter Zusammenarbeit mit der Geschäftsführung stattfand.
 
@@ -361,42 +362,64 @@ Mit der beschriebenen Planung von Arbeitspaketen stand zu jedem Zeitpunkt fest, 
 ==== #strike[*04.05.03.04* Konfiguration des Leistungsumfangs erstellen und aufrechterhalten]
 
 #pagebreak()
-=== #TODO 04.05.04 Ablauf und Termine
-#todo("Überarbeiten")
+=== 04.05.04 Ablauf und Termine
+Zu Beginn des Schnittstellenprojektes zum ERP-System #glossary("optadata_focus") musste zunächst ein Überblick geschaffen werden, anhand dessen wir das Projekt kalkulieren und später umsetzen können.
+
 ==== *04.05.04.01* Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
-Für das Projekt, bei dem wir die Schnittstelle zu #glossary("optadata_focus") gebaut haben, haben ich für die Kalkulation des Angebotspreises, sowie die spätere Planung und Überwachung der Umsetzung, einen groben Plan der notwendigen Aufgaben aufgestellt (siehe @gateway_tasks).
-Dabei habe ich zwischen den verschiedenen Bereichen unterschieden, in denen die Umsetzung stattfinden muss:
-- Backend API (gelb): _Änderungen an unserer bestehenden Produktdatenverwaltung_
-- Gateway (extern blau, intern grün): _Aufbau eines Gateway-Servers, über den die Verbindung zu unserer Produktdatenverwaltung an außenstehende Dienste angebunden werden kann_
-- optadata focus (lila): _Änderungen, die innerhalb des #glossary("optadata_focus") Systems für die Integration notwendig sind_
-- Admin interface (orange): _Aufbau einer internen Verwaltungsansicht in unserer bestehenden Admin-Console_
-- Integration Test (rot): _Abschließender Test des gesamten Workflows als Einheit (die einzelnen Komponenten wurden jeweils als Teil des entsprechenden Arbeitspaketes getestet)_
+Für die Umsetzung des Projektes galt es die notwendigen Aufgaben zu definieren.
+
+Um die notwenigen Aufgabe zu ermitteln, habe ich zunächst aus den zuvor definierten Lieferobjekten grobe Aufgabenbereiche abgeleitet.
+Diese umfassten das Gateway selbst, ein Admin-Interface für die interne Steuerung, sowie Anpassungen im #glossary("optadata_focus") System.
+Hinzu kam, aus den Qualitätszielen abgeleitet, der Bereich Integration & Testing.\
+Die Aufgabenbereiche habe ich anschließend schrittweise in konkrete Aufgaben, die sich jeweils mit Teilen des zugehörigen Lieferobjektes befassten, heruntergebrochen.
+Die Aufgaben habe ich als Kacheln in einem Diagramm festgehalten und sie farblich den Aufgabenbereichen zugeordnet (siehe @gateway_tasks).
+
+Mit den definierten Aufgaben wurde die weitere Planung vorgenommen.
+Im weiteren Verlauf der Planung wurden die Abhängigkeiten zwischen den Aufgaben, sowie die Phasen, in die das Projekt unterteilt wurde, hinzugefügt (siehe die nächsten KCIs).
 
 ==== *04.05.04.02* Arbeitsaufwand und Dauer von Aktivitäten festlegen
-Der Arbeitsaufwand für die einzelnen Pakete wurde nicht näher eingeschätzt.
-Mein Ansatz war in umgekehrter Richtung:
-Arbeitspakete wurden so definiert, dass ihre Umsetzung jeweils maximal 3 Arbeitstage in Anspruch nimmt.
+Für alle Aufgaben musste identifiziert werden, wer die Aufgaben umsetzen sollte.
 
-Einzige Ausnahme hierfür sind die #glossary("optadata_focus") Arbeitspakete, deren Umsetzung in der Hand unseres Kunden #glossary("optadata") lag.
-Der Aufwand wurde für diese von uns nicht eingeschätzt.
-Stattdessen haben wir uns mit #glossary("optadata") auf eine Deadline geeinigt, zu der die Pakete fertig sein müssen.
+Für alle Aufgaben habe ich zwei Aspekte überprüft:
+- In welchem System müssen Anpassungen vorgenommen werden?
+- Wird für die Aufgabe spezielles Wissen benötigt, und wenn ja, welches?
+#v(-10pt)
+Aus den Antworten auf die erste Fragen konnte ich zunächst ableiten welche Aufgaben von der #glossary("optadata") umzusetzen waren (da sie Änderungen am #glossary("optadata_focus") System erforderten).
+Alle restlichen Aufgaben waren durch uns umzusetzen.
+Dabei musste ich, gemäß den Antworten auf die zweite Frage, die Aufgaben denjenigen Entwicklern zuordnen, die über das nötige Spezialwissen verfügen.
+Beispielsweise erforderten die Aufgaben bzgl. des Admin-Interfaces, dass der Entwickler sich mit unserer selbstentwickelten Management-Plattform auskennt, um das Interface dort korrekt einzubauen.
+
+Mit der Zuordnung der Aufgaben konnte ich zum einen sehr schnell und klar dem Kunden kommunizieren welchen Aufgaben er nachkommen muss, und ich konnte mit unserer Geschäftsführung die Verfügbarkeiten unserer Entwickler abklären.
 
 ==== *04.05.04.03* Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen
-Das Projekt wurde in 3 Phasen bearbeitet:
-- Spezifikationsphase: _Festlegung der Gateway-Endpoint Details_
-- Aufbau des Gateways: _Bereitstellung des Gateway-Servers mit den Gateway-Endpoints_
-- Testing & Fine-Tuning: _Integrations-Test des vollen Schnittstellenprozesses_
-Zu jeder Phase wurde mit der #glossary("optadata") ein Meilenstein vereinbart, der von beiden Seiten einzuhalten war.
+Für die Umsetzung und eindeutige Kommunikation mit dem Kunden, waren die Phasen des Projektes festzulegen.
+
+Ich habe das Projekt in 4 Phasen unterteilt:
+- Spezifikationsphase: _Design der Gateway-Endpoint Spezifikationen_
+- Aufbau eines Test-Gateways: _Bereitstellung des Gateway-Servers inkl. aller Endpoints mit vorläufigen Beispieldaten_
+- Umsetzung der Backend-Logik: _Implementierung der tatsächlichen Logik innerhalb aller Endpoints_
+- Testing & Fine-Tuning: _Gemeinsamer Integrations-Test des vollen Schnittstellenprozesses_
+Der Abschluss jeder Phase stellte dabei einen Meilenstein dar, für den ich mit der #glossary("optadata") eine Deadline vereinbart habe.
+
+Dank der groben Phasenplanung konnten wir besser mit der #glossary("optadata") koordinieren.
+Anhand der Phasenplanung wurden alle weiteren (Detail-)Schritte definiert.
+Siehe auch @gateway_tasks, in der die Phasen übergreifend mit abgebildet sind.
 
 ==== *04.05.04.04* Abfolge der Projektaktivitäten bestimmen und einen Ablauf- und Terminplan erstellen
-Die Reihenfolge, vorgegeben durch die Abhängigkeiten der Pakete untereinander, wurde direkt zusammen mit der Definition der Arbeitspakete festgehalten und in dieselbe Darstellung (@gateway_tasks) mit eingebaut.
-Die Arbeitspakete wurden in der Reihenfolge ihrer Abhängigkeiten abgearbeitet.
-Ein konkreter Terminplan wurde nicht erstellt, da die Termine der Meilensteine mehr als genug Puffer für die Umsetzung belassen haben, dass wir eine engere Kontrolle nicht für notwendig erachtet haben.
+Einige der Aufgaben, z.B. die Bereitstellung von Testdaten, konnten erst umgesetzt werden, wenn andere Aufgaben zuvor erledigt wurden (Im Fall des Beispiels die Bereitstellung des Gateway-Servers mit entsprechenden Endpoints).
 
-==== *04.05.04.05* Fortschritt anhand des Terminplans überwachen und notwendige Anpassungen vornehmen
-Der Fortschritt im Projekt wurde direkt anhand der Arbeitspakete ermittelt.
-Zum Abschluss eines Arbeitspaketes habe ich überprüft, ob die verbleibende Zeit bis zum entsprechenden Meilenstein noch ausreicht, um die notwendigen Arbeitspakete abzuschließen (ausgehend von der Plandauer von 3 Tagen pro Paket).
-Da dies zu jedem Zeitpunkt der Fall war, waren keine Anpassungen notwendig, um die Meilensteine einzuhalten.
+Für alle Aufgaben im Projekt waren die Abhängigkeiten untereinander zu bestimmen.
+
+Für jede Aufgabe habe ich, im Rahmen der Definition der Aufgabe, bereits festgehalten welche Vorbedingungen erfüllt sein müssen, damit die Aufgaben beginnen kann, z.B.:
+- Implementierung Gateway-Logik: _Gateway-Framework muss fertiggestellt sein_
+- Admin-Interface für die Verwaltung deployen & testen: _alle internen Gateway-Endpoints sind fertiggestellt, deployed und getestet_
+#v(-10pt)
+Anhand der Vorbedingungen konnte ich bestimmen welche Aufgaben erledigt sein müssen (bzw. genauer welche Ergebnisse aus welchen Aufgaben geliefert worden sein müssen), damit die betrachtete Aufgabe beginnen kann.
+Diese Verhältnisse habe ich in Form eines Ablaufdiagramms festgehalten (siehe @gateway_tasks).
+
+Die fertige Ablaufplanung diente für die Umsetzung des Projektes als leitende Referenz und de facto Todo-Liste.
+
+==== #strike[*04.05.04.05* Fortschritt anhand des Terminplans überwachen und notwendige Anpassungen vornehmen]
 
 #pagebreak()
 === #TODO 04.05.05 Organisation, Information und Dokumentation
@@ -792,6 +815,7 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 #todo("Graphik nochmal als Vektor-Graphik bauen")
 #figure(caption: "Design des QRS im Überblick", image("QRS_design.pdf"))<qrs_design>
 
+#todo("Gateway Tasks überarbeiten: Aufgaben checken, Phasen einbauen")
 #figure(caption: "", image("optadata_gateway_tasks.svg"))<gateway_tasks>
 
 #[]<appendix_numbering_end>
