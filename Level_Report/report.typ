@@ -163,6 +163,10 @@ Die Audoora GmbH ist ein IT-Startup aus Köln, das sich auf die Hörgerätebranc
 Das Unternehmen entwickelt maßgeschneiderte Softwarelösungen für Hörgeräteakustiker und unterstützt bei der Digitalisierung und Optimierung von Geschäftsprozessen.
 Die Audoora GmbH steht zudem im Zentrum des Netzwerk Hörgesundheit, einem Zusammenschluss von Unternehmen und Personen, die einen gesamtheitlichen Ansatz für den Erhalt und Wiederaufbau von Hörgesundheit verfolgen.
 
+Die Geschäftsführung der Audoora GmbH besteht aus #glossary("sebastian") und #glossary("nils_long").
+Mit letzterem hatte ich im Rahmen meiner Aufgaben sehr viel Kontakt.
+Im weiteren Verlauf des Reports wird er oft und nur mit Vornamen erwähnt.
+
 Die politische Situation innerhalb der Hörakustik-Branche, insbesondere bezogen auf das Produktdaten-Programm, war recht angespannt.
 Die Hörakustik-Branche wird von einigen großen Herstellern und Einkaufsgemeinschaften dominiert, die mit ihren aktuellen Geschäftsmodellen sehr hohe Margen erzielen.
 Ein Teil ihrer Strategie ist der streng überwachte und intransparente Umgang mit den Detaildaten zu Geräten und Zubehör.
@@ -422,43 +426,46 @@ Die fertige Ablaufplanung diente für die Umsetzung des Projektes als leitende R
 ==== #strike[*04.05.04.05* Fortschritt anhand des Terminplans überwachen und notwendige Anpassungen vornehmen]
 
 #pagebreak()
-=== #TODO 04.05.05 Organisation, Information und Dokumentation
-#todo("Überarbeiten")
+=== 04.05.05 Organisation, Information und Dokumentation
+Für das gesamte Programm habe ich mich zu Beginn im Rahmen der Übergabe mit der Geschäftsführung zusammengesetzt, um die Details der Zusammenarbeit zu klären.
+Ein Teil dieser Gespräche war die Klärung der verwendeten Informations- und Kommunikationsstrukturen.
+
 ==== *04.05.05.01* Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen
-Primärer Stakeholder für das gesamte Programm war unsere Geschäftsführung, mit der ich eng zusammengearbeitet habe, um das Ganze auf die Beine zu stellen.
-Die Geschäftsführung wollte dabei möglichst wenig in den Details involviert sein, hatte aber dennoch ein hohes Interesse am Status der verschiedenen Projekte.
-Aus diesem Grund haben wir uns zu Beginn zusammengesetzt und ausdefiniert, dass ich im bereits üblichen täglichen Meeting über akute Probleme oder Hindernisse berichte und alles weitere in regelmäßigen Meetings alle 2 bis 4 Wochen besprochen wird.
-Die konkreten Arbeitspakete und ihren Fortschritt habe ich über #glossary("notion") getracked, dieselbe Managementplattform die wir bereits in allen anderen Projekten verwendet haben.
+Im Rahmen der initialen Planung waren die verschiedenen (formellen und informellen) Kommunikationsarten festzulegen und einzuführen.
+
+Für das Programm selbst war lediglich die Geschäftsführung zu informieren.
+Dazu habe ich mich mit dieser zusammen ausdefiniert, in welcher Form und Häufigkeit der Informationsaustausch stattfinden sollte.
+Akute Probleme oder Hindernisse wurden in unserem bereits etablierten täglichen Meeting behandelt (nach Bedarf mit dedizierten Folge-Meetings).
+Für allgemeine Status-Updates, sowie alle Themen, die von geringerer Dringlichkeit waren, haben wir einen 2 bis 4-wöchigen Regeltermin eingeführt.\
+Die Dokumentation, sowohl für das Projektmanagement, als auch die Projektinhalte, habe ich in eigens dafür angelegten Bereichen in unserer bereits etablierten Plattform für Wissensmanagement, #glossary("notion"), abgelegt.
+
+Über die festgelegten Kommunikationswege konnten wir im Laufe des gesamten Programms stets zügig und effizient über alle anstehenden Themen kommunizieren.
 
 ==== *04.05.05.02* Struktur, Rollen und Verantwortlichkeiten im Projekt definieren
-Von der Geschäftsführung wurde mir die Gesamtverantwortung für den gesamten Bereich "Produktdaten" übertragen.
-Allgemein sind wir im Unternehmen Aufgaben sehr oft kollaborativ angegangen, d.h. Verantwortung für Aufgaben wurde nicht auf Einzelpersonen übertragen, sondern auf mehrere Personen zusammen (in den allermeisten Fällen Personenpaare).
-Da sich dieser Ansatz in der Vergangenheit bewährt hatte, haben wir entschieden für das Programm nichts Neues aufzusetzen, sofern sich nicht ein konkreter Bedarf auszeichnet.
-Ich war zwar für die Umsetzung der Leistungen in den mir übertragenen Projekten alleine verantwortlich, die Planung der Leistungen, sowie die Zeit- und Budget-Ziele, wurden jedoch in gewohnter Manier kollaborativ verantwortet (in diesem Fall zusammen mit einem der Geschäftsführer).
+Es galt die konkreten Verantwortlichkeiten zu verteilen.
+
+Allgemein sind wir im Unternehmen Aufgaben meist kollaborativ angegangen, d.h. Verantwortung für Aufgaben wurde nicht auf Einzelpersonen übertragen, sondern auf mehrere Personen zusammen (in den allermeisten Fällen Personenpaare).
+Da sich dieser Ansatz in der Vergangenheit bewährt hatte, haben wir entschieden ihn für das Programm mit zu übernehmen.
+Konkret hieß das, dass ich die Planung der einzelnen Projekte in Leistungen, Zeit und Budget meist kollaborativ mit einem der Geschäftsführer im Vier-Augen-Prinzip durchgeführt habe.
+Die Verantwortung für die tatsächliche Umsetzung und Überwachung derselben lag wiederum bei mir allein.
+
+Durch die geteilten Verantwortlichkeiten konnten wir sicherstellen, dass Blind-Spots früher erkannt wurden.
+Auch haben wir damit sichergestellt, dass alle Ideen und Ansätze robuster waren und es in der praktischen Umsetzung durch Abwesenheiten o.ä. nicht zu Verzögerungen kam.
 
 ==== *04.05.05.03* Infrastruktur, Prozesse und Informationssysteme aufbauen
-Projekte wurden allgemein in #glossary("notion") geplant und überwacht.
-Dabei wurde sehr klar zwischen internen und externen Projekten unterschieden.
-Für externe Projekte, also solche, die einen Kunden haben, dem das Projekt in Rechnung gestellt wird, wurde je ein eigener Bereich in #glossary("notion") angelegt.
-Für diese Bereiche, sowie das gesamte Dokumentations- und Berichtswesen, gab es fertige Templates, die für jedes Projekt zum Einsatz kamen.
-Diese Templates wurden für externe Projekte unter meiner Verwantwortung ohne Veränderung übernommen.
+Es war sicherzustellen, dass redundante Informationen begrenzt und/oder vermieden werden.
 
-Für interne Projekte wurden keine eigenen Bereiche angelegt.
-Stattdessen wurden diese gesammelt in einem Bereich verwaltet, in dem unserer Geschäftsführung auch ihre strategische Planung vornahm.
-Die einzelnen Arbeitspakete wurden pro Mitarbeiter in einem allgemeinen Kanban-Board verwaltet.
-Für die internen Projekte, die ich verantwortet habe, habe ich selbstständig eigene Bereiche angelegt, um dort vor allem die Dokumentation und Hierarchie der Arbeitspakete zu verwalten.
-Die Arbeitspakete selbst wurden weiterhin im allgemeinen Kanban-Board gepflegt, um den bestehenden (stress-getesteten) Prozess so wenig wie möglich anzupassen.
+Alle Programme & Projekte im Unternehmen wurden in #glossary("notion") geplant und überwacht.
+#glossary("notion") ist in der Erstellung eigener Datenstrukturen und -hierarchien sehr flexibel und ermöglicht umfassende Querverlinkungen zwischen hinterlegten Inhalten.
+Den Großteil der Plattform habe ich zusammen mit #glossary("nils") eingerichtet und verwaltet.
+Dabei haben wir darauf geachtet, dass jede Information einen klaren Ort hat, an den sie gehört.
+Mittels Querverlinkungen konnten wir die Information dann an allen Orten verfügbar machen, wo sie gebraucht wurde.\
+Da #glossary("notion") die Basis unserer gesamten Kommunikation im Unternehmen darstellte, haben wir damit zusätzlich erreicht, dass Informationen nicht redundant kommuniziert wurden.
+In allen Nachrichten, Berichten und Besprechungen wurden nur die Links auf die entsprechenden Seiten in #glossary("notion") verteilt, alles weitere wurde in #glossary("notion") festgehalten.
 
-==== *04.05.05.04* Organisation des Projekts implementieren, überwachen und anpassen
-In regelmäßigen Meetings (alle 2-4 Wochen) zwischen der Geschäftsführung und mir, haben wir unter anderem meine Arbeitsweise und die allgemeine organisatorische Struktur der Projekte unter meiner Verantwortung näher beleuchtet.
-Probleme oder Risiken, die dabei (oder zuvor im Verlaufe der Projekte) aufgefallen sind, wurden im Gespräch näher erörtert und daraus Maßnahmen abgeleitet.
+Durch die Verwendung von #glossary("notion"), sowie unsere fortlaufende Optimierung unserer Seiten und Templates darin, kam es nur selten zu Fehlkommunikationen oder Missverständnissen.
 
-Beispielsweise kam an einem Punkt auf, dass ich die Geschäftsführung nicht hinreichend über den Status der Projekte informiert habe.
-Dadurch entstand bei der Geschäftsführung der Eindruck, dass es in den Projekten nicht voran gehen würde.
-Nachdem wir, wie oben beschrieben, das Problem in einem unserer Meetings unter die Lupe genommen hatten, konnten wir identifizieren, dass das Problem in meiner Dokumentation der Fortschrittskontrolle lag.
-Konkreter habe ich Fortschritte innerhalb der Projekte zwar sinnvoll beurteilt, aber aufgrund der Art, wie ich die Arbeitspakete in #glossary("notion") hinterlegt habe, waren diese nicht klar sichtbar.
-Ich haben daraufhin weitere Metadaten an alle Arbeitspakete gehängt.
-Über diese konnte die Geschäftsführung dann die Fortschritte klar nachvollziehen.
+==== #strike[*04.05.05.04* Organisation des Projekts implementieren, überwachen und anpassen]
 
 #pagebreak()
 === #TODO 04.05.06 Qualität

@@ -28,7 +28,25 @@
   sonimatik: (link(<gl_sonimatik>, [_Sonimatik GmbH_]), [Sonimatik GmbH <gl_sonimatik>], [
     Hersteller von Software-Lösungen für die Hörakustik-Branche\
     Gehört zur MediTrend-Gruppe und fungiert de facto als deren IT-Abteilung
-  ],),
+    ],
+  ),
+  nils: (
+    link(<nils>, [Nils]),
+    [Nils Sonnenfroh <nils>],
+    [Einer der beiden Geschäftsführer der Audoora GmbH\
+      Hauptverantwortlich für alle HR und IT Themen im Unternehmen],
+  ),
+  nils_long: (
+    link(<nils>, [Nils Sonnenfroh]),
+    none,
+    none,
+  ),
+  sebastian: (
+    link(<sebastian>, [Sebastian Garcia-Dennemark]),
+    [Sebastian Garcia-Dennemark <sebastian>],
+    [Einer der beiden Geschäftsführer der Audoora GmbH\
+      Hauptverantwortlich für Vertrieb, Marketing und Eventplanung],
+  ),
 )
 
 #let glossary(name) = {
