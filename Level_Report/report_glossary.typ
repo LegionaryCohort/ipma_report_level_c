@@ -57,10 +57,20 @@
         none,
     ),
     sebastian: (
-        link(<sebastian>, [Sebastian Garcia-Dennemark]),
+        link(<sebastian>, [Sebastian]),
         [Sebastian Garcia-Dennemark <sebastian>],
         [Einer der beiden Geschäftsführer der Audoora GmbH\
             Hauptverantwortlich für Vertrieb, Marketing und Eventplanung],
+    ),
+    sebastian_long: (
+        link(<sebastian>, [Sebastian Garcia-Dennemark]),
+        none,
+        none,
+    ),
+    python: (
+        link(<python>, [_Python_]),
+        [Python <python>],
+        [Eine Programmiersprache, die sich durch hohe Entwicklungsgeschwindigkeit und weiten Community-Support auszeichnet],
     ),
 )
 

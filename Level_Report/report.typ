@@ -159,9 +159,9 @@ Die Audoora GmbH ist ein IT-Startup aus Köln, das sich auf die Hörgerätebranc
 Das Unternehmen entwickelt maßgeschneiderte Softwarelösungen für Hörgeräteakustiker und unterstützt bei der Digitalisierung und Optimierung von Geschäftsprozessen.
 Die Audoora GmbH steht zudem im Zentrum des Netzwerk Hörgesundheit, einem Zusammenschluss von Unternehmen und Personen, die einen gesamtheitlichen Ansatz für den Erhalt und Wiederaufbau von Hörgesundheit verfolgen.
 
-Die Geschäftsführung der Audoora GmbH besteht aus #glossary("sebastian") und #glossary("nils_long").
+Die Geschäftsführung der Audoora GmbH besteht aus #glossary("sebastian_long") und #glossary("nils_long").
 Mit letzterem hatte ich im Rahmen meiner Aufgaben sehr viel Kontakt.
-Im weiteren Verlauf des Reports wird er oft und nur mit Vornamen erwähnt.
+Im weiteren Verlauf des Reports werden beide nur mit Vornamen genannt.
 
 Die politische Situation innerhalb der Hörakustik-Branche, insbesondere bezogen auf das Produktdaten-Programm, war recht angespannt.
 Die Hörakustik-Branche wird von einigen großen Herstellern und Einkaufsgemeinschaften dominiert, die mit ihren aktuellen Geschäftsmodellen sehr hohe Margen erzielen.
@@ -250,17 +250,64 @@ Entsprechend haben wir in unserer Kommunikationsstrategie eingeplant damit umzug
 #todo("Schreiben")
 
 #pagebreak()
-=== #TODO 04.05.01 Projektdesign
+=== 04.05.01 Projektdesign
 ==== *04.05.01.01* Erfolgskriterien anerkennen, priorisieren und überprüfen
-#todo("Schreiben")
+Das Produktdatenprogramm zielte als strategisches Programm darauf ab unsere politische Position innerhalb der Branche zu stärken und parallel neue Partner zu gewinnen.
+
+Um das Programm zum Erfolg führen zu können, galt es sowohl formelle als auch informelle Erfolgskriterien zu erkennen und beurteilen.
+
+Die Erfolgskriterien bezogen auf die Gewinnung neuer Partner konnte ich direkt aus dem Wachstum unseres Netzwerks ableiten.
+Die weiteren Erfolgskriterien waren hingegen schwieriger zu beurteilen.
+Die politische Situation innerhalb der Branche ist an und für sich bereits eine eher ungreifbare Sache, bei der wir (#glossary("sebastian"), #glossary("nils") und Ich) uns viel auf unser Gefühl verlassen mussten.
+Konkreter einschätzen konnten wir das Ganze, indem wir den regelmäßigen Austausch mit den anderen Unternehmen in der Branche gesucht haben.
+Darüber konnten wir oft am Rande über neue Entwicklungen erfahren und die Positionen und Pläne der (potentiellen) Konkurrenz einschätzen.
+
+Über unsere laufende Beurteilung der Situation innerhalb der Branche konnten wir oft frühzeitig auf neue Entwicklungen reagieren.
+Gerade als kleineres Startup war diese Fähigkeit zeitweise überlebenswichtig für das Unternehmen.
+
 ==== *04.05.01.02* Lessons Learned aus --und mit-- anderen Projekten überprüfen, anwenden und austauschen
-#todo("Schreiben")
+Einige Zeit nach Abschluss des #abbr("qrs") Projektes, wollten wir unser Produktdatenmanagementsystem erneut erweitern, diesmal um ein umfangreiches Import-Modul, das den Import von Neu-Daten erheblich erleichtern sollte.
+
+In der Planung des Projektes galt es die Lessons Learned, insb. aus dem #abbr("qrs") Projekt, mit einzubeziehen entsprechende Maßnahmen umzusetzen.
+
+Das Produktdatenmanagementsystem ist in #glossary("python") geschrieben.
+Im Abschluss des #abbr("qrs") Projektes habe ich unter anderem als Lesson Learned festgehalten, dass #glossary("python")s dynamisches Type-System wiederholt zu Fehlern in der Implementierung geführt hat.
+#glossary("python") bietet seit Version 3.5 Type-Hinting an, um diesem Problem entgegenzuwirken.
+Für das nun anstehende Projekt habe ich dementsprechend die umfassende Verwendung von Type-Hinting als Code-Vorgabe mit aufgenommen.
+
+Im Laufe des Projektes sind erheblich weniger Fehler der Kategorie aufgetreten, die aufgrund von dynamischen Type-Systemen entstehen könnnen.
+
 ==== *04.05.01.03* Projektkomplexität und ihre Konsequenzen für den Projektmanagementansatz bestimmen
-#todo("Schreiben")
+Ganz zu Beginn des #abbr("qrs") Projektes war noch gar nicht klar, dass wir ein solches System entwickeln würden.
+Vielmehr hatten wir im täglichen Umgang mit unseren Produktdatenkatalogen immer wieder festgestellt, dass sich darin Datenfehler wiederfanden.
+Daraus hatten wir abgeleitet, dass wir ein Projekt aufsetzen sollten, um diesen entgegenzuwirken.
+Die Zielsetzung ("Datenfehler in unserer Datenbank frühzeitig erkennen und korrigieren") stand dabei schnell fest, nicht jedoch wie das Ganze in der Praxis am Ende aussehen sollte.
+
+Den Mangel an Klarheit über das Ergebnis habe ich als Komplexitätstreiber erkannt.
+
+Konkret war mir klar, dass wir ohne ein klares Konzept des Ergebnisses hier viel Zeit und Energie in den Sand setzen könnten.
+Ich habe mich daher mit #glossary("nils") nochmal zusammengesetzt und genauer ausgearbeitet was die konkrete Funktionalität des Endproduktes sein sollte, um sowohl das Kernziel zu erfüllen, als auch in der Praxis sinnvoll verwendbar zu sein.
+Dabei wurde klar, dass eine Integration des neuen Systems in unsere bestehende Management-Plattform unabdingbar sein würde.
+Da diese nochmals spezielle Anforderungen bzgl. der Implementierung aufweist, ergab sich hierdurch nochmals zusätzliche Komplexität im Projekt, die es zu managen galt.
+
+Über die frühzeitige Erkennung der Komplexitätstreiber, sowie die frühe Adressierung derselben in unseren Planungsmeetings, konnten wir den Umfang und Aufwand des Projektes vor Beginn besser einschätzen und steuern.
+Die spätere Umsetzung verlief angenehmen flüssig, da keine nennenswerten Überraschungen aufgrund von übersehener Komplexität aufgetreten sind.
+
 ==== *04.05.01.04* Generellen Projektmanagementansatz auswählen und anpassen
-#todo("Schreiben")
-==== *04.05.01.05* Konzept für die Projektdurchführung entwerfen, überwachen und anpassen
-#todo("Schreiben")
+Das Produktdatenprogramm lief über einen recht langen Zeitraum.
+Da wir uns als Unternehmen laufend weiterentwickeln wollten, haben wir dies beim Aufsetzen des Programmes selbstverständlich mit berücksichtigt.
+
+Für das Programm sollte der Managementansatz und die angewendeten Methoden laufend reflektiert und nach Bedarf angepasst werden.
+
+Im Laufe meiner Zeit bei der Audoora GmbH habe ich, unabhängig vom Produktdatenprogramm,  mit unseren Entwicklern in regelmäßigen Abständen Gespräche geführt, in denen wir über ihre Arbeit und vor allem ihre Zufriedenheit im Unternehmen gesprochen haben.
+Da diese Gespräche insgesamt ein großer Erfolg waren, haben #glossary("nils") und ich dasselbe Format für uns selbst übernommen und derartige Gespräche miteinander geführt.
+Dabei haben wir vermehrt den Fokus darauf gelegt unsere jeweilige Arbeitsweise näher zu beleuchten.
+Für Probleme, die wir dabei identifizieren konnten, haben wir im Rahmen des Gespräches Lösungen entwickelt und diese anschließend umgesetzt.
+
+Durch unsere regelmäßigen Reflektionen unserer eigenen Arbeitsweise konnten wir wiederholt Anpassungen vornehmen, um unsere Effizienz zu steigern.
+Beispielsweise haben wir die Art und Weise überarbeitet, wie der Status von Arbeitspaketen in #glossary("notion") festgehalten wird, damit wir schneller überblicken können, in welchem Test- & Deployment-Status sich bestimmte Features befinden.
+
+==== #strike[*04.05.01.05* Konzept für die Projektdurchführung entwerfen, überwachen und anpassen]
 
 #pagebreak()
 === 04.05.02 Anforderungen und Ziele
