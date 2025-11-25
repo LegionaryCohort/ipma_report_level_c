@@ -14,119 +14,115 @@
 #set text(size: 11pt, lang: "de")
 
 #{
-  set align(center)
+    set align(center)
 
-  text(size: 30pt)[*Report*]
-  v(0cm)
-  text(size: 18pt)[_zum Erlangen des_]
-  v(0cm)
-  text(size: 22pt)[*IPMA ICB 4.0 Zertifikats*]
-  v(0cm)
-  text(size: 18pt)[_Projektmanagement - Level C_]
-  v(1cm)
-  text(size: 22pt)[Zertifikant - Mario Treiber]
+    text(size: 30pt)[*Report*]
+    v(0cm)
+    text(size: 18pt)[_zum Erlangen des_]
+    v(0cm)
+    text(size: 22pt)[*IPMA ICB 4.0 Zertifikats*]
+    v(0cm)
+    text(size: 18pt)[_Projektmanagement - Level C_]
+    v(1cm)
+    text(size: 22pt)[Zertifikant - Mario Treiber]
 
-  v(2cm)
-  set text(size: 15pt)
-  grid(
-    columns: (1fr, 2fr),
-    align: (left, right),
-    row-gutter: 10pt,
-    [*Angestrebtes Level*],
-    [*Level C*],
-    [IZR-Nummer],
-    [26-200],
-    [Prüfungsdatum],
-    [14.--16. Jan 2026],
-    [Prüfungsort],
-    [Online],
-  )
+    v(2cm)
+    set text(size: 15pt)
+    grid(
+        columns: (1fr, 2fr),
+        align: (left, right),
+        row-gutter: 10pt,
+        [*Angestrebtes Level*], [*Level C*],
+        [IZR-Nummer], [26-200],
+        [Prüfungsdatum], [14.--16. Jan 2026],
+        [Prüfungsort], [Online],
+    )
 
-  v(1fr)
-  [
-    Version #report_version\
-    #report_date
-  ]
-  v(1fr)
-  set text(size: 11pt)
-  grid(
-    columns: 2,
-    align: (left, right),
-    column-gutter: 1cm,
-    row-gutter: 10pt,
-    grid.cell(colspan: 2, align: center, text(size: 15pt, "Mario Treiber")),
-    [E-Mail],
-    [#link("mailto:mariotreiber@gmail.com")],
-    [Tel.],
-    [+49 176 39297462],
-  )
-  v(1fr)
+    v(1fr)
+    [
+        Version #report_version\
+        #report_date
+    ]
+    v(1fr)
+    set text(size: 11pt)
+    grid(
+        columns: 2,
+        align: (left, right),
+        column-gutter: 1cm,
+        row-gutter: 10pt,
+        grid.cell(colspan: 2, align: center, text(size: 15pt, "Mario Treiber")),
+        [E-Mail],
+        [#link("mailto:mariotreiber@gmail.com")],
+        [Tel.],
+        [+49 176 39297462],
+    )
+    v(1fr)
 
-  pagebreak()
+    pagebreak()
 }
 
 #{
-  show heading.where(level: 1): set align(center)
+    show heading.where(level: 1): set align(center)
 
-  [= Änderungshistorie]
-  show table.cell.where(y: 0): set text(weight: "bold")
-  table(
-    columns: (1.7cm, 2cm, 1fr, 1.6cm),
-    table.header("Version", "Datum", "Änderung", "Seite/n"),
-    "",
-    "",
-    "",
-    "",
-  )
+    [= Änderungshistorie]
+    show table.cell.where(y: 0): set text(weight: "bold")
+    table(
+        columns: (1.7cm, 2cm, 1fr, 1.6cm),
+        table.header("Version", "Datum", "Änderung", "Seite/n"),
+        "", "", "", "",
+    )
 
-  pagebreak()
+    pagebreak()
 
-  show outline.entry: it => {
-    if it.element.numbering == none {
-      link(it.element.location(), it.indented(it.prefix(), [#h(11pt)#it.body()]))
-    } else {
-      it
+    show outline.entry: it => {
+        if it.element.numbering == none {
+            link(it.element.location(), it.indented(it.prefix(), [#h(11pt)#it.body()]))
+        } else {
+            it
+        }
     }
-  }
-  outline(title: [
-    Inhaltsverzeichnis
-    #v(10pt)
-  ], depth: 3)
+    outline(
+        title: [
+            Inhaltsverzeichnis
+            #v(10pt)
+        ],
+        depth: 3,
+    )
 }
 
 #let page_footer(numbering_end) = context {
-  set text(size: 9pt)
-  line(length: 100%)
-  grid(
-    columns: (1.5cm, 1.5cm, 1fr, 3cm),
-    rows: 0.75cm,
-    align: (left, left, center, right),
-    [Version\ #report_version],
-    [Datum\ #report_date],
-    [Report - Projektmanagement Level C\ Mario Treiber],
-    [
-      Seite #counter(page).display(page.numbering)/#numbering(page.numbering, ..counter(page).at(numbering_end))
-    ],
-  )
+    set text(size: 9pt)
+    line(length: 100%)
+    grid(
+        columns: (1.5cm, 1.5cm, 1fr, 3cm),
+        rows: 0.75cm,
+        align: (left, left, center, right),
+        [Version\ #report_version],
+        [Datum\ #report_date],
+        [Report - Projektmanagement Level C\ Mario Treiber],
+        [
+            Seite #counter(page).display(page.numbering)/#numbering(page.numbering, ..counter(page).at(numbering_end))
+        ],
+    )
 }
 
 #set page(footer: page_footer(<main_numbering_end>), numbering: "1")
 #set par(justify: true, leading: 0.45em, spacing: 1.5em)
 #set heading(numbering: (..n) => {
-  if n.pos().len() <= 2 {
-    numbering("1.1", ..n)
-  }
+    if n.pos().len() <= 2 {
+        numbering("1.1", ..n)
+    }
 })
-#show heading: it=>{
-  let size = if it.level == 1 { 17pt } else if it.level == 2 { 14pt } else if it.level == 3 { 12pt } else { 11pt }
-  let weight = if it.level >= 4 { "regular" } else { "bold" }
-  let style = if it.level >= 4 { "italic" } else { "normal" }
-  set text(size, weight: weight, style: style)
-  it
-  if it.level >= 4 {
-    v(-10pt)
-    line(length: 100%)
-  }
+#show heading: it => {
+    let size = if it.level == 1 { 17pt } else if it.level == 2 { 14pt } else if it.level == 3 { 12pt } else { 11pt }
+    let weight = if it.level >= 4 { "regular" } else { "bold" }
+    let style = if it.level >= 4 { "italic" } else { "normal" }
+    set text(size, weight: weight, style: style)
+    it
+    if it.level >= 4 {
+        v(-10pt)
+        line(length: 100%)
+    }
 }
 
 #pagebreak()
@@ -332,12 +328,12 @@ Aus diesem Design habe ich die benötigten Systemmodule abgeleitet und die Stukt
 Das gesamte Design im Überblick ist nochmal in @qrs_design visuell dargestellt.\
 Aus diesem Design habe ich folgende Lieferobjekte abgeleitet:
 - Das #abbr("qrs") Framework (zuständig für die gesamte Ausführung von #abbr("qrs")-Reports)
-  - Das Datenbank-Prüf-Modul (zuständig für die Ausführung der Report-Prüfungs-Ablaufe)
-  - Das Report-Protokoll-Modul (zuständig für die Erstellung der Report-Prüf-Protokolle)
-  - Das Import-Modul (zuständig für die Durchführung von Report-Korrektur-Vorgängen)
+    - Das Datenbank-Prüf-Modul (zuständig für die Ausführung der Report-Prüfungs-Ablaufe)
+    - Das Report-Protokoll-Modul (zuständig für die Erstellung der Report-Prüf-Protokolle)
+    - Das Import-Modul (zuständig für die Durchführung von Report-Korrektur-Vorgängen)
 - Mehrere #abbr("qrs")-Reports zu konkreten Qualitätskriterien
-  - Überprüfung von Artikelnummern und #abbr("gtin")s
-  - Überpüfung von Produktverknüpfungen und #abbr("hmv")-Nummern
+    - Überprüfung von Artikelnummern und #abbr("gtin")s
+    - Überpüfung von Produktverknüpfungen und #abbr("hmv")-Nummern
 - Dokumentation zur Verwendung des QRS für die Kollegen, die damit arbeiten sollten
 
 Anhand der definierten Lieferobjekte wurde die weitere Arbeitspaketplanung vorgenommen.
@@ -796,28 +792,35 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 
 #v(1cm)
 #grid(
-  align: horizon,
-  columns: 10cm,
-  rows: 0.6cm,
-  [Elmenhorst, #report_date],
-  grid.hline(),
-  text(size: 9pt, "Ort, Datum, Unterschrift"),
+    align: horizon,
+    columns: 10cm,
+    rows: 0.6cm,
+    [Elmenhorst, #report_date],
+    grid.hline(),
+    text(size: 9pt, "Ort, Datum, Unterschrift"),
 )
 
 #pagebreak()
 
 #show table.cell.where(y: 0): set text(weight: "bold")
 = Abkürzungsverzeichnis
-#table(columns: (1fr, 3fr), stroke: none, table.header("Abkürzung", "Bedeutung"), ..abbr_entries)
-
-= Glossar
 #table(
-  columns: (1fr, 3fr),
-  stroke: none,
-  table.header("Begriff", "Erläuterung"),
-  ..glossary_entries,
+    columns: (1fr, 3fr),
+    stroke: none,
+    table.header("Abkürzung", "Bedeutung"),
+    ..abbr_entries,
 )
 
+#pagebreak()
+= Glossar
+#table(
+    columns: (5cm, 1fr),
+    stroke: none,
+    table.header("Begriff/Name", "Erläuterung"),
+    ..glossary_entries,
+)
+
+#pagebreak()
 = Anhang
 #todo("Graphik nochmal als Vektor-Graphik bauen")
 #figure(caption: "Design des QRS im Überblick", image("QRS_design.pdf"))<qrs_design>
