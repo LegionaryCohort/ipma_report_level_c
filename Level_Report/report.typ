@@ -511,17 +511,75 @@ Durch die Verwendung von #glossary("notion"), sowie unsere fortlaufende Optimier
 ==== #strike[*04.05.05.04* Organisation des Projekts implementieren, überwachen und anpassen]
 
 #pagebreak()
-=== #TODO 04.05.06 Qualität
+=== 04.05.06 Qualität
 ==== *04.05.06.01* Qualitätsmanagementplan für das Projekt entwickeln, die Implementierung überwachen und gegebenenfalls überarbeiten
-#todo("Schreiben")
+Das Projekt für die Implementierung eines Import-Moduls in unser Produktdatensystem beinhaltet viel Entwicklung mit der Programmiersprache #glossary("python").
+Aus der Erfahrung aus vergangenen Projekten heraus war bekannt, dass es im Rahmen der Entwicklung mit #glossary("python") häufiger zu Type-Fehlern, einer bestimmten Klasse von Programmierfehlern, kommen kann.
+
+Um dem vorzubeugen waren Qualitätsmaßnahmen zu definieren und einzuführen.
+
+#glossary("python") bietet seit Version 3.5 Type-Hinting an, ein Werkzeug das dabei hilft Type-Fehler zu vermeiden.
+Für das nun anstehende Projekt habe ich dementsprechend die umfassende Verwendung von Type-Hinting als Code-Vorgabe mit aufgenommen.
+Konkret habe ich ein Tool vorgegeben, das den gesamten Sourcecode des Projektes  analysiert, dabei die besagten Type-Hints berücksichtigt und potentielle Type-Fehler hervorhebt.
+Jegliche Fehlermeldungen und Warnungen des Tools waren durch Anpassung des Codes zu beheben, damit der betroffene Code akzeptiert wird.
+
+Durch die strikte Einhaltung dieser Vorgaben, sind im Laufe des Projektes erheblich weniger Type-Fehler aufgetreten.
+
 ==== *04.05.06.02* Projekt mit seinen Lieferobjekten überprüfen, um sicherzustellen, dass sie die Anforderungen des Qualitätsmanagementplans weiterhin erfüllen
-#todo("Schreiben")
+Für das Schnittstellenprojekt zum ERP-System #glossary("optadata_focus") musste mit dem Kunden abgeklärt werden, wie wir die Qualität der von uns entwickelten Endpoints sicherstellen wollen.
+
+Dazu musste festgelegt werden, wie die Qualitätsziele des Projekts kommuniziert werden.
+
+Da es sich bei der Frage nach der Qualität hauptsächlich um die Endpoints drehte, habe ich dem Kunden angeboten, dass wir vorweg eine eindeutige Spezifikation für alle Endpoints erstellen.
+Diese würden wir dann sowohl in unseren eigenen Tests, als auch den vereinbarten gemeinsamen Tests, verwenden, um sicherzustellen, dass alle Endpoints sich wie von beiden Seiten vereinbart verhalten.
+
+Mithilfe der Spezifikationen konnten wir alle Tests reibungslos durchführen und auch im Vorfeld schon einige Detailfragen sicher aus dem Weg räumen.
+
 ==== *04.05.06.03* Erreichung der Qualitätsziele des Projekts verifizieren und erforderliche korrektive und/oder präventive Maßnahmen empfehlen
-#todo("Schreiben")
+Im Rahmen der Entwicklung des #abbr("qrs") wurden wiederholt Tests mit Test-Daten durchgeführt, wobei die Testdaten gezielte Fehlerklassen abgebildet haben, die von den entsprechenden Reports erkannt werden sollten.
+Dabei kam es vor, dass ein Report eine bestimmte Fehlerklasse nur unvollständig ermittelt hat.
+Konkret war das Problem, dass wenn ein Produkt mit Varianten (z.B. verschiedene Farb-Ausführungen) einen Datenfehler in mehreren Varianten aufwies, dann sollte der Report auch alle Fehler in den Varianten erkennen und melden.
+Dies war nicht der Fall, es wurde lediglich einer der Fehler erkannt und gemeldet.
+
+Für den beschriebenen Fehler galt es eine Fehler-Ursachen-Analyse durchzuführen.
+
+Anhand der betroffenen Daten, konnten wir die möglichen Ursachen des Fehlers einschränken und den Teil des Codes, der für diese Art von Daten zuständig war, isolieren.
+Anschließend haben wir mithilfe der Test-Daten den genauen Codepfad rekonstruiert.
+Mithilfe dieser Rekonstruktion konnten wir ermitteln, dass die Fehlererkennung selbst einwandfrei funktionierte.
+Vielmehr war das Problem, dass die fehlerhaften Daten, die nicht erkannt wurden, nie in der Fehlerüberprüfung ankamen.
+Diesen Umstand konnten wir, ebenfalls mithilfe der Codepfad-Analyse, dahin zurückverfolgen, dass die Fehleranalyse für die Varianten eines Produktes abgebrochen wurde, sobald ein Fehler in einer Variante gefunden wurde.
+
+Durch die Fehler-Ursachen-Analyse konnte die konkrete Ursache ermittelt und behoben werden. Der Report hat anschließend den Anforderungen entsprechend funktioniert.
+
 ==== *04.05.06.04* Validierung von Projektergebnissen planen und organisieren
-#todo("Schreiben")
+Das #abbr("qrs") war ausschließlich für die Verwendung durch interne Mitarbeiter vorgesehen.
+
+Um sicherzustellen, dass das System den Anforderungen der Endanwender entsprach, war eine Validierung der Projektergebnisse durchzuführen.
+
+Für die Sicherstellung der Qualität in unseren Projekten, haben wir einen allgemeinen Qualitätsprozess entworfen, der für alle Projekte implementiert wurde (siehe nächster KCI).
+Teil dieses Standards ist, dass fertig entwickelte Software(-komponenten) auf einem Testserver deployed werden, auf dem Bedingungen herrschen, die möglichst nah an der reellen Deployment-Umgebung sind.
+Unter anderem wird auf diesem die Software zur Abnahme durch den Endanwendern validiert.
+Für das #abbr("qrs") Projekt habe ich den gewohnten Prozess wie oben beschrieben eingeführt und dementsprechend die Validierung mit den Endanwendern durchgeführt.
+
+Das #abbr("qrs") wurde erfolgreich validiert und anschließend abgenommen.
+
 ==== *04.05.06.05* Qualität im Verlauf des Projekts sicherstellen
-#todo("Schreiben")
+Im Laufe der Jahre haben wir im Unternehmen ein Standard-Vorgehen für unsere Projekte entwickelt.
+Dieses beinhaltete einen Standard-Prozess für die Qualitätssicherung:
+- Jeglicher entwickelter Code wird von den Entwicklern lokal getestet
+- Code, der vom Entwickler als fertig erachtet und lokal getestet wurde, wird auf einem Test/QA-Server deployed
+- Dort wird der Code erneut vom Entwickler unter live-ähnlichen Bedingungen getestet
+- Wenn keine Fehler gefunden wurden, wird der Code aus Nutzer-Sicht von mindestens einem Endanwender getestet und validiert
+- Wenn dieser Test ebenfalls erfolgreich verlief, dann wird der Code in eine Live-Umgebung deployed und nochmals von den Endanwendern getestet, um zu verifizieren, dass das Deployment fehlerfrei verlaufen ist
+- Anschließend erfolgt die offizielle Abnahme
+
+Für jedes der Projekte unter meiner Verantwortung galt es diesen Qualitätsprozess mit einzuführen.
+
+Ich habe für jedes Projekt zunächst beurteilt, ob der zugehörige Code auf einem eigenen Server laufen sollte, oder auf einem bereits bestehenden Server deployed werden soll.
+Da wir für jeden Server im Live-Betrieb einen zugehörigen QA-Server haben, ergab sich aus dieser Zuordnung entweder direkt der zu verwendende QA-Server, oder (im Falle eines neuen Live-Servers für das Projekt) die Notwendigkeit einen neuen QA-Server mit aufzusetzen.\
+Desweiteren wurden die Deploymentprozesse für Software übernommen und für das jeweilige Projekt konfiguriert.
+
+Durch den konsequenten Einsatz unseres Prozesses wurden wiederholt Fehler und Probleme mit der Software frühzeitig entdeckt und konnten behoben werden, bevor ein größerer Schaden entstehen konnte.
 
 #pagebreak()
 === #TODO 04.05.07 Kosten und Finanzierung
