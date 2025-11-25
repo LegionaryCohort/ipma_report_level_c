@@ -436,7 +436,7 @@ Alle restlichen Aufgaben waren durch uns umzusetzen.
 Dabei musste ich, gemäß den Antworten auf die zweite Frage, die Aufgaben denjenigen Entwicklern zuordnen, die über das nötige Spezialwissen verfügen.
 Beispielsweise erforderten die Aufgaben bzgl. des Admin-Interfaces, dass der Entwickler sich mit unserer selbstentwickelten Management-Plattform auskennt, um das Interface dort korrekt einzubauen.
 
-Mit der Zuordnung der Aufgaben konnte ich zum einen sehr schnell und klar dem Kunden kommunizieren welchen Aufgaben er nachkommen muss, und ich konnte mit unserer Geschäftsführung die Verfügbarkeiten unserer Entwickler abklären.
+Mit der Zuordnung der Aufgaben konnte ich zum einen sehr schnell und klar dem Kunden kommunizieren welchen Aufgaben er nachkommen muss, und ich konnte mit #glossary("nils") die Verfügbarkeiten unserer Entwickler abklären.
 
 ==== *04.05.04.03* Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen
 Für die Umsetzung und eindeutige Kommunikation mit dem Kunden, waren die Phasen des Projektes festzulegen.
@@ -470,13 +470,13 @@ Die fertige Ablaufplanung diente für die Umsetzung des Projektes als leitende R
 
 #pagebreak()
 === 04.05.05 Organisation, Information und Dokumentation
-Für das gesamte Programm habe ich mich zu Beginn im Rahmen der Übergabe mit der Geschäftsführung zusammengesetzt, um die Details der Zusammenarbeit zu klären.
+Für das gesamte Programm habe ich mich zu Beginn im Rahmen der Übergabe mit #glossary("nils") zusammengesetzt, um die Details der Zusammenarbeit zu klären.
 Ein Teil dieser Gespräche war die Klärung der verwendeten Informations- und Kommunikationsstrukturen.
 
 ==== *04.05.05.01* Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen
 Im Rahmen der initialen Planung waren die verschiedenen (formellen und informellen) Kommunikationsarten festzulegen und einzuführen.
 
-Für das Programm selbst war lediglich die Geschäftsführung zu informieren.
+Für das Programm selbst war lediglich #glossary("nils") informiert zu halten.
 Dazu habe ich mich mit dieser zusammen ausdefiniert, in welcher Form und Häufigkeit der Informationsaustausch stattfinden sollte.
 Akute Probleme oder Hindernisse wurden in unserem bereits etablierten täglichen Meeting behandelt (nach Bedarf mit dedizierten Folge-Meetings).
 Für allgemeine Status-Updates, sowie alle Themen, die von geringerer Dringlichkeit waren, haben wir einen 2 bis 4-wöchigen Regeltermin eingeführt.\
@@ -489,7 +489,7 @@ Es galt die konkreten Verantwortlichkeiten zu verteilen.
 
 Allgemein sind wir im Unternehmen Aufgaben meist kollaborativ angegangen, d.h. Verantwortung für Aufgaben wurde nicht auf Einzelpersonen übertragen, sondern auf mehrere Personen zusammen (in den allermeisten Fällen Personenpaare).
 Da sich dieser Ansatz in der Vergangenheit bewährt hatte, haben wir entschieden ihn für das Programm mit zu übernehmen.
-Konkret hieß das, dass ich die Planung der einzelnen Projekte in Leistungen, Zeit und Budget meist kollaborativ mit einem der Geschäftsführer im Vier-Augen-Prinzip durchgeführt habe.
+Konkret hieß das, dass ich die Planung der einzelnen Projekte in Leistungen, Zeit und Budget meist kollaborativ mit #glossary("nils") im Vier-Augen-Prinzip durchgeführt habe.
 Die Verantwortung für die tatsächliche Umsetzung und Überwachung derselben lag wiederum bei mir allein.
 
 Durch die geteilten Verantwortlichkeiten konnten wir sicherstellen, dass Blind-Spots früher erkannt wurden.
@@ -606,7 +606,7 @@ Anhand der angereicherten Arbeitspaket-Übersicht (im nächsten KCI beschrieben)
 Dabei habe ich sowohl eine "erste Wahl" definiert, also der am besten geeignete Entwickler für die Aufgabe, sowie weitere Fallback-Optionen von Entwicklern, die auch in der Lage wären die Aufgabe zu übernehmen.
 Mit dieser Übersicht habe ich abschließend zusammengestellt, wer für das Projekt absolut notwendig ist, sowie welche Entwickler ich noch gebrauchen könnte, um das Projekt zu beschleunigen.
 
-Eine Übersicht über die erforderlichen Entwickler wurde erstellt und der Geschäftsführung vorgelegt.
+Eine Übersicht über die erforderlichen Entwickler wurde erstellt und #glossary("nils") vorgelegt.
 Diese hat, nach etwas Verhandlung (s.u.), beschlossen wer dem Projekt für wie lange zugeteilt wird.
 
 ==== *04.05.08.02* Qualität und Menge der benötigten Ressourcen definieren
@@ -622,13 +622,13 @@ Unter anderem sollten die Funktionen des #abbr("qrs") über die bereits bestehen
 Der Entwickler, der diese Management-Plattform designed hatte, sollte auch die Integration aufbauen.
 Dieser Entwickler war jedoch bereits in anderen Projekten stark eingebunden.
 
-Die Verfügbarkeit dieses Entwicklers war mit der Geschäftsführung zu verhandeln.
+Die Verfügbarkeit dieses Entwicklers war mit #glossary("nils") zu verhandeln.
 
-Ich habe zu diesem Zweck zunächst mit der Geschäftsführung zusammen gegenübergestellt, welche Prioritäten die verschiedenen betroffenen Projekte untereinander haben.
+Ich habe zu diesem Zweck zunächst mit #glossary("nils") zusammen gegenübergestellt, welche Prioritäten die verschiedenen betroffenen Projekte untereinander haben.
 Dabei stellte sich heraus, dass mein Projekt strategisch auf derselben Ebene stand wie die anderen, in denen der Entwickler bereits eingeplant war.
 Ich habe daher das Arbeitspaket für die Integration nochmals in zwei Teile zerlegt.
 Einen, für den das Spezialwissen des Entwicklers von hoher Wichtigkeit war, sowie ein zweites, das auch von jemand anderem umgesetzt werden kann, sofern der erste Teil bereits abgearbeitet wurde.
-Ich habe anschließend der Geschäftsführung die Option angeboten, den Entwickler nur für das erste Teilpaket einzusetzen, um die Verzögerung in den anderen Projekten so gering wie möglich zu halten.
+Anschließend habe ich #glossary("nils") die Option angeboten, den Entwickler nur für das erste Teilpaket einzusetzen, um die Verzögerung in den anderen Projekten so gering wie möglich zu halten.
 
 Der Entwickler wurde für begrenzte Zeit meinem Projekt zugewiesen, wobei der Umfang der Aufgaben wie vereinbart reduziert wurde.
 
@@ -650,13 +650,13 @@ Um für Nutzer eine möglichst gute User-Experience sicherzustellen, sollten uns
 Dabei sollte weiterhin die Hoheit über die Daten, also die Vergabe von Zugängen, bei uns bleiben.
 
 ==== *04.05.09.01* Beschaffungsbedarf, Optionen und Prozesse vereinbaren
-Unsere Geschäftsführung benötigte Unterstützung in der Vorbereitung des Kooperationsvertrages, insb. dessen fachlichen Inhalte.
+#glossary("nils") benötigte Unterstützung in der Vorbereitung des Kooperationsvertrages, insb. dessen fachlichen Inhalte.
 
 Ich habe die konkreten Risiken, die sich aus der Herausgabe unserer Daten ergeben, beurteilt und daraus konkrete Anforderungen, die von der #glossary("optadata") zu erfüllen waren, abgeleitet.
 Diese beinhalteten technische Anforderungen an die Absicherung der in #glossary("optadata_focus") liegenden Daten gegen unberechtigten Zugriff, die Beschränkung des Zugriffs auf berechtigte User, sowie die Überprüfung von User-Berechtigungen über von uns zur Verfügung gestellte Gateway-Endpoints.\
 Zudem habe ich die Anforderungen seitens #glossary("optadata") bzgl. der Verfügbarkeit unseres Gateways im Gespräch geklärt und in die Zusammenstellung der vertraglich festzuhaltenden Anforderungen mit aufgenommen.
 
-Die Geschäftsführung hat anschließend aus der Aufstellung der Anforderungen den Kooperationsvertrag erstellt.
+#glossary("nils") hat anschließend aus der Aufstellung der Anforderungen den Kooperationsvertrag erstellt.
 
 ==== *04.05.09.02* Zur Evaluation und Auswahl von Lieferanten und Partnern beitragen
 Es musste beurteilt werden, welche Besonderheiten in der Zusammenarbeit mit #glossary("optadata") existierten, und ein geeignetes Partnerschaftsmodell entschieden werden.
@@ -665,9 +665,9 @@ Zunächst habe ich zwei mögliche Modelle für die Absicherung unserer Daten ent
 - #underline[Nutzerschlüssel]: Wir sichern unsere Daten selber mittels Zugangsschlüsseln gegen unbefugten Zugriff ab. Jeder User erhält dabei einen Schlüssel, der nur dem User (und nicht der #glossary("optadata")) bekannt ist.
 - #underline[Kooperationsvertrag]: Wir sichern den Zugang zu unseren Daten nur so ab, dass außer der #glossary("optadata") niemand sonst Zugriff hat. Die Herausgabe unserer Daten an die Nutzer von #glossary("optadata_focus") wird dabei über einen Kooperationsvertrag geregelt.
 #v(-10pt)
-Diese Modelle habe ich anschließend im Austausch mit der Geschäftsführung gegenübergestellt und die Vor- und Nachteile mit ihnen diskutiert.
+Diese Modelle habe ich anschließend im Austausch mit #glossary("nils") gegenübergestellt und die Vor- und Nachteile mit ihnen diskutiert.
 
-Die Geschäftsführung hat sich für die Vereinbarung eines Kooperationsvertrages entschieden.
+#glossary("nils") hat sich für die Vereinbarung eines Kooperationsvertrages entschieden.
 
 ==== *04.05.09.03* Zu Verhandlungen und Vereinbarungen von Vertragsbestimmungen beitragen, um diese in Einklang mit den Projektzielen zu bringen
 Eine der Bestimmungen des Kooperationsvertrages war es, dass wir eine hohe Zuverlässigkeit in unserem Gateway sicherzustellen hatten.
