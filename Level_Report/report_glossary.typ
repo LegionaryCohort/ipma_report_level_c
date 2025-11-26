@@ -72,6 +72,16 @@
         [Python <python>],
         [Eine Programmiersprache, die sich durch hohe Entwicklungsgeschwindigkeit und weiten Community-Support auszeichnet],
     ),
+    tdh: (
+        link(<tdh>, [_Tag der Hörgesundheit_]),
+        [Tag der Hörgesundheit <tdh>],
+        [Neues Event in der Hörakustik-Branche mit Fokus auf den Experten-Austausch zu aktuellen Entwicklungen in der Branche],
+    ),
+    audio_direkt: (
+        link(<audio_direkt>, [_Audio Direkt_]),
+        [Audio Direkt <audio_direkt>],
+        [Eine Einkaufsgemeinschaft der deutschen Hörakustik-Branche],
+    ),
 )
 
 #let glossary(name) = {

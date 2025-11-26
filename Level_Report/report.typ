@@ -238,17 +238,48 @@ Entsprechend haben wir in unserer Kommunikationsstrategie eingeplant damit umzug
 ==== #strike[*04.03.04.03* Persönlichkeiten und Arbeitsstile Dritter beurteilen und zum Nutzen des Projekts einsetzen]
 
 #pagebreak()
-=== #TODO 04.04.05 Führung
+=== 04.04.05 Führung
 ==== *04.04.05.01* Initiative ergreifen und proaktiv mit Rat und Tat zur Seite stehen
-#todo("Schreiben")
+Das Import Modul, das eine Erweiterung unseres Produktdatenmanagementsystems darstellte, musste zunächst in Funktionalität und Architektur designed werden.
+
+Um auch für die Zukunft gut aufgestellt zu sein, galt es die Architektur möglichst zukunftsorientiert zu wählen.
+
+Ich habe zunächst zusammengetragen welche Anpassungen an unseren Produktdaten in naher bis mittlerer Zukunft noch anstehen.
+Da es dazu schon die ein oder anderen Überlegungen gab, konnte ich hier bereits einige Erkenntnisse gewinnen, die für das Design der Architektur nützlich waren.
+Zusätzlich habe ich berücksichtigt, dass auch derzeit noch unbekannte Änderungen an unseren Daten anstehen könnten.\
+All diese Überlegungen habe ich anschließend im Architekturdesign mit aufgenommen und eine Struktur entwickelt, die eine gewisse Modularität aufweist, um sich später leicht ergänzen zu lassen.
+
+Die Modularität erlaubte es auch im Nachgang neue Import-Protokolle zu definieren, die bisher unbekannte Datenstrukturen mit abbilden können.
+Auch ermöglichte dieses Design, dass Änderungen in der Datenstruktur unserer Datenbank mit geringfügigen Änderungen in den bestehenden Import-Protokollen abgebildet werden konnten.
+
 ==== *04.04.05.02* Ownership übernehmen und Commitment zeigen
-#todo("Schreiben")
-==== *04.04.05.03* Durch Vorgeben der Richtung, durch Coaching und Mentoring die Arbeit von Einzelpersonen und Teams leiten und verbessern
-#todo("Schreiben")
+Im Frühjahr 2025 haben wir als Unternehmen den ersten #glossary("tdh") veranstaltet.
+Dabei handelt es sich um ein Event in der Hörakustik-Branche, das den Fokus auf den Experten-Austausch innerhalb der Branche legt.
+Auf diesem Event habe ich mich zwischendurch mit Pedro Garcia, dem Geschäftsführer der #glossary("audio_direkt"), über unsere aktuellen Projekte unterhalten.
+
+Ich habe mit ihm unter anderem über die Entwicklung der Schnittstelle zum #glossary("optadata_focus") ERP-System gesprochen.
+Dabei habe ich vor allem die gute Zusammenarbeit mit #glossary("optadata") hervorgehoben, sowie die Tatsache, dass das Projekt besonders gut voran kommt.
+Da das Thema für einige der Partner seiner Einkaufsgemeinschaft von Interesse war, hat er mir noch einige Fragen zum Projekt gestellt, die ich ihm gerne beantwortet habe.
+
+Pedro ging, zumindest meinem Eindruck nach, mit einem sehr positiven Bild von der Zusammenarbeit zwischen uns under der #glossary("optadata") aus dem Gespräch heraus.
+
+==== #strike[*04.04.05.03* Durch Vorgeben der Richtung, durch Coaching und Mentoring die Arbeit von Einzelpersonen und Teams leiten und verbessern]
+
 ==== *04.04.05.04* Macht und Einfluss angemessen auf Dritte ausüben, um die Ziele zu erreichen
-#todo("Schreiben")
+Im Rahmen des Produktdatenprogrammes hatte ich wiederholt Kontakt mit verschiedenen Kunden, die unsere Produktdatenkataloge verwendet haben.
+Oftmals habe ich bei konkreten Fragen oder Problemen geholfen, die der Kunde gerade hatte.
+Durch mein Auftreten und den wiederholten Kontakt wurde ich oftmals als der Entscheider wahrgenommen, selbst für Themen, die nicht unter meiner Verantwortung lagen.\
+Konkret für die Projekte, die ich verantwortet habe, stand für unsere Kunden nie in Frage an wen sie sich bei Fragen oder Anregungen richten können.
+Dort wurde ich stets in meiner Rolle als Projektleiter auch als solcher wahrgenommen und behandelt.
+
 ==== *04.04.05.05* Entscheidungen treffen, durchsetzen und überprüfen
-#todo("Schreiben")
+Viele der Projekte, die ich verantwortet habe, beinhalteten in den initialen Phasen einige Design-Arbeit bzgl. der Code-Architektur.
+Da sich die konkreten Herausforderungen dabei immer unterschieden haben, wollte ich sichergehen, dass meine Entscheidungen (und deren zugehörige Begründungen) dennoch robust sind und ich keine groben Fehler in meiner Planung hatte.
+
+Zu diesem Zweck habe ich mir regelmäßig unseren erfahrensten Entwickler hinzugezogen, um die geplante Architektur nochmals zu durchleuchten und meine Entscheidungen zu prüfen.
+Insb. beim Design von größeren Strukturen, wie z.B. dem #abbr("qrs"), war der zusätzliche technische Input von außen sehr wertvoll.
+
+Mit diesem Input konnte ich diverse Male Probleme auflösen und habe mir insgesamt eine hohe Sicherheit und Zuverlässigkeit in meine Entscheidungsfindung mit reingeholt.
 
 #pagebreak()
 === 04.05.01 Projektdesign
