@@ -299,7 +299,7 @@ Da wir uns als Unternehmen laufend weiterentwickeln wollten, haben wir dies beim
 
 Für das Programm sollte der Managementansatz und die angewendeten Methoden laufend reflektiert und nach Bedarf angepasst werden.
 
-Im Laufe meiner Zeit bei der Audoora GmbH habe ich, unabhängig vom Produktdatenprogramm,  mit unseren Entwicklern in regelmäßigen Abständen Gespräche geführt, in denen wir über ihre Arbeit und vor allem ihre Zufriedenheit im Unternehmen gesprochen haben.
+Im Laufe meiner Zeit bei der Audoora GmbH habe ich, unabhängig vom Produktdatenprogramm, mit unseren Entwicklern in regelmäßigen Abständen Gespräche geführt, in denen wir über ihre Arbeit und vor allem ihre Zufriedenheit im Unternehmen gesprochen haben.
 Da diese Gespräche insgesamt ein großer Erfolg waren, haben #glossary("nils") und ich dasselbe Format für uns selbst übernommen und derartige Gespräche miteinander geführt.
 Dabei haben wir vermehrt den Fokus darauf gelegt unsere jeweilige Arbeitsweise näher zu beleuchten.
 Für Probleme, die wir dabei identifizieren konnten, haben wir im Rahmen des Gespräches Lösungen entwickelt und diese anschließend umgesetzt.
@@ -520,7 +520,7 @@ Um dem vorzubeugen waren Qualitätsmaßnahmen zu definieren und einzuführen.
 
 #glossary("python") bietet seit Version 3.5 Type-Hinting an, ein Werkzeug das dabei hilft Type-Fehler zu vermeiden.
 Für das nun anstehende Projekt habe ich dementsprechend die umfassende Verwendung von Type-Hinting als Code-Vorgabe mit aufgenommen.
-Konkret habe ich ein Tool vorgegeben, das den gesamten Sourcecode des Projektes  analysiert, dabei die besagten Type-Hints berücksichtigt und potentielle Type-Fehler hervorhebt.
+Konkret habe ich ein Tool vorgegeben, das den gesamten Sourcecode des Projektes analysiert, dabei die besagten Type-Hints berücksichtigt und potentielle Type-Fehler hervorhebt.
 Jegliche Fehlermeldungen und Warnungen des Tools waren durch Anpassung des Codes zu beheben, damit der betroffene Code akzeptiert wird.
 
 Durch die strikte Einhaltung dieser Vorgaben, sind im Laufe des Projektes erheblich weniger Type-Fehler aufgetreten.
@@ -691,19 +691,72 @@ Durch die Einführung der Änderungen in unseren Endpoints wurde die Serverlast 
 Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und unsere vertragliche Verpflichtung erfüllt.
 
 #pagebreak()
-=== #TODO 04.05.10 Planung und Steuerung
+=== 04.05.10 Planung und Steuerung
 ==== *04.05.10.01* Projekt starten, Projektmanagement-Plan entwickeln und Zustimmung einholen
-#todo("Schreiben")
+Für den Aufbau des Import-Moduls für unser Produktdatenmanagementsystem war zu Beginn nur klar, dass das allgemeine Ziel sein sollte, den Import-Prozess zu vereinfachen und das benötigte Spezialwissen zu reduzieren.
+
+Es war ein Projektstart-Workshop zu organisieren (und moderieren), um den gewünschten Funktionsumfang und die Ziele des Projektes näher auszuarbeiten.
+
+Ich habe zunächst die wichtigsten Stakeholdergruppen ermittelt:
+- Unsere Geschäftsführung, die das Projekt in Auftrag gegeben hat
+- Die Endanwender, die mit dem Import-Modul später arbeiten sollten
+#v(-10pt)
+Anschließend habe ich ein Meeting aufgesetzt, in dem beide Gruppen repräsentiert waren, und die Agenda für das Meeting zusammengestellt.
+Die Agenda für dieses Meeting umfasste im Wesentlichen folgende Punkte:
+- Ermittlung der zu lösenden Probleme des bestehenden Import-Prozesses
+- Ableitung konkreter Features und Nutzungsziele aus den identifizierten Problemen
+- Identifikation zusätzlicher notwendiger Eigenschaften (Qualitäts- und Nutzungsziele)
+- Festlegung der Entwicklungsphasen und ihrer jeweiligen Ziele
+
+In dem Workshop konnten wir den gewünschten Funktionsumfang festlegen (Import von Daten in tabellarischem Format), den Umfang gegenüber unerwünschten Features abgrenzen (z.B. haben wir die Bearbeitung und Korrektur der Import-Daten über das Import-Modul als Feature ausgeschlossen) und zusätzliche Qualitäts- und Nutzungsziele herausarbeiten (z.B. waren die Import-Daten vor dem Import in die Datenbank auf diverse Qualitätsmerkmale zu prüfen und ggf. Fehlermeldungen auszuspielen).
+Zudem haben wir einen groben Zeitplan aufgestellt, anhand dem die weitere Planung sich orientieren konnte.
+
 ==== *04.05.10.02* Übergang in eine neue Projektphase einleiten und managen
-#todo("Schreiben")
+Für das im letzten KCI beschriebene Projekt wurde als erste Phase eine Prototyping-Phase definiert.
+In dieser sollten einige Ansätze für die Architektur des Moduls evaluiert werden, bevor die tatsächliche Entwicklung des Moduls beginnt.
+
+Für die Prototyping-Phase waren die konkreten Lieferobjekte zu definieren.
+
+Da das Kernziel dieser Phase war, die interne Architektur des Moduls zu ermitteln, habe ich zunächst festgehalten, dass eine Entscheidung bzgl. der konkreten Architektur zu liefern war, inkl. einer Begründung mittels Gegenüberstellung der verschiedenen Optionen.
+Außerdem habe ich die Architektur selbst, also eine Dokumentation der relevanten Eigenschaften, als weiteres Lieferobjekt festgehalten, da mit dieser in der nachfolgenden Implementierungsphase weitergearbeitet werden sollte.
+Im Laufe der Prototyping-Phase würden zudem Codefragmente entstehen, die für die Evaluierung der Optionen genutzt werden.
+Diese habe ich ebenfalls als Lieferobjekte mit aufgenommen, da sie eine gute Orientierung für die spätere Implementierung darstellen.
+
+Anhand der klaren Definition der Lieferobjekte konnte im Laufe der Prototyping-Phase durchgehend sichergestellt werden, dass die entwickelten Beispiele und Ideen sich an dem Ziel der Phase orientieren und keine unnötigen Experimente gestartet wurden.
+
 ==== *04.05.10.03* Projektleistung mit dem Projektplan abgleichen und Korrekturmaßnahmen treffen
-#todo("Schreiben")
-==== *04.05.10.04* Bericht über den Projektfortschritt erstatten
-#todo("Schreiben")
-==== *04.05.10.05* Projektänderungen beurteilen, Zustimmung für diese einholen und sie implementieren
-#todo("Schreiben")
+Für das #glossary("optadata_focus") Schnittstellenprojekt hatte ich die abzuwickelnden Aufgaben bereits klar ausdefiniert.
+Dabei waren einige Aufgaben von unserem Kunden umzusetzen, der Rest durch uns.
+
+Im Laufe des Projektes musste der Fortschritt im Blick behalten werden, um diesen sowohl an unsere Geschäftsführung, als auch an den Kunden, zu kommunizieren.
+
+Den Fortschritt habe ich anhand der zuvor definierten Aufgaben gemessen.
+Dabei habe ich mir für die Aufgaben, die beim Kunden lagen, in unseren regelmäßigen Update-Meetings ein grobes Status-Update geben lassen.
+Für die Aufgaben, die auf unserer Seite lagen, habe ich den Fortschritt in 3 Stufen gemessen:
+"Offen", "In Arbeit" und "Abgeschlossen".
+
+Mit den Fortschrittsmessungen konnte ich sowohl unsere Geschäftsführung, als auch den Kunden, jederzeit darüber informiert halten, wo wir im Projekt stehen und ob wir im geplanten Zeitrahmen fertig werden.
+
+==== #strike[*04.05.10.04* Bericht über den Projektfortschritt erstatten]
+
+==== #strike[*04.05.10.05* Projektänderungen beurteilen, Zustimmung für diese einholen und sie implementieren]
+
 ==== *04.05.10.06* Eine Phase oder das Projekt abschließen und evaluieren
-#todo("Schreiben")
+Im Allgemeinen haben wir als Unternehmen immer versucht aus unseren Projekten zu lernen.
+
+Dazu war es notwendig zu jedem Projekt, bzw. zu jeder Phase (sofern ihr Umfang dies rechtfertigte), die Lessons Learned herauszuarbeiten und festzuhalten.
+
+Unseren üblichen Prozess für Lessons Learned habe ich mit #glossary("nils") zusammen entworfen und mit der Zeit verfeinert.
+Da wir festgestellt haben, dass insb. nach längeren Projekten die Beteiligten sich nur schwer an alles erinnern konnten, was im Laufe des Projektes passiert war, haben wir stattdessen einen Prozess eingeführt, der regelmäßig Lessons Learned festhält.
+Dazu wurden regelmäßige Gespräche mit den verschiedenen Entwicklern geführt, in denen unter anderem die folgenden zwei Fragen gestellt wurden:
+- "Was ist seit dem letzten Gespräch vor- oder aufgefallen, das wir besser handhaben könnten?"
+- "Was ist seit dem letzten Gespräch vor- oder aufgefallen, das besonders gut lief?"
+#v(-10pt)
+Die Fragen sind dabei bewusst offen formuliert, um die Mitarbeiter anzuregen aktiv nachzudenken und ggf. auch Verbesserungsvorschläge selbst zu erdenken und einzubringen.\
+Im Anschluss an diese Gespräche sind #glossary("nils") und ich die Ergebnisse zusammen durchgegangen und haben daraus ggf. Maßnahmen abgeleitet und Erkenntnisse in unsere Prozesse integriert.
+
+Über diesen allgemeinen Prozess konnten wir wiederholt Probleme frühzeitig erkennen.
+Außerdem haben wir mit den Erkenntnissen über besonders gut gelaufene Situationen unsere Prozesse im Unternehmen weiter optimieren können.
 
 #pagebreak()
 === #TODO 04.05.11 Chancen und Risiken
