@@ -169,6 +169,7 @@ Ein Teil ihrer Strategie ist der streng überwachte und intransparente Umgang mi
 Über diese Mittel unterbinden diese Unternehmen den Wettbewerb innerhalb der Branche und können so ein Quasi-Monopol aufrecht erhalten, über das sie hohe Preise verlangen können.\
 Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Strategie konkurriert, ergab sich die genannte angespannte politische Situation.
 
+#pagebreak()
 = Beschreibung der Management-Herausforderungen
 == PM-Pflichtelemente
 === #TODO 04.03.02 Governance, Strukturen und Prozesse
@@ -772,17 +773,52 @@ Außerdem haben wir mit den Erkenntnissen über besonders gut gelaufene Situatio
 #todo("Schreiben")
 
 #pagebreak()
-=== #TODO 04.05.12 Stakeholder
-==== *04.05.12.01* Stakeholder identifizieren und ihre Interessen sowie ihren Einfluss analysieren
-#todo("Schreiben")
+=== 04.05.12 Stakeholder
+==== #strike[*04.05.12.01* Stakeholder identifizieren und ihre Interessen sowie ihren Einfluss analysieren]
+
 ==== *04.05.12.02* Stakeholder Strategie und einen Kommunikationsplan entwickeln und aufrechterhalten
-#todo("Schreiben")
+Im Laufe des #glossary("optadata_focus") Schnittstellenprojektes ist uns bekannt geworden, dass die Einkaufsgemeinschaft #glossary("meditrend") ebenfalls Produktdatenkataloge neben unseren anbieten wollte.
+Wir sahen darin eine Chance ein gemeinsames Angebot aufzustellen, um das anvisierte Marktsegment zusammen einzufangen, statt darum zu konkurrieren.
+
+Diese von uns wahrgenommene Chance galt es näher zu analysieren und evaluieren.
+
+Zunächst habe ich diese Chance mit #glossary("nils") näher besprochen.
+Wir haben dabei beleuchtet inwiefern wir ein realistisches und sinnvolles Angebot für die #glossary("meditrend") haben, dass sich eine Zusammenarbeit für beide Seiten lohnen würde.
+Dabei haben wir ausgearbeitet, dass wir anbieten können unsere Kataloge allen Mitgliedern der #glossary("meditrend") zur Verfügung zu stellen.
+Im Gegenzug unterstützt uns die #glossary("meditrend") in der Sammlung neuer Produktdaten.
+Durch das gemeinsame Auftreten bekämen wir zusätzlich einen Marketing Boost, da die #glossary("meditrend") im Gegensatz zu uns bereits in der gesamten Branche gut bekannt ist.\
+Um das Ganze Thema weiter zu verfolgen und einzuschätzen, wie die #glossary("meditrend") zu unserer Idee steht, haben wir Kontakt zu Eduard Breitenbach, dem Geschäftsführer der #glossary("sonimatik") (die de facto IT-Abteilung der #glossary("meditrend")) aufgenommen.
+Er war für die Umsetzung der Kataloge zuständig, die die #glossary("meditrend") selbst in #glossary("optadata_focus") platzieren wollte.
+Wir haben ihn im Gespräch davon überzeugen können, dass eine Kooperation für beide Seiten von Vorteil wäre.
+
+Eduard hat das Thema weiter an den Vorstand der #glossary("meditrend") getragen.
+Dort wurde die Kooperation leider abgelehnt.
+
 ==== *04.05.12.03* Geschäftsführung, Auftraggeber und höheres Management einbinden, um Commitment zu erreichen und um Interessen und Erwartungen zu managen
-#todo("Schreiben")
+In der Planung des #abbr("qrs") Projektes hatte #glossary("nils") als Auftraggeber bereits eine Vorstellung davon, was das #abbr("qrs") am Ende leisten sollte.
+Konkret wollte er ein System, das die Fehler in unserer Datenbank erkennt und direkt beheben kann.
+Im war klar, dass der Korrektur-Prozess nicht automatisch sein kann, da es sich bei Fehlern in den allermeisten Fällen um fehlende oder falsch eingetragene Daten handelte, die sich nicht automatisch korrigieren lassen.
+Allerdings hatte er die Vorstellung, dass wir einmal ein allgemeines System bauen könnten, das es erlaubt beliebige Korrekturen vorzunehmen, ohne spätere Anpassungen zu erfordern.
+
+Diese Erwartungen bzgl. des Projektes galt es zu managen.
+
+Mir war recht früh klar, dass seine Vorstellung so nicht realisierbar war, bzw. so viel Komplexität und zusätzlichen Aufwand mit sich gezogen hätte, dass das Projekt nicht mehr wirtschaftlich wäre.
+Um dem entgegenzuwirken, habe ich früh im Design-Prozess mit #glossary("nils") über die Diskrepanz gesprochen und anhand von konkreten Beispielen verdeutlicht weshalb ein solcher Ansatz nicht funktioniert.
+Ich habe ihm dazu Alternativen aufgezeigt, die mit nur geringem Mehraufwand auf der Nutzer-Seite ein gleichwertiges Ergebnis erzielen, dabei aber in der Entwicklung erheblich einfacher sind.
+
+Über das Gespräch konnte ich #glossary("nils") davon überzeugen, dass seine Vorstellung zu komplex war und habe mich mit ihm auf eine weniger komplexe Lösung einigen können.
+
 ==== *04.05.12.04* Benutzer, Partner und Lieferanten und andere Stakeholder einbinden, um deren Kooperation und Commitment zu erreichen
-#todo("Schreiben")
-==== *04.05.12.05* Netzwerke und Allianzen aufbauen, aufrechterhalten und beenden
-#todo("Schreiben")
+Für den Support des #abbr("axc") Formates in unserem Produktdatenexporter war der Input der Akustiker, die damit letztlich arbeiten würden, unabdingbar.
+
+Um eine hohe Akzeptanz des Projektergebnisses sicherzustellen, waren die Akustiker mit in das Projekt einzubinden.
+
+Im Rahmen der Anforderungsdefinition habe ich den Kontakt zu einigen Akustikern gesucht, die in der Vergangenheit Interesse an dem Support des #abbr("axc") Formats geäußert hatten.
+Neben der Ermittlung der fachlichen Anforderungen, habe ich in diesen Gesprächen auch versucht sie möglichst stark in das Projekt mit einzubeziehen, indem ich ihnen klar gemacht habe, dass sie durch aktive Partizipation das Ergebnis mitgestalten und mehr den eigenen Bedürfnissen anpassen können.
+
+Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv den Kontakt zu mir gesucht, um Informationen und neue Ideen zu liefern.
+
+==== #strike[*04.05.12.05* Netzwerke und Allianzen aufbauen, aufrechterhalten und beenden]
 
 //
 //
