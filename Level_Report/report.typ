@@ -614,17 +614,62 @@ Desweiteren wurden die Deploymentprozesse für Software übernommen und für das
 Durch den konsequenten Einsatz unseres Prozesses wurden wiederholt Fehler und Probleme mit der Software frühzeitig entdeckt und konnten behoben werden, bevor ein größerer Schaden entstehen konnte.
 
 #pagebreak()
-=== #TODO 04.05.07 Kosten und Finanzierung
+=== 04.05.07 Kosten und Finanzierung
 ==== *04.05.07.01* Projektkosten abschätzen
-#todo("Schreiben")
+Wir haben im Unternehmen stets darauf geachtet für unsere Projekte übergreifende Standards zu entwickeln und etablieren.
+Die Projekte, die ich durchgeführt habe, waren alles Neu- oder Weiterentwicklungen von Systemen, um eine neue Idee bzw. ein neues Feature umzusetzen.
+Als solche gab es keinen direkten Vergleichswert für das gesamte Projekt, auf den sich für Schätzung rückbezogen werden könnte.
+
+Für meine Projekte galt es eine Methode der Kostenkalkulation zu wählen.
+
+Im Rahmen der Planung meiner Projekte, habe ich die Projekte natürlich in ihre nötigen Aufgaben unterteilt.
+Während für die Projekte als Ganzes keine direkten Vergleichswerte existierten, war es durchaus möglich die Aufgaben so zu definieren, dass sie Aufgaben aus anderen Projekten möglichst ähnlich waren.
+Über diese Ähnlichkeiten konnten viele Aufgaben gut eingeschätzt werden, indem auf die Erfahrungswerte aus den anderen Projekten zurückgegriffen wurde.\
+Für solche Aufgaben, für die es in anderen Projekten keinen Vergleichswert gab, habe ich auf die Einschätzung unserer Entwickler (mich eingeschlossen) zurückgegriffen.
+Die Schätzungen wurden dabei bewusst großzügiger gemacht, um einen inhärenten Risikopuffer mit abzubilden.\
+Auf den ermittelten Gesamtaufwand wurde zudem ein Pauschalpuffer hinzuaddiert (siehe nächster KCI).
+
+Mittels der beschriebenen Schätzungen habe ich für meine Projekte klar an #glossary("nils") kommunizieren können mit welchem Aufwand zu rechnen ist.
+
+
 ==== *04.05.07.02* Projektbudget erstellen
-#todo("Schreiben")
+In vergangenen Projekten hat sich gezeigt, dass die Abweichungen vom Zeitplan bei Neuentwicklungen erheblich sein können (in beide Richtungen).
+Aus diesem Grund haben wir im Unternehmen etabliert, dass alle Projekte mit einem großen Pauschalpuffer geplant werden, um diese Abweichungen abzufedern.
+
+Für die von mir verantworteten Projekte galt es den Puffer für Unvorhergesehenes mit einzuplanen.
+
+Ich habe für jedes Projekt, gemäß dem im Unternehmen etablierten Vorgehen, den Pauschalpuffer berechnet und mit eingeplant.
+Für die Berechnung habe ich jede Aufgabe grob in ihrem Aufwand eingeschätzt.
+Der Puffer wurde dann gemäß Richtlinie aus dem Gesamtaufwand ermittelt und als in die Planung mit einbezogen.
+
 ==== *04.05.07.03* Projektfinanzierung sichern
-#todo("Schreiben")
+Budgetfreigaben, die über geringfügige Beträge hinaus gingen, wurden grundsätzlich von den Geschäftsführern gemeinsam entschieden.
+Dafür wurde für eine konkrete Projektidee mit #glossary("nils") zusammen ein Projektplan erstellt, aus dem Kosten und Dauer des Projektes hervorgehen.
+Dieser Plan wurde dann als Entscheidungsgrundlage verwendet, um über die Freigabe des benötigten Budgets zu entscheiden.
+
+Diesen Prozess galt es für meine Projekte zu befolgen.
+
+Die Projekt-Ideen für die Projekte, die ich verantwortet habe, ergaben sich meist aus meinem regelmäßigen Austausch mit #glossary("nils").
+Diese Ideen wurden dann von mir zunächst weiterentwickelt, um ein genaueres Bild davon zu bekommen, was die Umsetzung konkret erfordern und bedeuten würde.
+Anschließend, sofern die Idee weiterhin sinnvoll erschien, habe ich, wie oben bereits beschrieben, daraus in Zusammenarbeit mit #glossary("nils") einen Projektplan aufgestellt.
+
+Zu allen für sinnvoll erachteten Projektideen konnte #glossary("nils") einen Projektplan mit #glossary("sebastian") besprechen und über die Budgetfreigabe entscheiden.
+
 ==== *04.05.07.04* Finanzmanagement- und Berichtssystem für das Projekt entwickeln, einrichten und aufrechterhalten
-#todo("Schreiben")
-==== *04.05.07.05* Finanzen überwachen, um Abweichungen vom Projektplan zu identifizieren und zu korrigieren
-#todo("Schreiben")
+Für die Projekte, für die ich verantwortlich war, habe ich in regelmäßigen Abständen den Status im Rahmen eines Meetings an #glossary("nils") berichtet.
+
+Für diese Meetings galt es passende Berichte zu entwickeln.
+
+Grundsätzlich haben wir jegliche Organisation von unseren Projekten in #glossary("notion") verwaltet.
+Ebenso sind wir in unseren Meetings immer direkt durch unsere Strukturen in #glossary("notion") gegangen und haben über die Inhalte gesprochen.
+Dementsprechend habe ich die benötigten Informationen, die es zu berichten galt (darunter auch bisherige Aufwände & Kosten), möglichst in unseren Strukturen in #glossary("notion") eingetragen.
+Für Detail-Informationen, die keinen vorgesehenen Platz in unseren Strukturen hatten, habe ich gezielt ergänzende Strukturen aufgebaut.
+Beispielsweise musste im #glossary("optadata_focus") Projekt ein neuer Server aufgesetzt werden, für den entsprechende Kosten anfielen.
+Da die Verwaltung unserer eigenen Server nicht vorsah, dass wir Server für einzelne Kunden anlegen, habe ich die nötigen Daten hierzu in einem eigenen Bereich innerhalb der Projektorganisation angelegt.
+
+Über die Informationen innerhalb von #glossary("notion") konnte #glossary("nils") jederzeit nachvollziehen auf welchem Stand sich die Projekte befanden.
+
+==== #strike[*04.05.07.05* Finanzen überwachen, um Abweichungen vom Projektplan zu identifizieren und zu korrigieren]
 
 #pagebreak()
 === 04.05.08 Ressourcen
