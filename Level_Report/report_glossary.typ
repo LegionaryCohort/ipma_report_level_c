@@ -1,5 +1,12 @@
 
 #let glossary_dict = (
+    audoora: (
+        link(<gl_audoora>, [_Audoora GmbH_]),
+        [Audoora GmbH <gl_audoora>],
+        [
+            Software-Hersteller in der Hörakustik-Branche, bei dem ich gearbeitet habe und die in diesem Report beschriebenen Projekte verantwortet habe
+        ],
+    ),
     amparex: (
         link(<gl_amparex>, [_Amparex_]),
         [Amparex <gl_amparex>],
@@ -46,41 +53,46 @@
         ],
     ),
     nils: (
-        link(<nils>, [Nils]),
-        [Nils Sonnenfroh <nils>],
+        link(<gl_nils>, [Nils]),
+        [Nils Sonnenfroh <gl_nils>],
         [Einer der beiden Geschäftsführer der Audoora GmbH\
             Hauptverantwortlich für alle HR und IT Themen im Unternehmen],
     ),
     nils_long: (
-        link(<nils>, [Nils Sonnenfroh]),
+        link(<gl_nils>, [Nils Sonnenfroh]),
         none,
         none,
     ),
     sebastian: (
-        link(<sebastian>, [Sebastian]),
-        [Sebastian Garcia-Dennemark <sebastian>],
+        link(<gl_sebastian>, [Sebastian]),
+        [Sebastian Garcia-Dennemark <gl_sebastian>],
         [Einer der beiden Geschäftsführer der Audoora GmbH\
             Hauptverantwortlich für Vertrieb, Marketing und Eventplanung],
     ),
     sebastian_long: (
-        link(<sebastian>, [Sebastian Garcia-Dennemark]),
+        link(<gl_sebastian>, [Sebastian Garcia-Dennemark]),
         none,
         none,
     ),
     python: (
-        link(<python>, [_Python_]),
-        [Python <python>],
+        link(<gl_python>, [_Python_]),
+        [Python <gl_python>],
         [Eine Programmiersprache, die sich durch hohe Entwicklungsgeschwindigkeit und weiten Community-Support auszeichnet],
     ),
     tdh: (
-        link(<tdh>, [_Tag der Hörgesundheit_]),
-        [Tag der Hörgesundheit <tdh>],
+        link(<gl_tdh>, [_Tag der Hörgesundheit_]),
+        [Tag der Hörgesundheit <gl_tdh>],
         [Neues Event in der Hörakustik-Branche mit Fokus auf den Experten-Austausch zu aktuellen Entwicklungen in der Branche],
     ),
     audio_direkt: (
-        link(<audio_direkt>, [_Audio Direkt_]),
-        [Audio Direkt <audio_direkt>],
+        link(<gl_audio_direkt>, [_Audio Direkt_]),
+        [Audio Direkt <gl_audio_direkt>],
         [Eine Einkaufsgemeinschaft der deutschen Hörakustik-Branche],
+    ),
+    nh: (
+        link(<gl_nh>, [_Netzwerk Hörgesundheit_]),
+        [Netzwerk Hörgesundheit <gl_nh>],
+        [Ein Netzwerk von diversen Unternehmen aus der Hörakustik-Branche mit dem Ziel, die gesamtheitliche Hörgesundheitsversorgung in der DACH-Region zu verbessern],
     ),
 )
 

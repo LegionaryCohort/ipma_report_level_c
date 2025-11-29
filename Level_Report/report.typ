@@ -916,13 +916,39 @@ Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv d
 #todo("Schreiben")
 
 #pagebreak()
-=== #TODO 04.03.05 Kultur und Werte
-==== *04.03.05.01* Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen
-#todo("Schreiben")
+=== 04.03.05 Kultur und Werte
+==== #strike[*04.03.05.01* Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen]
+
 ==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen
-#todo("Schreiben")
+Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an (im Gegensatz zu dem weit verbreiteten Fokus auf nur Hörgeräte).
+Teil dieser Mission ist es, die Transparenz und Vergleichbarkeit von Produkten innerhalb der Branche zu steigern, um Endkunden darin zu unterstützen das für sie beste Gerät zu finden.\
+Als Software-Unternehmen legt die #glossary("audoora") zudem viel Wert auf hochwertige und moderne Software-Standards.
+Das schließt neben modernen Nutzeroberflächen auch das Design der dahinterliegenden Code-Base, sowie die Qualität von Daten und Datenstandards, mit ein.
+
+Unsere Mission und Werte waren stets in meinen Projekten einzubringen und anzuwenden.
+
+Um unsere Mission in meine Projekte einzubringen, musste ich nichts weiter tun, da das gesamte Projektdesign sich bereits aus dieser Mission ergab.
+Die Leistungs- und Nutzungsziele der Projekte waren stets auf diese Mission ausgerichtet.\
+Um zudem sicherzustellen, dass die entwickelte Software unseren Werten bzgl. Qualität entsprach, habe ich Coding-Standards für unsere Projekte mitentwickelt und in meinen Projekten etabliert.
+Außerdem habe ich das allgemeine Test-Vorgehen in unserem Unternehmen mit entworfen und ebenfalls in meinen Projekten eingeführt.
+
+Durch die Etablierung der besagten Standards und Prozesse konnte ich sicherstellen, dass die Ergebnisse meiner Projekte dem allgemeinen Qualitäts-Niveau der #glossary("audoora") entsprachen.
+
 ==== *04.03.05.03* Die informelle Kultur und Werte der Organisation und deren Auswirkungen auf das Projekt beurteilen
-#todo("Schreiben")
+Innerhalb des Unternehmens haben wir allgemein einen sehr lockeren und vertrauensbasierten Umgang miteinander gepflegt.
+Das bedeutet vor allem, dass den Entwicklern sehr viel Spielraum für Design-Entscheidungen gelassen wurde und Qualitätsvorgaben und -prozesse zwar besprochen, aber deren Umsetzung nicht weiter kontrolliert wurde.
+Diese Arbeitsweise war vor allem aufgrund der kleinen Unternehmensgröße möglich und da die Endergebnisse stets den Qualitätsstandards entsprachen, wurde diese Kultur bewusst von der Geschäftsführung gefördert.\
+Die Kehrseite des Ganzen war dabei, dass es generell zum guten Ton gehörte, die Arbeitsweise untereinander nicht in Frage zu stellen.
+
+Die Auswirkungen dieser Kultur waren in meinen Projekten zu berücksichtigen und die Arbeit damit in Einklang zu bringen.
+
+Alle Aufgaben, die ich an andere Entwickler abgegeben habe, habe ich im Vorfeld mit diesen im Detail besprochen, um sicherzustellen, dass die gewünschten Ergebnisse und alle Rahmenbedingungen genau bekannt waren.
+Nach Übergabe der Aufgabe habe ich mich dann bewusst mit näheren Kontrollen zurückgehalten, die Entwickler ihre Arbeit verrichten lassen und lediglich regelmäßige Statusupdates eingefordert.
+Die Kontrolle der Qualität der Ergebnisse wurde von mir erst zum Abschluss von Arbeitspaketen durchgeführt, da ich mich darauf verlassen konnte, dass die Entwickler sich bereits selbstständig an die etablierten Prozesse und Standards halten.
+
+Wir haben insgesamt durch unsere Arbeitsweise ein durchweg angenehmes Klima geschaffen, in dem sich alle optimal einbringen konnten und ihren eigenen Arbeitsstil leben konnten.
+Ich bin fest davon überzeugt, dass dieser Umstand auch ausschlaggebend für die hohe Qualität unserer Arbeit war, da alle ein Interesse daran hatten diese Qualität zu liefern.
+
 
 #pagebreak()
 === #TODO 04.04.01 Selbstreflexion und Selbstmanagement
