@@ -951,17 +951,58 @@ Ich bin fest davon überzeugt, dass dieser Umstand auch ausschlaggebend für die
 
 
 #pagebreak()
-=== #TODO 04.04.01 Selbstreflexion und Selbstmanagement
-==== *04.04.01.01* Einfluss der eigenen Werte und persönlichen Erfahrungen auf die Arbeit identifizieren und reflektieren
-#todo("Schreiben")
+=== 04.04.01 Selbstreflexion und Selbstmanagement
+==== #strike[*04.04.01.01* Einfluss der eigenen Werte und persönlichen Erfahrungen auf die Arbeit identifizieren und reflektieren]
+
 ==== *04.04.01.02* Selbstvertrauen auf der Basis von persönlichen Stärken und Schwächen aufbauen
-#todo("Schreiben")
+Allgemein habe ich im Laufe der letzten Jahre immer wieder festgestellt, dass ich große Schwierigkeiten damit habe, bei Stille zu arbeiten.
+Wenn um mich herum nichts weiter passiert, dann füllt mein Kopf die Leere, indem er anfängt über meinen Alltag und meine Freizeit zu sinnieren.
+
+Ich musste einen Weg finden, um diesen Ablenkungsfaktor in den Griff zu bekommen.
+
+Ich habe zunächst versucht zu differenzieren, wieso mein Kopf das Bedürfnis hat die Stille zu füllen.
+Dabei bin ich zu dem Schluss gekommen, dass es der Mangel an "Leben" in meiner Umgebung ist, den mein Kopf versucht auszugleichen.
+Daraus konnte ich folgern, dass ich tatsächlich an meiner Arbeitsumgebung etwas ändern muss, da das Problem nicht in meiner Konzentration selbst liegt.
+Ich habe anschließend mehrere Optionen getestet und verglichen, um diese Änderung zu erreichen (Musik hören, Videos im Hintergrund laufen lassen, im gleichen Raum mit anderen Menschen arbeiten, etc.).
+
+Ich bin letztlich zu dem Schluss gekommen, dass die effektivste Methode ist, in einem Raum mit anderen Menschen zusammen zu arbeiten.
+Diese hat zu erheblichen Fokus-Steigerungen geführt.
+Als Fallback-Option für Situationen, in denen dies keine Option ist, z.B. bei der Arbeit im Home-Office, wenn meine Partnerin nicht da ist, konnte ich diverse Videos finden, in denen sich in ruhiger Atmosphäre mit diversen Themen beschäftigt wird.
+Diese haben den gleichen Effekt, wenn auch in reduziertem Maße.
+
 ==== *04.04.01.03* Persönliche Motivationen identifizieren und reflektieren, um persönliche Ziele zu setzen und darauf zu fokussieren
-#todo("Schreiben")
+Zu meiner persönlichen und beruflichen Weiterbildung mache ich mir schon seit langem regelmäßige Gedanken.
+Dabei lege ich großen Wert darauf eine klare Richtung zu haben, um meine Ziele und Prioritäten festzulegen, ohne mich dabei zu sehr einzuschränken.
+
+Ich habe vor einigen Jahren für mich ein Zielbild gestaltet; eine Persona, die repräsentiert, wer ich sein möchte.
+Mithilfe dieser Persona kann ich beurteilen, welche Aspekte meines Lebens noch nicht so sind, wie ich sie gerne hätte, und aus diesem Vergleich Ziele für mich selbst ableiten.
+Beispielsweise entspricht mein derzeitiges sportliches Niveau nicht dem, das ich in meiner Idealvorstellung habe.
+Daraus habe ich für mich das Ziel abgeleitet mindestens 3 mal pro Woche das Fitness-Studio zu besuchen (bzw. handelt es sich hier eher um ein KPI, da das Ganze kein definiertes Ende hat).\
+Gleichermaßen hilft mir diese Ziel-Persona bei der Priorisierung und Entscheidungsfindung, da ich mich in unklaren Situationen fragen kann "Was würde meine Ziel-Persona jetzt tun?".
+So habe ich beispielsweise beschlossen mich beruflich in die Projektmanagement Richtung umzuorientieren, da das mehr dem entsprach, was meine Ziel-Persona tun würde.
+
 ==== *04.04.01.04* Eigene Arbeit abhängig von der Situation und den eigenen Ressourcen organisieren
-#todo("Schreiben")
+Neben der Planung und Umsetzung der von mir verantworteten Projekte, war ich außerdem der allgemeine Ansprechpartner für alle Themen rund um unsere Produktdaten.
+In diesem Zusammenhang haben immer wieder mal Akustiker mit mir Kontakt aufgenommen, um Fragen zu klären oder technischen Support für unsere Produktdatenservices zu erfragen.\
+Im Laufe des #glossary("optadata_focus") Projektes wurde ich von einem Akustiker für technischen Support kontaktiert.
+Ich musste nun entscheiden was nun zu priorisieren war.
+
+Unsere normale Policy besagt, dass Nutzer-/Kundenanfragen grundsätzlich Priorität gegenüber Entwicklungsprojekten haben.
+Da es sich jedoch bei dem #glossary("optadata_focus") Projekt ebenfalls um ein Kundenprojekt handelt, waren die Anfrage und das Projekt zunächst als gleichwertig zu betrachten.
+In der Dringlichkeit unterschieden sich die Aufgaben ebenso wenig.
+Die Projektaufgabe hatte eine schnell herannahende Deadline und der Kunde konnte nicht sinnvoll weiterarbeiten, solange sein Problem nicht aufgelöst wurde.\
+Ich habe schließlich den potentiellen Schaden bewertet, der entstehen könnte, und dabei ermittelt, dass ein Reißen der Projekt-Deadline höhere Folgekosten mit sich ziehen würde als eine Verzögerung in der Bearbeitung der Kunden-Anfrage.
+Aus diesem Grund habe ich den Akustiker mit seiner Anfrage nach hinten geschoben und zunächst die Projektaufgabe erledigt.
+
 ==== *04.04.01.05* Verantwortung für das persönliche Lernen und die persönliche Weiterentwicklung übernehmen
-#todo("Schreiben")
+Der Entwicklungsprozess, den ich für die Umsetzung des #abbr("qrs") aufgesetzt hatte, sah eine bestimmte Reihenfolge von Entwicklungs- und Test-Schritten vor.
+Dabei sollte durch die Einhaltung von Qualitäts-Standards in der Entwicklung der Bedarf an Testung reduziert werden, weshalb weniger Test-Schritte als üblich geplant waren.
+Letzenendes erzielten die eingeführten Qualitäts-Standards nicht den nötigen Effekt, um die gestrichenen Tests vollständig zu ersetzen.
+Hinzu kam, dass durch die Umstellung des Prozesses das Reporting bzgl. des Projektfortschrittes schwieriger wurde, weil erst spät abgeschätzt werden konnte wie viel Korrekturarbeit noch notwendig sein würde.
+
+Da der Prozess im Laufe des Projektes zu Reibungspunkten geführt hatte, wurde er im Rahmen der Lessons Learned näher unter die Lupe genommen.
+Unter anderem hatte mein Mangel an Verständnis für die Grenzen dessen, was die Qualitäts-Standards leisten können und wo sie keine Garantien liefern können, mit zu den Problemen beigetragen.
+Neben den Ergebnissen der Lessons Learned habe ich mir also selbst noch mitgenommen mich tiefer in das Thema der Qualitäts-Standards einzulesen und mein Wissen dort zu erweitern.
 
 #pagebreak()
 === #TODO 04.04.02 Persönliche Integrität und Verlässlichkeit
