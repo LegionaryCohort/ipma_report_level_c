@@ -94,6 +94,11 @@
         [Netzwerk Hörgesundheit <gl_nh>],
         [Ein Netzwerk von diversen Unternehmen aus der Hörakustik-Branche mit dem Ziel, die gesamtheitliche Hörgesundheitsversorgung in der DACH-Region zu verbessern],
     ),
+    jira: (
+        link(<gl_jira>, [_Jira_]),
+        [Jira <gl_jira>],
+        [Eine Plattform für die Verwaltung von Projekten und Aufgaben, hergestellt von der Firma Atlassian],
+    ),
 )
 
 #let glossary(name) = {

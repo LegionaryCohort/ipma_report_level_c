@@ -1013,17 +1013,60 @@ Neben den Ergebnissen der Lessons Learned habe ich mir also selbst noch mitgenom
 ==== #strike[*04.04.02.05* Aufgaben sorgfältig erfüllen, um Vertrauen bei anderen zu schaffen]
 
 #pagebreak()
-=== #TODO 04.04.03 Persönliche Kommunikation
+=== 04.04.03 Persönliche Kommunikation
 ==== *04.04.03.01* Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
-#todo("Schreiben")
+Im Rahmen meiner Aufgaben hatte ich viel Kontakt sowohl mit unseren Entwicklern, als auch mit unseren Partner-Akustikern.
+Diese beiden Personengruppen haben dabei erhebliche Unterschiede in der Art und Weise wie sie Informationen aufnehmen, verarbeiten und selber kommunizieren.
+Um eine klare Kommunikation sicherzustellen, musste ich die benötigten Informationen gezielt für die jeweilige Zielgruppe sinnvoll strukturieren und präsentieren.
+
+In meiner Erfahrung tendieren Entwickler dazu Informationen sehr exakt aufzunehmen, d.h. die korrekte Bezeichnung und das konkrete Wording der Inhalte sind enorm wichtig.
+Gleichermaßen liegt der Fokus meist bei technischen Details und Feinheiten, nicht beim Big Picture.\
+Im Gegensatz dazu verhält es sich bei den Akustikern nahezu umgekehrt.
+Zwar ist durchaus wichtig die Inhalte einer Aussage sauber zu formulieren, aber sie hängen sich nicht allzu sehr an konkretem Wording auf, sondern haben eher das Gesamtbild im Sinn.
+Hinzu kommt hier natürlich oft ein Mangel von tiefgreifendem technischen Verständnis, daher galt es diese Informationen entweder auszulassen oder vereinfacht zu erklären.\
+Anhand dieser Erfahrungen und Kenntnisse habe ich eine jeweils sinnvolle Kommunikationsform entwickelt und angewendet.
+Bei Entwicklern habe ich darauf geachtet mithilfe von Diagrammen und technischer Sprache möglichst präzise die Details zu kommunizieren. Bei Akustikern habe ich im Gegensatz dazu immer beim Gesamtbild angefangen und bin nur bei Bedarf mit bildhaften Beispielen in die Details tiefer eingestiegen.
+
+Mit den gewählten Kommunikationsansätzen konnte ich in Gesprächen stets sicherstellen, dass alle wichtigen Informationen bei meinem Gegenüber ankamen.
+
 ==== *04.04.03.02* Offene Kommunikation ermöglichen und fördern
-#todo("Schreiben")
+Ich habe bereits oft in Gesprächen erlebt, dass Informationen verloren gegangen sind, weil die Beteiligten dachten, sie hätten alles verstanden, aber die Dinge anders gemeint waren.
+Mir selbst ist das auch allzu oft schon passiert.
+
+Aus diesem Grund habe ich mir angewöhnt in Gesprächen meinen Fokus zunächst darauf zu legen die Position und Informationen meines Gegenübers möglichst klar zu verstehen.
+Dazu gehört für mich nicht nur das aktive zuhören, sondern auch, dass ich mir die Bestätigung des Gegenübers einhole, dass ich Inhalte korrekt verstanden habe.\
+Beispielsweise hatte ich mit einer Ansprechpartnerin bei einem Kunden zu tun, die recht viel technisches Wissen besaß, aber sich schnell in Details verlor, wenn sie über ihre selbst entworfenen Lösungen sprach.
+In meinen Gesprächen mit ihr konnten wir regelmäßig Missverständnisse dadurch aufklären, dass ich meine Annahmen und mein Verständnis ihrer Aussagen ausformuliert habe und sie diese dann korrigieren konnte.\
+Beispielsweise sprachen wir zu einem Punkt über ihre selbstgebauten Datenbanklösungen für ihre Kundenverwaltung.
+Ich fasste anschließend den eigentlichen Prozess zusammen, den ich aus ihren Ausführungen herausgehört hatte, und sie konnte mich dann korrigieren und einen Schritt klarstellen, den ich falsch verstanden hatte.
+Dadurch konnte ich ihr dann anschließend einen gezielten Ratschlag geben, wie sie ihre Strukturen optimieren konnte.
+
 ==== *04.04.03.03* Kommunikationsarten und -kanäle auswählen, um die Bedürfnisse der Zielgruppe, der Situation und der Führungsebene zu erfüllen
-#todo("Schreiben")
+Im Rahmen der Einführung unseres Supports des #abbr("axc") Formates, ist uns ein Fehler im #glossary("amparex") System aufgefallen.
+Diesen wollten wir zwecks Behebung an #glossary("amparex") berichten.
+Dabei stellte sich heraus, dass die gewählte Kommunikation den Fehler per E-Mail mit einer kurzen Erklärung zu melden, nicht zielführend war.
+
+Ich habe zunächst, wie erwähnt, den Fehler, mit einer kurzen Erklärung der Umstände und des Fehlers selbst, per E-Mail an #glossary("amparex") gemeldet.
+Daraufhin erhielt ich lange keine Antwort, bis ich schließlich die Rückmeldung erhielt, dass der Fehler seitens #glossary("amparex") nicht nachvollzogen werden konnte.
+Um den Fehler genauer zu erklären, habe ich anschließend versucht den zuständigen Ansprechpartner telefonisch zu erreichen.
+Nach wiederholten Versuchen, bei denen niemand ans Telefon gegangen ist, habe ich diesen Weg aufgegeben und stattdessen den Fehler nochmals selbst genauer unter die Lupe genommen.
+Ich konnte schließlich ein Minimal-Beispiel erstellen, mit dem der Fehler mit minimalem Aufwand reproduziert werden konnte.
+Dieses Minimal-Beispiel habe ich dann erneut per E-Mail verschickt.
+
+Auf die letzte Mail erhielt ich ähnlich langsam die Antwort, dass der Fehler gefunden worden sei und behoben wird.
+Mit der Veränderungen in der Art meiner Kommunikation, konkret in der Art, wie ich die relevanten Informationen zur Verfügung gestellt habe, konnte ich mein Ziel der Fehlerbehebung erreichen.
+
 ==== *04.04.03.04* Mit virtuellen Teams effektiv kommunizieren
-#todo("Schreiben")
-==== *04.04.03.05* Humor und Perspektivenwechsel angemessen verwenden
-#todo("Schreiben")
+Die Hälfte der Leute bei der #glossary("audoora") haben zu 100% remote gearbeitet.
+Dieser Umstand hatte sich bereits in den Anfängen des Unternehmens etabliert, da wir damals schon mit Leuten zusammengearbeitet haben, die nicht ansatzweise in der Nähe von Köln gewohnt haben.
+
+Um eine möglichst optimale Kommunikation für das gesamte Team sicherzustellen, haben wir diverse Tools verwendet.
+Dabei haben wir als gesamtes Team zusammen verschiedene Tools evaluiert und uns schließlich für die Verwendung von Microsoft Teams entschieden.
+Für unsere Projekt- und Aufgabenverwaltung haben wir zunächst #glossary("jira") verwendet.\
+Nach den ersten 1-2 Jahren der Arbeit mit diesen Tools, haben wir #glossary("jira") durch #glossary("notion") abgelöst.
+Für diese Entscheidung war ausschlaggebend, dass wir zum einen mit #glossary("jira") nicht alles abbilden konnten, was wir an Informationen ablegen wollten, und zum anderen dass wir mit #glossary("notion") deutlich genauer unsere tatsächlichen Arbeitsprozesse abbilden konnten.
+
+==== #strike[*04.04.03.05* Humor und Perspektivenwechsel angemessen verwenden]
 
 #pagebreak()
 === #strike[04.04.04 Beziehungen und Engagement]
