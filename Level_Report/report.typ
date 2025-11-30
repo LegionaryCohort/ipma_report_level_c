@@ -1005,17 +1005,12 @@ Unter anderem hatte mein Mangel an Verständnis für die Grenzen dessen, was die
 Neben den Ergebnissen der Lessons Learned habe ich mir also selbst noch mitgenommen mich tiefer in das Thema der Qualitäts-Standards einzulesen und mein Wissen dort zu erweitern.
 
 #pagebreak()
-=== #TODO 04.04.02 Persönliche Integrität und Verlässlichkeit
-==== *04.04.02.01* Ethische Werte bei allen Entscheidungen und Handlungen anerkennen und anwenden
-#todo("Schreiben")
-==== *04.04.02.02* Nachhaltigkeit von Leistungen und Ergebnissen fördern
-#todo("Schreiben")
-==== *04.04.02.03* Verantwortung für die eigenen Entscheidungen und Handlungen übernehmen
-#todo("Schreiben")
-==== *04.04.02.04* Widerspruchsfrei handeln, Entscheidungen treffen und kommunizieren
-#todo("Schreiben")
-==== *04.04.02.05* Aufgaben sorgfältig erfüllen, um Vertrauen bei anderen zu schaffen
-#todo("Schreiben")
+=== #strike[04.04.02 Persönliche Integrität und Verlässlichkeit]
+==== #strike[*04.04.02.01* Ethische Werte bei allen Entscheidungen und Handlungen anerkennen und anwenden]
+==== #strike[*04.04.02.02* Nachhaltigkeit von Leistungen und Ergebnissen fördern]
+==== #strike[*04.04.02.03* Verantwortung für die eigenen Entscheidungen und Handlungen übernehmen]
+==== #strike[*04.04.02.04* Widerspruchsfrei handeln, Entscheidungen treffen und kommunizieren]
+==== #strike[*04.04.02.05* Aufgaben sorgfältig erfüllen, um Vertrauen bei anderen zu schaffen]
 
 #pagebreak()
 === #TODO 04.04.03 Persönliche Kommunikation
@@ -1031,91 +1026,58 @@ Neben den Ergebnissen der Lessons Learned habe ich mir also selbst noch mitgenom
 #todo("Schreiben")
 
 #pagebreak()
-=== #TODO 04.04.04 Beziehungen und Engagement
-==== *04.04.04.01* Persönliche und berufliche Beziehungen aufbauen und pflegen
-#todo("Schreiben")
-==== *04.04.04.02* Soziale Netzwerke aufbauen, moderieren und an ihnen teilnehmen
-#todo("Schreiben")
-==== *04.04.04.03* Durch Zuhören, Verständnis und Unterstützung Empathie zeigen
-#todo("Schreiben")
-==== *04.04.04.04* Vertrauen und Respekt zeigen, indem andere ermutigt werden, ihre Meinungen und Bedenken zu äußern
-#todo("Schreiben")
-==== *04.04.04.05* Eigene Visionen und Ziele kommunizieren, um Engagement und Commitment Dritter zu erreichen
-#todo("Schreiben")
+=== #strike[04.04.04 Beziehungen und Engagement]
+==== #strike[*04.04.04.01* Persönliche und berufliche Beziehungen aufbauen und pflegen]
+==== #strike[*04.04.04.02* Soziale Netzwerke aufbauen, moderieren und an ihnen teilnehmen]
+==== #strike[*04.04.04.03* Durch Zuhören, Verständnis und Unterstützung Empathie zeigen]
+==== #strike[*04.04.04.04* Vertrauen und Respekt zeigen, indem andere ermutigt werden, ihre Meinungen und Bedenken zu äußern]
+==== #strike[*04.04.04.05* Eigene Visionen und Ziele kommunizieren, um Engagement und Commitment Dritter zu erreichen]
 
 #pagebreak()
-=== #TODO 04.04.06 Teamwork
-==== *04.04.06.01* Das Team zusammenstellen und entwickeln
-#todo("Schreiben")
-==== *04.04.06.02* Zusammenarbeit und Netzwerken zwischen Teammitgliedern fördern
-#todo("Schreiben")
-==== *04.04.06.03* Die Entwicklung des Teams und der Teammitglieder ermöglichen, unterstützen und überprüfen
-#todo("Schreiben")
-==== *04.04.06.04* Teams durch das Delegieren von Aufgaben und Verantwortlichkeiten stärken
-#todo("Schreiben")
-==== *04.04.06.05* Fehler erkennen, um das Lernen aus Fehlern zu ermöglichen
-#todo("Schreiben")
+=== #strike[04.04.06 Teamwork]
+==== #strike[*04.04.06.01* Das Team zusammenstellen und entwickeln]
+==== #strike[*04.04.06.02* Zusammenarbeit und Netzwerken zwischen Teammitgliedern fördern]
+==== #strike[*04.04.06.03* Die Entwicklung des Teams und der Teammitglieder ermöglichen, unterstützen und überprüfen]
+==== #strike[*04.04.06.04* Teams durch das Delegieren von Aufgaben und Verantwortlichkeiten stärken]
+==== #strike[*04.04.06.05* Fehler erkennen, um das Lernen aus Fehlern zu ermöglichen]
 
 #pagebreak()
-=== #TODO 04.04.07 Konflikte und Krisen
-==== *04.04.07.01* Konflikte und Krisen antizipieren und, wenn möglich, verhindern
-#todo("Schreiben")
-==== *04.04.07.02* Ursachen und Auswirkungen von Konflikten und Krisen analysieren und angemessene Reaktionen auswählen
-#todo("Schreiben")
-==== *04.04.07.03* Konflikte und Krisen und/oder deren Auswirkungen lösen bzw. in ihnen vermitteln
-#todo("Schreiben")
-==== *04.04.07.04* Lernergebnisse aus Konflikten und Krisen identifizieren und weitergeben, um die zukünftige Arbeit zu verbessern
-#todo("Schreiben")
+=== #strike[04.04.07 Konflikte und Krisen]
+==== #strike[*04.04.07.01* Konflikte und Krisen antizipieren und, wenn möglich, verhindern]
+==== #strike[*04.04.07.02* Ursachen und Auswirkungen von Konflikten und Krisen analysieren und angemessene Reaktionen auswählen]
+==== #strike[*04.04.07.03* Konflikte und Krisen und/oder deren Auswirkungen lösen bzw. in ihnen vermitteln]
+==== #strike[*04.04.07.04* Lernergebnisse aus Konflikten und Krisen identifizieren und weitergeben, um die zukünftige Arbeit zu verbessern]
 
 #pagebreak()
-=== #TODO 04.04.08 Vielseitigkeit
-==== *04.04.08.01* Ein offenes und kreatives Umfeld schaffen und unterstützen
-#todo("Schreiben")
-==== *04.04.08.02* Konzeptionelles Denken anwenden, um Situationen zu analysieren und Lösungsstrategien zu definieren
-#todo("Schreiben")
-==== *04.04.08.03* Analytische Techniken anwenden, um Situationen, Informationen und Trends zu analysieren
-#todo("Schreiben")
-==== *04.04.08.04* Kreative Techniken fördern und anwenden, um Alternativen und Lösungen zu finden
-#todo("Schreiben")
-==== *04.04.08.05* Ganzheitliche Sicht auf das Projekt und seinen Kontext fördern, um den Entscheidungsprozess zu verbessern
-#todo("Schreiben")
+=== #strike[04.04.08 Vielseitigkeit]
+==== #strike[*04.04.08.01* Ein offenes und kreatives Umfeld schaffen und unterstützen]
+==== #strike[*04.04.08.02* Konzeptionelles Denken anwenden, um Situationen zu analysieren und Lösungsstrategien zu definieren]
+==== #strike[*04.04.08.03* Analytische Techniken anwenden, um Situationen, Informationen und Trends zu analysieren]
+==== #strike[*04.04.08.04* Kreative Techniken fördern und anwenden, um Alternativen und Lösungen zu finden]
+==== #strike[*04.04.08.05* Ganzheitliche Sicht auf das Projekt und seinen Kontext fördern, um den Entscheidungsprozess zu verbessern]
 
 #pagebreak()
-=== #TODO 04.04.09 Verhandlungen
-==== *04.04.09.01* Interessen aller Parteien, die an den Verhandlungen beteiligt sind, identifizieren und analysieren
-#todo("Schreiben")
-==== *04.04.09.02* Optionen und Alternativen entwickeln und evaluieren, die das Potenzial haben, die Bedürfnisse aller Beteiligten zu erfüllen
-#todo("Schreiben")
-==== *04.04.09.03* Verhandlungsstrategie definieren, die mit den eigenen Zielen übereinstimmt und für alle beteiligten Parteien akzeptabel ist
-#todo("Schreiben")
-==== *04.04.09.04* Einigungen mit anderen Parteien erzielen, die mit den eigenen Zielen übereinstimmen
-#todo("Schreiben")
-==== *04.04.09.05* Zusätzliche Verkaufs- und Akquisitionsmöglichkeiten entdecken und ausschöpfen
-#todo("Schreiben")
+=== #strike[04.04.09 Verhandlungen]
+==== #strike[*04.04.09.01* Interessen aller Parteien, die an den Verhandlungen beteiligt sind, identifizieren und analysieren]
+==== #strike[*04.04.09.02* Optionen und Alternativen entwickeln und evaluieren, die das Potenzial haben, die Bedürfnisse aller Beteiligten zu erfüllen]
+==== #strike[*04.04.09.03* Verhandlungsstrategie definieren, die mit den eigenen Zielen übereinstimmt und für alle beteiligten Parteien akzeptabel ist]
+==== #strike[*04.04.09.04* Einigungen mit anderen Parteien erzielen, die mit den eigenen Zielen übereinstimmen]
+==== #strike[*04.04.09.05* Zusätzliche Verkaufs- und Akquisitionsmöglichkeiten entdecken und ausschöpfen]
 
 #pagebreak()
-=== #TODO 04.04.10 Ergebnisorientierung
-==== *04.04.10.01* Alle Entscheidungen und Handlungen hinsichtlich ihrer Auswirkung auf den Projekterfolg und die Ziele der Organisation evaluieren
-#todo("Schreiben")
-==== *04.04.10.02* Bedürfnisse und Mittel aufeinander abstimmen, um Ergebnisse und Erfolge zu optimieren
-#todo("Schreiben")
-==== *04.04.10.03* Gesunde, sichere und produktive Arbeitsumgebung schaffen und diese aufrecht erhalten
-#todo("Schreiben")
-==== *04.04.10.04* Das Projekt, seine Prozesse und Ergebnisse unterstützen und diese 'verkaufen'
-#todo("Schreiben")
-==== *04.04.10.05* Ergebnisse liefern und Akzeptanz erhalten
-#todo("Schreiben")
+=== #strike[04.04.10 Ergebnisorientierung]
+==== #strike[*04.04.10.01* Alle Entscheidungen und Handlungen hinsichtlich ihrer Auswirkung auf den Projekterfolg und die Ziele der Organisation evaluieren]
+==== #strike[*04.04.10.02* Bedürfnisse und Mittel aufeinander abstimmen, um Ergebnisse und Erfolge zu optimieren]
+==== #strike[*04.04.10.03* Gesunde, sichere und produktive Arbeitsumgebung schaffen und diese aufrecht erhalten]
+==== #strike[*04.04.10.04* Das Projekt, seine Prozesse und Ergebnisse unterstützen und diese 'verkaufen']
+==== #strike[*04.04.10.05* Ergebnisse liefern und Akzeptanz erhalten]
 
 #pagebreak()
-=== #TODO 04.05.13 Change und Transformation
-==== *04.05.13.01* Adaptionsfähigkeit der Organisation(en) zu Veränderung beurteilen
-#todo("Schreiben")
-==== *04.05.13.02* Veränderungsanforderungen und Transformationschancen identifizieren
-#todo("Schreiben")
-==== *04.05.13.03* Veränderungs- oder Transformationsstrategie für das Projekt entwickeln
-#todo("Schreiben")
-==== *04.05.13.04* Veränderungs- oder Transformationsmanagement implementieren
-#todo("Schreiben")
+=== #strike[04.05.13 Change und Transformation]
+==== #strike[*04.05.13.01* Adaptionsfähigkeit der Organisation(en) zu Veränderung beurteilen]
+==== #strike[*04.05.13.02* Veränderungsanforderungen und Transformationschancen identifizieren]
+==== #strike[*04.05.13.03* Veränderungs- oder Transformationsstrategie für das Projekt entwickeln]
+==== #strike[*04.05.13.04* Veränderungs- oder Transformationsmanagement implementieren]
 
 <main_numbering_end>
 #set page(footer: page_footer(<appendix_numbering_end>), numbering: "i")
