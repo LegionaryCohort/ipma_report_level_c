@@ -189,19 +189,45 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #todo("Schreiben")
 
 #pagebreak()
-=== #TODO 04.03.03 Compliance, Standards und Regularien
+=== 04.03.03 Compliance, Standards und Regularien
 ==== *04.03.03.01* Die für das Projekt gültigen Rechtsvorschriften identifizieren und einhalten
-#todo("Schreiben")
-==== *04.03.03.02* Alle für das Projekt relevanten Vorschriften für Sicherheit, Gesundheit, und Umweltschutz (SGU) identifizieren und einhalten
-#todo("Schreiben")
-==== *04.03.03.03* Alle für das Projekt relevanten Verhaltensregeln und Berufsvorschriften identifizieren und einhalten
-#todo("Schreiben")
+Ein Teil der Schnittstelle zu #glossary("optadata_focus") erfordert die Übermittlung von E-Mail-Adressen und Kundennummern der Nutzer des #glossary("optadata_focus") Systems.
+
+Da es sich hierbei um personenbezogene Daten handelt, und mir bekannt war, dass Verstöße gegen die DSGVO hohe Strafen mit sich ziehen können, habe ich diese Tatsache zunächst als Risiko für das Projekt (und das Unternehmen) verbucht.
+Ich selbst habe nur begrenzte Erfahrung damit, wie mit solchen Daten zu verfahren ist, um sie DSGVO-konform zu handhaben.
+Aus diesem Grund habe ich unseren Datenschutzbeauftragten zu Rate gezogen.\
+Diesem habe ich zunächst die geplanten Schnittstellen-Prozesse dargelegt und aufgezeigt an welchen Stellen diese Daten verwendet werden.
+Ich habe ihn dann gebeten zu beurteilen, welche Maßnahmen zur Sicherung der Daten notwendig sein würden und mir eine Übersicht über die einzuhaltenden Richtlinien zu erstellen.
+
+Mit der mir zur Verfügung gestellten Übersicht konnte ich in der weiteren Planung sicherstellen, dass die betroffenen Daten korrekt gehandhabt werden und alle Vorgaben der DSGVO eingehalten werden.
+
+==== #strike[*04.03.03.02* Alle für das Projekt relevanten Vorschriften für Sicherheit, Gesundheit, und Umweltschutz (SGU) identifizieren und einhalten]
+==== #strike[*04.03.03.03* Alle für das Projekt relevanten Verhaltensregeln und Berufsvorschriften identifizieren und einhalten]
 ==== *04.03.03.04* Für das Projekt relevante Prinzipien und Ziele der Nachhaltigkeit identifizieren und einhalten
-#todo("Schreiben")
+Eines der allgemeinen Ziele unseres Unternehmens war es, die Büroarbeit der Akustiker zu vereinfachen.
+Dazu gehörte unter anderem das Ersetzen von Papier-Prozessen durch digitale Vorgänge.
+Damit wurden nicht nur die Effizienzsteigerungen, die mit digitalen Prozessen einhergehen, verfolgt, sondern auch der positive Effekt auf die Umwelt durch die Reduzierung des Papierverbrauchs im operativen Alltag der Akustiker.
+
+Während dieses Ziel nicht direkt im Vordergrund stand, so habe ich es dennoch oft in Gesprächen mit Akustikern mit angebracht als "Bonus-Effekt", der sich aus einer Umstellung ergibt.
+Tatsächlich wurde in einer früheren Version unserer Produktdatenplattform auch damit geworben, dass #glossary("audoora") für abgeschlossene Einkäufe über die Plattform Bäume pflanzt. Zu dieser Zeit war ich in dem Projekt jedoch nur als Entwickler tätig, die Verantwortung für das Programm habe ich erst später übernommen.
+
 ==== *04.03.03.05* Für das Projekt relevante fachliche Standards und Tools beurteilen, nutzen und weiterentwickeln
-#todo("Schreiben")
-==== *04.03.03.06* Die Projektmanagementkompetenz der Organisation beurteilen, vergleichen und verbessern
-#todo("Schreiben")
+Für die Produktdaten der Hörakustik-Branche existiert der #abbr("himsa") Standard.
+Dieser definiert eine Struktur, in der Produktdaten dargestellt und übermittelt werden können.
+Der Standard ist innerhalb der Branche weit verbreitet, wird jedoch nicht überall verwendet.
+Unser Produktdatenmanagementsystem nutzt beispielsweise eine eigene Struktur, die sich lediglich am #abbr("himsa") Standard orientiert.\
+Der Standard ist insb. unter Akustikern gut bekannt und wird oft verwendet, wenn über Produktdaten gesprochen wird.
+
+In meiner Arbeit an den verschiedenen Projekten, die ich verantwortet habe, war dieser Standard quasi omni-präsent.
+Zwar war er nicht für jedes Projekt gleichermaßen relevant (beispielsweise beschäftigte sich das #abbr("qrs") nur mit unser eigenen Satenstruktur, während im #glossary("optadata_focus") Projekt der Standard explizit als Übertragungsformat für Produktdatenkataloge gewählt wurde), aber sein Einfluss war dennoch sichtbar.
+
+Für unsere Produktdatenplattform war eine Erweiterung der Geräte-Featuredaten angedacht.
+Diese hatte ich angefangen zu planen, bevor sie aus strategischen Gründen in der Gesamtplanung nach hinten geschoben wurde.
+Im Rahmen dieser Planung habe ich festgestellt, dass der #abbr("himsa") Standard nicht in der Lage sein würde, die von uns geplanten Erweiterungen mit abzudecken.
+Als Konsequenz daraus habe ich mit in die Planung aufgenommen, dass wir die Konvertierung zwischen unserer Struktur und dem Standard deutlich genauer betrachten müssen.
+Da eine Anpassung des Standards nicht in unserer Hand lag, wäre es notwendig geworden in der Konvertierung um diesen Umstand herumarbeiten zu müssen.
+
+==== #strike[*04.03.03.06* Die Projektmanagementkompetenz der Organisation beurteilen, vergleichen und verbessern]
 
 #pagebreak()
 === 04.03.04 Macht und Interessen
