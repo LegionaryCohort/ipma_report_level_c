@@ -836,17 +836,46 @@ Im Anschluss an diese Gespräche sind #glossary("nils") und ich die Ergebnisse z
 Außerdem haben wir mit den Erkenntnissen über besonders gut gelaufene Situationen unsere Prozesse im Unternehmen weiter optimieren können.
 
 #pagebreak()
-=== #TODO 04.05.11 Chancen und Risiken
-==== *04.05.11.01* Chancen- und Risikomanagementstruktur entwickeln und implementieren
-#todo("Schreiben")
+=== 04.05.11 Chancen und Risiken
+Die nachfolgenden KCIs beziehen sich alle auf den Aufbau des neuen Import-Moduls für unser Produktdatenmanagementsystem.
+Konkret geht es dabei um die Schnittstelle zwischen dem Import-Modul und der Produktdatenbank, die gegen Fehler abzusichern war.
+
+==== #strike[*04.05.11.01* Chancen- und Risikomanagementstruktur entwickeln und implementieren]
 ==== *04.05.11.02* Chancen und Risiken identifizieren
-#todo("Schreiben")
+Da das Import-Modul direkten Zugang zu unserer Produktdatenbank zwingend erfordert, um die Imports durchzuführen, habe ich im Rahmen der Planung direkt das Risiko identifiziert, dass fehlerhafte Zugriffe auf die Datenbank zu erheblichem Schaden an unseren Daten führen könnte.
+Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
+- Fehlerhaftes abspeichern der Neudaten
+- Fehlerhafte Anpassung bestehender Daten
+- Unvollständigkeit der Daten bei abgebrochenem Import-Vorgang
+#v(-10pt)
+Alle drei Kategorien waren in der weiterführenden Bewertung zu betrachten und Maßnahmen zu ermitteln (siehe nächste KCIs).
+
 ==== *04.05.11.03* Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren
-#todo("Schreiben")
+Die zuvor identifizierten Fehlerkategorien waren in ihrem potentiellen Ausmaß zu bewerten.
+
+Die Fehlerkategorien habe ich jeweils quantitativ ("Wie viele Datensätze sind betroffen?") und qualitativ ("Wie aufwändig ist die Korrektur der einzelnen Fehler?") beurteilt.
+Diese Beurteilung habe ich in einer Tabelle festgehalten (für eine Rekonstruktion siehe @import_error_analysis).\
+Zudem habe ich die Auftrittswahrscheinlichkeit der Kategorien beurteilt und in derselben Aufstellung festgehalten.
+
+Die Bewertung der Risiken wurde verwendet, um angemessene Maßnahmen zu entwerfen.
+
 ==== *04.05.11.04* Strategien auswählen und Maßnahmen implementieren, um Chancen und Risiken zu adressieren
-#todo("Schreiben")
+Durch die Bewertung der Risiken konnte ich einschätzen, dass der Abbruch eines laufenden Import-Vorganges das größte Risiko darstellt, sowohl in seiner Auftrittswahrscheinlichkeit, als auch in den Auswirkungen.
+Aus diesem Grund habe ich in der Planung des Projektes den vorgesehenen Import-Vorgang um eine Rollback-Funktionalität erweitert.
+Diese erlaubt mittels detailliertem Fortschrittstracking einen laufenden Import-Vorgang jederzeit zurückzurollen.
+Die Umsetzung dieser Funktionalität habe ich anschließend im Zeit- und Aufwandsplan des Projektes mit eingebaut und von #glossary("nils") freigeben lassen.\
+Durch diese Erweiterung des Import-Moduls konnte das Risiko der dritten Fehlerkategorie gänzlich eliminiert werden.
+
+Die anderen beiden Fehlerkategorien habe ich wie folgt behandelt:
+Da es sich in beiden Fällen im Zweifelsfall um Fehler in der Korrektheit des Moduls handelt, müssen diese Fehler in der Test-Phase erkannt und behoben werden.
+Ich habe entsprechende Test-Cases eingeplant, die diese Fehlerkategorien abdecken.\
+Mittels entsprechendem Testen nach Fertigstellung des Moduls konnten diese beiden Risiken ebenfalls minimiert werden.
+
 ==== *04.05.11.05* Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen
-#todo("Schreiben")
+Die oben beschriebenen Risiken und Maßnahmen habe ich im Rahmen unserer regelmäßigen Update-Gespräche mit #glossary("nils") näher besprochen.
+Für die Erweiterung mit der Rollback-Funktion war ohnehin eine Freigabe notwendig.
+Aber auch die anderen Maßnahmen habe ich ihm dargestellt und rechtfertigt.\
+#glossary("nils") war mit der Bewertung und den getroffenen Maßnahmen einverstanden.
 
 #pagebreak()
 === 04.05.12 Stakeholder
@@ -1194,5 +1223,60 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 
 #todo("Gateway Tasks überarbeiten: Aufgaben checken, Phasen einbauen")
 #figure(caption: "", image("optadata_gateway_tasks.svg"))<gateway_tasks>
+
+#{
+    let table = table(
+        align: horizon,
+        columns: (4.3cm, 5.3cm, 6.25cm, 6cm),
+        "Fehlerkategorie", "Auftrittswahrscheinlichkeit", "Tragweite", "Komplexität",
+        "Fehlerhaftes abspeichern von Neudaten",
+        [
+            gering\
+            _über Tests ausschließbar_
+        ],
+        [
+            gering - mittel\
+            _nur die Import-Daten selbst_
+        ],
+        [
+            gering\
+            _fehlerhafte Daten können gelöscht und reimportiert werden_
+        ],
+
+        "Fehlerhafte Anpassung bestehender Daten",
+        [
+            gering\
+            _über Tests ausschließbar_
+        ],
+        [
+            mittel - hoch\
+            _potentiell weitreichend, wenn viele Produktverknüpfungen vorhanden sind_
+        ],
+        [
+            mittel\
+            _fehlerhafte Verknüpfungen sind zu ermitteln und löschen_
+        ],
+
+        "Unvollständigkeiten bei abgebrochenem Import",
+        [
+            hoch\
+            _datenabhängig,_\
+            _nicht ausschließbar_
+        ],
+        [
+            mittel - hoch\
+            _sowohl Import-Daten als auch verknüpfte Daten betroffen_\
+            _Tragweite abhängig vom Zeitpunkt des Abbruchs_
+        ],
+        [
+            hoch\
+            _fehlerhafte Daten und Verknüpfungen sind zu ermitteln und löschen_\
+            _Ermittlung der betroffenen Daten aufwändiger, da abhängig vom Abbruchpunkt_
+        ],
+    )
+    let figure = [#figure(caption: "Bewertung der Import-Fehlerkategorien", table)<import_error_analysis>]
+
+    align(center, rotate(90deg, reflow: true, figure))
+}
 
 #[]<appendix_numbering_end>
