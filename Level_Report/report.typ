@@ -896,24 +896,49 @@ Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv d
 
 ==== #strike[*04.05.12.05* Netzwerke und Allianzen aufbauen, aufrechterhalten und beenden]
 
-//
-//
-//
-//
 
 #pagebreak()
 == PM-Wahlelemente
-=== #TODO 04.03.01 Strategie
+=== 04.03.01 Strategie
 ==== *04.03.01.01* Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen
-#todo("Schreiben")
+Allgemein war für alle Projekte unter meiner Verantwortung sicherzustellen, dass deren Ziele im Einklang mit der Strategie des Unternehmens waren.
+
+Die Ziele für alle Projekte im Rahmen unseres Produktdatensystems wurden aus unserer Strategie abgeleitet.
+Die Strategie war dabei stets der ursprüngliche Auslöser und Grund für das Aufsetzen der Projekte.\
+Entsprechend gab es hier keinen Bedarf zusätzlich zu handeln.
+Im Rahmen der Zieldefinition der Projekte wurde bereits sichergestellt, dass sie mit der Strategie im Einklang waren.
+
 ==== *04.03.01.02* Chancen identifizieren und ausschöpfen, die Strategie der Organisation zu beeinflussen
-#todo("Schreiben")
+Bei der Einführung des Supports für das #abbr("axc") Format, habe ich festgestellt, dass es allgemein einen hohen Bedarf unter Akustikern für technischen Support gibt.
+Dieser beschränkt sich dabei nicht nur auf den Umgang mit Produktdaten.
+Generell habe ich viel Bedarf an Unterstützung in Entwurf und Umsetzung von digitalen Prozessen ermitteln können.\
+Diesen Bedarf habe ich an #glossary("nils") weitergetragen, da ich darin eine Chance gesehen habe unser Unternehmen noch mehr bei potentiellen Partnern zu platzieren.
+Die Idee hierbei war, dass wir unsere Strategie bzgl. Akustikern durch allgemeinen technischen Support und Beratung erweitern.
+
+Diese Idee haben wir, nach etwas Diskussion, wieder verworfen.
+Wir waren uns zwar über das Potential einig, haben aber bei der Gegenüberstellung von Aufwand und potentiellem Nutzen feststellen müssen, dass wir nicht die notwendigen Kapazitäten haben.
+Die Kapazitäten dafür gezielt aufzubauen, wäre kostenspieliger gewesen als der erwartete Nutzen wert wäre.
+
 ==== *04.03.01.03* Rechtfertigung für das Projekt entwickeln und sicherstellen, dass die betriebswirtschaftlichen und/oder organisationalen Gründe, die zum Projekt geführt haben, weiterhin bestehen
-#todo("Schreiben")
-==== *04.03.01.04* Kritische Erfolgsfaktoren (KEF) bestimmen, beurteilen und überprüfen
-#todo("Schreiben")
-==== *04.03.01.05* Key Performance Indikatoren (KPI) bestimmen, beurteilen und überprüfen
-#todo("Schreiben")
+Der Aufbau des Import-Moduls für unser Produktdatenmanagementsystem war dadurch motiviert, dass wir diverse Arten von Neudaten hatten, die immer wieder mal importiert werden mussten.
+Dabei war ein großer Teil des anfallenden Aufwandes bereits durch einen alten Importer abgedeckt, der einige Jahre zuvor entwickelt worden war.
+
+Es galt zu analysieren, inwiefern es hier zu unerwünschten Redundanzen kommt und ob das Projekt in anbetracht des existierenden Importers sinnvoll ist umzusetzen.
+
+Ich habe zunächst ermittelt welche Arten von Daten es zu importieren galt.
+Dabei habe ich überprüft inwiefern der bestehende Importer diese Art von Daten mit abdecken kann und die gesammelten Arten entsprechend kategorisiert.
+Zudem habe ich für die bereits abgedeckten Datenarten getestet wie umfassend und zuverlässig der Import mit dem alten Importer funktioniert.
+Dabei bin ich wiederholt auf Probleme wie unvollständige Imports gestoßen.\
+Zuletzt habe ich die bereits angedachten zukünftigen Anpassungen in unserem Produkdatensystem berücksichtigt.
+Dabei musste ich feststellen, dass der alte Importer dort schnell an seine Grenzen stoßen würde.
+
+Alles in allem konnte ich ermitteln, dass der alte Importer zwar zum aktuellen Zeitpunkt noch für den Großteil unserer Neudaten funktioniert, aber bereits seine Schwächen aufzeigte.
+In Zukunft würde der Importer schnell unzureichend werden.\
+Aus diesem Grund konnte ich den Bau des neuen Import-Moduls als sinnvoll bewerten.
+Für den Übergang, während das neue Modul aufgebaut wird, konnten wir den alten Importer weiter nutzen, aber das Ablösen des alten Importers war strategisch eine sinnvolle und notwendige Entscheidung.
+
+==== #strike[*04.03.01.04* Kritische Erfolgsfaktoren (KEF) bestimmen, beurteilen und überprüfen]
+==== #strike[*04.03.01.05* Key Performance Indikatoren (KPI) bestimmen, beurteilen und überprüfen]
 
 #pagebreak()
 === 04.03.05 Kultur und Werte
