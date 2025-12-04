@@ -10,7 +10,7 @@
 #let report_version = "0.1"
 #let report_date = "13.11.2025"
 
-#set page(margin: 3cm, numbering: none)
+#set page(margin: 2.4cm, numbering: none)
 #set text(size: 11pt, lang: "de")
 
 #{
@@ -122,6 +122,7 @@
     if it.level >= 4 {
         v(-10pt)
         line(length: 100%)
+        v(-2pt)
     }
 }
 
@@ -129,8 +130,7 @@
 #counter(page).update(1)
 
 = Management-Zusammenfassung
-In diesem Report gehe ich auf die verschiedenen Herausforderungen und Management-Situationen ein, die im Laufe des Produktdaten-Programms bei der #glossary("audoora") aufgetreten sind.
-Für das Produktdaten-Programm war ich vollständig verantwortlich, wobei die Planung und Überwachung von Zeit- und Budget-Zielen stets in direkter Zusammenarbeit mit der Geschäftsführung stattfand.
+In diesem Report gehe ich auf die verschiedenen Herausforderungen und Management-Situationen ein, die im Laufe des von mir verantworteten Produktdaten-Programms, sowie den darin enthaltenen Projekten, bei der #glossary("audoora") aufgetreten sind.
 
 == Anmerkung zum Inhalt dieses Reports
 Ich arbeite nicht mehr bei der #glossary("audoora") und habe daher keinen Zugriff auf die entsprechenden Unterlagen.
@@ -167,8 +167,6 @@ Diese Ziele umfassten zum Beispiel:
 - _strategisches Ziel:_ Die Qualität unserer Daten ist hoch und überzeugt potentionelle Partner davon, unser Produkdatensystem zu nutzen.
 - _Nutzungs- & strategisches Ziel:_ Unsere Daten werden automatisch mit dem neuen ERP-System #glossary("optadata_focus") synchronisiert (um neue potentielle Kunden zu erreichen).
 
-In diesem Report gehe ich sowohl auf das Program, als auch auf die einzelnen Projekte und angrenzenden Aktivitäten ein, die im Rahmen des Programmes stattgefunden haben.
-
 #pagebreak()
 = Beschreibung der Management-Herausforderungen
 == PM-Pflichtelemente
@@ -190,8 +188,6 @@ Diese Projekte wurden dann als Programm zusammengefasst und in meine Verantwortu
 Mit der Strukturierung in Form von Projekten haben wir uns selbst einen klaren Überblick über die (geplante) Weiterentwicklung des Systems verschaffen können.
 Im weiteren Verlauf konnten wir durch diese Unterteilung auch schneller und gezielter auf Entwicklungen innerhalb der Branche reagieren.
 
-==== #strike[*04.03.02.02* Die Grundlagen des Programmmanagements und deren Einführung kennen]
-==== #strike[*04.03.02.03* Die Grundlagen des Portfoliomanagements und deren Einführung kennen]
 ==== *04.03.02.04* Das Projekt mit den Supportfunktionen in Einklang bringen
 Innerhalb der #glossary("audoora") haben wir bereits für alle Managementvorgänge das Tool #glossary("notion") verwendet.
 In diesem Tool haben wir mithilfe von selbst entworfenen Templates unsere eigenen Prozesse möglichst präzise abgebildet.
@@ -230,7 +226,6 @@ In diesen Gesprächen habe ich ihm den Status der Projekte, sowie die angefallen
 
 Über die regelmäßigen Updates konnte #glossary("nils") alle notwendigen Informationen erhalten, die er brauchte, um seiner Verantwortung bzgl. der Finanzen nachzukommen.
 
-#pagebreak()
 === 04.03.03 Compliance, Standards und Regularien
 ==== *04.03.03.01* Die für das Projekt gültigen Rechtsvorschriften identifizieren und einhalten
 Ein Teil der Schnittstelle zu #glossary("optadata_focus") erfordert die Übermittlung von E-Mail-Adressen und Kundennummern der Nutzer des #glossary("optadata_focus") Systems.
@@ -243,8 +238,6 @@ Ich habe ihn dann gebeten zu beurteilen, welche Maßnahmen zur Sicherung der Dat
 
 Mit der mir zur Verfügung gestellten Übersicht konnte ich in der weiteren Planung sicherstellen, dass die betroffenen Daten korrekt gehandhabt werden und alle Vorgaben der DSGVO eingehalten werden.
 
-==== #strike[*04.03.03.02* Alle für das Projekt relevanten Vorschriften für Sicherheit, Gesundheit, und Umweltschutz (SGU) identifizieren und einhalten]
-==== #strike[*04.03.03.03* Alle für das Projekt relevanten Verhaltensregeln und Berufsvorschriften identifizieren und einhalten]
 ==== *04.03.03.04* Für das Projekt relevante Prinzipien und Ziele der Nachhaltigkeit identifizieren und einhalten
 Eines der allgemeinen Ziele unseres Unternehmens war es, die Büroarbeit der Akustiker zu vereinfachen.
 Dazu gehörte unter anderem das Ersetzen von Papier-Prozessen durch digitale Vorgänge.
@@ -269,9 +262,6 @@ Im Rahmen dieser Planung habe ich festgestellt, dass der #abbr("himsa") Standard
 Als Konsequenz daraus habe ich mit in die Planung aufgenommen, dass wir die Konvertierung zwischen unserer Struktur und dem Standard deutlich genauer betrachten müssen.
 Da eine Anpassung des Standards nicht in unserer Hand lag, wäre es notwendig geworden in der Konvertierung um diesen Umstand herumarbeiten zu müssen.
 
-==== #strike[*04.03.03.06* Die Projektmanagementkompetenz der Organisation beurteilen, vergleichen und verbessern]
-
-#pagebreak()
 === 04.03.04 Macht und Interessen
 Im Rahmen des #glossary("optadata_focus") Projektes hatten wir unter anderem Kontakt mit der Einkaufsgemeinschaft #glossary("meditrend"), die ebenfalls ihre Produktdatenkataloge im neuen ERP-System anbieten und damit in direkte Konkurrenz mit uns treten wollten.
 
@@ -303,9 +293,6 @@ Auch wenn er keine formelle Befugnis hat, diesen unternehmerische Vorgaben zu ma
 Wir haben festgehalten, dass seine Möglichkeiten Einfluss auf unsere Projekte zu nehmen sehr umfassend sind.
 Entsprechend haben wir in unserer Kommunikationsstrategie eingeplant damit umzugehen und dem proaktiv entgegenzuwirken.
 
-==== #strike[*04.03.04.03* Persönlichkeiten und Arbeitsstile Dritter beurteilen und zum Nutzen des Projekts einsetzen]
-
-#pagebreak()
 === 04.04.05 Führung
 ==== *04.04.05.01* Initiative ergreifen und proaktiv mit Rat und Tat zur Seite stehen
 Das Import Modul, das eine Erweiterung unseres Produktdatenmanagementsystems darstellte, musste zunächst in Funktionalität und Architektur designed werden.
@@ -331,8 +318,6 @@ Da das Thema für einige der Partner seiner Einkaufsgemeinschaft von Interesse w
 
 Pedro ging, zumindest meinem Eindruck nach, mit einem sehr positiven Bild von der Zusammenarbeit zwischen uns under der #glossary("optadata") aus dem Gespräch heraus.
 
-==== #strike[*04.04.05.03* Durch Vorgeben der Richtung, durch Coaching und Mentoring die Arbeit von Einzelpersonen und Teams leiten und verbessern]
-
 ==== *04.04.05.04* Macht und Einfluss angemessen auf Dritte ausüben, um die Ziele zu erreichen
 Im Rahmen des Produktdatenprogrammes hatte ich wiederholt Kontakt mit verschiedenen Kunden, die unsere Produktdatenkataloge verwendet haben.
 Oftmals habe ich bei konkreten Fragen oder Problemen geholfen, die der Kunde gerade hatte.
@@ -349,7 +334,6 @@ Insb. beim Design von größeren Strukturen, wie z.B. dem #abbr("qrs"), war der 
 
 Mit diesem Input konnte ich diverse Male Probleme auflösen und habe mir insgesamt eine hohe Sicherheit und Zuverlässigkeit in meine Entscheidungsfindung mit reingeholt.
 
-#pagebreak()
 === 04.05.01 Projektdesign
 ==== *04.05.01.01* Erfolgskriterien anerkennen, priorisieren und überprüfen
 Das Produktdatenprogramm zielte als strategisches Programm darauf ab unsere politische Position innerhalb der Branche zu stärken und parallel neue Partner zu gewinnen.
@@ -407,9 +391,6 @@ Für Probleme, die wir dabei identifizieren konnten, haben wir im Rahmen des Ges
 Durch unsere regelmäßigen Reflektionen unserer eigenen Arbeitsweise konnten wir wiederholt Anpassungen vornehmen, um unsere Effizienz zu steigern.
 Beispielsweise haben wir die Art und Weise überarbeitet, wie der Status von Arbeitspaketen in #glossary("notion") festgehalten wird, damit wir schneller überblicken können, in welchem Test- & Deployment-Status sich bestimmte Features befinden.
 
-==== #strike[*04.05.01.05* Konzept für die Projektdurchführung entwerfen, überwachen und anpassen]
-
-#pagebreak()
 === 04.05.02 Anforderungen und Ziele
 Im Folgenden geht es um ein Projekt, in dem wir in unserem System den Support für das Import-Format "#abbr("axc")" des weit verbreiteten ERP-Systems #glossary("amparex") eingebaut haben.
 
@@ -460,7 +441,6 @@ Entsprechend habe ich die Abbildung der #abbr("hmv")-Nummern priorisiert.
 
 Gemäß der Priorisierung wurden die betroffenen Arbeitspakete angepasst.
 
-#pagebreak()
 === 04.05.03 Leistungsumfang und Lieferobjekte
 Im Folgenden geht es um das Projekt, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
 Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
@@ -506,9 +486,6 @@ Diese "Ausbau"-Pakete wurden mit den Erkenntnissen aus den vorangegangenen Paket
 
 Mit der beschriebenen Planung von Arbeitspaketen stand zu jedem Zeitpunkt fest, woran aktuell zu arbeiten ist, sowie welche Aufgaben zukünftig noch zu bearbeiten sind (auch wenn letztere meist noch nicht abschließend feststanden).
 
-==== #strike[*04.05.03.04* Konfiguration des Leistungsumfangs erstellen und aufrechterhalten]
-
-#pagebreak()
 === 04.05.04 Ablauf und Termine
 Zu Beginn des Schnittstellenprojektes zum ERP-System #glossary("optadata_focus") musste zunächst ein Überblick geschaffen werden, anhand dessen wir das Projekt kalkulieren und später umsetzen können.
 
@@ -566,9 +543,6 @@ Diese Verhältnisse habe ich in Form eines Ablaufdiagramms festgehalten (siehe @
 
 Die fertige Ablaufplanung diente für die Umsetzung des Projektes als leitende Referenz und de facto Todo-Liste.
 
-==== #strike[*04.05.04.05* Fortschritt anhand des Terminplans überwachen und notwendige Anpassungen vornehmen]
-
-#pagebreak()
 === 04.05.05 Organisation, Information und Dokumentation
 Für das gesamte Programm habe ich mich zu Beginn im Rahmen der Übergabe mit #glossary("nils") zusammengesetzt, um die Details der Zusammenarbeit zu klären.
 Ein Teil dieser Gespräche war die Klärung der verwendeten Informations- und Kommunikationsstrukturen.
@@ -608,9 +582,6 @@ In allen Nachrichten, Berichten und Besprechungen wurden nur die Links auf die e
 
 Durch die Verwendung von #glossary("notion"), sowie unsere fortlaufende Optimierung unserer Seiten und Templates darin, kam es nur selten zu Fehlkommunikationen oder Missverständnissen.
 
-==== #strike[*04.05.05.04* Organisation des Projekts implementieren, überwachen und anpassen]
-
-#pagebreak()
 === 04.05.06 Qualität
 ==== *04.05.06.01* Qualitätsmanagementplan für das Projekt entwickeln, die Implementierung überwachen und gegebenenfalls überarbeiten
 Das Projekt für die Implementierung eines Import-Moduls in unser Produktdatensystem beinhaltet viel Entwicklung mit der Programmiersprache #glossary("python").
@@ -681,7 +652,6 @@ Desweiteren wurden die Deploymentprozesse für Software übernommen und für das
 
 Durch den konsequenten Einsatz unseres Prozesses wurden wiederholt Fehler und Probleme mit der Software frühzeitig entdeckt und konnten behoben werden, bevor ein größerer Schaden entstehen konnte.
 
-#pagebreak()
 === 04.05.07 Kosten und Finanzierung
 ==== *04.05.07.01* Projektkosten abschätzen
 Wir haben im Unternehmen stets darauf geachtet für unsere Projekte übergreifende Standards zu entwickeln und etablieren.
@@ -737,9 +707,6 @@ Da die Verwaltung unserer eigenen Server nicht vorsah, dass wir Server für einz
 
 Über die Informationen innerhalb von #glossary("notion") konnte #glossary("nils") jederzeit nachvollziehen auf welchem Stand sich die Projekte befanden.
 
-==== #strike[*04.05.07.05* Finanzen überwachen, um Abweichungen vom Projektplan zu identifizieren und zu korrigieren]
-
-#pagebreak()
 === 04.05.08 Ressourcen
 Das Projekt für die Entwicklung des #abbr("qrs") deckte mehrere Bereiche von bereits bestehender Software ab, die weiterentwickelt werden sollte.
 Für diese Bereiche, sowie die anfallenden Aufgaben, waren unsere verschiedenen Entwickler unterschiedlich qualifiziert.
@@ -786,9 +753,6 @@ Diese Listen habe ich in einer für den Entwickler sinnvollen Form abgefasst.
 
 Der Entwickler hat eine Liste von Aufgaben vorgelegt bekommen, sowie eine Liste expliziter Abgrenzungen zu Teilen, die nicht durch ihn zu implementieren waren.
 
-==== #strike[*04.05.08.05* Ressourcenverbrauch evaluieren und erforderliche Korrekturmaßnahmen ergreifen]
-
-#pagebreak()
 === 04.05.09 Beschaffung
 Über die aufgebaute Schnittstelle zu #glossary("optadata_focus") werden in regelmäßigen Abständen unsere Produktdaten übertragen.
 Um für Nutzer eine möglichst gute User-Experience sicherzustellen, sollten unsere Daten in #glossary("optadata_focus") zwischengespeichert werden, um sie von dort aus schneller an Nutzer verteilen zu können.
@@ -835,7 +799,6 @@ Eine Anpassung des Terminplans habe ich entsprechend als nicht notwendig bewerte
 Durch die Einführung der Änderungen in unseren Endpoints wurde die Serverlast reduziert und eine höhere Antwortgeschwindigkeit sichergestellt.
 Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und unsere vertragliche Verpflichtung erfüllt.
 
-#pagebreak()
 === 04.05.10 Planung und Steuerung
 ==== *04.05.10.01* Projekt starten, Projektmanagement-Plan entwickeln und Zustimmung einholen
 Für den Aufbau des Import-Moduls für unser Produktdatenmanagementsystem war zu Beginn nur klar, dass das allgemeine Ziel sein sollte, den Import-Prozess zu vereinfachen und das benötigte Spezialwissen zu reduzieren.
@@ -882,10 +845,6 @@ Für die Aufgaben, die auf unserer Seite lagen, habe ich den Fortschritt in 3 St
 
 Mit den Fortschrittsmessungen konnte ich sowohl unsere Geschäftsführung, als auch den Kunden, jederzeit darüber informiert halten, wo wir im Projekt stehen und ob wir im geplanten Zeitrahmen fertig werden.
 
-==== #strike[*04.05.10.04* Bericht über den Projektfortschritt erstatten]
-
-==== #strike[*04.05.10.05* Projektänderungen beurteilen, Zustimmung für diese einholen und sie implementieren]
-
 ==== *04.05.10.06* Eine Phase oder das Projekt abschließen und evaluieren
 Im Allgemeinen haben wir als Unternehmen immer versucht aus unseren Projekten zu lernen.
 
@@ -903,12 +862,10 @@ Im Anschluss an diese Gespräche sind #glossary("nils") und ich die Ergebnisse z
 Über diesen allgemeinen Prozess konnten wir wiederholt Probleme frühzeitig erkennen.
 Außerdem haben wir mit den Erkenntnissen über besonders gut gelaufene Situationen unsere Prozesse im Unternehmen weiter optimieren können.
 
-#pagebreak()
 === 04.05.11 Chancen und Risiken
 Die nachfolgenden KCIs beziehen sich alle auf den Aufbau des neuen Import-Moduls für unser Produktdatenmanagementsystem.
 Konkret geht es dabei um die Schnittstelle zwischen dem Import-Modul und der Produktdatenbank, die gegen Fehler abzusichern war.
 
-==== #strike[*04.05.11.01* Chancen- und Risikomanagementstruktur entwickeln und implementieren]
 ==== *04.05.11.02* Chancen und Risiken identifizieren
 Da das Import-Modul direkten Zugang zu unserer Produktdatenbank zwingend erfordert, um die Imports durchzuführen, habe ich im Rahmen der Planung direkt das Risiko identifiziert, dass fehlerhafte Zugriffe auf die Datenbank zu erheblichem Schaden an unseren Daten führen könnte.
 Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
@@ -945,10 +902,7 @@ Für die Erweiterung mit der Rollback-Funktion war ohnehin eine Freigabe notwend
 Aber auch die anderen Maßnahmen habe ich ihm dargestellt und rechtfertigt.\
 #glossary("nils") war mit der Bewertung und den getroffenen Maßnahmen einverstanden.
 
-#pagebreak()
 === 04.05.12 Stakeholder
-==== #strike[*04.05.12.01* Stakeholder identifizieren und ihre Interessen sowie ihren Einfluss analysieren]
-
 ==== *04.05.12.02* Stakeholder Strategie und einen Kommunikationsplan entwickeln und aufrechterhalten
 Im Laufe des #glossary("optadata_focus") Schnittstellenprojektes ist uns bekannt geworden, dass die Einkaufsgemeinschaft #glossary("meditrend") ebenfalls Produktdatenkataloge neben unseren anbieten wollte.
 Wir sahen darin eine Chance ein gemeinsames Angebot aufzustellen, um das anvisierte Marktsegment zusammen einzufangen, statt darum zu konkurrieren.
@@ -991,10 +945,6 @@ Neben der Ermittlung der fachlichen Anforderungen, habe ich in diesen Gespräche
 
 Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv den Kontakt zu mir gesucht, um Informationen und neue Ideen zu liefern.
 
-==== #strike[*04.05.12.05* Netzwerke und Allianzen aufbauen, aufrechterhalten und beenden]
-
-
-#pagebreak()
 == PM-Wahlelemente
 === 04.03.01 Strategie
 ==== *04.03.01.01* Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen
@@ -1034,13 +984,7 @@ In Zukunft würde der Importer schnell unzureichend werden.\
 Aus diesem Grund konnte ich den Bau des neuen Import-Moduls als sinnvoll bewerten.
 Für den Übergang, während das neue Modul aufgebaut wird, konnten wir den alten Importer weiter nutzen, aber das Ablösen des alten Importers war strategisch eine sinnvolle und notwendige Entscheidung.
 
-==== #strike[*04.03.01.04* Kritische Erfolgsfaktoren (KEF) bestimmen, beurteilen und überprüfen]
-==== #strike[*04.03.01.05* Key Performance Indikatoren (KPI) bestimmen, beurteilen und überprüfen]
-
-#pagebreak()
 === 04.03.05 Kultur und Werte
-==== #strike[*04.03.05.01* Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen]
-
 ==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen
 Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an (im Gegensatz zu dem weit verbreiteten Fokus auf nur Hörgeräte).
 Teil dieser Mission ist es, die Transparenz und Vergleichbarkeit von Produkten innerhalb der Branche zu steigern, um Endkunden darin zu unterstützen das für sie beste Gerät zu finden.\
@@ -1071,11 +1015,7 @@ Die Kontrolle der Qualität der Ergebnisse wurde von mir erst zum Abschluss von 
 Wir haben insgesamt durch unsere Arbeitsweise ein durchweg angenehmes Klima geschaffen, in dem sich alle optimal einbringen konnten und ihren eigenen Arbeitsstil leben konnten.
 Ich bin fest davon überzeugt, dass dieser Umstand auch ausschlaggebend für die hohe Qualität unserer Arbeit war, da alle ein Interesse daran hatten diese Qualität zu liefern.
 
-
-#pagebreak()
 === 04.04.01 Selbstreflexion und Selbstmanagement
-==== #strike[*04.04.01.01* Einfluss der eigenen Werte und persönlichen Erfahrungen auf die Arbeit identifizieren und reflektieren]
-
 ==== *04.04.01.02* Selbstvertrauen auf der Basis von persönlichen Stärken und Schwächen aufbauen
 Allgemein habe ich im Laufe der letzten Jahre immer wieder festgestellt, dass ich große Schwierigkeiten damit habe, bei Stille zu arbeiten.
 Wenn um mich herum nichts weiter passiert, dann füllt mein Kopf die Leere, indem er anfängt über meinen Alltag und meine Freizeit zu sinnieren.
@@ -1126,15 +1066,6 @@ Da der Prozess im Laufe des Projektes zu Reibungspunkten geführt hatte, wurde e
 Unter anderem hatte mein Mangel an Verständnis für die Grenzen dessen, was die Qualitäts-Standards leisten können und wo sie keine Garantien liefern können, mit zu den Problemen beigetragen.
 Neben den Ergebnissen der Lessons Learned habe ich mir also selbst noch mitgenommen mich tiefer in das Thema der Qualitäts-Standards einzulesen und mein Wissen dort zu erweitern.
 
-#pagebreak()
-=== #strike[04.04.02 Persönliche Integrität und Verlässlichkeit]
-==== #strike[*04.04.02.01* Ethische Werte bei allen Entscheidungen und Handlungen anerkennen und anwenden]
-==== #strike[*04.04.02.02* Nachhaltigkeit von Leistungen und Ergebnissen fördern]
-==== #strike[*04.04.02.03* Verantwortung für die eigenen Entscheidungen und Handlungen übernehmen]
-==== #strike[*04.04.02.04* Widerspruchsfrei handeln, Entscheidungen treffen und kommunizieren]
-==== #strike[*04.04.02.05* Aufgaben sorgfältig erfüllen, um Vertrauen bei anderen zu schaffen]
-
-#pagebreak()
 === 04.04.03 Persönliche Kommunikation
 ==== *04.04.03.01* Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
 Im Rahmen meiner Aufgaben hatte ich viel Kontakt sowohl mit unseren Entwicklern, als auch mit unseren Partner-Akustikern.
@@ -1187,62 +1118,6 @@ Dabei haben wir als gesamtes Team zusammen verschiedene Tools evaluiert und uns 
 Für unsere Projekt- und Aufgabenverwaltung haben wir zunächst #glossary("jira") verwendet.\
 Nach den ersten 1-2 Jahren der Arbeit mit diesen Tools, haben wir #glossary("jira") durch #glossary("notion") abgelöst.
 Für diese Entscheidung war ausschlaggebend, dass wir zum einen mit #glossary("jira") nicht alles abbilden konnten, was wir an Informationen ablegen wollten, und zum anderen dass wir mit #glossary("notion") deutlich genauer unsere tatsächlichen Arbeitsprozesse abbilden konnten.
-
-==== #strike[*04.04.03.05* Humor und Perspektivenwechsel angemessen verwenden]
-
-#pagebreak()
-=== #strike[04.04.04 Beziehungen und Engagement]
-==== #strike[*04.04.04.01* Persönliche und berufliche Beziehungen aufbauen und pflegen]
-==== #strike[*04.04.04.02* Soziale Netzwerke aufbauen, moderieren und an ihnen teilnehmen]
-==== #strike[*04.04.04.03* Durch Zuhören, Verständnis und Unterstützung Empathie zeigen]
-==== #strike[*04.04.04.04* Vertrauen und Respekt zeigen, indem andere ermutigt werden, ihre Meinungen und Bedenken zu äußern]
-==== #strike[*04.04.04.05* Eigene Visionen und Ziele kommunizieren, um Engagement und Commitment Dritter zu erreichen]
-
-#pagebreak()
-=== #strike[04.04.06 Teamwork]
-==== #strike[*04.04.06.01* Das Team zusammenstellen und entwickeln]
-==== #strike[*04.04.06.02* Zusammenarbeit und Netzwerken zwischen Teammitgliedern fördern]
-==== #strike[*04.04.06.03* Die Entwicklung des Teams und der Teammitglieder ermöglichen, unterstützen und überprüfen]
-==== #strike[*04.04.06.04* Teams durch das Delegieren von Aufgaben und Verantwortlichkeiten stärken]
-==== #strike[*04.04.06.05* Fehler erkennen, um das Lernen aus Fehlern zu ermöglichen]
-
-#pagebreak()
-=== #strike[04.04.07 Konflikte und Krisen]
-==== #strike[*04.04.07.01* Konflikte und Krisen antizipieren und, wenn möglich, verhindern]
-==== #strike[*04.04.07.02* Ursachen und Auswirkungen von Konflikten und Krisen analysieren und angemessene Reaktionen auswählen]
-==== #strike[*04.04.07.03* Konflikte und Krisen und/oder deren Auswirkungen lösen bzw. in ihnen vermitteln]
-==== #strike[*04.04.07.04* Lernergebnisse aus Konflikten und Krisen identifizieren und weitergeben, um die zukünftige Arbeit zu verbessern]
-
-#pagebreak()
-=== #strike[04.04.08 Vielseitigkeit]
-==== #strike[*04.04.08.01* Ein offenes und kreatives Umfeld schaffen und unterstützen]
-==== #strike[*04.04.08.02* Konzeptionelles Denken anwenden, um Situationen zu analysieren und Lösungsstrategien zu definieren]
-==== #strike[*04.04.08.03* Analytische Techniken anwenden, um Situationen, Informationen und Trends zu analysieren]
-==== #strike[*04.04.08.04* Kreative Techniken fördern und anwenden, um Alternativen und Lösungen zu finden]
-==== #strike[*04.04.08.05* Ganzheitliche Sicht auf das Projekt und seinen Kontext fördern, um den Entscheidungsprozess zu verbessern]
-
-#pagebreak()
-=== #strike[04.04.09 Verhandlungen]
-==== #strike[*04.04.09.01* Interessen aller Parteien, die an den Verhandlungen beteiligt sind, identifizieren und analysieren]
-==== #strike[*04.04.09.02* Optionen und Alternativen entwickeln und evaluieren, die das Potenzial haben, die Bedürfnisse aller Beteiligten zu erfüllen]
-==== #strike[*04.04.09.03* Verhandlungsstrategie definieren, die mit den eigenen Zielen übereinstimmt und für alle beteiligten Parteien akzeptabel ist]
-==== #strike[*04.04.09.04* Einigungen mit anderen Parteien erzielen, die mit den eigenen Zielen übereinstimmen]
-==== #strike[*04.04.09.05* Zusätzliche Verkaufs- und Akquisitionsmöglichkeiten entdecken und ausschöpfen]
-
-#pagebreak()
-=== #strike[04.04.10 Ergebnisorientierung]
-==== #strike[*04.04.10.01* Alle Entscheidungen und Handlungen hinsichtlich ihrer Auswirkung auf den Projekterfolg und die Ziele der Organisation evaluieren]
-==== #strike[*04.04.10.02* Bedürfnisse und Mittel aufeinander abstimmen, um Ergebnisse und Erfolge zu optimieren]
-==== #strike[*04.04.10.03* Gesunde, sichere und produktive Arbeitsumgebung schaffen und diese aufrecht erhalten]
-==== #strike[*04.04.10.04* Das Projekt, seine Prozesse und Ergebnisse unterstützen und diese 'verkaufen']
-==== #strike[*04.04.10.05* Ergebnisse liefern und Akzeptanz erhalten]
-
-#pagebreak()
-=== #strike[04.05.13 Change und Transformation]
-==== #strike[*04.05.13.01* Adaptionsfähigkeit der Organisation(en) zu Veränderung beurteilen]
-==== #strike[*04.05.13.02* Veränderungsanforderungen und Transformationschancen identifizieren]
-==== #strike[*04.05.13.03* Veränderungs- oder Transformationsstrategie für das Projekt entwickeln]
-==== #strike[*04.05.13.04* Veränderungs- oder Transformationsmanagement implementieren]
 
 <main_numbering_end>
 #set page(footer: page_footer(<appendix_numbering_end>), numbering: "i")
