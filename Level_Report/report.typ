@@ -172,21 +172,63 @@ Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Str
 #pagebreak()
 = Beschreibung der Management-Herausforderungen
 == PM-Pflichtelemente
-=== #TODO 04.03.02 Governance, Strukturen und Prozesse
+=== 04.03.02 Governance, Strukturen und Prozesse
 ==== *04.03.02.01* Die Grundlagen des Projektmanagements und deren Einführung kennen
-#todo("Schreiben")
-==== *04.03.02.02* Die Grundlagen des Programmmanagements und deren Einführung kennen
-#todo("Schreiben")
-==== *04.03.02.03* Die Grundlagen des Portfoliomanagements und deren Einführung kennen
-#todo("Schreiben")
+Das Produkdatensystem war eines der Software-Angebote, das die #glossary("audoora") angeboten hat.
+Die Weiterentwicklung dieses Produkdatensystems war ein umfassendes und vielseitiges Unterfangen, bei dem diverse Dimensionen zu berücksichtigen waren.
+Es wurden an verschiedenen Aspekten gearbeitet:
+- den zugrundeliegenden Daten
+- dem System, das diese in der Datenbank verwaltet
+- der Plattform, über die Daten unseren Partnern zur Verfügung gestellt wurden
+- Schnittstellen zu anderen Systemen in der Branche
+- und der Marketing- und Kommunikationsstrategie, mit der unser Produktdaten-Angebot beworben wurde
+#v(-10pt)
+Um diesem umfangreichen Vorhaben Herr zu werden, haben wir (#glossary("nils") und Ich) entschieden, dass wir das Vorhaben projektbasiert angehen würden.\
+Dazu haben wir konkrete strategische Ziele für das Produkdatensystem entwickelt und aus diesen einzelne Projekte abgeleitet.
+Diese Projekte wurden dann als Programm zusammengefasst und in meine Verantwortung überreicht.
+
+Mit der Strukturierung in Form von Projekten haben wir uns selbst einen klaren Überblick über die (geplante) Weiterentwicklung des Systems verschaffen können.
+Im weiteren Verlauf konnten wir durch diese Unterteilung auch schneller und gezielter auf Entwicklungen innerhalb der Branche reagieren.
+
+==== #strike[*04.03.02.02* Die Grundlagen des Programmmanagements und deren Einführung kennen]
+==== #strike[*04.03.02.03* Die Grundlagen des Portfoliomanagements und deren Einführung kennen]
 ==== *04.03.02.04* Das Projekt mit den Supportfunktionen in Einklang bringen
-#todo("Schreiben")
+Innerhalb der #glossary("audoora") haben wir bereits für alle Managementvorgänge das Tool #glossary("notion") verwendet.
+In diesem Tool haben wir mithilfe von selbst entworfenen Templates unsere eigenen Prozesse möglichst präzise abgebildet.
+
+Im Rahmen der Vorbereitung und Planung des Programms, sowie der jeweiligen Projekte darin, habe ich für alle benötigten Vorgänge die bereits vorhandenen Templates übernommen und ggf. geringfügig angepasst.
+Mit #glossary("nils") habe ich zudem darüber gesprochen wie wir die fortlaufenden Berichterstattung gestalten wollen.
+Daraus ergaben sich weitere geringfügige Anpassungen der Templates für das Programm, die ich ebenfalls mit umgesetzt habe.
+
+Im Verlauf des Programms und der einzelnen Projekte haben wir diese Strukturen aktiv für die Verwaltung und Berichterstattung verwendet und nach Bedarf nachjustiert.
+
 ==== *04.03.02.05* Das Projekt mit den Entscheidungs- und Berichterstattungsstrukturen sowie den Qualitätsanforderungen der Organisation in Einklang bringen
-#todo("Schreiben")
+Als kleines Startup fand die endgültige Entscheidung über jegliche strategische Entwicklungen, sowie Budgets und größere Managemententscheidungen, stets auf der Ebene der Geschäftsführung statt.
+Diese haben sich dafür von den jeweils involvierten Mitarbeitern Input geholt, meist in der Form von klärenden Meetings/Workshops.
+
+Für die Umsetzung des Programmes wurden mir geringfügige Entscheidungsbefugnisse erteilt, um den Ablauf meiner Projekte flüssiger zu gestalten.
+Für die meisten Entscheidungen blieb der etablierte Prozess jedoch bestehen.\
+Ich habe im Falle von solchen Entscheidungen die relevanten Informationen vorbereitet und bin diese anschließend mit #glossary("nils") durchgegangen.
+In einigen Fällen konnte #glossary("nils") damit sofort eine Entscheidung fällen, in anderen hat er sich zuvor mit #glossary("sebastian") abgestimmt und die Entscheidung mir anschließend kommuniziert.
+
 ==== *04.03.02.06* Das Projekt mit den Prozessen und Funktionen des HR (Personalwesens) in Einklang bringen
-#todo("Schreiben")
+Als kleines Startup haben wir bei der #glossary("audoora") keine Schulungen/Fortbildungen im klassischen Sinne durchgeführt (dafür war nie die Zeit oder das Budget da).
+Allerdings haben wir vor einiger Zeit als Alternative eingeführt, dass sich jeder Entwickler einmal im Monat einen Tag nehmen kann, um an selbstgewählten Themen zu arbeiten.
+Der Tag soll dazu dienen, dass sich Entwickler selbst weiterentwickeln können und dass Technologien und Lösungen getestet werden können, um sie für spätere Projekte als Option besser bewerten zu können.
+
+Ich selbst habe von diesem Tag regelmäßigen Gebrauch gemacht, um mir selbst Technologie-Optionen anzuschauen, die für zukünftige Projekte potentiell in Frage kommen.
+Dazu habe ich mir zunächst die geplanten zukünftigen Projekte angeschaut, um deren Anforderungen grob abzuschätzen.
+Ich habe dann Technologien ausgewählt, die dazu passen könnten, in denen ich aber noch keine Erfahrungen gesammelt habe.
+Anschließend habe ich mittels Prototyping die Möglichkeiten und Grenzen der Technologie erforscht und somit mich selbst weitergebildet und mir ein umfassenderes Bild der Optionen für anstehende Projekte verschafft.
+
 ==== *04.03.02.07* Das Projekt mit den Finanz- und Controlling-Prozessen in Einklang bringen
-#todo("Schreiben")
+Die übergreifende Kontrolle und Steuerung der Finanzen der #glossary("audoora") lag, wie so vieles, direkt bei der Geschäftsführung.
+Entsprechend bestand der übliche Controlling-Prozess in Gesprächen, vor allem mit #glossary("nils"), der die übergreifende Verantwortung für alle Entwicklungsprojekte trug.
+
+Für das Produktdaten-Programm habe ich mit #glossary("nils") regelmäßige Update-Termine vereinbart.
+In diesen Gesprächen habe ich ihm den Status der Projekte, sowie die angefallenen und noch geplanten Aufwände, berichtet und diese mit ihm durchgesprochen.
+
+Über die regelmäßigen Updates konnte #glossary("nils") alle notwendigen Informationen erhalten, die er brauchte, um seiner Verantwortung bzgl. der Finanzen nachzukommen.
 
 #pagebreak()
 === 04.03.03 Compliance, Standards und Regularien
