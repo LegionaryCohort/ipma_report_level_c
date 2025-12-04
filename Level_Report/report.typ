@@ -8,7 +8,7 @@
 #import "report_glossary.typ": glossary, glossary_entries
 
 #let report_version = "0.1"
-#let report_date = "13.11.2025"
+#let report_date = "05.12.2025"
 
 #set page(margin: 2.4cm, numbering: none)
 #set text(size: 11pt, lang: "de")
@@ -107,7 +107,7 @@
 }
 
 #set page(footer: page_footer(<main_numbering_end>), numbering: "1")
-#set par(justify: true, leading: 0.45em, spacing: 1.5em)
+#set par(justify: true, leading: 0.5em, spacing: 1.2em)
 #set heading(numbering: (..n) => {
     if n.pos().len() <= 2 {
         numbering("1.1", ..n)
