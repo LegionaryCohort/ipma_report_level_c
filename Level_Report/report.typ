@@ -128,18 +128,31 @@
 #pagebreak()
 #counter(page).update(1)
 
-= #TODO Management-Zusammenfassung
-#todo("Überarbeiten")
-In diesem Report gehe ich auf die verschiedenen Herausforderungen und Management-Situationen ein, die im Laufe des Produktdaten-Programms bei der Audoora GmbH aufgetreten sind.
-Für das Produktdaten-Programms war ich vollständig verantwortlich, wobei die Planung und Überwachung von Zeit- und Budget-Zielen stets in direkter Zusammenarbeit mit der Geschäftsführung stattfand.
+= Management-Zusammenfassung
+In diesem Report gehe ich auf die verschiedenen Herausforderungen und Management-Situationen ein, die im Laufe des Produktdaten-Programms bei der #glossary("audoora") aufgetreten sind.
+Für das Produktdaten-Programm war ich vollständig verantwortlich, wobei die Planung und Überwachung von Zeit- und Budget-Zielen stets in direkter Zusammenarbeit mit der Geschäftsführung stattfand.
 
 == Anmerkung zum Inhalt dieses Reports
-Ich arbeite nicht mehr bei der Audoora GmbH und habe daher keinen Zugriff auf die entsprechenden Unterlagen.
+Ich arbeite nicht mehr bei der #glossary("audoora") und habe daher keinen Zugriff auf die entsprechenden Unterlagen.
 Alle Inhalte in diesem Report sind nach besten Wissen und Gewissen aus meinem Gedächtnis heraus wiedergegeben.
-Die im Anhang befindlichen Abbildungen und Diagramme sind teils Rekonstruktionen von tatsächlichen Unterlagen, die ich erstellt hatte, oder dienen einzig der visuellen Darstellungen von Informationen und Strukturen, auf die im Text Bzug genommen wird.
+Die im Anhang befindlichen Abbildungen und Diagramme sind Visualisierungen und/oder Rekonstruktionen der Informationen und Strukturen, auf die im Text Bezug genommen wird.
+
+== Kontext & Umfeld
+Die #glossary("audoora") ist ein IT-Startup aus Köln, das sich auf die Hörgerätebranche spezialisiert hat.
+Das Unternehmen entwickelt maßgeschneiderte Softwarelösungen für Hörgeräteakustiker und unterstützt bei der Digitalisierung und Optimierung von Geschäftsprozessen.
+Die #glossary("audoora") steht zudem im Zentrum des #glossary("nh"), einem Zusammenschluss von Unternehmen und Personen, die einen gesamtheitlichen Ansatz für den Erhalt und Wiederaufbau von Hörgesundheit verfolgen.
+
+Die Geschäftsführung der #glossary("audoora") besteht aus #glossary("sebastian_long") und #glossary("nils_long").
+Mit letzterem hatte ich im Rahmen meiner Aufgaben sehr viel Kontakt.
+Im weiteren Verlauf des Reports werden beide nur mit Vornamen genannt.
+
+Die politische Situation innerhalb der Hörakustik-Branche, insbesondere bezogen auf das Produktdaten-Programm, war recht angespannt.
+Die Hörakustik-Branche wird von einigen großen Herstellern und Einkaufsgemeinschaften dominiert, die mit ihren aktuellen Geschäftsmodellen sehr hohe Margen erzielen.
+Diese Geschäftsmodelle werden allerdings derzeit durch neue Akteure am Markt, insb. Online-Händler, stark in Frage gestellt.
+Als eines der ersten Software-Unternehmen, die diesen Trend erkannt haben, steht die #glossary("audoora") im Kreuzfeuer zwischen den etablierten Unternehmen der Branche und den Neuankömmlingen.
 
 == Ziele des Programms
-Die Audoora GmbH verfolgt als Unternehmen das Gesamtziel die Hörgesundheitsversorgung in Deutschland zugänglicher und umfassender zu gestalten. Ein großes Hindernis hierfür ist, dass die Hersteller und Einkaufsgemeinschaften, die die Branche derzeit dominieren, die Preise ihrer Produkte unter anderem damit hoch halten, dass sie Informationen über ihre Produkte streng kontrollieren und Vergleiche zwischen Produkten (und damit den Wettbewerb allgemein) schwieriger gestalten.\
+Die #glossary("audoora") verfolgt als Unternehmen das Gesamtziel die Hörgesundheitsversorgung in Deutschland zugänglicher und umfassender zu gestalten. Ein großes Hindernis hierfür ist, dass die Hersteller und Einkaufsgemeinschaften, die die Branche derzeit dominieren, die Preise ihrer Produkte unter anderem damit hoch halten, dass sie Informationen über ihre Produkte streng kontrollieren und Vergleiche zwischen Produkten (und damit den Wettbewerb allgemein) schwieriger gestalten.\
 
 Das Programm verfolgte im Kern das daraus abgeleitete strategische Ziel die Produktdaten der Hörakustik-Branche zugänglicher und transparenter zu machen.
 Die Motivation hinter diesem Ziel ist zweigeteilt:\
@@ -147,27 +160,14 @@ Zum einen führt die erhöhte Transparenz zu einer Vereinfachung von Produktverg
 Zum anderen erleichtert die Zugänglichkeit der Daten die Arbeit der Hörakustiker, die die Produkte an die Endverbraucher verkaufen.
 Das erspart ihnen Zeit und Geld, das sie stattdessen in eine bessere Beratung und Versorgung der Endkunden investieren können, um selbst wettbewerbsfähig zu bleiben.
 
-Aus diesem Kern-Ziel habe ich mit der Geschäftsführung zusammen weitere Ziele abgeleitet (sowohl strategische als auch Nutzungsziele).
+Aus diesem Kern-Ziel habe ich mit der Geschäftsführung zusammen weitere Ziele abgeleitet.
 Für die Umsetzung dieser abgeleiteten Ziele habe ich dann konkrete Projekte definiert.
 Diese Ziele umfassten zum Beispiel:
 - _Nutzungsziel:_ Unsere Produktdaten lassen sich mittels standardisierten Katalogen in die gängigen ERP-Systeme der Branche importieren (um den Arbeitsaufwand der Akustiker zu reduzieren).
 - _strategisches Ziel:_ Die Qualität unserer Daten ist hoch und überzeugt potentionelle Partner davon, unser Produkdatensystem zu nutzen.
 - _Nutzungs- & strategisches Ziel:_ Unsere Daten werden automatisch mit dem neuen ERP-System #glossary("optadata_focus") synchronisiert (um neue potentielle Kunden zu erreichen).
 
-== Kontext & Umfeld
-Die Audoora GmbH ist ein IT-Startup aus Köln, das sich auf die Hörgerätebranche spezialisiert hat.
-Das Unternehmen entwickelt maßgeschneiderte Softwarelösungen für Hörgeräteakustiker und unterstützt bei der Digitalisierung und Optimierung von Geschäftsprozessen.
-Die Audoora GmbH steht zudem im Zentrum des Netzwerk Hörgesundheit, einem Zusammenschluss von Unternehmen und Personen, die einen gesamtheitlichen Ansatz für den Erhalt und Wiederaufbau von Hörgesundheit verfolgen.
-
-Die Geschäftsführung der Audoora GmbH besteht aus #glossary("sebastian_long") und #glossary("nils_long").
-Mit letzterem hatte ich im Rahmen meiner Aufgaben sehr viel Kontakt.
-Im weiteren Verlauf des Reports werden beide nur mit Vornamen genannt.
-
-Die politische Situation innerhalb der Hörakustik-Branche, insbesondere bezogen auf das Produktdaten-Programm, war recht angespannt.
-Die Hörakustik-Branche wird von einigen großen Herstellern und Einkaufsgemeinschaften dominiert, die mit ihren aktuellen Geschäftsmodellen sehr hohe Margen erzielen.
-Ein Teil ihrer Strategie ist der streng überwachte und intransparente Umgang mit den Detaildaten zu Geräten und Zubehör.
-Über diese Mittel unterbinden diese Unternehmen den Wettbewerb innerhalb der Branche und können so ein Quasi-Monopol aufrecht erhalten, über das sie hohe Preise verlangen können.\
-Da das strategischen Kern-Ziel des Produktdaten-Programmes direkt mit dieser Strategie konkurriert, ergab sich die genannte angespannte politische Situation.
+In diesem Report gehe ich sowohl auf das Program, als auch auf die einzelnen Projekte und angrenzenden Aktivitäten ein, die im Rahmen des Programmes stattgefunden haben.
 
 #pagebreak()
 = Beschreibung der Management-Herausforderungen
