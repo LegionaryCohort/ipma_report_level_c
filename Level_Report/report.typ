@@ -1161,8 +1161,7 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 
 #pagebreak()
 = Anhang
-#todo("Graphik nochmal als Vektor-Graphik bauen")
-#figure(caption: "Design des QRS im Überblick", image("QRS_design.pdf"))<qrs_design>
+#figure(caption: "Design des QRS im Überblick", image("QRS_design.svg"))<qrs_design>
 
 #todo("Gateway Tasks überarbeiten: Aufgaben checken, Phasen einbauen")
 #figure(caption: "", image("optadata_gateway_tasks.svg"))<gateway_tasks>
