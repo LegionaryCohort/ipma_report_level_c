@@ -1,14 +1,11 @@
-#import "../utils.typ": todo
 #import "@preview/cheq:0.3.0": checklist
 #show: checklist
-
-#let TODO = text(fill: red, weight: "bold", "TODO")
 
 #import "report_abbr.typ": abbr, abbr_entries
 #import "report_glossary.typ": glossary, glossary_entries
 
-#let report_version = "0.1"
-#let report_date = "05.12.2025"
+#let report_version = "1.0"
+#let report_date = "16.12.2025"
 
 #set page(margin: 2.4cm, numbering: none)
 #set text(size: 11pt, lang: "de")
@@ -1161,11 +1158,11 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 
 #pagebreak()
 = Anhang
+#v(1fr)
 #figure(caption: "Design des QRS im Überblick", image("QRS_design.svg"))<qrs_design>
-
-#todo("Gateway Tasks überarbeiten: Aufgaben checken, Phasen einbauen")
-#figure(caption: "", image("optadata_gateway_tasks.svg"))<gateway_tasks>
-
+#v(1fr)
+#figure(caption: "Aufgabenplanung für das optadata Gateway", image("optadata_gateway_tasks.svg"))<gateway_tasks>
+#v(1fr)
 #{
     let table = table(
         align: horizon,
@@ -1217,7 +1214,7 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
         ],
     )
     let figure = [#figure(caption: "Bewertung der Import-Fehlerkategorien", table)<import_error_analysis>]
-
+    pagebreak()
     align(center, rotate(90deg, reflow: true, figure))
 }
 
