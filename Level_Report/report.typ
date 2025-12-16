@@ -1128,12 +1128,13 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 
 #v(1cm)
 #grid(
-    align: horizon,
-    columns: 10cm,
-    rows: 0.6cm,
-    [Elmenhorst, #report_date],
+    align: (left + bottom, right + horizon),
+    columns: (4cm, 8cm),
+    row-gutter: 0.2cm,
+    [Elmenhorst, #report_date], image(".signature.svg", width: 6cm),
     grid.hline(),
-    text(size: 9pt, "Ort, Datum, Unterschrift"),
+    [], [],
+    text(size: 9pt, "Ort, Datum"), text(size: 9pt, "Unterschrift"),
 )
 
 #pagebreak()
