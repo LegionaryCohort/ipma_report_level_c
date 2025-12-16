@@ -66,7 +66,7 @@
     table(
         columns: (1.7cm, 2cm, 1fr, 1.6cm),
         table.header("Version", "Datum", "Änderung", "Seite/n"),
-        "", "", "", "",
+        "1.0", "16.12.2025", "Fertigstellung der Version 1.0", "-",
     )
 
     pagebreak()
