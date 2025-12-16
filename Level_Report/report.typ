@@ -1158,11 +1158,16 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
 
 #pagebreak()
 = Anhang
-#v(1fr)
-#figure(caption: "Design des QRS im Überblick", image("QRS_design.svg"))<qrs_design>
-#v(1fr)
-#figure(caption: "Aufgabenplanung für das optadata Gateway", image("optadata_gateway_tasks.svg"))<gateway_tasks>
-#v(1fr)
+#box(height: 97%, width: 100%, align(center, rotate(90deg, reflow: true, [#figure(
+    caption: "Design des QRS im Überblick",
+    image("QRS_design.svg"),
+)<qrs_design>])))
+#pagebreak()
+#align(center, rotate(90deg, reflow: true, [#figure(
+    caption: "Aufgabenplanung für das optadata Gateway",
+    image("optadata_gateway_tasks.svg"),
+)<gateway_tasks>]))
+#pagebreak()
 #{
     let table = table(
         align: horizon,
@@ -1214,7 +1219,6 @@ Ich bin mir weiterhin bewusst, dass der bewertende Assessor sich persönlich dav
         ],
     )
     let figure = [#figure(caption: "Bewertung der Import-Fehlerkategorien", table)<import_error_analysis>]
-    pagebreak()
     align(center, rotate(90deg, reflow: true, figure))
 }
 
