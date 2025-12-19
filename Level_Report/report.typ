@@ -1,11 +1,12 @@
 #import "@preview/cheq:0.3.0": checklist
 #show: checklist
+#import "utils.typ": DONE, TODO, todo
 
 #import "report_abbr.typ": abbr, abbr_entries
 #import "report_glossary.typ": glossary, glossary_entries
 
 #let report_version = "1.0"
-#let report_date = "16.12.2025"
+#let report_date = "19.12.2025"
 
 #set page(margin: 2.4cm, numbering: none)
 #set text(size: 11pt, lang: "de")
@@ -37,7 +38,9 @@
 
     v(1fr)
     [
-        Version #report_version\
+        // Version #report_version\
+        Referenzdokument zur Bewertung\
+        (nicht versioniert)\
         #report_date
     ]
     v(1fr)
@@ -94,7 +97,7 @@
         columns: (1.5cm, 1.5cm, 1fr, 3cm),
         rows: 0.75cm,
         align: (left, left, center, right),
-        [Version\ #report_version],
+        [Referenz-\ dokument],
         [Datum\ #report_date],
         [Report - Projektmanagement Level C\ Mario Treiber],
         [
@@ -167,8 +170,8 @@ Diese Ziele umfassten zum Beispiel:
 #pagebreak()
 = Beschreibung der Management-Herausforderungen
 == PM-Pflichtelemente
-=== 04.03.02 Governance, Strukturen und Prozesse
-==== *04.03.02.01* Die Grundlagen des Projektmanagements und deren Einführung kennen
+=== 04.03.02 #DONE (4/4) Governance, Strukturen und Prozesse
+==== *04.03.02.01* #DONE Die Grundlagen des Projektmanagements und deren Einführung kennen
 Das Produkdatensystem war eines der Software-Angebote, das die #glossary("audoora") angeboten hat.
 Die Weiterentwicklung dieses Produkdatensystems war ein umfassendes und vielseitiges Unterfangen, bei dem diverse Dimensionen zu berücksichtigen waren.
 Es wurden an verschiedenen Aspekten gearbeitet:
@@ -185,7 +188,7 @@ Diese Projekte wurden dann als Programm zusammengefasst und in meine Verantwortu
 Mit der Strukturierung in Form von Projekten haben wir uns selbst einen klaren Überblick über die (geplante) Weiterentwicklung des Systems verschaffen können.
 Im weiteren Verlauf konnten wir durch diese Unterteilung auch schneller und gezielter auf Entwicklungen innerhalb der Branche reagieren.
 
-==== *04.03.02.04* Das Projekt mit den Supportfunktionen in Einklang bringen
+==== *04.03.02.04* #DONE Das Projekt mit den Supportfunktionen in Einklang bringen
 Innerhalb der #glossary("audoora") haben wir bereits für alle Managementvorgänge das Tool #glossary("notion") verwendet.
 In diesem Tool haben wir mithilfe von selbst entworfenen Templates unsere eigenen Prozesse möglichst präzise abgebildet.
 
@@ -195,7 +198,9 @@ Daraus ergaben sich weitere geringfügige Anpassungen der Templates für das Pro
 
 Im Verlauf des Programms und der einzelnen Projekte haben wir diese Strukturen aktiv für die Verwaltung und Berichterstattung verwendet und nach Bedarf nachjustiert.
 
-==== *04.03.02.05* Das Projekt mit den Entscheidungs- und Berichterstattungsstrukturen sowie den Qualitätsanforderungen der Organisation in Einklang bringen
+==== *04.03.02.05* #TODO Das Projekt mit den Entscheidungs- und Berichterstattungsstrukturen sowie den Qualitätsanforderungen der Organisation in Einklang bringen
+#todo("Anforderungen")
+
 Als kleines Startup fand die endgültige Entscheidung über jegliche strategische Entwicklungen, sowie Budgets und größere Managemententscheidungen, stets auf der Ebene der Geschäftsführung statt.
 Diese haben sich dafür von den jeweils involvierten Mitarbeitern Input geholt, meist in der Form von klärenden Meetings/Workshops.
 
@@ -204,7 +209,7 @@ Für die meisten Entscheidungen blieb der etablierte Prozess jedoch bestehen.\
 Ich habe im Falle von solchen Entscheidungen die relevanten Informationen vorbereitet und bin diese anschließend mit #glossary("nils") durchgegangen.
 In einigen Fällen konnte #glossary("nils") damit sofort eine Entscheidung fällen, in anderen hat er sich zuvor mit #glossary("sebastian") abgestimmt und die Entscheidung mir anschließend kommuniziert.
 
-==== *04.03.02.06* Das Projekt mit den Prozessen und Funktionen des HR (Personalwesens) in Einklang bringen
+==== *04.03.02.06* #DONE Das Projekt mit den Prozessen und Funktionen des HR (Personalwesens) in Einklang bringen
 Als kleines Startup haben wir bei der #glossary("audoora") keine Schulungen/Fortbildungen im klassischen Sinne durchgeführt (dafür war nie die Zeit oder das Budget da).
 Allerdings haben wir vor einiger Zeit als Alternative eingeführt, dass sich jeder Entwickler einmal im Monat einen Tag nehmen kann, um an selbstgewählten Themen zu arbeiten.
 Der Tag soll dazu dienen, dass sich Entwickler selbst weiterentwickeln können und dass Technologien und Lösungen getestet werden können, um sie für spätere Projekte als Option besser bewerten zu können.
@@ -214,7 +219,7 @@ Dazu habe ich mir zunächst die geplanten zukünftigen Projekte angeschaut, um d
 Ich habe dann Technologien ausgewählt, die dazu passen könnten, in denen ich aber noch keine Erfahrungen gesammelt habe.
 Anschließend habe ich mittels Prototyping die Möglichkeiten und Grenzen der Technologie erforscht und somit mich selbst weitergebildet und mir ein umfassenderes Bild der Optionen für anstehende Projekte verschafft.
 
-==== *04.03.02.07* Das Projekt mit den Finanz- und Controlling-Prozessen in Einklang bringen
+==== *04.03.02.07* #DONE Das Projekt mit den Finanz- und Controlling-Prozessen in Einklang bringen
 Die übergreifende Kontrolle und Steuerung der Finanzen der #glossary("audoora") lag, wie so vieles, direkt bei der Geschäftsführung.
 Entsprechend bestand der übliche Controlling-Prozess in Gesprächen, vor allem mit #glossary("nils"), der die übergreifende Verantwortung für alle Entwicklungsprojekte trug.
 
@@ -223,8 +228,8 @@ In diesen Gesprächen habe ich ihm den Status der Projekte, sowie die angefallen
 
 Über die regelmäßigen Updates konnte #glossary("nils") alle notwendigen Informationen erhalten, die er brauchte, um seiner Verantwortung bzgl. der Finanzen nachzukommen.
 
-=== 04.03.03 Compliance, Standards und Regularien
-==== *04.03.03.01* Die für das Projekt gültigen Rechtsvorschriften identifizieren und einhalten
+=== 04.03.03 #TODO (2/3) Compliance, Standards und Regularien
+==== *04.03.03.01* #DONE Die für das Projekt gültigen Rechtsvorschriften identifizieren und einhalten
 Ein Teil der Schnittstelle zu #glossary("optadata_focus") erfordert die Übermittlung von E-Mail-Adressen und Kundennummern der Nutzer des #glossary("optadata_focus") Systems.
 
 Da es sich hierbei um personenbezogene Daten handelt, und mir bekannt war, dass Verstöße gegen die DSGVO hohe Strafen mit sich ziehen können, habe ich diese Tatsache zunächst als Risiko für das Projekt (und das Unternehmen) verbucht.
@@ -235,7 +240,9 @@ Ich habe ihn dann gebeten zu beurteilen, welche Maßnahmen zur Sicherung der Dat
 
 Mit der mir zur Verfügung gestellten Übersicht konnte ich in der weiteren Planung sicherstellen, dass die betroffenen Daten korrekt gehandhabt werden und alle Vorgaben der DSGVO eingehalten werden.
 
-==== *04.03.03.04* Für das Projekt relevante Prinzipien und Ziele der Nachhaltigkeit identifizieren und einhalten
+==== *04.03.03.04* #TODO Für das Projekt relevante Prinzipien und Ziele der Nachhaltigkeit identifizieren und einhalten
+#todo("Anforderungen")
+
 Eines der allgemeinen Ziele unseres Unternehmens war es, die Büroarbeit der Akustiker zu vereinfachen.
 Dazu gehörte unter anderem das Ersetzen von Papier-Prozessen durch digitale Vorgänge.
 Damit wurden nicht nur die Effizienzsteigerungen, die mit digitalen Prozessen einhergehen, verfolgt, sondern auch der positive Effekt auf die Umwelt durch die Reduzierung des Papierverbrauchs im operativen Alltag der Akustiker.
@@ -243,7 +250,7 @@ Damit wurden nicht nur die Effizienzsteigerungen, die mit digitalen Prozessen ei
 Während dieses Ziel nicht direkt im Vordergrund stand, so habe ich es dennoch oft in Gesprächen mit Akustikern mit angebracht als "Bonus-Effekt", der sich aus einer Umstellung ergibt.
 Tatsächlich wurde in einer früheren Version unserer Produktdatenplattform auch damit geworben, dass #glossary("audoora") für abgeschlossene Einkäufe über die Plattform Bäume pflanzt. Zu dieser Zeit war ich in dem Projekt jedoch nur als Entwickler tätig, die Verantwortung für das Programm habe ich erst später übernommen.
 
-==== *04.03.03.05* Für das Projekt relevante fachliche Standards und Tools beurteilen, nutzen und weiterentwickeln
+==== *04.03.03.05* #DONE Für das Projekt relevante fachliche Standards und Tools beurteilen, nutzen und weiterentwickeln
 Für die Produktdaten der Hörakustik-Branche existiert der #abbr("himsa") Standard.
 Dieser definiert eine Struktur, in der Produktdaten dargestellt und übermittelt werden können.
 Der Standard ist innerhalb der Branche weit verbreitet, wird jedoch nicht überall verwendet.
@@ -259,10 +266,10 @@ Im Rahmen dieser Planung habe ich festgestellt, dass der #abbr("himsa") Standard
 Als Konsequenz daraus habe ich mit in die Planung aufgenommen, dass wir die Konvertierung zwischen unserer Struktur und dem Standard deutlich genauer betrachten müssen.
 Da eine Anpassung des Standards nicht in unserer Hand lag, wäre es notwendig geworden in der Konvertierung um diesen Umstand herumarbeiten zu müssen.
 
-=== 04.03.04 Macht und Interessen
+=== 04.03.04 #DONE (2/2) Macht und Interessen
 Im Rahmen des #glossary("optadata_focus") Projektes hatten wir unter anderem Kontakt mit der Einkaufsgemeinschaft #glossary("meditrend"), die ebenfalls ihre Produktdatenkataloge im neuen ERP-System anbieten und damit in direkte Konkurrenz mit uns treten wollten.
 
-==== *04.03.04.01* Persönliche Ambitionen und Interessen Dritter und deren potenzielle Auswirkungen auf das Projekt beurteilen sowie diese Kenntnisse zum Nutzen des Projekts einsetzen
+==== *04.03.04.01* #DONE Persönliche Ambitionen und Interessen Dritter und deren potenzielle Auswirkungen auf das Projekt beurteilen sowie diese Kenntnisse zum Nutzen des Projekts einsetzen
 Der Projektleiter seitens der #glossary("optadata"), Thomas Schraga, war durchweg mit viel Energie bemüht darum, das Projekt voranzubringen. Er hat zudem selbst aktiv daran gearbeitet das Projekt mit "Bonus-Features" möglichst gut dastehen zu lassen.
 
 Die persönlichen Ambitionen und Interessen waren herauszufinden und zu berurteilen.
@@ -275,7 +282,7 @@ Wenn das Projekt ein Erfolg wird, dann bleibt Thomas in seiner Position bestehen
 
 Aus den Erkenntnissen aus dem persönlichen Austausch konnte ich folgern, dass Thomas ein sowohl organisationales als auch persönliches Interesse am Projekterfolg hat und auf seine Unterstützung gezählt werden kann.
 
-==== *04.03.04.02* Informellen Einfluss von Einzelpersonen und Personengruppen und deren potenzielle Auswirkungen auf das Projekt beurteilen sowie diese Kenntnisse zum Nutzen des Projekts verwenden
+==== *04.03.04.02* #DONE Informellen Einfluss von Einzelpersonen und Personengruppen und deren potenzielle Auswirkungen auf das Projekt beurteilen sowie diese Kenntnisse zum Nutzen des Projekts verwenden
 Der Vorstand der #glossary("meditrend"), Maximilian Schwab, hatte bereits in der Vergangenheit unsere verschiedenen Vorhaben blockiert oder zumindest versucht zu bremsen.
 
 Es galt seine Macht, sowie seinen konkreten Einfluss und Wirkungsbereich, einzuschätzen.
@@ -290,8 +297,8 @@ Auch wenn er keine formelle Befugnis hat, diesen unternehmerische Vorgaben zu ma
 Wir haben festgehalten, dass seine Möglichkeiten Einfluss auf unsere Projekte zu nehmen sehr umfassend sind.
 Entsprechend haben wir in unserer Kommunikationsstrategie eingeplant damit umzugehen und dem proaktiv entgegenzuwirken.
 
-=== 04.04.05 Führung
-==== *04.04.05.01* Initiative ergreifen und proaktiv mit Rat und Tat zur Seite stehen
+=== 04.04.05 #TODO (1/3) Führung
+==== *04.04.05.01* #DONE Initiative ergreifen und proaktiv mit Rat und Tat zur Seite stehen
 Das Import Modul, das eine Erweiterung unseres Produktdatenmanagementsystems darstellte, musste zunächst in Funktionalität und Architektur designed werden.
 
 Um auch für die Zukunft gut aufgestellt zu sein, galt es die Architektur möglichst zukunftsorientiert zu wählen.
@@ -304,7 +311,9 @@ All diese Überlegungen habe ich anschließend im Architekturdesign mit aufgenom
 Die Modularität erlaubte es auch im Nachgang neue Import-Protokolle zu definieren, die bisher unbekannte Datenstrukturen mit abbilden können.
 Auch ermöglichte dieses Design, dass Änderungen in der Datenstruktur unserer Datenbank mit geringfügigen Änderungen in den bestehenden Import-Protokollen abgebildet werden konnten.
 
-==== *04.04.05.02* Ownership übernehmen und Commitment zeigen
+==== *04.04.05.02* #TODO Ownership übernehmen und Commitment zeigen
+#todo("Anforderungen")
+
 Im Frühjahr 2025 haben wir als Unternehmen den ersten #glossary("tdh") veranstaltet.
 Dabei handelt es sich um ein Event in der Hörakustik-Branche, das den Fokus auf den Experten-Austausch innerhalb der Branche legt.
 Auf diesem Event habe ich mich zwischendurch mit Pedro Garcia, dem Geschäftsführer der #glossary("audio_direkt"), über unsere aktuellen Projekte unterhalten.
@@ -315,14 +324,18 @@ Da das Thema für einige der Partner seiner Einkaufsgemeinschaft von Interesse w
 
 Pedro ging, zumindest meinem Eindruck nach, mit einem sehr positiven Bild von der Zusammenarbeit zwischen uns under der #glossary("optadata") aus dem Gespräch heraus.
 
-==== *04.04.05.04* Macht und Einfluss angemessen auf Dritte ausüben, um die Ziele zu erreichen
+==== *04.04.05.04* #TODO Macht und Einfluss angemessen auf Dritte ausüben, um die Ziele zu erreichen
+#todo("Anforderungen")
+
 Im Rahmen des Produktdatenprogrammes hatte ich wiederholt Kontakt mit verschiedenen Kunden, die unsere Produktdatenkataloge verwendet haben.
 Oftmals habe ich bei konkreten Fragen oder Problemen geholfen, die der Kunde gerade hatte.
 Durch mein Auftreten und den wiederholten Kontakt wurde ich oftmals als der Entscheider wahrgenommen, selbst für Themen, die nicht unter meiner Verantwortung lagen.\
 Konkret für die Projekte, die ich verantwortet habe, stand für unsere Kunden nie in Frage an wen sie sich bei Fragen oder Anregungen richten können.
 Dort wurde ich stets in meiner Rolle als Projektleiter auch als solcher wahrgenommen und behandelt.
 
-==== *04.04.05.05* Entscheidungen treffen, durchsetzen und überprüfen
+==== *04.04.05.05* #TODO Entscheidungen treffen, durchsetzen und überprüfen
+#todo("Anforderungen")
+
 Viele der Projekte, die ich verantwortet habe, beinhalteten in den initialen Phasen einige Design-Arbeit bzgl. der Code-Architektur.
 Da sich die konkreten Herausforderungen dabei immer unterschieden haben, wollte ich sichergehen, dass meine Entscheidungen (und deren zugehörige Begründungen) dennoch robust sind und ich keine groben Fehler in meiner Planung hatte.
 
@@ -331,8 +344,10 @@ Insb. beim Design von größeren Strukturen, wie z.B. dem #abbr("qrs"), war der 
 
 Mit diesem Input konnte ich diverse Male Probleme auflösen und habe mir insgesamt eine hohe Sicherheit und Zuverlässigkeit in meine Entscheidungsfindung mit reingeholt.
 
-=== 04.05.01 Projektdesign
-==== *04.05.01.01* Erfolgskriterien anerkennen, priorisieren und überprüfen
+=== 04.05.01 #TODO (2/3) Projektdesign
+==== *04.05.01.01* #TODO Erfolgskriterien anerkennen, priorisieren und überprüfen
+#todo("Anforderungen")
+
 Das Produktdatenprogramm zielte als strategisches Programm darauf ab unsere politische Position innerhalb der Branche zu stärken und parallel neue Partner zu gewinnen.
 
 Um das Programm zum Erfolg führen zu können, galt es sowohl formelle als auch informelle Erfolgskriterien zu erkennen und beurteilen.
@@ -346,7 +361,7 @@ Darüber konnten wir oft am Rande über neue Entwicklungen erfahren und die Posi
 Über unsere laufende Beurteilung der Situation innerhalb der Branche konnten wir oft frühzeitig auf neue Entwicklungen reagieren.
 Gerade als kleineres Startup war diese Fähigkeit zeitweise überlebenswichtig für das Unternehmen.
 
-==== *04.05.01.02* Lessons Learned aus --und mit-- anderen Projekten überprüfen, anwenden und austauschen
+==== *04.05.01.02* #DONE Lessons Learned aus --und mit-- anderen Projekten überprüfen, anwenden und austauschen
 Einige Zeit nach Abschluss des #abbr("qrs") Projektes, wollten wir unser Produktdatenmanagementsystem erneut erweitern, diesmal um ein umfangreiches Import-Modul, das den Import von Neu-Daten erheblich erleichtern sollte.
 
 In der Planung des Projektes galt es die Lessons Learned, insb. aus dem #abbr("qrs") Projekt, mit einzubeziehen entsprechende Maßnahmen umzusetzen.
@@ -358,7 +373,7 @@ Für das nun anstehende Projekt habe ich dementsprechend die umfassende Verwendu
 
 Im Laufe des Projektes sind erheblich weniger Fehler der Kategorie aufgetreten, die aufgrund von dynamischen Type-Systemen entstehen könnnen.
 
-==== *04.05.01.03* Projektkomplexität und ihre Konsequenzen für den Projektmanagementansatz bestimmen
+==== *04.05.01.03* #DONE Projektkomplexität und ihre Konsequenzen für den Projektmanagementansatz bestimmen
 Ganz zu Beginn des #abbr("qrs") Projektes war noch gar nicht klar, dass wir ein solches System entwickeln würden.
 Vielmehr hatten wir im täglichen Umgang mit unseren Produktdatenkatalogen immer wieder festgestellt, dass sich darin Datenfehler wiederfanden.
 Daraus hatten wir abgeleitet, dass wir ein Projekt aufsetzen sollten, um diesen entgegenzuwirken.
@@ -374,7 +389,9 @@ Da diese nochmals spezielle Anforderungen bzgl. der Implementierung aufweist, er
 Über die frühzeitige Erkennung der Komplexitätstreiber, sowie die frühe Adressierung derselben in unseren Planungsmeetings, konnten wir den Umfang und Aufwand des Projektes vor Beginn besser einschätzen und steuern.
 Die spätere Umsetzung verlief angenehmen flüssig, da keine nennenswerten Überraschungen aufgrund von übersehener Komplexität aufgetreten sind.
 
-==== *04.05.01.04* Generellen Projektmanagementansatz auswählen und anpassen
+==== *04.05.01.04* #TODO Generellen Projektmanagementansatz auswählen und anpassen
+#todo("Anforderungen")
+
 Das Produktdatenprogramm lief über einen recht langen Zeitraum.
 Da wir uns als Unternehmen laufend weiterentwickeln wollten, haben wir dies beim Aufsetzen des Programmes selbstverständlich mit berücksichtigt.
 
@@ -388,10 +405,10 @@ Für Probleme, die wir dabei identifizieren konnten, haben wir im Rahmen des Ges
 Durch unsere regelmäßigen Reflektionen unserer eigenen Arbeitsweise konnten wir wiederholt Anpassungen vornehmen, um unsere Effizienz zu steigern.
 Beispielsweise haben wir die Art und Weise überarbeitet, wie der Status von Arbeitspaketen in #glossary("notion") festgehalten wird, damit wir schneller überblicken können, in welchem Test- & Deployment-Status sich bestimmte Features befinden.
 
-=== 04.05.02 Anforderungen und Ziele
+=== 04.05.02 #DONE (2/2) Anforderungen und Ziele
 Im Folgenden geht es um ein Projekt, in dem wir in unserem System den Support für das Import-Format "#abbr("axc")" des weit verbreiteten ERP-Systems #glossary("amparex") eingebaut haben.
 
-==== *04.05.02.01* Hierarchie der Projektziele definieren und entwickeln
+==== *04.05.02.01* #DONE Hierarchie der Projektziele definieren und entwickeln
 Das Projekt verfolgte im Kern zwei strategische Ziele:
 - Die Zufriedenheit der Akustiker innerhalb unseres Netzwerkes, die #glossary("amparex") verwenden, erhöhen
 - Das Netzwerk Hörgesundheit durch unser Angebot attraktiver für neue Partner, die ebenfalls #glossary("amparex") verwenden, zu gestalten
@@ -408,7 +425,9 @@ Um zusätzlich das erste strategische Ziel besser zu erfüllen, haben wir die Et
 
 Als Ergebnis hatten wir einen klaren Überblick über die konkreten Ziele des Projektes und zugleich die Sicherheit, dass der Projektscope auf das Notwendige beschränkt wurde.
 
-==== *04.05.02.02* Bedürfnisse und Anforderungen der Projekt-Stakeholder identifizieren und analysieren
+==== *04.05.02.02* #TODO Bedürfnisse und Anforderungen der Projekt-Stakeholder identifizieren und analysieren
+#todo("Anforderungen")
+
 Eine wichtige Stakeholder-Gruppe des Projektes waren die Endanwender in den Akustiker-Unternehmen.
 
 Die Bedürfnisse und Anforderungen der Endanwender waren zu identifizieren und dokumentieren.
@@ -421,7 +440,7 @@ Das konnte ich daraus schließen, dass nur wenig technisches Verständnis vorhan
 
 Nach den Gesprächen hatte ich eine Übersicht über die Anforderungen und Bedürfnisse der Endanwender, mit der ich die konkreten Features des Imports planen konnte.
 
-==== *04.05.02.03* Anforderungen und Abnahmekriterien priorisieren und darüber entscheiden
+==== *04.05.02.03* #DONE Anforderungen und Abnahmekriterien priorisieren und darüber entscheiden
 Hörgeräte sind fast immer in verschiedenen Farbvarianten erhältlich.
 Für #abbr("ric")-Geräte, eine Unterkategorie von Hörgeräten, gibt es zugehörige Empfänger mit unterschiedlichen Lautsprecher-Stärken.
 Die Farb- und Empfängervarianten lassen sich beliebig miteinander kombinieren.
@@ -438,11 +457,13 @@ Entsprechend habe ich die Abbildung der #abbr("hmv")-Nummern priorisiert.
 
 Gemäß der Priorisierung wurden die betroffenen Arbeitspakete angepasst.
 
-=== 04.05.03 Leistungsumfang und Lieferobjekte
+=== 04.05.03 #TODO (1/2) Leistungsumfang und Lieferobjekte
 Im Folgenden geht es um das Projekt, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
 Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
 
-==== *04.05.03.01* Lieferobjekte definieren
+==== *04.05.03.01* #TODO Lieferobjekte definieren
+#todo("Anforderungen")
+
 Die Lieferobjekte waren zu definieren.
 
 Das #abbr("qrs") war dabei als eine Erweiterung unseres Datenbank-Management-Systems vorgesehen.
@@ -462,7 +483,9 @@ Aus diesem Design habe ich folgende Lieferobjekte abgeleitet:
 
 Anhand der definierten Lieferobjekte wurde die weitere Arbeitspaketplanung vorgenommen.
 
-==== *04.05.03.02* Leistungsumfang strukturieren
+==== *04.05.03.02* #TODO Leistungsumfang strukturieren
+#todo("Anforderungen")
+
 Für das Projekt musste nun ein Vorgehensmodell begründet ausgewählt werden.
 
 Auf der einen Seite hatte ich die Lieferobjekte klar definiert und konnte daraus bereits erste Arbeitspakete ableiten.
@@ -472,7 +495,7 @@ Dabei wurden die einzelnen Arbeitspakete in dem üblichen Ablauf bearbeitet, abe
 
 Entsprechend stand das Vorgehensmodell fest und wurde anschließend umgesetzt.
 
-==== *04.05.03.03* Arbeitspakete definieren
+==== *04.05.03.03* #DONE Arbeitspakete definieren
 Für die Projektumsetzung waren Arbeitspakete zu definieren.
 
 Die Arbeitspakete habe ich Schrittweise im Laufe des Projektes aus den Lieferobjekten abgeleitet.
@@ -483,10 +506,10 @@ Diese "Ausbau"-Pakete wurden mit den Erkenntnissen aus den vorangegangenen Paket
 
 Mit der beschriebenen Planung von Arbeitspaketen stand zu jedem Zeitpunkt fest, woran aktuell zu arbeiten ist, sowie welche Aufgaben zukünftig noch zu bearbeiten sind (auch wenn letztere meist noch nicht abschließend feststanden).
 
-=== 04.05.04 Ablauf und Termine
+=== 04.05.04 #TODO (2/3) Ablauf und Termine
 Zu Beginn des Schnittstellenprojektes zum ERP-System #glossary("optadata_focus") musste zunächst ein Überblick geschaffen werden, anhand dessen wir das Projekt kalkulieren und später umsetzen können.
 
-==== *04.05.04.01* Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
+==== *04.05.04.01* #DONE Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
 Für die Umsetzung des Projektes galt es die notwendigen Aufgaben zu definieren.
 
 Um die notwenigen Aufgabe zu ermitteln, habe ich zunächst aus den zuvor definierten Lieferobjekten grobe Aufgabenbereiche abgeleitet.
@@ -498,7 +521,9 @@ Die Aufgaben habe ich als Kacheln in einem Diagramm festgehalten und sie farblic
 Mit den definierten Aufgaben wurde die weitere Planung vorgenommen.
 Im weiteren Verlauf der Planung wurden die Abhängigkeiten zwischen den Aufgaben, sowie die Phasen, in die das Projekt unterteilt wurde, hinzugefügt (siehe die nächsten KCIs).
 
-==== *04.05.04.02* Arbeitsaufwand und Dauer von Aktivitäten festlegen
+==== *04.05.04.02* #TODO Arbeitsaufwand und Dauer von Aktivitäten festlegen
+#todo("Anforderungen")
+
 Für alle Aufgaben musste identifiziert werden, wer die Aufgaben umsetzen sollte.
 
 Für alle Aufgaben habe ich zwei Aspekte überprüft:
@@ -512,7 +537,9 @@ Beispielsweise erforderten die Aufgaben bzgl. des Admin-Interfaces, dass der Ent
 
 Mit der Zuordnung der Aufgaben konnte ich zum einen sehr schnell und klar dem Kunden kommunizieren welchen Aufgaben er nachkommen muss, und ich konnte mit #glossary("nils") die Verfügbarkeiten unserer Entwickler abklären.
 
-==== *04.05.04.03* Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen
+==== *04.05.04.03* #TODO Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen
+#todo("Anforderungen")
+
 Für die Umsetzung und eindeutige Kommunikation mit dem Kunden, waren die Phasen des Projektes festzulegen.
 
 Ich habe das Projekt in 4 Phasen unterteilt:
@@ -526,7 +553,7 @@ Dank der groben Phasenplanung konnten wir besser mit der #glossary("optadata") k
 Anhand der Phasenplanung wurden alle weiteren (Detail-)Schritte definiert.
 Siehe auch @gateway_tasks, in der die Phasen übergreifend mit abgebildet sind.
 
-==== *04.05.04.04* Abfolge der Projektaktivitäten bestimmen und einen Ablauf- und Terminplan erstellen
+==== *04.05.04.04* #DONE Abfolge der Projektaktivitäten bestimmen und einen Ablauf- und Terminplan erstellen
 Einige der Aufgaben, z.B. die Bereitstellung von Testdaten, konnten erst umgesetzt werden, wenn andere Aufgaben zuvor erledigt wurden (Im Fall des Beispiels die Bereitstellung des Gateway-Servers mit entsprechenden Endpoints).
 
 Für alle Aufgaben im Projekt waren die Abhängigkeiten untereinander zu bestimmen.
@@ -540,11 +567,13 @@ Diese Verhältnisse habe ich in Form eines Ablaufdiagramms festgehalten (siehe @
 
 Die fertige Ablaufplanung diente für die Umsetzung des Projektes als leitende Referenz und de facto Todo-Liste.
 
-=== 04.05.05 Organisation, Information und Dokumentation
+=== 04.05.05 #TODO (1/2) Organisation, Information und Dokumentation
 Für das gesamte Programm habe ich mich zu Beginn im Rahmen der Übergabe mit #glossary("nils") zusammengesetzt, um die Details der Zusammenarbeit zu klären.
 Ein Teil dieser Gespräche war die Klärung der verwendeten Informations- und Kommunikationsstrukturen.
 
-==== *04.05.05.01* Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen
+==== *04.05.05.01* #TODO Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen
+#todo("Anforderungen")
+
 Im Rahmen der initialen Planung waren die verschiedenen (formellen und informellen) Kommunikationsarten festzulegen und einzuführen.
 
 Für das Programm selbst war lediglich #glossary("nils") informiert zu halten.
@@ -555,7 +584,9 @@ Die Dokumentation, sowohl für das Projektmanagement, als auch die Projektinhalt
 
 Über die festgelegten Kommunikationswege konnten wir im Laufe des gesamten Programms stets zügig und effizient über alle anstehenden Themen kommunizieren.
 
-==== *04.05.05.02* Struktur, Rollen und Verantwortlichkeiten im Projekt definieren
+==== *04.05.05.02* #TODO Struktur, Rollen und Verantwortlichkeiten im Projekt definieren
+#todo("Anforderungen")
+
 Es galt die konkreten Verantwortlichkeiten zu verteilen.
 
 Allgemein sind wir im Unternehmen Aufgaben meist kollaborativ angegangen, d.h. Verantwortung für Aufgaben wurde nicht auf Einzelpersonen übertragen, sondern auf mehrere Personen zusammen (in den allermeisten Fällen Personenpaare).
@@ -566,7 +597,7 @@ Die Verantwortung für die tatsächliche Umsetzung und Überwachung derselben la
 Durch die geteilten Verantwortlichkeiten konnten wir sicherstellen, dass Blind-Spots früher erkannt wurden.
 Auch haben wir damit sichergestellt, dass alle Ideen und Ansätze robuster waren und es in der praktischen Umsetzung durch Abwesenheiten o.ä. nicht zu Verzögerungen kam.
 
-==== *04.05.05.03* Infrastruktur, Prozesse und Informationssysteme aufbauen
+==== *04.05.05.03* #DONE Infrastruktur, Prozesse und Informationssysteme aufbauen
 Es war sicherzustellen, dass redundante Informationen begrenzt und/oder vermieden werden.
 
 Alle Programme & Projekte im Unternehmen wurden in #glossary("notion") geplant und überwacht.
@@ -579,8 +610,10 @@ In allen Nachrichten, Berichten und Besprechungen wurden nur die Links auf die e
 
 Durch die Verwendung von #glossary("notion"), sowie unsere fortlaufende Optimierung unserer Seiten und Templates darin, kam es nur selten zu Fehlkommunikationen oder Missverständnissen.
 
-=== 04.05.06 Qualität
-==== *04.05.06.01* Qualitätsmanagementplan für das Projekt entwickeln, die Implementierung überwachen und gegebenenfalls überarbeiten
+=== 04.05.06 #DONE (4/3) Qualität
+==== *04.05.06.01* #TODO Qualitätsmanagementplan für das Projekt entwickeln, die Implementierung überwachen und gegebenenfalls überarbeiten
+#todo("Anforderungen")
+
 Das Projekt für die Implementierung eines Import-Moduls in unser Produktdatensystem beinhaltet viel Entwicklung mit der Programmiersprache #glossary("python").
 Aus der Erfahrung aus vergangenen Projekten heraus war bekannt, dass es im Rahmen der Entwicklung mit #glossary("python") häufiger zu Type-Fehlern, einer bestimmten Klasse von Programmierfehlern, kommen kann.
 
@@ -593,7 +626,7 @@ Jegliche Fehlermeldungen und Warnungen des Tools waren durch Anpassung des Codes
 
 Durch die strikte Einhaltung dieser Vorgaben, sind im Laufe des Projektes erheblich weniger Type-Fehler aufgetreten.
 
-==== *04.05.06.02* Projekt mit seinen Lieferobjekten überprüfen, um sicherzustellen, dass sie die Anforderungen des Qualitätsmanagementplans weiterhin erfüllen
+==== *04.05.06.02* #DONE Projekt mit seinen Lieferobjekten überprüfen, um sicherzustellen, dass sie die Anforderungen des Qualitätsmanagementplans weiterhin erfüllen
 Für das Schnittstellenprojekt zum ERP-System #glossary("optadata_focus") musste mit dem Kunden abgeklärt werden, wie wir die Qualität der von uns entwickelten Endpoints sicherstellen wollen.
 
 Dazu musste festgelegt werden, wie die Qualitätsziele des Projekts kommuniziert werden.
@@ -603,7 +636,7 @@ Diese würden wir dann sowohl in unseren eigenen Tests, als auch den vereinbarte
 
 Mithilfe der Spezifikationen konnten wir alle Tests reibungslos durchführen und auch im Vorfeld schon einige Detailfragen sicher aus dem Weg räumen.
 
-==== *04.05.06.03* Erreichung der Qualitätsziele des Projekts verifizieren und erforderliche korrektive und/oder präventive Maßnahmen empfehlen
+==== *04.05.06.03* #DONE Erreichung der Qualitätsziele des Projekts verifizieren und erforderliche korrektive und/oder präventive Maßnahmen empfehlen
 Im Rahmen der Entwicklung des #abbr("qrs") wurden wiederholt Tests mit Test-Daten durchgeführt, wobei die Testdaten gezielte Fehlerklassen abgebildet haben, die von den entsprechenden Reports erkannt werden sollten.
 Dabei kam es vor, dass ein Report eine bestimmte Fehlerklasse nur unvollständig ermittelt hat.
 Konkret war das Problem, dass wenn ein Produkt mit Varianten (z.B. verschiedene Farb-Ausführungen) einen Datenfehler in mehreren Varianten aufwies, dann sollte der Report auch alle Fehler in den Varianten erkennen und melden.
@@ -619,7 +652,7 @@ Diesen Umstand konnten wir, ebenfalls mithilfe der Codepfad-Analyse, dahin zurü
 
 Durch die Fehler-Ursachen-Analyse konnte die konkrete Ursache ermittelt und behoben werden. Der Report hat anschließend den Anforderungen entsprechend funktioniert.
 
-==== *04.05.06.04* Validierung von Projektergebnissen planen und organisieren
+==== *04.05.06.04* #DONE Validierung von Projektergebnissen planen und organisieren
 Das #abbr("qrs") war ausschließlich für die Verwendung durch interne Mitarbeiter vorgesehen.
 
 Um sicherzustellen, dass das System den Anforderungen der Endanwender entsprach, war eine Validierung der Projektergebnisse durchzuführen.
@@ -631,7 +664,7 @@ Für das #abbr("qrs") Projekt habe ich den gewohnten Prozess wie oben beschriebe
 
 Das #abbr("qrs") wurde erfolgreich validiert und anschließend abgenommen.
 
-==== *04.05.06.05* Qualität im Verlauf des Projekts sicherstellen
+==== *04.05.06.05* #DONE Qualität im Verlauf des Projekts sicherstellen
 Im Laufe der Jahre haben wir im Unternehmen ein Standard-Vorgehen für unsere Projekte entwickelt.
 Dieses beinhaltete einen Standard-Prozess für die Qualitätssicherung:
 - Jeglicher entwickelter Code wird von den Entwicklern lokal getestet
@@ -649,8 +682,8 @@ Desweiteren wurden die Deploymentprozesse für Software übernommen und für das
 
 Durch den konsequenten Einsatz unseres Prozesses wurden wiederholt Fehler und Probleme mit der Software frühzeitig entdeckt und konnten behoben werden, bevor ein größerer Schaden entstehen konnte.
 
-=== 04.05.07 Kosten und Finanzierung
-==== *04.05.07.01* Projektkosten abschätzen
+=== 04.05.07 #TODO (1/3) Kosten und Finanzierung
+==== *04.05.07.01* #DONE Projektkosten abschätzen
 Wir haben im Unternehmen stets darauf geachtet für unsere Projekte übergreifende Standards zu entwickeln und etablieren.
 Die Projekte, die ich durchgeführt habe, waren alles Neu- oder Weiterentwicklungen von Systemen, um eine neue Idee bzw. ein neues Feature umzusetzen.
 Als solche gab es keinen direkten Vergleichswert für das gesamte Projekt, auf den sich für Schätzung rückbezogen werden könnte.
@@ -667,7 +700,9 @@ Auf den ermittelten Gesamtaufwand wurde zudem ein Pauschalpuffer hinzuaddiert (s
 Mittels der beschriebenen Schätzungen habe ich für meine Projekte klar an #glossary("nils") kommunizieren können mit welchem Aufwand zu rechnen ist.
 
 
-==== *04.05.07.02* Projektbudget erstellen
+==== *04.05.07.02* #TODO Projektbudget erstellen
+#todo("Anforderungen")
+
 In vergangenen Projekten hat sich gezeigt, dass die Abweichungen vom Zeitplan bei Neuentwicklungen erheblich sein können (in beide Richtungen).
 Aus diesem Grund haben wir im Unternehmen etabliert, dass alle Projekte mit einem großen Pauschalpuffer geplant werden, um diese Abweichungen abzufedern.
 
@@ -677,7 +712,9 @@ Ich habe für jedes Projekt, gemäß dem im Unternehmen etablierten Vorgehen, de
 Für die Berechnung habe ich jede Aufgabe grob in ihrem Aufwand eingeschätzt.
 Der Puffer wurde dann gemäß Richtlinie aus dem Gesamtaufwand ermittelt und als in die Planung mit einbezogen.
 
-==== *04.05.07.03* Projektfinanzierung sichern
+==== *04.05.07.03* #TODO Projektfinanzierung sichern
+#todo("Anforderungen")
+
 Budgetfreigaben, die über geringfügige Beträge hinaus gingen, wurden grundsätzlich von den Geschäftsführern gemeinsam entschieden.
 Dafür wurde für eine konkrete Projektidee mit #glossary("nils") zusammen ein Projektplan erstellt, aus dem Kosten und Dauer des Projektes hervorgehen.
 Dieser Plan wurde dann als Entscheidungsgrundlage verwendet, um über die Freigabe des benötigten Budgets zu entscheiden.
@@ -690,7 +727,9 @@ Anschließend, sofern die Idee weiterhin sinnvoll erschien, habe ich, wie oben b
 
 Zu allen für sinnvoll erachteten Projektideen konnte #glossary("nils") einen Projektplan mit #glossary("sebastian") besprechen und über die Budgetfreigabe entscheiden.
 
-==== *04.05.07.04* Finanzmanagement- und Berichtssystem für das Projekt entwickeln, einrichten und aufrechterhalten
+==== *04.05.07.04* #TODO Finanzmanagement- und Berichtssystem für das Projekt entwickeln, einrichten und aufrechterhalten
+#todo("Anforderungen")
+
 Für die Projekte, für die ich verantwortlich war, habe ich in regelmäßigen Abständen den Status im Rahmen eines Meetings an #glossary("nils") berichtet.
 
 Für diese Meetings galt es passende Berichte zu entwickeln.
@@ -704,11 +743,11 @@ Da die Verwaltung unserer eigenen Server nicht vorsah, dass wir Server für einz
 
 Über die Informationen innerhalb von #glossary("notion") konnte #glossary("nils") jederzeit nachvollziehen auf welchem Stand sich die Projekte befanden.
 
-=== 04.05.08 Ressourcen
+=== 04.05.08 #TODO (2/3) Ressourcen
 Das Projekt für die Entwicklung des #abbr("qrs") deckte mehrere Bereiche von bereits bestehender Software ab, die weiterentwickelt werden sollte.
 Für diese Bereiche, sowie die anfallenden Aufgaben, waren unsere verschiedenen Entwickler unterschiedlich qualifiziert.
 
-==== *04.05.08.01* Strategische Ressourcenplanung entwickeln, um die Projektergebnisse liefern zu können
+==== *04.05.08.01* #DONE Strategische Ressourcenplanung entwickeln, um die Projektergebnisse liefern zu können
 Auf Grundlage der Ressourcenplanung waren die für das Projekt erforderlichen Entwickler zu ermitteln.
 
 Anhand der angereicherten Arbeitspaket-Übersicht (im nächsten KCI beschrieben), konnte ich den Arbeitspaketen jeweils die am besten dafür geeigneten Entwickler (einschließlich mir selbst) zuweisen.
@@ -718,7 +757,9 @@ Mit dieser Übersicht habe ich abschließend zusammengestellt, wer für das Proj
 Eine Übersicht über die erforderlichen Entwickler wurde erstellt und #glossary("nils") vorgelegt.
 Diese hat, nach etwas Verhandlung (s.u.), beschlossen wer dem Projekt für wie lange zugeteilt wird.
 
-==== *04.05.08.02* Qualität und Menge der benötigten Ressourcen definieren
+==== *04.05.08.02* #TODO Qualität und Menge der benötigten Ressourcen definieren
+#todo("Anforderungen")
+
 Für die Umsetzung des gesamten Projektes galt es, eine Ressourcenplanung aufzustellen.
 
 Ich habe für jedes Arbeitspaket, das ich in meiner vorherigen Planung definiert hatte, den Bedarf an Wissen & Kompetenzen bestimmt.
@@ -726,7 +767,7 @@ Dabei habe ich die benötigten Frontend- und Backend-Entwicklungsskills beurteil
 
 Die Übersicht der Arbeitspakete wurde mit den dafür notwendigen Kompetenzen angereichert und stand für die weitere Planung zur Verfügung.
 
-==== *04.05.08.03* Potenzielle Ressourcenquellen identifizieren und ihre Beschaffung verhandeln
+==== *04.05.08.03* #DONE Potenzielle Ressourcenquellen identifizieren und ihre Beschaffung verhandeln
 Unter anderem sollten die Funktionen des #abbr("qrs") über die bereits bestehende Management-Plattform verfügbar gemacht werden.
 Der Entwickler, der diese Management-Plattform designed hatte, sollte auch die Integration aufbauen.
 Dieser Entwickler war jedoch bereits in anderen Projekten stark eingebunden.
@@ -741,7 +782,9 @@ Anschließend habe ich #glossary("nils") die Option angeboten, den Entwickler nu
 
 Der Entwickler wurde für begrenzte Zeit meinem Projekt zugewiesen, wobei der Umfang der Aufgaben wie vereinbart reduziert wurde.
 
-==== *04.05.08.04* Ressourcen gemäß dem festgelegten Bedarf zuweisen und verteilen
+==== *04.05.08.04* #TODO Ressourcen gemäß dem festgelegten Bedarf zuweisen und verteilen
+#todo("Anforderungen")
+
 Für den im letzten KCI beschriebenen Entwickler war eine klare Aufgabenliste zu erstellen.
 
 Um die Aufteilung des oben beschriebenen Arbeitspaketes zu ermöglichen, hatte ich zunächst das anvisierte Ergebnis des Arbeitspaketes in die kleinstmöglichen Teilergebnisse zerlegt und diese dann wie beschrieben unterteilt.
@@ -750,12 +793,14 @@ Diese Listen habe ich in einer für den Entwickler sinnvollen Form abgefasst.
 
 Der Entwickler hat eine Liste von Aufgaben vorgelegt bekommen, sowie eine Liste expliziter Abgrenzungen zu Teilen, die nicht durch ihn zu implementieren waren.
 
-=== 04.05.09 Beschaffung
+=== 04.05.09 #DONE (2/2) Beschaffung
 Über die aufgebaute Schnittstelle zu #glossary("optadata_focus") werden in regelmäßigen Abständen unsere Produktdaten übertragen.
 Um für Nutzer eine möglichst gute User-Experience sicherzustellen, sollten unsere Daten in #glossary("optadata_focus") zwischengespeichert werden, um sie von dort aus schneller an Nutzer verteilen zu können.
 Dabei sollte weiterhin die Hoheit über die Daten, also die Vergabe von Zugängen, bei uns bleiben.
 
-==== *04.05.09.01* Beschaffungsbedarf, Optionen und Prozesse vereinbaren
+==== *04.05.09.01* #TODO Beschaffungsbedarf, Optionen und Prozesse vereinbaren
+#todo("Anforderungen")
+
 #glossary("nils") benötigte Unterstützung in der Vorbereitung des Kooperationsvertrages, insb. dessen fachlichen Inhalte.
 
 Ich habe die konkreten Risiken, die sich aus der Herausgabe unserer Daten ergeben, beurteilt und daraus konkrete Anforderungen, die von der #glossary("optadata") zu erfüllen waren, abgeleitet.
@@ -764,7 +809,7 @@ Zudem habe ich die Anforderungen seitens #glossary("optadata") bzgl. der Verfüg
 
 #glossary("nils") hat anschließend aus der Aufstellung der Anforderungen den Kooperationsvertrag erstellt.
 
-==== *04.05.09.02* Zur Evaluation und Auswahl von Lieferanten und Partnern beitragen
+==== *04.05.09.02* #DONE Zur Evaluation und Auswahl von Lieferanten und Partnern beitragen
 Es musste beurteilt werden, welche Besonderheiten in der Zusammenarbeit mit #glossary("optadata") existierten, und ein geeignetes Partnerschaftsmodell entschieden werden.
 
 Zunächst habe ich zwei mögliche Modelle für die Absicherung unserer Daten entworfen, die unterschiedliche Level an Kontrolle über die Daten abbilden:
@@ -775,7 +820,9 @@ Diese Modelle habe ich anschließend im Austausch mit #glossary("nils") gegenüb
 
 #glossary("nils") hat sich für die Vereinbarung eines Kooperationsvertrages entschieden.
 
-==== *04.05.09.03* Zu Verhandlungen und Vereinbarungen von Vertragsbestimmungen beitragen, um diese in Einklang mit den Projektzielen zu bringen
+==== *04.05.09.03* #TODO Zu Verhandlungen und Vereinbarungen von Vertragsbestimmungen beitragen, um diese in Einklang mit den Projektzielen zu bringen
+#todo("Anforderungen")
+
 Eine der Bestimmungen des Kooperationsvertrages war es, dass wir eine hohe Zuverlässigkeit in unserem Gateway sicherzustellen hatten.
 
 Es galt diese Vertragsbestimmung und ihre Auswirkungen auf das Projekt zu reflektieren.
@@ -786,7 +833,7 @@ Die Änderungen habe ich zudem in ihrem Umfang eingeschätzt.
 
 Die notwendigen Änderungen konnten anschließend eingeplant und umgesetzt werden (s.u.).
 
-==== *04.05.09.04* Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen
+==== *04.05.09.04* #DONE Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen
 Es galt die identifizierten Maßnahmen zum Managen der Vertragserfüllung umzusetzen.
 
 Die im vorherigen KCI identifizierten Änderungen an unseren Endpoints habe ich in die entsprechenden Arbeitspakete mit eingeplant.
@@ -796,8 +843,8 @@ Eine Anpassung des Terminplans habe ich entsprechend als nicht notwendig bewerte
 Durch die Einführung der Änderungen in unseren Endpoints wurde die Serverlast reduziert und eine höhere Antwortgeschwindigkeit sichergestellt.
 Damit haben wir eine hohe Gesamtzuverlässigkeit unseres Gateways erreicht und unsere vertragliche Verpflichtung erfüllt.
 
-=== 04.05.10 Planung und Steuerung
-==== *04.05.10.01* Projekt starten, Projektmanagement-Plan entwickeln und Zustimmung einholen
+=== 04.05.10 #DONE (4/3) Planung und Steuerung
+==== *04.05.10.01* #DONE Projekt starten, Projektmanagement-Plan entwickeln und Zustimmung einholen
 Für den Aufbau des Import-Moduls für unser Produktdatenmanagementsystem war zu Beginn nur klar, dass das allgemeine Ziel sein sollte, den Import-Prozess zu vereinfachen und das benötigte Spezialwissen zu reduzieren.
 
 Es war ein Projektstart-Workshop zu organisieren (und moderieren), um den gewünschten Funktionsumfang und die Ziele des Projektes näher auszuarbeiten.
@@ -816,7 +863,7 @@ Die Agenda für dieses Meeting umfasste im Wesentlichen folgende Punkte:
 In dem Workshop konnten wir den gewünschten Funktionsumfang festlegen (Import von Daten in tabellarischem Format), den Umfang gegenüber unerwünschten Features abgrenzen (z.B. haben wir die Bearbeitung und Korrektur der Import-Daten über das Import-Modul als Feature ausgeschlossen) und zusätzliche Qualitäts- und Nutzungsziele herausarbeiten (z.B. waren die Import-Daten vor dem Import in die Datenbank auf diverse Qualitätsmerkmale zu prüfen und ggf. Fehlermeldungen auszuspielen).
 Zudem haben wir einen groben Zeitplan aufgestellt, anhand dem die weitere Planung sich orientieren konnte.
 
-==== *04.05.10.02* Übergang in eine neue Projektphase einleiten und managen
+==== *04.05.10.02* #DONE Übergang in eine neue Projektphase einleiten und managen
 Für das im letzten KCI beschriebene Projekt wurde als erste Phase eine Prototyping-Phase definiert.
 In dieser sollten einige Ansätze für die Architektur des Moduls evaluiert werden, bevor die tatsächliche Entwicklung des Moduls beginnt.
 
@@ -829,7 +876,7 @@ Diese habe ich ebenfalls als Lieferobjekte mit aufgenommen, da sie eine gute Ori
 
 Anhand der klaren Definition der Lieferobjekte konnte im Laufe der Prototyping-Phase durchgehend sichergestellt werden, dass die entwickelten Beispiele und Ideen sich an dem Ziel der Phase orientieren und keine unnötigen Experimente gestartet wurden.
 
-==== *04.05.10.03* Projektleistung mit dem Projektplan abgleichen und Korrekturmaßnahmen treffen
+==== *04.05.10.03* #DONE Projektleistung mit dem Projektplan abgleichen und Korrekturmaßnahmen treffen
 Für das #glossary("optadata_focus") Schnittstellenprojekt hatte ich die abzuwickelnden Aufgaben bereits klar ausdefiniert.
 Dabei waren einige Aufgaben von unserem Kunden umzusetzen, der Rest durch uns.
 
@@ -842,7 +889,7 @@ Für die Aufgaben, die auf unserer Seite lagen, habe ich den Fortschritt in 3 St
 
 Mit den Fortschrittsmessungen konnte ich sowohl unsere Geschäftsführung, als auch den Kunden, jederzeit darüber informiert halten, wo wir im Projekt stehen und ob wir im geplanten Zeitrahmen fertig werden.
 
-==== *04.05.10.06* Eine Phase oder das Projekt abschließen und evaluieren
+==== *04.05.10.06* #DONE Eine Phase oder das Projekt abschließen und evaluieren
 Im Allgemeinen haben wir als Unternehmen immer versucht aus unseren Projekten zu lernen.
 
 Dazu war es notwendig zu jedem Projekt, bzw. zu jeder Phase (sofern ihr Umfang dies rechtfertigte), die Lessons Learned herauszuarbeiten und festzuhalten.
@@ -859,11 +906,13 @@ Im Anschluss an diese Gespräche sind #glossary("nils") und ich die Ergebnisse z
 Über diesen allgemeinen Prozess konnten wir wiederholt Probleme frühzeitig erkennen.
 Außerdem haben wir mit den Erkenntnissen über besonders gut gelaufene Situationen unsere Prozesse im Unternehmen weiter optimieren können.
 
-=== 04.05.11 Chancen und Risiken
+=== 04.05.11 #DONE (3/3) Chancen und Risiken
 Die nachfolgenden KCIs beziehen sich alle auf den Aufbau des neuen Import-Moduls für unser Produktdatenmanagementsystem.
 Konkret geht es dabei um die Schnittstelle zwischen dem Import-Modul und der Produktdatenbank, die gegen Fehler abzusichern war.
 
-==== *04.05.11.02* Chancen und Risiken identifizieren
+==== *04.05.11.02* #TODO Chancen und Risiken identifizieren
+#todo("Anforderungen")
+
 Da das Import-Modul direkten Zugang zu unserer Produktdatenbank zwingend erfordert, um die Imports durchzuführen, habe ich im Rahmen der Planung direkt das Risiko identifiziert, dass fehlerhafte Zugriffe auf die Datenbank zu erheblichem Schaden an unseren Daten führen könnte.
 Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
 - Fehlerhaftes abspeichern der Neudaten
@@ -872,7 +921,7 @@ Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
 #v(-10pt)
 Alle drei Kategorien waren in der weiterführenden Bewertung zu betrachten und Maßnahmen zu ermitteln (siehe nächste KCIs).
 
-==== *04.05.11.03* Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren
+==== *04.05.11.03* #DONE Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren
 Die zuvor identifizierten Fehlerkategorien waren in ihrem potentiellen Ausmaß zu bewerten.
 
 Die Fehlerkategorien habe ich jeweils quantitativ ("Wie viele Datensätze sind betroffen?") und qualitativ ("Wie aufwändig ist die Korrektur der einzelnen Fehler?") beurteilt.
@@ -881,7 +930,7 @@ Zudem habe ich die Auftrittswahrscheinlichkeit der Kategorien beurteilt und in d
 
 Die Bewertung der Risiken wurde verwendet, um angemessene Maßnahmen zu entwerfen.
 
-==== *04.05.11.04* Strategien auswählen und Maßnahmen implementieren, um Chancen und Risiken zu adressieren
+==== *04.05.11.04* #DONE Strategien auswählen und Maßnahmen implementieren, um Chancen und Risiken zu adressieren
 Durch die Bewertung der Risiken konnte ich einschätzen, dass der Abbruch eines laufenden Import-Vorganges das größte Risiko darstellt, sowohl in seiner Auftrittswahrscheinlichkeit, als auch in den Auswirkungen.
 Aus diesem Grund habe ich in der Planung des Projektes den vorgesehenen Import-Vorgang um eine Rollback-Funktionalität erweitert.
 Diese erlaubt mittels detailliertem Fortschrittstracking einen laufenden Import-Vorgang jederzeit zurückzurollen.
@@ -893,14 +942,16 @@ Da es sich in beiden Fällen im Zweifelsfall um Fehler in der Korrektheit des Mo
 Ich habe entsprechende Test-Cases eingeplant, die diese Fehlerkategorien abdecken.\
 Mittels entsprechendem Testen nach Fertigstellung des Moduls konnten diese beiden Risiken ebenfalls minimiert werden.
 
-==== *04.05.11.05* Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen
+==== *04.05.11.05* #DONE Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen
 Die oben beschriebenen Risiken und Maßnahmen habe ich im Rahmen unserer regelmäßigen Update-Gespräche mit #glossary("nils") näher besprochen.
 Für die Erweiterung mit der Rollback-Funktion war ohnehin eine Freigabe notwendig.
 Aber auch die anderen Maßnahmen habe ich ihm dargestellt und rechtfertigt.\
 #glossary("nils") war mit der Bewertung und den getroffenen Maßnahmen einverstanden.
 
-=== 04.05.12 Stakeholder
-==== *04.05.12.02* Stakeholder Strategie und einen Kommunikationsplan entwickeln und aufrechterhalten
+=== 04.05.12 #TODO (1/3) Stakeholder
+==== *04.05.12.02* #TODO Stakeholder Strategie und einen Kommunikationsplan entwickeln und aufrechterhalten
+#todo("Anforderungen")
+
 Im Laufe des #glossary("optadata_focus") Schnittstellenprojektes ist uns bekannt geworden, dass die Einkaufsgemeinschaft #glossary("meditrend") ebenfalls Produktdatenkataloge neben unseren anbieten wollte.
 Wir sahen darin eine Chance ein gemeinsames Angebot aufzustellen, um das anvisierte Marktsegment zusammen einzufangen, statt darum zu konkurrieren.
 
@@ -918,7 +969,7 @@ Wir haben ihn im Gespräch davon überzeugen können, dass eine Kooperation für
 Eduard hat das Thema weiter an den Vorstand der #glossary("meditrend") getragen.
 Dort wurde die Kooperation leider abgelehnt.
 
-==== *04.05.12.03* Geschäftsführung, Auftraggeber und höheres Management einbinden, um Commitment zu erreichen und um Interessen und Erwartungen zu managen
+==== *04.05.12.03* #DONE Geschäftsführung, Auftraggeber und höheres Management einbinden, um Commitment zu erreichen und um Interessen und Erwartungen zu managen
 In der Planung des #abbr("qrs") Projektes hatte #glossary("nils") als Auftraggeber bereits eine Vorstellung davon, was das #abbr("qrs") am Ende leisten sollte.
 Konkret wollte er ein System, das die Fehler in unserer Datenbank erkennt und direkt beheben kann.
 Im war klar, dass der Korrektur-Prozess nicht automatisch sein kann, da es sich bei Fehlern in den allermeisten Fällen um fehlende oder falsch eingetragene Daten handelte, die sich nicht automatisch korrigieren lassen.
@@ -932,7 +983,9 @@ Ich habe ihm dazu Alternativen aufgezeigt, die mit nur geringem Mehraufwand auf 
 
 Über das Gespräch konnte ich #glossary("nils") davon überzeugen, dass seine Vorstellung zu komplex war und habe mich mit ihm auf eine weniger komplexe Lösung einigen können.
 
-==== *04.05.12.04* Benutzer, Partner und Lieferanten und andere Stakeholder einbinden, um deren Kooperation und Commitment zu erreichen
+==== *04.05.12.04* #TODO Benutzer, Partner und Lieferanten und andere Stakeholder einbinden, um deren Kooperation und Commitment zu erreichen
+#todo("Anforderungen")
+
 Für den Support des #abbr("axc") Formates in unserem Produktdatenexporter war der Input der Akustiker, die damit letztlich arbeiten würden, unabdingbar.
 
 Um eine hohe Akzeptanz des Projektergebnisses sicherzustellen, waren die Akustiker mit in das Projekt einzubinden.
@@ -943,8 +996,10 @@ Neben der Ermittlung der fachlichen Anforderungen, habe ich in diesen Gespräche
 Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv den Kontakt zu mir gesucht, um Informationen und neue Ideen zu liefern.
 
 == PM-Wahlelemente
-=== 04.03.01 Strategie
-==== *04.03.01.01* Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen
+=== 04.03.01 #TODO (2/3) Strategie
+==== *04.03.01.01* #TODO Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen
+#todo("Inhaltlicher Bezug")
+
 Allgemein war für alle Projekte unter meiner Verantwortung sicherzustellen, dass deren Ziele im Einklang mit der Strategie des Unternehmens waren.
 
 Die Ziele für alle Projekte im Rahmen unseres Produktdatensystems wurden aus unserer Strategie abgeleitet.
@@ -952,7 +1007,7 @@ Die Strategie war dabei stets der ursprüngliche Auslöser und Grund für das Au
 Entsprechend gab es hier keinen Bedarf zusätzlich zu handeln.
 Im Rahmen der Zieldefinition der Projekte wurde bereits sichergestellt, dass sie mit der Strategie im Einklang waren.
 
-==== *04.03.01.02* Chancen identifizieren und ausschöpfen, die Strategie der Organisation zu beeinflussen
+==== *04.03.01.02* #DONE Chancen identifizieren und ausschöpfen, die Strategie der Organisation zu beeinflussen
 Bei der Einführung des Supports für das #abbr("axc") Format, habe ich festgestellt, dass es allgemein einen hohen Bedarf unter Akustikern für technischen Support gibt.
 Dieser beschränkt sich dabei nicht nur auf den Umgang mit Produktdaten.
 Generell habe ich viel Bedarf an Unterstützung in Entwurf und Umsetzung von digitalen Prozessen ermitteln können.\
@@ -963,7 +1018,7 @@ Diese Idee haben wir, nach etwas Diskussion, wieder verworfen.
 Wir waren uns zwar über das Potential einig, haben aber bei der Gegenüberstellung von Aufwand und potentiellem Nutzen feststellen müssen, dass wir nicht die notwendigen Kapazitäten haben.
 Die Kapazitäten dafür gezielt aufzubauen, wäre kostenspieliger gewesen als der erwartete Nutzen wert wäre.
 
-==== *04.03.01.03* Rechtfertigung für das Projekt entwickeln und sicherstellen, dass die betriebswirtschaftlichen und/oder organisationalen Gründe, die zum Projekt geführt haben, weiterhin bestehen
+==== *04.03.01.03* #DONE Rechtfertigung für das Projekt entwickeln und sicherstellen, dass die betriebswirtschaftlichen und/oder organisationalen Gründe, die zum Projekt geführt haben, weiterhin bestehen
 Der Aufbau des Import-Moduls für unser Produktdatenmanagementsystem war dadurch motiviert, dass wir diverse Arten von Neudaten hatten, die immer wieder mal importiert werden mussten.
 Dabei war ein großer Teil des anfallenden Aufwandes bereits durch einen alten Importer abgedeckt, der einige Jahre zuvor entwickelt worden war.
 
@@ -981,8 +1036,10 @@ In Zukunft würde der Importer schnell unzureichend werden.\
 Aus diesem Grund konnte ich den Bau des neuen Import-Moduls als sinnvoll bewerten.
 Für den Übergang, während das neue Modul aufgebaut wird, konnten wir den alten Importer weiter nutzen, aber das Ablösen des alten Importers war strategisch eine sinnvolle und notwendige Entscheidung.
 
-=== 04.03.05 Kultur und Werte
-==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen
+=== 04.03.05 #TODO (1/2) Kultur und Werte
+==== *04.03.05.02* #TODO Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen
+#todo("Anforderungen")
+
 Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an (im Gegensatz zu dem weit verbreiteten Fokus auf nur Hörgeräte).
 Teil dieser Mission ist es, die Transparenz und Vergleichbarkeit von Produkten innerhalb der Branche zu steigern, um Endkunden darin zu unterstützen das für sie beste Gerät zu finden.\
 Als Software-Unternehmen legt die #glossary("audoora") zudem viel Wert auf hochwertige und moderne Software-Standards.
@@ -997,7 +1054,7 @@ Außerdem habe ich das allgemeine Test-Vorgehen in unserem Unternehmen mit entwo
 
 Durch die Etablierung der besagten Standards und Prozesse konnte ich sicherstellen, dass die Ergebnisse meiner Projekte dem allgemeinen Qualitäts-Niveau der #glossary("audoora") entsprachen.
 
-==== *04.03.05.03* Die informelle Kultur und Werte der Organisation und deren Auswirkungen auf das Projekt beurteilen
+==== *04.03.05.03* #DONE Die informelle Kultur und Werte der Organisation und deren Auswirkungen auf das Projekt beurteilen
 Innerhalb des Unternehmens haben wir allgemein einen sehr lockeren und vertrauensbasierten Umgang miteinander gepflegt.
 Das bedeutet vor allem, dass den Entwicklern sehr viel Spielraum für Design-Entscheidungen gelassen wurde und Qualitätsvorgaben und -prozesse zwar besprochen, aber deren Umsetzung nicht weiter kontrolliert wurde.
 Diese Arbeitsweise war vor allem aufgrund der kleinen Unternehmensgröße möglich und da die Endergebnisse stets den Qualitätsstandards entsprachen, wurde diese Kultur bewusst von der Geschäftsführung gefördert.\
@@ -1012,8 +1069,8 @@ Die Kontrolle der Qualität der Ergebnisse wurde von mir erst zum Abschluss von 
 Wir haben insgesamt durch unsere Arbeitsweise ein durchweg angenehmes Klima geschaffen, in dem sich alle optimal einbringen konnten und ihren eigenen Arbeitsstil leben konnten.
 Ich bin fest davon überzeugt, dass dieser Umstand auch ausschlaggebend für die hohe Qualität unserer Arbeit war, da alle ein Interesse daran hatten diese Qualität zu liefern.
 
-=== 04.04.01 Selbstreflexion und Selbstmanagement
-==== *04.04.01.02* Selbstvertrauen auf der Basis von persönlichen Stärken und Schwächen aufbauen
+=== 04.04.01 #DONE (4/3) Selbstreflexion und Selbstmanagement
+==== *04.04.01.02* #DONE Selbstvertrauen auf der Basis von persönlichen Stärken und Schwächen aufbauen
 Allgemein habe ich im Laufe der letzten Jahre immer wieder festgestellt, dass ich große Schwierigkeiten damit habe, bei Stille zu arbeiten.
 Wenn um mich herum nichts weiter passiert, dann füllt mein Kopf die Leere, indem er anfängt über meinen Alltag und meine Freizeit zu sinnieren.
 
@@ -1029,7 +1086,7 @@ Diese hat zu erheblichen Fokus-Steigerungen geführt.
 Als Fallback-Option für Situationen, in denen dies keine Option ist, z.B. bei der Arbeit im Home-Office, wenn meine Partnerin nicht da ist, konnte ich diverse Videos finden, in denen sich in ruhiger Atmosphäre mit diversen Themen beschäftigt wird.
 Diese haben den gleichen Effekt, wenn auch in reduziertem Maße.
 
-==== *04.04.01.03* Persönliche Motivationen identifizieren und reflektieren, um persönliche Ziele zu setzen und darauf zu fokussieren
+==== *04.04.01.03* #DONE Persönliche Motivationen identifizieren und reflektieren, um persönliche Ziele zu setzen und darauf zu fokussieren
 Zu meiner persönlichen und beruflichen Weiterbildung mache ich mir schon seit langem regelmäßige Gedanken.
 Dabei lege ich großen Wert darauf eine klare Richtung zu haben, um meine Ziele und Prioritäten festzulegen, ohne mich dabei zu sehr einzuschränken.
 
@@ -1040,7 +1097,7 @@ Daraus habe ich für mich das Ziel abgeleitet mindestens 3 mal pro Woche das Fit
 Gleichermaßen hilft mir diese Ziel-Persona bei der Priorisierung und Entscheidungsfindung, da ich mich in unklaren Situationen fragen kann "Was würde meine Ziel-Persona jetzt tun?".
 So habe ich beispielsweise beschlossen mich beruflich in die Projektmanagement Richtung umzuorientieren, da das mehr dem entsprach, was meine Ziel-Persona tun würde.
 
-==== *04.04.01.04* Eigene Arbeit abhängig von der Situation und den eigenen Ressourcen organisieren
+==== *04.04.01.04* #DONE Eigene Arbeit abhängig von der Situation und den eigenen Ressourcen organisieren
 Neben der Planung und Umsetzung der von mir verantworteten Projekte, war ich außerdem der allgemeine Ansprechpartner für alle Themen rund um unsere Produktdaten.
 In diesem Zusammenhang haben immer wieder mal Akustiker mit mir Kontakt aufgenommen, um Fragen zu klären oder technischen Support für unsere Produktdatenservices zu erfragen.\
 Im Laufe des #glossary("optadata_focus") Projektes wurde ich von einem Akustiker für technischen Support kontaktiert.
@@ -1053,7 +1110,7 @@ Die Projektaufgabe hatte eine schnell herannahende Deadline und der Kunde konnte
 Ich habe schließlich den potentiellen Schaden bewertet, der entstehen könnte, und dabei ermittelt, dass ein Reißen der Projekt-Deadline höhere Folgekosten mit sich ziehen würde als eine Verzögerung in der Bearbeitung der Kunden-Anfrage.
 Aus diesem Grund habe ich den Akustiker mit seiner Anfrage nach hinten geschoben und zunächst die Projektaufgabe erledigt.
 
-==== *04.04.01.05* Verantwortung für das persönliche Lernen und die persönliche Weiterentwicklung übernehmen
+==== *04.04.01.05* #DONE Verantwortung für das persönliche Lernen und die persönliche Weiterentwicklung übernehmen
 Der Entwicklungsprozess, den ich für die Umsetzung des #abbr("qrs") aufgesetzt hatte, sah eine bestimmte Reihenfolge von Entwicklungs- und Test-Schritten vor.
 Dabei sollte durch die Einhaltung von Qualitäts-Standards in der Entwicklung der Bedarf an Testung reduziert werden, weshalb weniger Test-Schritte als üblich geplant waren.
 Letzenendes erzielten die eingeführten Qualitäts-Standards nicht den nötigen Effekt, um die gestrichenen Tests vollständig zu ersetzen.
@@ -1063,8 +1120,8 @@ Da der Prozess im Laufe des Projektes zu Reibungspunkten geführt hatte, wurde e
 Unter anderem hatte mein Mangel an Verständnis für die Grenzen dessen, was die Qualitäts-Standards leisten können und wo sie keine Garantien liefern können, mit zu den Problemen beigetragen.
 Neben den Ergebnissen der Lessons Learned habe ich mir also selbst noch mitgenommen mich tiefer in das Thema der Qualitäts-Standards einzulesen und mein Wissen dort zu erweitern.
 
-=== 04.04.03 Persönliche Kommunikation
-==== *04.04.03.01* Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
+=== 04.04.03 #TODO (2/3) Persönliche Kommunikation
+==== *04.04.03.01* #DONE Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
 Im Rahmen meiner Aufgaben hatte ich viel Kontakt sowohl mit unseren Entwicklern, als auch mit unseren Partner-Akustikern.
 Diese beiden Personengruppen haben dabei erhebliche Unterschiede in der Art und Weise wie sie Informationen aufnehmen, verarbeiten und selber kommunizieren.
 Um eine klare Kommunikation sicherzustellen, musste ich die benötigten Informationen gezielt für die jeweilige Zielgruppe sinnvoll strukturieren und präsentieren.
@@ -1079,7 +1136,7 @@ Bei Entwicklern habe ich darauf geachtet mithilfe von Diagrammen und technischer
 
 Mit den gewählten Kommunikationsansätzen konnte ich in Gesprächen stets sicherstellen, dass alle wichtigen Informationen bei meinem Gegenüber ankamen.
 
-==== *04.04.03.02* Offene Kommunikation ermöglichen und fördern
+==== *04.04.03.02* #DONE Offene Kommunikation ermöglichen und fördern
 Ich habe bereits oft in Gesprächen erlebt, dass Informationen verloren gegangen sind, weil die Beteiligten dachten, sie hätten alles verstanden, aber die Dinge anders gemeint waren.
 Mir selbst ist das auch allzu oft schon passiert.
 
@@ -1091,7 +1148,9 @@ Beispielsweise sprachen wir zu einem Punkt über ihre selbstgebauten Datenbankl�
 Ich fasste anschließend den eigentlichen Prozess zusammen, den ich aus ihren Ausführungen herausgehört hatte, und sie konnte mich dann korrigieren und einen Schritt klarstellen, den ich falsch verstanden hatte.
 Dadurch konnte ich ihr dann anschließend einen gezielten Ratschlag geben, wie sie ihre Strukturen optimieren konnte.
 
-==== *04.04.03.03* Kommunikationsarten und -kanäle auswählen, um die Bedürfnisse der Zielgruppe, der Situation und der Führungsebene zu erfüllen
+==== *04.04.03.03* #TODO Kommunikationsarten und -kanäle auswählen, um die Bedürfnisse der Zielgruppe, der Situation und der Führungsebene zu erfüllen
+#todo("Anforderungen")
+
 Im Rahmen der Einführung unseres Supports des #abbr("axc") Formates, ist uns ein Fehler im #glossary("amparex") System aufgefallen.
 Diesen wollten wir zwecks Behebung an #glossary("amparex") berichten.
 Dabei stellte sich heraus, dass die gewählte Kommunikation den Fehler per E-Mail mit einer kurzen Erklärung zu melden, nicht zielführend war.
@@ -1106,7 +1165,9 @@ Dieses Minimal-Beispiel habe ich dann erneut per E-Mail verschickt.
 Auf die letzte Mail erhielt ich ähnlich langsam die Antwort, dass der Fehler gefunden worden sei und behoben wird.
 Mit der Veränderungen in der Art meiner Kommunikation, konkret in der Art, wie ich die relevanten Informationen zur Verfügung gestellt habe, konnte ich mein Ziel der Fehlerbehebung erreichen.
 
-==== *04.04.03.04* Mit virtuellen Teams effektiv kommunizieren
+==== *04.04.03.04* #TODO Mit virtuellen Teams effektiv kommunizieren
+#todo("Kompetenzstufe")
+
 Die Hälfte der Leute bei der #glossary("audoora") haben zu 100% remote gearbeitet.
 Dieser Umstand hatte sich bereits in den Anfängen des Unternehmens etabliert, da wir damals schon mit Leuten zusammengearbeitet haben, die nicht ansatzweise in der Nähe von Köln gewohnt haben.
 
