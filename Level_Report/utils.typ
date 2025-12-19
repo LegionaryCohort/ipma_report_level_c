@@ -24,7 +24,13 @@
 }
 
 #let TODO = text(fill: red, weight: "bold")[TODO]
+#let MAYBE = text(fill: orange, weight: "bold")[MAYBE]
 #let DONE = text(fill: green, weight: "bold")[DONE]
+
+// Use the three lines below to quickly get rid of todo-stuff in text
+// #let todo(body, color: red) = []
+// #let TODO = []
+// #let DONE = []
 
 #let weblink(display: str, url: str) = {
     if display == str {
