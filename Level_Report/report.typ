@@ -344,7 +344,7 @@ Insb. beim Design von größeren Strukturen, wie z.B. dem #abbr("qrs"), war der 
 
 Mit diesem Input konnte ich diverse Male Probleme auflösen und habe mir insgesamt eine hohe Sicherheit und Zuverlässigkeit in meine Entscheidungsfindung mit reingeholt.
 
-=== 04.05.01 #TODO (2/3) Projektdesign
+=== 04.05.01 #TODO (1/3) Projektdesign
 ==== *04.05.01.01* #TODO Erfolgskriterien anerkennen, priorisieren und überprüfen
 #todo("Anforderungen")
 
@@ -373,7 +373,9 @@ Für das nun anstehende Projekt habe ich dementsprechend die umfassende Verwendu
 
 Im Laufe des Projektes sind erheblich weniger Fehler der Kategorie aufgetreten, die aufgrund von dynamischen Type-Systemen entstehen könnnen.
 
-==== *04.05.01.03* #DONE Projektkomplexität und ihre Konsequenzen für den Projektmanagementansatz bestimmen
+==== *04.05.01.03* #TODO Projektkomplexität und ihre Konsequenzen für den Projektmanagementansatz bestimmen
+#todo("Anforderungen")
+
 Ganz zu Beginn des #abbr("qrs") Projektes war noch gar nicht klar, dass wir ein solches System entwickeln würden.
 Vielmehr hatten wir im täglichen Umgang mit unseren Produktdatenkatalogen immer wieder festgestellt, dass sich darin Datenfehler wiederfanden.
 Daraus hatten wir abgeleitet, dass wir ein Projekt aufsetzen sollten, um diesen entgegenzuwirken.
@@ -906,13 +908,11 @@ Im Anschluss an diese Gespräche sind #glossary("nils") und ich die Ergebnisse z
 Über diesen allgemeinen Prozess konnten wir wiederholt Probleme frühzeitig erkennen.
 Außerdem haben wir mit den Erkenntnissen über besonders gut gelaufene Situationen unsere Prozesse im Unternehmen weiter optimieren können.
 
-=== 04.05.11 #DONE (3/3) Chancen und Risiken
+=== 04.05.11 #TODO (2/3) Chancen und Risiken
 Die nachfolgenden KCIs beziehen sich alle auf den Aufbau des neuen Import-Moduls für unser Produktdatenmanagementsystem.
 Konkret geht es dabei um die Schnittstelle zwischen dem Import-Modul und der Produktdatenbank, die gegen Fehler abzusichern war.
 
-==== *04.05.11.02* #TODO Chancen und Risiken identifizieren
-#todo("Anforderungen")
-
+==== *04.05.11.02* #DONE Chancen und Risiken identifizieren
 Da das Import-Modul direkten Zugang zu unserer Produktdatenbank zwingend erfordert, um die Imports durchzuführen, habe ich im Rahmen der Planung direkt das Risiko identifiziert, dass fehlerhafte Zugriffe auf die Datenbank zu erheblichem Schaden an unseren Daten führen könnte.
 Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
 - Fehlerhaftes abspeichern der Neudaten
@@ -921,7 +921,9 @@ Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
 #v(-10pt)
 Alle drei Kategorien waren in der weiterführenden Bewertung zu betrachten und Maßnahmen zu ermitteln (siehe nächste KCIs).
 
-==== *04.05.11.03* #DONE Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren
+==== *04.05.11.03* #TODO Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren
+#todo("Anforderungen")
+
 Die zuvor identifizierten Fehlerkategorien waren in ihrem potentiellen Ausmaß zu bewerten.
 
 Die Fehlerkategorien habe ich jeweils quantitativ ("Wie viele Datensätze sind betroffen?") und qualitativ ("Wie aufwändig ist die Korrektur der einzelnen Fehler?") beurteilt.
@@ -942,7 +944,9 @@ Da es sich in beiden Fällen im Zweifelsfall um Fehler in der Korrektheit des Mo
 Ich habe entsprechende Test-Cases eingeplant, die diese Fehlerkategorien abdecken.\
 Mittels entsprechendem Testen nach Fertigstellung des Moduls konnten diese beiden Risiken ebenfalls minimiert werden.
 
-==== *04.05.11.05* #DONE Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen
+==== *04.05.11.05* #TODO Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen
+#todo("Anforderungen")
+
 Die oben beschriebenen Risiken und Maßnahmen habe ich im Rahmen unserer regelmäßigen Update-Gespräche mit #glossary("nils") näher besprochen.
 Für die Erweiterung mit der Rollback-Funktion war ohnehin eine Freigabe notwendig.
 Aber auch die anderen Maßnahmen habe ich ihm dargestellt und rechtfertigt.\
