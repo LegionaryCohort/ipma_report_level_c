@@ -66,10 +66,16 @@
 
     [= Änderungshistorie]
     show table.cell.where(y: 0): set text(weight: "bold")
+    set ref(form: "page")
     table(
-        columns: (1.7cm, 2cm, 1fr, 1.6cm),
+        columns: (1.7cm, 2cm, 1fr, 2cm),
         table.header("Version", "Datum", "Änderung", "Seite/n"),
         "1.0", "16.12.2025", "Fertigstellung der Version 1.0", "-",
+        "2.0", "23.12.2025", "KCI 04.03.02.05 entfernt", [@governance ff.],
+        "2.0", "23.12.2025", "KCI 04.05.02.02 entfernt", [@anforderungen ff.],
+        "2.0", "23.12.2025", "KCI 04.05.06.01 entfernt", [@qualitaet ff.],
+        "2.0", "23.12.2025", "KCI 04.05.09.01 entfernt", [@beschaffung ff.],
+        "2.0", "23.12.2025", "KCI 04.05.09.03 entfernt", [@beschaffung ff.],
     )
 
     pagebreak()
@@ -170,7 +176,7 @@ Diese Ziele umfassten zum Beispiel:
 #pagebreak()
 = Beschreibung der Management-Herausforderungen
 == PM-Pflichtelemente
-=== 04.03.02 #DONE (4/4) Governance, Strukturen und Prozesse
+=== 04.03.02 #DONE (4/4) Governance, Strukturen und Prozesse <governance>
 ==== *04.03.02.01* #DONE Die Grundlagen des Projektmanagements und deren Einführung kennen
 Das Produkdatensystem war eines der Software-Angebote, das die #glossary("audoora") angeboten hat.
 Die Weiterentwicklung dieses Produkdatensystems war ein umfassendes und vielseitiges Unterfangen, bei dem diverse Dimensionen zu berücksichtigen waren.
@@ -197,17 +203,6 @@ Mit #glossary("nils") habe ich zudem darüber gesprochen wie wir die fortlaufend
 Daraus ergaben sich weitere geringfügige Anpassungen der Templates für das Programm, die ich ebenfalls mit umgesetzt habe.
 
 Im Verlauf des Programms und der einzelnen Projekte haben wir diese Strukturen aktiv für die Verwaltung und Berichterstattung verwendet und nach Bedarf nachjustiert.
-
-==== *04.03.02.05* #TODO Das Projekt mit den Entscheidungs- und Berichterstattungsstrukturen sowie den Qualitätsanforderungen der Organisation in Einklang bringen
-#todo("Anforderungen")
-
-Als kleines Startup fand die endgültige Entscheidung über jegliche strategische Entwicklungen, sowie Budgets und größere Managemententscheidungen, stets auf der Ebene der Geschäftsführung statt.
-Diese haben sich dafür von den jeweils involvierten Mitarbeitern Input geholt, meist in der Form von klärenden Meetings/Workshops.
-
-Für die Umsetzung des Programmes wurden mir geringfügige Entscheidungsbefugnisse erteilt, um den Ablauf meiner Projekte flüssiger zu gestalten.
-Für die meisten Entscheidungen blieb der etablierte Prozess jedoch bestehen.\
-Ich habe im Falle von solchen Entscheidungen die relevanten Informationen vorbereitet und bin diese anschließend mit #glossary("nils") durchgegangen.
-In einigen Fällen konnte #glossary("nils") damit sofort eine Entscheidung fällen, in anderen hat er sich zuvor mit #glossary("sebastian") abgestimmt und die Entscheidung mir anschließend kommuniziert.
 
 ==== *04.03.02.06* #DONE Das Projekt mit den Prozessen und Funktionen des HR (Personalwesens) in Einklang bringen
 Als kleines Startup haben wir bei der #glossary("audoora") keine Schulungen/Fortbildungen im klassischen Sinne durchgeführt (dafür war nie die Zeit oder das Budget da).
@@ -407,7 +402,7 @@ Für Probleme, die wir dabei identifizieren konnten, haben wir im Rahmen des Ges
 Durch unsere regelmäßigen Reflektionen unserer eigenen Arbeitsweise konnten wir wiederholt Anpassungen vornehmen, um unsere Effizienz zu steigern.
 Beispielsweise haben wir die Art und Weise überarbeitet, wie der Status von Arbeitspaketen in #glossary("notion") festgehalten wird, damit wir schneller überblicken können, in welchem Test- & Deployment-Status sich bestimmte Features befinden.
 
-=== 04.05.02 #DONE (2/2) Anforderungen und Ziele
+=== 04.05.02 #DONE (2/2) Anforderungen und Ziele<anforderungen>
 Im Folgenden geht es um ein Projekt, in dem wir in unserem System den Support für das Import-Format "#abbr("axc")" des weit verbreiteten ERP-Systems #glossary("amparex") eingebaut haben.
 
 ==== *04.05.02.01* #DONE Hierarchie der Projektziele definieren und entwickeln
@@ -426,21 +421,6 @@ Darunter habe ich weitere Qualitätsziele abgeleitet, um beide strategischen Zie
 Um zusätzlich das erste strategische Ziel besser zu erfüllen, haben wir die Etablierung von direktem Support von Import-Vorgängen mit Video-Calls als weiteres operatives Ziel mit aufgenommen.
 
 Als Ergebnis hatten wir einen klaren Überblick über die konkreten Ziele des Projektes und zugleich die Sicherheit, dass der Projektscope auf das Notwendige beschränkt wurde.
-
-==== *04.05.02.02* #TODO Bedürfnisse und Anforderungen der Projekt-Stakeholder identifizieren und analysieren
-#todo("Anforderungen")
-
-Eine wichtige Stakeholder-Gruppe des Projektes waren die Endanwender in den Akustiker-Unternehmen.
-
-Die Bedürfnisse und Anforderungen der Endanwender waren zu identifizieren und dokumentieren.
-
-Wir hatten bereits ein Netzwerk an Akustikern, die an einer Import-Lösung für #glossary("amparex") interessiert waren.
-Mit diesen habe ich Kontakt aufgenommen und in den Gesprächen systematisch durchleuchtet, wie die Akustiker mit den Produktdaten arbeiten.
-Dabei konnte ich einige konkrete Anforderungen an die Produktdaten ableiten, z.B. die Vollständigkeit und Korrektheit der #abbr("hmv")-Nummern, sowie dass insb. die Daten neuerer Produkte regelmäßig zur Verfügung gestellt werden.
-Zusätzlich konnte ich im Laufe der Gespräche einige Bedürfnisse einschätzen, z.B. dass die Akustiker gerne einen möglichst einfachen Import-Prozess mit wenigen Schritten möchten.
-Das konnte ich daraus schließen, dass nur wenig technisches Verständnis vorhanden war und dass die Aufgabe insgesamt als eine notwendige aber nervige Ablenkung von ihrer eigentlichen Arbeit mit ihren Kunden wahrgenommen wurde.
-
-Nach den Gesprächen hatte ich eine Übersicht über die Anforderungen und Bedürfnisse der Endanwender, mit der ich die konkreten Features des Imports planen konnte.
 
 ==== *04.05.02.03* #DONE Anforderungen und Abnahmekriterien priorisieren und darüber entscheiden
 Hörgeräte sind fast immer in verschiedenen Farbvarianten erhältlich.
@@ -612,22 +592,7 @@ In allen Nachrichten, Berichten und Besprechungen wurden nur die Links auf die e
 
 Durch die Verwendung von #glossary("notion"), sowie unsere fortlaufende Optimierung unserer Seiten und Templates darin, kam es nur selten zu Fehlkommunikationen oder Missverständnissen.
 
-=== 04.05.06 #DONE (4/3) Qualität
-==== *04.05.06.01* #TODO Qualitätsmanagementplan für das Projekt entwickeln, die Implementierung überwachen und gegebenenfalls überarbeiten
-#todo("Anforderungen")
-
-Das Projekt für die Implementierung eines Import-Moduls in unser Produktdatensystem beinhaltet viel Entwicklung mit der Programmiersprache #glossary("python").
-Aus der Erfahrung aus vergangenen Projekten heraus war bekannt, dass es im Rahmen der Entwicklung mit #glossary("python") häufiger zu Type-Fehlern, einer bestimmten Klasse von Programmierfehlern, kommen kann.
-
-Um dem vorzubeugen waren Qualitätsmaßnahmen zu definieren und einzuführen.
-
-#glossary("python") bietet seit Version 3.5 Type-Hinting an, ein Werkzeug das dabei hilft Type-Fehler zu vermeiden.
-Für das nun anstehende Projekt habe ich dementsprechend die umfassende Verwendung von Type-Hinting als Code-Vorgabe mit aufgenommen.
-Konkret habe ich ein Tool vorgegeben, das den gesamten Sourcecode des Projektes analysiert, dabei die besagten Type-Hints berücksichtigt und potentielle Type-Fehler hervorhebt.
-Jegliche Fehlermeldungen und Warnungen des Tools waren durch Anpassung des Codes zu beheben, damit der betroffene Code akzeptiert wird.
-
-Durch die strikte Einhaltung dieser Vorgaben, sind im Laufe des Projektes erheblich weniger Type-Fehler aufgetreten.
-
+=== 04.05.06 #DONE (4/3) Qualität<qualitaet>
 ==== *04.05.06.02* #DONE Projekt mit seinen Lieferobjekten überprüfen, um sicherzustellen, dass sie die Anforderungen des Qualitätsmanagementplans weiterhin erfüllen
 Für das Schnittstellenprojekt zum ERP-System #glossary("optadata_focus") musste mit dem Kunden abgeklärt werden, wie wir die Qualität der von uns entwickelten Endpoints sicherstellen wollen.
 
@@ -795,21 +760,10 @@ Diese Listen habe ich in einer für den Entwickler sinnvollen Form abgefasst.
 
 Der Entwickler hat eine Liste von Aufgaben vorgelegt bekommen, sowie eine Liste expliziter Abgrenzungen zu Teilen, die nicht durch ihn zu implementieren waren.
 
-=== 04.05.09 #DONE (2/2) Beschaffung
+=== 04.05.09 #DONE (2/2) Beschaffung<beschaffung>
 Über die aufgebaute Schnittstelle zu #glossary("optadata_focus") werden in regelmäßigen Abständen unsere Produktdaten übertragen.
 Um für Nutzer eine möglichst gute User-Experience sicherzustellen, sollten unsere Daten in #glossary("optadata_focus") zwischengespeichert werden, um sie von dort aus schneller an Nutzer verteilen zu können.
 Dabei sollte weiterhin die Hoheit über die Daten, also die Vergabe von Zugängen, bei uns bleiben.
-
-==== *04.05.09.01* #TODO Beschaffungsbedarf, Optionen und Prozesse vereinbaren
-#todo("Anforderungen")
-
-#glossary("nils") benötigte Unterstützung in der Vorbereitung des Kooperationsvertrages, insb. dessen fachlichen Inhalte.
-
-Ich habe die konkreten Risiken, die sich aus der Herausgabe unserer Daten ergeben, beurteilt und daraus konkrete Anforderungen, die von der #glossary("optadata") zu erfüllen waren, abgeleitet.
-Diese beinhalteten technische Anforderungen an die Absicherung der in #glossary("optadata_focus") liegenden Daten gegen unberechtigten Zugriff, die Beschränkung des Zugriffs auf berechtigte User, sowie die Überprüfung von User-Berechtigungen über von uns zur Verfügung gestellte Gateway-Endpoints.\
-Zudem habe ich die Anforderungen seitens #glossary("optadata") bzgl. der Verfügbarkeit unseres Gateways im Gespräch geklärt und in die Zusammenstellung der vertraglich festzuhaltenden Anforderungen mit aufgenommen.
-
-#glossary("nils") hat anschließend aus der Aufstellung der Anforderungen den Kooperationsvertrag erstellt.
 
 ==== *04.05.09.02* #DONE Zur Evaluation und Auswahl von Lieferanten und Partnern beitragen
 Es musste beurteilt werden, welche Besonderheiten in der Zusammenarbeit mit #glossary("optadata") existierten, und ein geeignetes Partnerschaftsmodell entschieden werden.
@@ -821,19 +775,6 @@ Zunächst habe ich zwei mögliche Modelle für die Absicherung unserer Daten ent
 Diese Modelle habe ich anschließend im Austausch mit #glossary("nils") gegenübergestellt und die Vor- und Nachteile mit ihnen diskutiert.
 
 #glossary("nils") hat sich für die Vereinbarung eines Kooperationsvertrages entschieden.
-
-==== *04.05.09.03* #TODO Zu Verhandlungen und Vereinbarungen von Vertragsbestimmungen beitragen, um diese in Einklang mit den Projektzielen zu bringen
-#todo("Anforderungen")
-
-Eine der Bestimmungen des Kooperationsvertrages war es, dass wir eine hohe Zuverlässigkeit in unserem Gateway sicherzustellen hatten.
-
-Es galt diese Vertragsbestimmung und ihre Auswirkungen auf das Projekt zu reflektieren.
-
-Ich habe analysiert wie die beiden größten Faktoren für die geforderte Zuverlässigkeit, Serverlast und Antwortgeschwindigkeit, in unserem Gateway optimiert werden können.
-Dabei habe ich eine handvoll möglicher Änderungen in unseren geplanten Gateway-Endpoints identifiziert.
-Die Änderungen habe ich zudem in ihrem Umfang eingeschätzt.
-
-Die notwendigen Änderungen konnten anschließend eingeplant und umgesetzt werden (s.u.).
 
 ==== *04.05.09.04* #DONE Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen
 Es galt die identifizierten Maßnahmen zum Managen der Vertragserfüllung umzusetzen.
