@@ -79,6 +79,7 @@
         "1.2", "23.12.2025", "KCI 04.03.03.06 hinzugefügt und beschrieben", [@org_kompetenzen],
         "1.2", "23.12.2025", "KCI 04.05.03.01 detaillierter ausgeführt", [@lieferobjekte],
         "1.2", "23.12.2025", "KCI 04.05.04.03 detaillierter ausgeführt", [@vorgehensweise],
+        "1.2", "23.12.2025", "KCI 04.05.05.01 detaillierter ausgeführt", [@info_beduerfnisse],
     )
 
     pagebreak()
@@ -554,22 +555,24 @@ Diese Verhältnisse habe ich in Form eines Ablaufdiagramms festgehalten (siehe @
 
 Die fertige Ablaufplanung diente für die Umsetzung des Projektes als leitende Referenz und de facto Todo-Liste.
 
-=== 04.05.05 #TODO (1/2) Organisation, Information und Dokumentation
+=== 04.05.05 #MAYBE (1-2/2) Organisation, Information und Dokumentation
 Für das gesamte Programm habe ich mich zu Beginn im Rahmen der Übergabe mit #glossary("nils") zusammengesetzt, um die Details der Zusammenarbeit zu klären.
 Ein Teil dieser Gespräche war die Klärung der verwendeten Informations- und Kommunikationsstrukturen.
 
-==== *04.05.05.01* #TODO Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen
-#todo("Anforderungen")
+==== *04.05.05.01* #MAYBE Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen <info_beduerfnisse>
+Das übergreifende Produktdatenprogram selbst wurde als rein internes Thema gehandhabt, bei dem unsere Entwickler auch nur bedingt involviert waren.
+Entsprechend war hier nur #glossary("nils") informiert zu halten.
+Die formelle Dokumentation haben wir dabei, wie sonst im Unternehmen üblich, über #glossary("notion") gehandhabt, während alle weiteren Themen informell und nach Bedarf in Meetings oder Gesprächen zwischendurch geklärt wurden.
 
-Im Rahmen der initialen Planung waren die verschiedenen (formellen und informellen) Kommunikationsarten festzulegen und einzuführen.
+Für die einzelnen Projekte habe ich zusätzlich identifiziert wer zu informieren war und in welchem Umfang.
+Für interne Projekte, wie beispielsweise das #abbr("qrs") Projekt, waren die involvierten Entwickler zu informieren.
+Diese wurden über Meetings und im regelmäßigen täglichen Austausch informell auf dem aktuellen Stand gehalten.
+Die formelle Dokumentation der Tätigkeiten fand ebenfalls über #glossary("notion") statt, sowie innerhalb der Codebase, sofern angemessen.\
+Für externe Projekte, also solche, die für einen konkreten Kunden durchgeführt wurden, kamen zusätzlich die entsprechenden externen Stakeholder seitens des Kunden hinzu.
+Für diese habe ich zum Projektbeginn im direkten Gespräch den konkreten Bedarf an Informationen ermittelt und entsprechend Kommunikationswege eingeplant.
+Beispielsweise habe ich im #glossary("optadata_focus") Projekt mit dem Kunden geklärt, dass wir ihnen die technische Dokumentation online zur Verfügung stellen, während alles Organisatorische mittels regelmäßigen Meetings geklärt wird.
 
-Für das Programm selbst war lediglich #glossary("nils") informiert zu halten.
-Dazu habe ich mich mit dieser zusammen ausdefiniert, in welcher Form und Häufigkeit der Informationsaustausch stattfinden sollte.
-Akute Probleme oder Hindernisse wurden in unserem bereits etablierten täglichen Meeting behandelt (nach Bedarf mit dedizierten Folge-Meetings).
-Für allgemeine Status-Updates, sowie alle Themen, die von geringerer Dringlichkeit waren, haben wir einen 2 bis 4-wöchigen Regeltermin eingeführt.\
-Die Dokumentation, sowohl für das Projektmanagement, als auch die Projektinhalte, habe ich in eigens dafür angelegten Bereichen in unserer bereits etablierten Plattform für Wissensmanagement, #glossary("notion"), abgelegt.
-
-Über die festgelegten Kommunikationswege konnten wir im Laufe des gesamten Programms stets zügig und effizient über alle anstehenden Themen kommunizieren.
+Über die verschiedenen Kommunikationsarten und -kanäle war es mir möglich stets die benötigten Informationen an die richtigen Leute zu leiten.
 
 ==== *04.05.05.02* #TODO Struktur, Rollen und Verantwortlichkeiten im Projekt definieren
 #todo("Anforderungen")
