@@ -942,7 +942,7 @@ Neben der Ermittlung der fachlichen Anforderungen, habe ich in diesen Gespräche
 Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv den Kontakt zu mir gesucht, um Informationen und neue Ideen zu liefern.
 
 == PM-Wahlelemente
-=== 04.03.01 #MAYBE (2/1/3) Strategie
+=== 04.03.01 #MAYBE (2-3/3) Strategie
 ==== *04.03.01.01* #MAYBE Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen <einklang_vision>
 Zu Beginn des QRS Projektes stand zunächst nur die Idee im Raum, mittels Daten-Qualitätsprüfungen unsere Aufwände in der Datenpflege zu reduzieren und somit Kosten zu sparen.
 
@@ -1072,7 +1072,7 @@ Da der Prozess im Laufe des Projektes zu Reibungspunkten geführt hatte, wurde e
 Unter anderem hatte mein Mangel an Verständnis für die Grenzen dessen, was die Qualitäts-Standards leisten können und wo sie keine Garantien liefern können, mit zu den Problemen beigetragen.
 Neben den Ergebnissen der Lessons Learned habe ich mir also selbst noch mitgenommen mich tiefer in das Thema der Qualitäts-Standards einzulesen und mein Wissen dort zu erweitern.
 
-=== 04.04.03 #MAYBE (2/1/3) Persönliche Kommunikation
+=== 04.04.03 #MAYBE (2-3/3) Persönliche Kommunikation
 ==== *04.04.03.01* #DONE Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
 Im Rahmen meiner Aufgaben hatte ich viel Kontakt sowohl mit unseren Entwicklern, als auch mit unseren Partner-Akustikern.
 Diese beiden Personengruppen haben dabei erhebliche Unterschiede in der Art und Weise wie sie Informationen aufnehmen, verarbeiten und selber kommunizieren.
