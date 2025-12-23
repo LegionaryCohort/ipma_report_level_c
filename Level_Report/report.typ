@@ -5,8 +5,8 @@
 #import "report_abbr.typ": abbr, abbr_entries
 #import "report_glossary.typ": glossary, glossary_entries
 
-#let report_version = "1.0"
-#let report_date = "19.12.2025"
+#let report_version = "1.1"
+#let report_date = "22.12.2025"
 
 #set page(margin: 2.4cm, numbering: none)
 #set text(size: 11pt, lang: "de")
@@ -38,9 +38,7 @@
 
     v(1fr)
     [
-        // Version #report_version\
-        Referenzdokument zur Bewertung\
-        (nicht versioniert)\
+        Version #report_version\
         #report_date
     ]
     v(1fr)
@@ -71,12 +69,12 @@
         columns: (1.7cm, 2cm, 1fr, 2cm),
         table.header("Version", "Datum", "Änderung", "Seite/n"),
         "1.0", "16.12.2025", "Fertigstellung der Version 1.0", "-",
-        "2.0", "22.12.2025", "KCI 04.03.02.05 entfernt", [@governance ff.],
-        "2.0", "22.12.2025", "KCI 04.05.02.02 entfernt", [@anforderungen ff.],
-        "2.0", "22.12.2025", "KCI 04.05.06.01 entfernt", [@qualitaet ff.],
-        "2.0", "22.12.2025", "KCIs 04.05.09.01 & 04.05.09.03 entfernt", [@beschaffung ff.],
-        "2.0", "22.12.2025", "KCI 04.03.01.01 detaillierter ausgeführt", [@einklang_vision],
-        "2.0", "22.12.2025", "KCI 04.04.03.04 detaillierter ausgeführt", [@virtual_teams],
+        "1.1", "22.12.2025", "KCI 04.03.02.05 entfernt", [@governance ff.],
+        "1.1", "22.12.2025", "KCI 04.05.02.02 entfernt", [@anforderungen ff.],
+        "1.1", "22.12.2025", "KCI 04.05.06.01 entfernt", [@qualitaet ff.],
+        "1.1", "22.12.2025", "KCIs 04.05.09.01 & 04.05.09.03 entfernt", [@beschaffung ff.],
+        "1.1", "22.12.2025", "KCI 04.03.01.01 detaillierter ausgeführt", [@einklang_vision],
+        "1.1", "22.12.2025", "KCI 04.04.03.04 detaillierter ausgeführt", [@virtual_teams],
     )
 
     pagebreak()
@@ -104,7 +102,7 @@
         columns: (1.5cm, 1.5cm, 1fr, 3cm),
         rows: 0.75cm,
         align: (left, left, center, right),
-        [Referenz-\ dokument],
+        [Version\ #report_version],
         [Datum\ #report_date],
         [Report - Projektmanagement Level C\ Mario Treiber],
         [
