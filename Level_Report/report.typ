@@ -1,6 +1,6 @@
 #import "@preview/cheq:0.3.0": checklist
 #show: checklist
-#import "utils.typ": DONE, TODO, todo
+#import "utils.typ": DONE, MAYBE, TODO, todo
 
 #import "report_abbr.typ": abbr, abbr_entries
 #import "report_glossary.typ": glossary, glossary_entries
@@ -76,6 +76,9 @@
         "2.0", "23.12.2025", "KCI 04.05.06.01 entfernt", [@qualitaet ff.],
         "2.0", "23.12.2025", "KCI 04.05.09.01 entfernt", [@beschaffung ff.],
         "2.0", "23.12.2025", "KCI 04.05.09.03 entfernt", [@beschaffung ff.],
+        "2.0", "23.12.2025", "KCI 04.04.03.04 detaillierter ausgeführt", [@virtual_teams],
+
+				
     )
 
     pagebreak()
@@ -1065,7 +1068,7 @@ Da der Prozess im Laufe des Projektes zu Reibungspunkten geführt hatte, wurde e
 Unter anderem hatte mein Mangel an Verständnis für die Grenzen dessen, was die Qualitäts-Standards leisten können und wo sie keine Garantien liefern können, mit zu den Problemen beigetragen.
 Neben den Ergebnissen der Lessons Learned habe ich mir also selbst noch mitgenommen mich tiefer in das Thema der Qualitäts-Standards einzulesen und mein Wissen dort zu erweitern.
 
-=== 04.04.03 #TODO (2/3) Persönliche Kommunikation
+=== 04.04.03 #MAYBE (2/1/3) Persönliche Kommunikation
 ==== *04.04.03.01* #DONE Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
 Im Rahmen meiner Aufgaben hatte ich viel Kontakt sowohl mit unseren Entwicklern, als auch mit unseren Partner-Akustikern.
 Diese beiden Personengruppen haben dabei erhebliche Unterschiede in der Art und Weise wie sie Informationen aufnehmen, verarbeiten und selber kommunizieren.
@@ -1110,17 +1113,28 @@ Dieses Minimal-Beispiel habe ich dann erneut per E-Mail verschickt.
 Auf die letzte Mail erhielt ich ähnlich langsam die Antwort, dass der Fehler gefunden worden sei und behoben wird.
 Mit der Veränderungen in der Art meiner Kommunikation, konkret in der Art, wie ich die relevanten Informationen zur Verfügung gestellt habe, konnte ich mein Ziel der Fehlerbehebung erreichen.
 
-==== *04.04.03.04* #TODO Mit virtuellen Teams effektiv kommunizieren
-#todo("Kompetenzstufe")
-
+==== *04.04.03.04* #MAYBE Mit virtuellen Teams effektiv kommunizieren<virtual_teams>
 Die Hälfte der Leute bei der #glossary("audoora") haben zu 100% remote gearbeitet.
 Dieser Umstand hatte sich bereits in den Anfängen des Unternehmens etabliert, da wir damals schon mit Leuten zusammengearbeitet haben, die nicht ansatzweise in der Nähe von Köln gewohnt haben.
 
 Um eine möglichst optimale Kommunikation für das gesamte Team sicherzustellen, haben wir diverse Tools verwendet.
-Dabei haben wir als gesamtes Team zusammen verschiedene Tools evaluiert und uns schließlich für die Verwendung von Microsoft Teams entschieden.
-Für unsere Projekt- und Aufgabenverwaltung haben wir zunächst #glossary("jira") verwendet.\
-Nach den ersten 1-2 Jahren der Arbeit mit diesen Tools, haben wir #glossary("jira") durch #glossary("notion") abgelöst.
-Für diese Entscheidung war ausschlaggebend, dass wir zum einen mit #glossary("jira") nicht alles abbilden konnten, was wir an Informationen ablegen wollten, und zum anderen dass wir mit #glossary("notion") deutlich genauer unsere tatsächlichen Arbeitsprozesse abbilden konnten.
+Die beiden wichtigsten Aspekte waren für uns dabei zum einen die direkte Kommunikation im Gespräch, sowie sie Planung und Nachverfolgung von Aufgaben.
+
+Aufgrund der Verfügbarkeit über das Office 365 Paket, kam für die direkte Kommunikation Microsoft Teams zum Einsatz.
+Unsere Kommunikation fand dabei auf Deutsch statt.\
+Die mündliche Kommunikation auf Deutsch erwies sich mit dem späteren Beitritt einer Englisch-sprachigen Kollegin ins Unternehmen als problematisch, da dies eine erhebliche Sprachbarriere darstellte.
+Es wurde zunächst versucht durch dolmetschen dem Problem entgegen zu steuern.
+Ich schlug nach kurzer Zeit als Alternative vor, dass wir unsere gesamte Kommunikation auf Englisch umstellen könnten.
+Unsere schriftliche Dokumentation war an vielen Stellen technisch bedingt bereits auf Englisch und fast alle Team-Mitglieder konnten mindestens gebrochenes Englisch, daher erschien mir die Umstellung für realistisch machbar.\
+Nach Rücksprache mit dem restlichen Team wurde dieser Vorschlag anschließend umgesetzt, um die neue Kollegin besser zu integrieren.
+
+Da einige unserer Team-Mitglieder in der Vergangenheit bereits mit #glossary("jira") gearbeitet hatten, bot sich dieses Tool für die Planung und Dokumentation der Aufgaben an.
+Dabei orientierten wir uns gänzlich an dem von #glossary("jira") vorgesehenen Prozessen und nutzten diese.\
+Mit dem Laufe der Zeit wurde klar, dass es erhebliche Diskrepanzen zwischen diesen Prozessen und den tatsächlichen Arbeitsprozessen des Teams gab.
+Bei der Suche nach Alternativen stießen wir auf #glossary("notion"), ein Tool das uns vielversprechend erschien.
+Um zu evaluieren inwiefern dieses Tool geeignet wäre, haben #glossary("nils") und ich zusammen die Arbeitsprozesse des Teams skizziert und versucht diese in Notion abzubilden.\
+Nachdem uns dies recht erfolgreich gelungen war, führten wir eine Testphase mit dem Team zusammen durch.
+#glossary("jira") wurde als Tool schließlich abgelöst, da sich die Arbeit mit #glossary("notion") als produktiver erwies.
 
 <main_numbering_end>
 #set page(footer: page_footer(<appendix_numbering_end>), numbering: "i")
