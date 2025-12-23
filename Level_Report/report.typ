@@ -1,6 +1,6 @@
 #import "@preview/cheq:0.3.0": checklist
 #show: checklist
-#import "utils.typ": DONE, MAYBE, TODO, todo
+#import "utils.typ": DONE, MAYBE, TODO, LOSS, todo
 
 #import "report_abbr.typ": abbr, abbr_entries
 #import "report_glossary.typ": glossary, glossary_entries
@@ -297,7 +297,7 @@ Auch wenn er keine formelle Befugnis hat, diesen unternehmerische Vorgaben zu ma
 Wir haben festgehalten, dass seine Möglichkeiten Einfluss auf unsere Projekte zu nehmen sehr umfassend sind.
 Entsprechend haben wir in unserer Kommunikationsstrategie eingeplant damit umzugehen und dem proaktiv entgegenzuwirken.
 
-=== 04.04.05 #TODO (1/3) Führung
+=== 04.04.05 #LOSS (1/3) Führung
 ==== *04.04.05.01* #DONE Initiative ergreifen und proaktiv mit Rat und Tat zur Seite stehen
 Das Import Modul, das eine Erweiterung unseres Produktdatenmanagementsystems darstellte, musste zunächst in Funktionalität und Architektur designed werden.
 
@@ -344,7 +344,7 @@ Insb. beim Design von größeren Strukturen, wie z.B. dem #abbr("qrs"), war der 
 
 Mit diesem Input konnte ich diverse Male Probleme auflösen und habe mir insgesamt eine hohe Sicherheit und Zuverlässigkeit in meine Entscheidungsfindung mit reingeholt.
 
-=== 04.05.01 #TODO (1/3) Projektdesign
+=== 04.05.01 #LOSS (1/3) Projektdesign
 ==== *04.05.01.01* #TODO Erfolgskriterien anerkennen, priorisieren und überprüfen
 #todo("Anforderungen")
 
@@ -654,7 +654,7 @@ Desweiteren wurden die Deploymentprozesse für Software übernommen und für das
 
 Durch den konsequenten Einsatz unseres Prozesses wurden wiederholt Fehler und Probleme mit der Software frühzeitig entdeckt und konnten behoben werden, bevor ein größerer Schaden entstehen konnte.
 
-=== 04.05.07 #TODO (1/3) Kosten und Finanzierung
+=== 04.05.07 #LOSS (1/3) Kosten und Finanzierung
 ==== *04.05.07.01* #DONE Projektkosten abschätzen
 Wir haben im Unternehmen stets darauf geachtet für unsere Projekte übergreifende Standards zu entwickeln und etablieren.
 Die Projekte, die ich durchgeführt habe, waren alles Neu- oder Weiterentwicklungen von Systemen, um eine neue Idee bzw. ein neues Feature umzusetzen.
@@ -898,7 +898,7 @@ Für die Erweiterung mit der Rollback-Funktion war ohnehin eine Freigabe notwend
 Aber auch die anderen Maßnahmen habe ich ihm dargestellt und rechtfertigt.\
 #glossary("nils") war mit der Bewertung und den getroffenen Maßnahmen einverstanden.
 
-=== 04.05.12 #TODO (1/3) Stakeholder
+=== 04.05.12 #LOSS (1/3) Stakeholder
 ==== *04.05.12.02* #TODO Stakeholder Strategie und einen Kommunikationsplan entwickeln und aufrechterhalten
 #todo("Anforderungen")
 
