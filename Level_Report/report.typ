@@ -78,6 +78,7 @@
         "1.2", "23.12.2025", "KCI 04.03.03.04 entfernt", [@compliance ff.],
         "1.2", "23.12.2025", "KCI 04.03.03.06 hinzugefügt und beschrieben", [@org_kompetenzen],
         "1.2", "23.12.2025", "KCI 04.05.03.01 detaillierter ausgeführt", [@lieferobjekte],
+        "1.2", "23.12.2025", "KCI 04.05.04.03 detaillierter ausgeführt", [@vorgehensweise],
     )
 
     pagebreak()
@@ -492,7 +493,7 @@ Diese "Ausbau"-Pakete wurden mit den Erkenntnissen aus den vorangegangenen Paket
 
 Mit der beschriebenen Planung von Arbeitspaketen stand zu jedem Zeitpunkt fest, woran aktuell zu arbeiten ist, sowie welche Aufgaben zukünftig noch zu bearbeiten sind (auch wenn letztere meist noch nicht abschließend feststanden).
 
-=== 04.05.04 #TODO (2/3) Ablauf und Termine
+=== 04.05.04 #MAYBE (2-3/3) Ablauf und Termine
 Zu Beginn des Schnittstellenprojektes zum ERP-System #glossary("optadata_focus") musste zunächst ein Überblick geschaffen werden, anhand dessen wir das Projekt kalkulieren und später umsetzen können.
 
 ==== *04.05.04.01* #DONE Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
@@ -505,7 +506,7 @@ Die Aufgabenbereiche habe ich anschließend schrittweise in konkrete Aufgaben, d
 Die Aufgaben habe ich als Kacheln in einem Diagramm festgehalten und sie farblich den Aufgabenbereichen zugeordnet (siehe @gateway_tasks).
 
 Mit den definierten Aufgaben wurde die weitere Planung vorgenommen.
-Im weiteren Verlauf der Planung wurden die Abhängigkeiten zwischen den Aufgaben, sowie die Phasen, in die das Projekt unterteilt wurde, hinzugefügt (siehe die nächsten KCIs).
+Im weiteren Verlauf der Planung wurden die Abhängigkeiten zwischen den Aufgaben, sowie die Phasen, in die das Projekt unterteilt wurde, hinzugefügt (siehe die nachfolgenden KCIs).
 
 ==== *04.05.04.02* #TODO Arbeitsaufwand und Dauer von Aktivitäten festlegen
 #todo("Anforderungen")
@@ -523,21 +524,21 @@ Beispielsweise erforderten die Aufgaben bzgl. des Admin-Interfaces, dass der Ent
 
 Mit der Zuordnung der Aufgaben konnte ich zum einen sehr schnell und klar dem Kunden kommunizieren welchen Aufgaben er nachkommen muss, und ich konnte mit #glossary("nils") die Verfügbarkeiten unserer Entwickler abklären.
 
-==== *04.05.04.03* #TODO Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen
-#todo("Anforderungen")
+==== *04.05.04.03* #MAYBE Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen <vorgehensweise>
+Aus dem Fluss-Diagramm, in dem wir die Aufgaben festgehalten haben, ergab sich für das Projekt de facto ein Wasserfall-Ansatz.
+Dies haben wir jedoch im Projektverlauf nie explizit als solches festgehalten oder benannt.
 
-Für die Umsetzung und eindeutige Kommunikation mit dem Kunden, waren die Phasen des Projektes festzulegen.
+Für die weitere Planung der Umsetzung und die eindeutige Kommunikation mit dem Kunden, waren die Phasen des Projektes festzulegen.
 
-Ich habe das Projekt in 4 Phasen unterteilt:
-- Spezifikationsphase: _Design der Gateway-Endpoint Spezifikationen_
-- Aufbau eines Test-Gateways: _Bereitstellung des Gateway-Servers inkl. aller Endpoints mit vorläufigen Beispieldaten_
-- Umsetzung der Backend-Logik: _Implementierung der tatsächlichen Logik innerhalb aller Endpoints_
-- Testing & Fine-Tuning: _Gemeinsamer Integrations-Test des vollen Schnittstellenprozesses_
-Der Abschluss jeder Phase stellte dabei einen Meilenstein dar, für den ich mit der #glossary("optadata") eine Deadline vereinbart habe.
+Zunächst habe ich das Projekt in 3 Phasen unterteilt: "Specification", "Implementation" und "Integration & Test".
+Da die Phasen primär als Orientierung zur Kommunikation dienten, haben wir keine konkreten Zeiträume je Phase festgelegt.
+Vielmehr haben wir im Verlauf des Projektes Deadlines für einzelne Aufgaben definiert sobald wir diese angegangen sind.\
+Zu Beginn des Projektes sollte auf Kundenwunsch hin im Rahmen der Spezifikation auch geprüft werden, dass das Projekt so funktionieren würde, wie wir uns das vorgestellt haben.
+Aufgrund dieses Wunsches habe ich zusätzlich die "Test-Gateway"-Phase mit aufgenommen, in der zum Abschluss der Spezifikation genau diese Prüfung stattfinden sollte.
 
-Dank der groben Phasenplanung konnten wir besser mit der #glossary("optadata") koordinieren.
-Anhand der Phasenplanung wurden alle weiteren (Detail-)Schritte definiert.
-Siehe auch @gateway_tasks, in der die Phasen übergreifend mit abgebildet sind.
+Da wir die Umsetzung und Kontrolle des Projektes direkt anhand des Aufgaben-Fluss-Diagrammes vorgenommen haben, hatten die Phasen selbst hierfür wenig Bedeutung.
+Vielmehr dienten sie, wie bereits erwähnt, der klaren Kommunikation mit dem Kunden.
+Durch die Unterteilung in die verschiedenen Phasen konnte ich in Gesprächen mit dem Kunden immer schnell einen Orientierungspunkt geben, wo wir gerade stehen und was noch passieren muss, ohne dass wir jedes mal das Diagramm nach konkreten Aufgaben durchsuchen mussten.
 
 ==== *04.05.04.04* #DONE Abfolge der Projektaktivitäten bestimmen und einen Ablauf- und Terminplan erstellen
 Einige der Aufgaben, z.B. die Bereitstellung von Testdaten, konnten erst umgesetzt werden, wenn andere Aufgaben zuvor erledigt wurden (Im Fall des Beispiels die Bereitstellung des Gateway-Servers mit entsprechenden Endpoints).
