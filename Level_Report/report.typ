@@ -77,9 +77,12 @@
         "1.1", "22.12.2025", "KCI 04.04.03.04 detaillierter ausgeführt", [@virtual_teams],
         "1.2", "23.12.2025", "KCI 04.03.03.04 entfernt", [@compliance ff.],
         "1.2", "23.12.2025", "KCI 04.03.03.06 hinzugefügt und beschrieben", [@org_kompetenzen],
+        "1.2", "23.12.2025", "KCI 04.04.05.02 entfernt", [@fuehrung ff.],
+        "1.2", "23.12.2025", "KCI 04.05.01.03 entfernt", [@projekt_design ff.],
         "1.2", "23.12.2025", "KCI 04.05.03.01 detaillierter ausgeführt", [@lieferobjekte],
         "1.2", "23.12.2025", "KCI 04.05.04.03 detaillierter ausgeführt", [@vorgehensweise],
         "1.2", "23.12.2025", "KCI 04.05.05.01 detaillierter ausgeführt", [@info_beduerfnisse],
+        "1.2", "23.12.2025", "KCI 04.05.07.04 entfernt", [@kosten ff.],
     )
 
     pagebreak()
@@ -300,7 +303,7 @@ Auch wenn er keine formelle Befugnis hat, diesen unternehmerische Vorgaben zu ma
 Wir haben festgehalten, dass seine Möglichkeiten Einfluss auf unsere Projekte zu nehmen sehr umfassend sind.
 Entsprechend haben wir in unserer Kommunikationsstrategie eingeplant damit umzugehen und dem proaktiv entgegenzuwirken.
 
-=== 04.04.05 #LOSS (1/3) Führung
+=== 04.04.05 #LOSS (1/3) Führung <fuehrung>
 ==== *04.04.05.01* #DONE Initiative ergreifen und proaktiv mit Rat und Tat zur Seite stehen
 Das Import Modul, das eine Erweiterung unseres Produktdatenmanagementsystems darstellte, musste zunächst in Funktionalität und Architektur designed werden.
 
@@ -313,19 +316,6 @@ All diese Überlegungen habe ich anschließend im Architekturdesign mit aufgenom
 
 Die Modularität erlaubte es auch im Nachgang neue Import-Protokolle zu definieren, die bisher unbekannte Datenstrukturen mit abbilden können.
 Auch ermöglichte dieses Design, dass Änderungen in der Datenstruktur unserer Datenbank mit geringfügigen Änderungen in den bestehenden Import-Protokollen abgebildet werden konnten.
-
-==== *04.04.05.02* #TODO Ownership übernehmen und Commitment zeigen
-#todo("Anforderungen")
-
-Im Frühjahr 2025 haben wir als Unternehmen den ersten #glossary("tdh") veranstaltet.
-Dabei handelt es sich um ein Event in der Hörakustik-Branche, das den Fokus auf den Experten-Austausch innerhalb der Branche legt.
-Auf diesem Event habe ich mich zwischendurch mit Pedro Garcia, dem Geschäftsführer der #glossary("audio_direkt"), über unsere aktuellen Projekte unterhalten.
-
-Ich habe mit ihm unter anderem über die Entwicklung der Schnittstelle zum #glossary("optadata_focus") ERP-System gesprochen.
-Dabei habe ich vor allem die gute Zusammenarbeit mit #glossary("optadata") hervorgehoben, sowie die Tatsache, dass das Projekt besonders gut voran kommt.
-Da das Thema für einige der Partner seiner Einkaufsgemeinschaft von Interesse war, hat er mir noch einige Fragen zum Projekt gestellt, die ich ihm gerne beantwortet habe.
-
-Pedro ging, zumindest meinem Eindruck nach, mit einem sehr positiven Bild von der Zusammenarbeit zwischen uns under der #glossary("optadata") aus dem Gespräch heraus.
 
 ==== *04.04.05.04* #TODO Macht und Einfluss angemessen auf Dritte ausüben, um die Ziele zu erreichen
 #todo("Anforderungen")
@@ -347,7 +337,7 @@ Insb. beim Design von größeren Strukturen, wie z.B. dem #abbr("qrs"), war der 
 
 Mit diesem Input konnte ich diverse Male Probleme auflösen und habe mir insgesamt eine hohe Sicherheit und Zuverlässigkeit in meine Entscheidungsfindung mit reingeholt.
 
-=== 04.05.01 #LOSS (1/3) Projektdesign
+=== 04.05.01 #LOSS (1/3) Projektdesign <projekt_design>
 ==== *04.05.01.01* #TODO Erfolgskriterien anerkennen, priorisieren und überprüfen
 #todo("Anforderungen")
 
@@ -375,24 +365,6 @@ Im Abschluss des #abbr("qrs") Projektes habe ich unter anderem als Lesson Learne
 Für das nun anstehende Projekt habe ich dementsprechend die umfassende Verwendung von Type-Hinting als Code-Vorgabe mit aufgenommen.
 
 Im Laufe des Projektes sind erheblich weniger Fehler der Kategorie aufgetreten, die aufgrund von dynamischen Type-Systemen entstehen könnnen.
-
-==== *04.05.01.03* #TODO Projektkomplexität und ihre Konsequenzen für den Projektmanagementansatz bestimmen
-#todo("Anforderungen")
-
-Ganz zu Beginn des #abbr("qrs") Projektes war noch gar nicht klar, dass wir ein solches System entwickeln würden.
-Vielmehr hatten wir im täglichen Umgang mit unseren Produktdatenkatalogen immer wieder festgestellt, dass sich darin Datenfehler wiederfanden.
-Daraus hatten wir abgeleitet, dass wir ein Projekt aufsetzen sollten, um diesen entgegenzuwirken.
-Die Zielsetzung ("Datenfehler in unserer Datenbank frühzeitig erkennen und korrigieren") stand dabei schnell fest, nicht jedoch wie das Ganze in der Praxis am Ende aussehen sollte.
-
-Den Mangel an Klarheit über das Ergebnis habe ich als Komplexitätstreiber erkannt.
-
-Konkret war mir klar, dass wir ohne ein klares Konzept des Ergebnisses hier viel Zeit und Energie in den Sand setzen könnten.
-Ich habe mich daher mit #glossary("nils") nochmal zusammengesetzt und genauer ausgearbeitet was die konkrete Funktionalität des Endproduktes sein sollte, um sowohl das Kernziel zu erfüllen, als auch in der Praxis sinnvoll verwendbar zu sein.
-Dabei wurde klar, dass eine Integration des neuen Systems in unsere bestehende Management-Plattform unabdingbar sein würde.
-Da diese nochmals spezielle Anforderungen bzgl. der Implementierung aufweist, ergab sich hierdurch nochmals zusätzliche Komplexität im Projekt, die es zu managen galt.
-
-Über die frühzeitige Erkennung der Komplexitätstreiber, sowie die frühe Adressierung derselben in unseren Planungsmeetings, konnten wir den Umfang und Aufwand des Projektes vor Beginn besser einschätzen und steuern.
-Die spätere Umsetzung verlief angenehmen flüssig, da keine nennenswerten Überraschungen aufgrund von übersehener Komplexität aufgetreten sind.
 
 ==== *04.05.01.04* #TODO Generellen Projektmanagementansatz auswählen und anpassen
 #todo("Anforderungen")
@@ -657,7 +629,7 @@ Desweiteren wurden die Deploymentprozesse für Software übernommen und für das
 
 Durch den konsequenten Einsatz unseres Prozesses wurden wiederholt Fehler und Probleme mit der Software frühzeitig entdeckt und konnten behoben werden, bevor ein größerer Schaden entstehen konnte.
 
-=== 04.05.07 #LOSS (1/3) Kosten und Finanzierung
+=== 04.05.07 #LOSS (1/3) Kosten und Finanzierung <kosten>
 ==== *04.05.07.01* #DONE Projektkosten abschätzen
 Wir haben im Unternehmen stets darauf geachtet für unsere Projekte übergreifende Standards zu entwickeln und etablieren.
 Die Projekte, die ich durchgeführt habe, waren alles Neu- oder Weiterentwicklungen von Systemen, um eine neue Idee bzw. ein neues Feature umzusetzen.
@@ -673,7 +645,6 @@ Die Schätzungen wurden dabei bewusst großzügiger gemacht, um einen inhärente
 Auf den ermittelten Gesamtaufwand wurde zudem ein Pauschalpuffer hinzuaddiert (siehe nächster KCI).
 
 Mittels der beschriebenen Schätzungen habe ich für meine Projekte klar an #glossary("nils") kommunizieren können mit welchem Aufwand zu rechnen ist.
-
 
 ==== *04.05.07.02* #TODO Projektbudget erstellen
 #todo("Anforderungen")
@@ -701,22 +672,6 @@ Diese Ideen wurden dann von mir zunächst weiterentwickelt, um ein genaueres Bil
 Anschließend, sofern die Idee weiterhin sinnvoll erschien, habe ich, wie oben bereits beschrieben, daraus in Zusammenarbeit mit #glossary("nils") einen Projektplan aufgestellt.
 
 Zu allen für sinnvoll erachteten Projektideen konnte #glossary("nils") einen Projektplan mit #glossary("sebastian") besprechen und über die Budgetfreigabe entscheiden.
-
-==== *04.05.07.04* #TODO Finanzmanagement- und Berichtssystem für das Projekt entwickeln, einrichten und aufrechterhalten
-#todo("Anforderungen")
-
-Für die Projekte, für die ich verantwortlich war, habe ich in regelmäßigen Abständen den Status im Rahmen eines Meetings an #glossary("nils") berichtet.
-
-Für diese Meetings galt es passende Berichte zu entwickeln.
-
-Grundsätzlich haben wir jegliche Organisation von unseren Projekten in #glossary("notion") verwaltet.
-Ebenso sind wir in unseren Meetings immer direkt durch unsere Strukturen in #glossary("notion") gegangen und haben über die Inhalte gesprochen.
-Dementsprechend habe ich die benötigten Informationen, die es zu berichten galt (darunter auch bisherige Aufwände & Kosten), möglichst in unseren Strukturen in #glossary("notion") eingetragen.
-Für Detail-Informationen, die keinen vorgesehenen Platz in unseren Strukturen hatten, habe ich gezielt ergänzende Strukturen aufgebaut.
-Beispielsweise musste im #glossary("optadata_focus") Projekt ein neuer Server aufgesetzt werden, für den entsprechende Kosten anfielen.
-Da die Verwaltung unserer eigenen Server nicht vorsah, dass wir Server für einzelne Kunden anlegen, habe ich die nötigen Daten hierzu in einem eigenen Bereich innerhalb der Projektorganisation angelegt.
-
-Über die Informationen innerhalb von #glossary("notion") konnte #glossary("nils") jederzeit nachvollziehen auf welchem Stand sich die Projekte befanden.
 
 === 04.05.08 #TODO (2/3) Ressourcen
 Das Projekt für die Entwicklung des #abbr("qrs") deckte mehrere Bereiche von bereits bestehender Software ab, die weiterentwickelt werden sollte.
