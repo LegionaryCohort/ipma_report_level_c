@@ -71,14 +71,12 @@
         columns: (1.7cm, 2cm, 1fr, 2cm),
         table.header("Version", "Datum", "Änderung", "Seite/n"),
         "1.0", "16.12.2025", "Fertigstellung der Version 1.0", "-",
-        "2.0", "23.12.2025", "KCI 04.03.02.05 entfernt", [@governance ff.],
-        "2.0", "23.12.2025", "KCI 04.05.02.02 entfernt", [@anforderungen ff.],
-        "2.0", "23.12.2025", "KCI 04.05.06.01 entfernt", [@qualitaet ff.],
-        "2.0", "23.12.2025", "KCI 04.05.09.01 entfernt", [@beschaffung ff.],
-        "2.0", "23.12.2025", "KCI 04.05.09.03 entfernt", [@beschaffung ff.],
-        "2.0", "23.12.2025", "KCI 04.04.03.04 detaillierter ausgeführt", [@virtual_teams],
-
-				
+        "2.0", "22.12.2025", "KCI 04.03.02.05 entfernt", [@governance ff.],
+        "2.0", "22.12.2025", "KCI 04.05.02.02 entfernt", [@anforderungen ff.],
+        "2.0", "22.12.2025", "KCI 04.05.06.01 entfernt", [@qualitaet ff.],
+        "2.0", "22.12.2025", "KCIs 04.05.09.01 & 04.05.09.03 entfernt", [@beschaffung ff.],
+        "2.0", "22.12.2025", "KCI 04.03.01.01 detaillierter ausgeführt", [@einklang_vision],
+        "2.0", "22.12.2025", "KCI 04.04.03.04 detaillierter ausgeführt", [@virtual_teams],
     )
 
     pagebreak()
@@ -944,16 +942,22 @@ Neben der Ermittlung der fachlichen Anforderungen, habe ich in diesen Gespräche
 Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv den Kontakt zu mir gesucht, um Informationen und neue Ideen zu liefern.
 
 == PM-Wahlelemente
-=== 04.03.01 #TODO (2/3) Strategie
-==== *04.03.01.01* #TODO Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen
-#todo("Inhaltlicher Bezug")
+=== 04.03.01 #MAYBE (2/1/3) Strategie
+==== *04.03.01.01* #MAYBE Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen <einklang_vision>
+Zu Beginn des QRS Projektes stand zunächst nur die Idee im Raum, mittels Daten-Qualitätsprüfungen unsere Aufwände in der Datenpflege zu reduzieren und somit Kosten zu sparen.
 
-Allgemein war für alle Projekte unter meiner Verantwortung sicherzustellen, dass deren Ziele im Einklang mit der Strategie des Unternehmens waren.
+Im Rahmen der Konzeptionierung galt es mit den ersten Ideen eines möglichen Ergebnisses zu beurteilen, ob dieses Projekt dem Unternehmen einen wertvollen Nutzen bringen würde.
 
-Die Ziele für alle Projekte im Rahmen unseres Produktdatensystems wurden aus unserer Strategie abgeleitet.
-Die Strategie war dabei stets der ursprüngliche Auslöser und Grund für das Aufsetzen der Projekte.\
-Entsprechend gab es hier keinen Bedarf zusätzlich zu handeln.
-Im Rahmen der Zieldefinition der Projekte wurde bereits sichergestellt, dass sie mit der Strategie im Einklang waren.
+Der initial angenommene und erwartete Nutzen der Qualitätskontrollen war Sicherstellung von sauberen Daten und damit einhergehend die Senkung von Kosten in der Datenpflege.
+Bei der Konzeptionierung möglicher Ansätze für das QRS habe ich festgestellt, dass der tatsächliche Nutzen woanders liegt (unabhängig von der konkreten Form der Kontrollen): in der höheren Zuverlässigkeit unserer Daten für unsere Kunden und dem damit einhergehenden gesteigerten Kundenvertrauen.\
+Das hängt damit zusammen, dass fehlerhafte Daten in jedem Fall, egal wie sie erkannt wurden, händisch korrigiert werden müssen und somit Aufwand erzeugen.
+Die automatische Erkennung und entsprechend frühere Behebung der Fehler kostet nicht weniger, aber wirkt sich auf unsere Kunden aus, denen wir damit mehr Sicherheit bieten können, dass sie mit aktuellen und korrekten Daten arbeiten.
+
+Diese Erkenntnis habe ich mit #glossary("nils") geteilt und mit ihm durchgesprochen.
+Den erkannten tatsächlichen Nutzen hat er als geringer eingeschätzt, als den erhoffte Nutzen, aber immernoch als wertvoll genug erachtet, um das Projekt durchzuführen.
+In der weiteren Konzeptionierung haben wir den zu erwartenden Nutzen berücksichtigt und diverse Ideen wieder gestrichen, die zu diesem nichts beitragen würden.\
+Beispielsweise war angedacht die Daten laufend zu prüfen, während sie aus der Datenbank ausgelesen werden.
+Da es zu diesem Zeitpunkt im Prozess allerdings zu spät für sinnvolle Korrekturen ist (und stattdessen nur eine "post-mortem" Analyse stattfinden kann), haben wir diese Idee verworfen.
 
 ==== *04.03.01.02* #DONE Chancen identifizieren und ausschöpfen, die Strategie der Organisation zu beeinflussen
 Bei der Einführung des Supports für das #abbr("axc") Format, habe ich festgestellt, dass es allgemein einen hohen Bedarf unter Akustikern für technischen Support gibt.
