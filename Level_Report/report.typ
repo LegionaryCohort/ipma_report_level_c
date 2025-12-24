@@ -83,6 +83,7 @@
         "1.2", "23.12.2025", "KCI 04.05.04.03 detaillierter ausgeführt", [@vorgehensweise],
         "1.2", "23.12.2025", "KCI 04.05.05.01 detaillierter ausgeführt", [@info_beduerfnisse],
         "1.2", "23.12.2025", "KCI 04.05.07.04 entfernt", [@kosten ff.],
+        "1.3", "24.12.2025", "KCI 04.05.08.02 detaillierter ausgeführt", [@ressourcen_bedarf],
     )
 
     pagebreak()
@@ -673,7 +674,7 @@ Anschließend, sofern die Idee weiterhin sinnvoll erschien, habe ich, wie oben b
 
 Zu allen für sinnvoll erachteten Projektideen konnte #glossary("nils") einen Projektplan mit #glossary("sebastian") besprechen und über die Budgetfreigabe entscheiden.
 
-=== 04.05.08 #TODO (2/3) Ressourcen
+=== 04.05.08 #MAYBE (2-3/3) Ressourcen
 Das Projekt für die Entwicklung des #abbr("qrs") deckte mehrere Bereiche von bereits bestehender Software ab, die weiterentwickelt werden sollte.
 Für diese Bereiche, sowie die anfallenden Aufgaben, waren unsere verschiedenen Entwickler unterschiedlich qualifiziert.
 
@@ -687,15 +688,21 @@ Mit dieser Übersicht habe ich abschließend zusammengestellt, wer für das Proj
 Eine Übersicht über die erforderlichen Entwickler wurde erstellt und #glossary("nils") vorgelegt.
 Diese hat, nach etwas Verhandlung (s.u.), beschlossen wer dem Projekt für wie lange zugeteilt wird.
 
-==== *04.05.08.02* #TODO Qualität und Menge der benötigten Ressourcen definieren
-#todo("Anforderungen")
-
-Für die Umsetzung des gesamten Projektes galt es, eine Ressourcenplanung aufzustellen.
+==== *04.05.08.02* #MAYBE Qualität und Menge der benötigten Ressourcen definieren <ressourcen_bedarf>
+Für das Projekt galt es die Menge und Qualität der benötigten Ressourcen zu definieren.
 
 Ich habe für jedes Arbeitspaket, das ich in meiner vorherigen Planung definiert hatte, den Bedarf an Wissen & Kompetenzen bestimmt.
-Dabei habe ich die benötigten Frontend- und Backend-Entwicklungsskills beurteilt, sowie die benötigten Vorkenntnisse zu bestehenden Systemen (sofern relevant).
+Konkret habe ich die benötigten Frontend- und Backend-Entwicklungsskills beurteilt, die für die Umsetzung der erforderlichen Änderungen benötigt wurden.
+Zudem habe ich analysiert welche Vorkenntnisse und/oder welches Spezialwissen zu bestehenden Systemen für die Aufgaben notwendig waren.
+Den ermittelten Bedarf an Wissen & Kompetenzen habe ich pro Arbeitspaket festgehalten.\
+Zudem bestand für die Umsetzung in jedem Fall pro eingesetztem Entwickler ein Bedarf an der nötigen Ausrüstung und zugehörigen Tools, um die Entwicklungsarbeit leisten zu können.
+Diese Bedarfe habe ich nicht mit aufgenommen, da diese Ressourcen unseren Entwicklern dauerhaft zugewiesen waren und somit nicht separat geplant werden mussten, da sie als "Gesamtpaket" gehandhabt wurden.\
+Zusätzlich habe ich den Bedarf an IT-Infrastruktur ermittelt.
+Da Teil unserer Aufgabe die Bereitstellung eines Gateway-Servers war, musste ich diesen (inkl. Einrichtungsaufwände & Co.) mit einplanen und von #glossary("nils") freigeben lassen.
+Diese Bedarfe an Infrastruktur habe ich separat zum Aufgabenplan aufgelistet und an #glossary("nils") übergeben.
 
-Die Übersicht der Arbeitspakete wurde mit den dafür notwendigen Kompetenzen angereichert und stand für die weitere Planung zur Verfügung.
+Mit den ermittelten Bedarfen an Expertenwissen und entwicklerischen Fähigkeiten habe ich die Arbeitspaket-Übersicht angereichert.
+Über diese Zuordnung konnte ich anschließend ermitteln in welchen Zeiträumen ich bestimmte Entwickler benötigen würde und bis wann der Gateway-Server verfügbar sein musste.
 
 ==== *04.05.08.03* #DONE Potenzielle Ressourcenquellen identifizieren und ihre Beschaffung verhandeln
 Unter anderem sollten die Funktionen des #abbr("qrs") über die bereits bestehende Management-Plattform verfügbar gemacht werden.
