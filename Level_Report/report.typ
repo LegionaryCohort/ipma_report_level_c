@@ -5,8 +5,8 @@
 #import "report_abbr.typ": abbr, abbr_entries
 #import "report_glossary.typ": glossary, glossary_entries
 
-#let report_version = "1.1"
-#let report_date = "22.12.2025"
+#let report_version = "1.x"
+#let report_date = "xx.12.2025"
 
 #set page(margin: 2.4cm, numbering: none)
 #set text(size: 11pt, lang: "de")
