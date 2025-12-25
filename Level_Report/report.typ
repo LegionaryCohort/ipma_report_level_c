@@ -85,6 +85,7 @@
         "1.2", "23.12.2025", "KCI 04.05.07.04 entfernt", [@kosten ff.],
         "1.3", "24.12.2025", "KCI 04.05.08.02 detaillierter ausgeführt", [@ressourcen_bedarf],
         "1.3", "25.12.2025", "KCI 04.05.03.02 detaillierter ausgeführt", [@leistung_strukturieren],
+        "1.3", "25.12.2025", "KCI 04.05.04.02 detaillierter ausgeführt", [@aufwand_ermitteln],
         "1.3", "25.12.2025", "KCI 04.05.11.03 detaillierter ausgeführt", [@wahrscheinlichkeit],
         "1.3", "25.12.2025", "KCI 04.03.05.02 detaillierter ausgeführt", [@formelle_werte],
     )
@@ -477,7 +478,7 @@ Diese "Ausbau"-Pakete wurden mit den Erkenntnissen aus den vorangegangenen Paket
 
 Mit der beschriebenen Planung von Arbeitspaketen stand zu jedem Zeitpunkt fest, woran aktuell zu arbeiten ist, sowie welche Aufgaben zukünftig noch zu bearbeiten sind (auch wenn letztere meist noch nicht abschließend feststanden).
 
-=== 04.05.04 #MAYBE() (2-3/3) Ablauf und Termine
+=== 04.05.04 #MAYBE(good: true) (2-4/3) Ablauf und Termine
 Zu Beginn des Schnittstellenprojektes zum ERP-System #glossary("optadata_focus") musste zunächst ein Überblick geschaffen werden, anhand dessen wir das Projekt kalkulieren und später umsetzen können.
 
 ==== *04.05.04.01* #DONE Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
@@ -492,21 +493,21 @@ Die Aufgaben habe ich als Kacheln in einem Diagramm festgehalten und sie farblic
 Mit den definierten Aufgaben wurde die weitere Planung vorgenommen.
 Im weiteren Verlauf der Planung wurden die Abhängigkeiten zwischen den Aufgaben, sowie die Phasen, in die das Projekt unterteilt wurde, hinzugefügt (siehe die nachfolgenden KCIs).
 
-==== *04.05.04.02* #TODO Arbeitsaufwand und Dauer von Aktivitäten festlegen
-#todo("Anforderungen")
-
-Für alle Aufgaben musste identifiziert werden, wer die Aufgaben umsetzen sollte.
-
-Für alle Aufgaben habe ich zwei Aspekte überprüft:
+==== *04.05.04.02* #MAYBE() Arbeitsaufwand und Dauer von Aktivitäten festlegen <aufwand_ermitteln>
+Für alle anstehend Aufgaben habe ich einige planungsrelevante Faktoren überprüft:
 - In welchem System müssen Anpassungen vorgenommen werden?
 - Wird für die Aufgabe spezielles Wissen benötigt, und wenn ja, welches?
 #v(-6pt)
-Aus den Antworten auf die erste Fragen konnte ich zunächst ableiten welche Aufgaben von der #glossary("optadata") umzusetzen waren (da sie Änderungen am #glossary("optadata_focus") System erforderten).
-Alle restlichen Aufgaben waren durch uns umzusetzen.
-Dabei musste ich, gemäß den Antworten auf die zweite Frage, die Aufgaben denjenigen Entwicklern zuordnen, die über das nötige Spezialwissen verfügen.
-Beispielsweise erforderten die Aufgaben bzgl. des Admin-Interfaces, dass der Entwickler sich mit unserer selbstentwickelten Management-Plattform auskennt, um das Interface dort korrekt einzubauen.
+Mithilfe dieser Informationen habe ich anschließend ermittelt, an wen die Aufgabe konkret abzugeben war.
+Diese Information war insofern wichtig, da ich die Schätzung des Zeitaufwandes den jeweils zuständigen Personen überlassen habe.
+Insb. im Falle von Aufgaben, zu denen ich selbst nicht die nötige Expertise hatte, war dies wichtig, um eine möglichst realistische Einschätzung zu erhalten.\
+Mit dem Wissen über die Zeitaufwände und zuständige Personen, konnte ich genauer prüfen inwiefern die Zuteilung umsetzbar war.
+Da sowohl auf unserer Seite, als auch seitens #glossary("optadata"), bestimmte Entwickler zeitweise nicht verfügbar waren, habe ich für einige Aufgaben ermittelt an welche andere Entwickler ich diese ggfs. übertragen kann.
+Gerade für die Konzeptionierung und die abschließenden Integration und Test-Phase habe ich sichergestellt, dass das dafür notwendige Expertenwissen verfügbar war.
 
-Mit der Zuordnung der Aufgaben konnte ich zum einen sehr schnell und klar dem Kunden kommunizieren welchen Aufgaben er nachkommen muss, und ich konnte mit #glossary("nils") die Verfügbarkeiten unserer Entwickler abklären.
+Mit den ermittelten Rahmenbedingungen der Aufgaben (Aufwand, erforderliches Wissen, etc.) konnte ich sowohl mit dem Kunden, als auch mit #glossary("nils"), die Verfügbarkeit der nötigen Leute abklären.
+In Teilen konnte ich dadurch auch Abhängigkeiten zwischen Aufgaben ermitteln, die ich zuvor nicht ermittelt hatte.
+Diese sind in die spätere Planung mit eingeflossen.
 
 ==== *04.05.04.03* #MAYBE() Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen <vorgehensweise>
 Aus dem Fluss-Diagramm, in dem wir die Aufgaben festgehalten haben, ergab sich für das Projekt de facto ein Wasserfall-Ansatz.
