@@ -232,7 +232,7 @@ In diesen Gesprächen habe ich ihm den Status der Projekte, sowie die angefallen
 
 Über die regelmäßigen Updates konnte #glossary("nils") alle notwendigen Informationen erhalten, die er brauchte, um seiner Verantwortung bzgl. der Finanzen nachzukommen.
 
-=== 04.03.03 #MAYBE (2-3/3) Compliance, Standards und Regularien <compliance>
+=== 04.03.03 #MAYBE() (2-3/3) Compliance, Standards und Regularien <compliance>
 ==== *04.03.03.01* #DONE Die für das Projekt gültigen Rechtsvorschriften identifizieren und einhalten
 Ein Teil der Schnittstelle zu #glossary("optadata_focus") erfordert die Übermittlung von E-Mail-Adressen und Kundennummern der Nutzer des #glossary("optadata_focus") Systems.
 
@@ -260,7 +260,7 @@ Im Rahmen dieser Planung habe ich festgestellt, dass der #abbr("himsa") Standard
 Als Konsequenz daraus habe ich mit in die Planung aufgenommen, dass wir die Konvertierung zwischen unserer Struktur und dem Standard deutlich genauer betrachten müssen.
 Da eine Anpassung des Standards nicht in unserer Hand lag, wäre es notwendig geworden in der Konvertierung um diesen Umstand herumarbeiten zu müssen.
 
-==== *04.03.03.06* #MAYBE Die Projektmanagementkompetenz der Organisation beurteilen, vergleichen und verbessern <org_kompetenzen>
+==== *04.03.03.06* #MAYBE() Die Projektmanagementkompetenz der Organisation beurteilen, vergleichen und verbessern <org_kompetenzen>
 Im Rahmen diverser Projekte, auch außerhalb meiner Verantwortung, war es immer wieder notwendig ein direktes Gespräch zwischen unseren Entwicklern auf der einen Seite und den Projekt-Kunden und -Stakeholdern auf der anderen, zu führen, um Detailfragen zu klären.
 Bei diesen Gesprächen kam es wiederholt zu Missverständnissen und unproduktiven Diskussionen.
 
@@ -421,11 +421,11 @@ Entsprechend habe ich die Abbildung der #abbr("hmv")-Nummern priorisiert.
 
 Gemäß der Priorisierung wurden die betroffenen Arbeitspakete angepasst.
 
-=== 04.05.03 #MAYBE (1-2/2) Leistungsumfang und Lieferobjekte
+=== 04.05.03 #MAYBE() (1-2/2) Leistungsumfang und Lieferobjekte
 Im Folgenden geht es um das Projekt, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
 Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
 
-==== *04.05.03.01* #MAYBE Lieferobjekte definieren <lieferobjekte>
+==== *04.05.03.01* #MAYBE() Lieferobjekte definieren <lieferobjekte>
 Die primären Nutzungsziele des #abbr("qrs") umfassten die Überprüfung unserer Daten auf konkrete Qualitätskriterien, die Zusammenfassung und Darstellung gefundener Probleme in menschen-lesbarer Form, sowie die Möglichkeit manuelle Korrekturen für gefundene Probleme vorzunehmen.
 
 Die Lieferobjekte waren zu definieren und mit diesen Nutzungszielen in Verbindung zu setzen.
@@ -468,7 +468,7 @@ Diese "Ausbau"-Pakete wurden mit den Erkenntnissen aus den vorangegangenen Paket
 
 Mit der beschriebenen Planung von Arbeitspaketen stand zu jedem Zeitpunkt fest, woran aktuell zu arbeiten ist, sowie welche Aufgaben zukünftig noch zu bearbeiten sind (auch wenn letztere meist noch nicht abschließend feststanden).
 
-=== 04.05.04 #MAYBE (2-3/3) Ablauf und Termine
+=== 04.05.04 #MAYBE() (2-3/3) Ablauf und Termine
 Zu Beginn des Schnittstellenprojektes zum ERP-System #glossary("optadata_focus") musste zunächst ein Überblick geschaffen werden, anhand dessen wir das Projekt kalkulieren und später umsetzen können.
 
 ==== *04.05.04.01* #DONE Aktivitäten definieren, die nötig sind, um das Projekt (ab)liefern zu können
@@ -499,7 +499,7 @@ Beispielsweise erforderten die Aufgaben bzgl. des Admin-Interfaces, dass der Ent
 
 Mit der Zuordnung der Aufgaben konnte ich zum einen sehr schnell und klar dem Kunden kommunizieren welchen Aufgaben er nachkommen muss, und ich konnte mit #glossary("nils") die Verfügbarkeiten unserer Entwickler abklären.
 
-==== *04.05.04.03* #MAYBE Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen <vorgehensweise>
+==== *04.05.04.03* #MAYBE() Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen <vorgehensweise>
 Aus dem Fluss-Diagramm, in dem wir die Aufgaben festgehalten haben, ergab sich für das Projekt de facto ein Wasserfall-Ansatz.
 Dies haben wir jedoch im Projektverlauf nie explizit als solches festgehalten oder benannt.
 
@@ -529,11 +529,11 @@ Diese Verhältnisse habe ich in Form eines Ablaufdiagramms festgehalten (siehe @
 
 Die fertige Ablaufplanung diente für die Umsetzung des Projektes als leitende Referenz und de facto Todo-Liste.
 
-=== 04.05.05 #MAYBE (1-2/2) Organisation, Information und Dokumentation
+=== 04.05.05 #MAYBE() (1-2/2) Organisation, Information und Dokumentation
 Für das gesamte Programm habe ich mich zu Beginn im Rahmen der Übergabe mit #glossary("nils") zusammengesetzt, um die Details der Zusammenarbeit zu klären.
 Ein Teil dieser Gespräche war die Klärung der verwendeten Informations- und Kommunikationsstrukturen.
 
-==== *04.05.05.01* #MAYBE Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen <info_beduerfnisse>
+==== *04.05.05.01* #MAYBE() Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen <info_beduerfnisse>
 Das übergreifende Produktdatenprogram selbst wurde als rein internes Thema gehandhabt, bei dem unsere Entwickler auch nur bedingt involviert waren.
 Entsprechend war hier nur #glossary("nils") informiert zu halten.
 Die formelle Dokumentation haben wir dabei, wie sonst im Unternehmen üblich, über #glossary("notion") gehandhabt, während alle weiteren Themen informell und nach Bedarf in Meetings oder Gesprächen zwischendurch geklärt wurden.
@@ -675,7 +675,7 @@ Anschließend, sofern die Idee weiterhin sinnvoll erschien, habe ich, wie oben b
 
 Zu allen für sinnvoll erachteten Projektideen konnte #glossary("nils") einen Projektplan mit #glossary("sebastian") besprechen und über die Budgetfreigabe entscheiden.
 
-=== 04.05.08 #MAYBE (2-3/3) Ressourcen
+=== 04.05.08 #MAYBE() (2-3/3) Ressourcen
 Das Projekt für die Entwicklung des #abbr("qrs") deckte mehrere Bereiche von bereits bestehender Software ab, die weiterentwickelt werden sollte.
 Für diese Bereiche, sowie die anfallenden Aufgaben, waren unsere verschiedenen Entwickler unterschiedlich qualifiziert.
 
@@ -689,7 +689,7 @@ Mit dieser Übersicht habe ich abschließend zusammengestellt, wer für das Proj
 Eine Übersicht über die erforderlichen Entwickler wurde erstellt und #glossary("nils") vorgelegt.
 Diese hat, nach etwas Verhandlung (s.u.), beschlossen wer dem Projekt für wie lange zugeteilt wird.
 
-==== *04.05.08.02* #MAYBE Qualität und Menge der benötigten Ressourcen definieren <ressourcen_bedarf>
+==== *04.05.08.02* #MAYBE() Qualität und Menge der benötigten Ressourcen definieren <ressourcen_bedarf>
 Für das Projekt galt es die Menge und Qualität der benötigten Ressourcen zu definieren.
 
 Ich habe für jedes Arbeitspaket, das ich in meiner vorherigen Planung definiert hatte, den Bedarf an Wissen & Kompetenzen bestimmt.
@@ -820,7 +820,7 @@ Im Anschluss an diese Gespräche sind #glossary("nils") und ich die Ergebnisse z
 Über diesen allgemeinen Prozess konnten wir wiederholt Probleme frühzeitig erkennen.
 Außerdem haben wir mit den Erkenntnissen über besonders gut gelaufene Situationen unsere Prozesse im Unternehmen weiter optimieren können.
 
-=== 04.05.11 #MAYBE (2-3/3) Chancen und Risiken
+=== 04.05.11 #MAYBE() (2-3/3) Chancen und Risiken
 Die nachfolgenden KCIs beziehen sich alle auf den Aufbau des neuen Import-Moduls für unser Produktdatenmanagementsystem.
 Konkret geht es dabei um die Schnittstelle zwischen dem Import-Modul und der Produktdatenbank, die gegen Fehler abzusichern war.
 
@@ -833,7 +833,7 @@ Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
 #v(-6pt)
 Alle drei Kategorien waren in der weiterführenden Bewertung zu betrachten und Maßnahmen zu ermitteln (siehe nächste KCIs).
 
-==== *04.05.11.03* #MAYBE Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren <wahrscheinlichkeit>
+==== *04.05.11.03* #MAYBE() Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren <wahrscheinlichkeit>
 Die zuvor identifizierten Fehlerkategorien waren in ihrem potentiellen Ausmaß zu bewerten.
 
 Bei den Fehlerkategorien handelt es sich jeweils um fehlerhafte Zugriffe auf die Datenbank.
@@ -922,8 +922,8 @@ Neben der Ermittlung der fachlichen Anforderungen, habe ich in diesen Gespräche
 Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv den Kontakt zu mir gesucht, um Informationen und neue Ideen zu liefern.
 
 == PM-Wahlelemente
-=== 04.03.01 #MAYBE (2-3/3) Strategie
-==== *04.03.01.01* #MAYBE Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen <einklang_vision>
+=== 04.03.01 #MAYBE() (2-3/3) Strategie
+==== *04.03.01.01* #MAYBE() Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen <einklang_vision>
 Zu Beginn des QRS Projektes stand zunächst nur die Idee im Raum, mittels Daten-Qualitätsprüfungen unsere Aufwände in der Datenpflege zu reduzieren und somit Kosten zu sparen.
 
 Im Rahmen der Konzeptionierung galt es mit den ersten Ideen eines möglichen Ergebnisses zu beurteilen, ob dieses Projekt dem Unternehmen einen wertvollen Nutzen bringen würde.
@@ -1052,7 +1052,7 @@ Da der Prozess im Laufe des Projektes zu Reibungspunkten geführt hatte, wurde e
 Unter anderem hatte mein Mangel an Verständnis für die Grenzen dessen, was die Qualitäts-Standards leisten können und wo sie keine Garantien liefern können, mit zu den Problemen beigetragen.
 Neben den Ergebnissen der Lessons Learned habe ich mir also selbst noch mitgenommen mich tiefer in das Thema der Qualitäts-Standards einzulesen und mein Wissen dort zu erweitern.
 
-=== 04.04.03 #MAYBE (2-3/3) Persönliche Kommunikation
+=== 04.04.03 #MAYBE() (2-3/3) Persönliche Kommunikation
 ==== *04.04.03.01* #DONE Eindeutige und strukturierte Informationen an andere weitergeben und deren gleiches Verständnis sicherstellen
 Im Rahmen meiner Aufgaben hatte ich viel Kontakt sowohl mit unseren Entwicklern, als auch mit unseren Partner-Akustikern.
 Diese beiden Personengruppen haben dabei erhebliche Unterschiede in der Art und Weise wie sie Informationen aufnehmen, verarbeiten und selber kommunizieren.
@@ -1097,7 +1097,7 @@ Dieses Minimal-Beispiel habe ich dann erneut per E-Mail verschickt.
 Auf die letzte Mail erhielt ich ähnlich langsam die Antwort, dass der Fehler gefunden worden sei und behoben wird.
 Mit der Veränderungen in der Art meiner Kommunikation, konkret in der Art, wie ich die relevanten Informationen zur Verfügung gestellt habe, konnte ich mein Ziel der Fehlerbehebung erreichen.
 
-==== *04.04.03.04* #MAYBE Mit virtuellen Teams effektiv kommunizieren<virtual_teams>
+==== *04.04.03.04* #MAYBE() Mit virtuellen Teams effektiv kommunizieren<virtual_teams>
 Die Hälfte der Leute bei der #glossary("audoora") haben zu 100% remote gearbeitet.
 Dieser Umstand hatte sich bereits in den Anfängen des Unternehmens etabliert, da wir damals schon mit Leuten zusammengearbeitet haben, die nicht ansatzweise in der Nähe von Köln gewohnt haben.
 

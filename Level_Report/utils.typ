@@ -25,7 +25,11 @@
 
 #let LOSS = text(fill: gray, weight: "bold")[LOSS]
 #let TODO = text(fill: red, weight: "bold")[TODO]
-#let MAYBE = text(fill: fuchsia, weight: "bold")[MAYBE]
+#let MAYBE(good: false) = {
+    let color = fuchsia
+    if good { color = green }
+    text(fill: color, weight: "bold")[MAYBE]
+}
 #let DONE = text(fill: green, weight: "bold")[DONE]
 
 // Use the three lines below to quickly get rid of todo-stuff in text
