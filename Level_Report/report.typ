@@ -197,7 +197,7 @@ Es wurden an verschiedenen Aspekten gearbeitet:
 - der Plattform, über die Daten unseren Partnern zur Verfügung gestellt wurden
 - Schnittstellen zu anderen Systemen in der Branche
 - und der Marketing- und Kommunikationsstrategie, mit der unser Produktdaten-Angebot beworben wurde
-#v(-10pt)
+#v(-6pt)
 Um diesem umfangreichen Vorhaben Herr zu werden, haben wir (#glossary("nils") und Ich) entschieden, dass wir das Vorhaben projektbasiert angehen würden.\
 Dazu haben wir konkrete strategische Ziele für das Produkdatensystem entwickelt und aus diesen einzelne Projekte abgeleitet.
 Diese Projekte wurden dann als Programm zusammengefasst und in meine Verantwortung überreicht.
@@ -401,7 +401,7 @@ Darunter habe ich weitere Qualitätsziele abgeleitet, um beide strategischen Zie
 - Die Daten sind möglichst vollständig im #glossary("amparex")-System abgebildet
 - Alle Verknüpfungen zwischen Daten (z.B. Zugehörigkeiten zwischen Geräten und Zubehör) sind im #glossary("amparex")-System abgebildet
 - Alle Daten sind hierarchisch sauber abgebildet (Produktfamilien als Gruppierung, Produktvarianten als Unterteilung, etc.)
-#v(-10pt)
+#v(-6pt)
 Um zusätzlich das erste strategische Ziel besser zu erfüllen, haben wir die Etablierung von direktem Support von Import-Vorgängen mit Video-Calls als weiteres operatives Ziel mit aufgenommen.
 
 Als Ergebnis hatten wir einen klaren Überblick über die konkreten Ziele des Projektes und zugleich die Sicherheit, dass der Projektscope auf das Notwendige beschränkt wurde.
@@ -500,7 +500,7 @@ Für alle Aufgaben musste identifiziert werden, wer die Aufgaben umsetzen sollte
 Für alle Aufgaben habe ich zwei Aspekte überprüft:
 - In welchem System müssen Anpassungen vorgenommen werden?
 - Wird für die Aufgabe spezielles Wissen benötigt, und wenn ja, welches?
-#v(-10pt)
+#v(-6pt)
 Aus den Antworten auf die erste Fragen konnte ich zunächst ableiten welche Aufgaben von der #glossary("optadata") umzusetzen waren (da sie Änderungen am #glossary("optadata_focus") System erforderten).
 Alle restlichen Aufgaben waren durch uns umzusetzen.
 Dabei musste ich, gemäß den Antworten auf die zweite Frage, die Aufgaben denjenigen Entwicklern zuordnen, die über das nötige Spezialwissen verfügen.
@@ -532,7 +532,7 @@ Für alle Aufgaben im Projekt waren die Abhängigkeiten untereinander zu bestimm
 Für jede Aufgabe habe ich, im Rahmen der Definition der Aufgabe, bereits festgehalten welche Vorbedingungen erfüllt sein müssen, damit die Aufgaben beginnen kann, z.B.:
 - Implementierung Gateway-Logik: _Gateway-Framework muss fertiggestellt sein_
 - Admin-Interface für die Verwaltung deployen & testen: _alle internen Gateway-Endpoints sind fertiggestellt, deployed und getestet_
-#v(-10pt)
+#v(-6pt)
 Anhand der Vorbedingungen konnte ich bestimmen welche Aufgaben erledigt sein müssen (bzw. genauer welche Ergebnisse aus welchen Aufgaben geliefert worden sein müssen), damit die betrachtete Aufgabe beginnen kann.
 Diese Verhältnisse habe ich in Form eines Ablaufdiagramms festgehalten (siehe @gateway_tasks).
 
@@ -751,7 +751,7 @@ Es musste beurteilt werden, welche Besonderheiten in der Zusammenarbeit mit #glo
 Zunächst habe ich zwei mögliche Modelle für die Absicherung unserer Daten entworfen, die unterschiedliche Level an Kontrolle über die Daten abbilden:
 - #underline[Nutzerschlüssel]: Wir sichern unsere Daten selber mittels Zugangsschlüsseln gegen unbefugten Zugriff ab. Jeder User erhält dabei einen Schlüssel, der nur dem User (und nicht der #glossary("optadata")) bekannt ist.
 - #underline[Kooperationsvertrag]: Wir sichern den Zugang zu unseren Daten nur so ab, dass außer der #glossary("optadata") niemand sonst Zugriff hat. Die Herausgabe unserer Daten an die Nutzer von #glossary("optadata_focus") wird dabei über einen Kooperationsvertrag geregelt.
-#v(-10pt)
+#v(-6pt)
 Diese Modelle habe ich anschließend im Austausch mit #glossary("nils") gegenübergestellt und die Vor- und Nachteile mit ihnen diskutiert.
 
 #glossary("nils") hat sich für die Vereinbarung eines Kooperationsvertrages entschieden.
@@ -775,7 +775,7 @@ Es war ein Projektstart-Workshop zu organisieren (und moderieren), um den gewün
 Ich habe zunächst die wichtigsten Stakeholdergruppen ermittelt:
 - Unsere Geschäftsführung, die das Projekt in Auftrag gegeben hat
 - Die Endanwender, die mit dem Import-Modul später arbeiten sollten
-#v(-10pt)
+#v(-6pt)
 Anschließend habe ich ein Meeting aufgesetzt, in dem beide Gruppen repräsentiert waren, und die Agenda für das Meeting zusammengestellt.
 Die Agenda für dieses Meeting umfasste im Wesentlichen folgende Punkte:
 - Ermittlung der zu lösenden Probleme des bestehenden Import-Prozesses
@@ -822,7 +822,7 @@ Da wir festgestellt haben, dass insb. nach längeren Projekten die Beteiligten s
 Dazu wurden regelmäßige Gespräche mit den verschiedenen Entwicklern geführt, in denen unter anderem die folgenden zwei Fragen gestellt wurden:
 - "Was ist seit dem letzten Gespräch vor- oder aufgefallen, das wir besser handhaben könnten?"
 - "Was ist seit dem letzten Gespräch vor- oder aufgefallen, das besonders gut lief?"
-#v(-10pt)
+#v(-6pt)
 Die Fragen sind dabei bewusst offen formuliert, um die Mitarbeiter anzuregen aktiv nachzudenken und ggf. auch Verbesserungsvorschläge selbst zu erdenken und einzubringen.\
 Im Anschluss an diese Gespräche sind #glossary("nils") und ich die Ergebnisse zusammen durchgegangen und haben daraus ggf. Maßnahmen abgeleitet und Erkenntnisse in unsere Prozesse integriert.
 
