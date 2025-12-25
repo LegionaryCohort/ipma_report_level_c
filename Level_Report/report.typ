@@ -84,6 +84,7 @@
         "1.2", "23.12.2025", "KCI 04.05.05.01 detaillierter ausgeführt", [@info_beduerfnisse],
         "1.2", "23.12.2025", "KCI 04.05.07.04 entfernt", [@kosten ff.],
         "1.3", "24.12.2025", "KCI 04.05.08.02 detaillierter ausgeführt", [@ressourcen_bedarf],
+        "1.3", "25.12.2025", "KCI 04.05.11.03 detaillierter ausgeführt", [@wahrscheinlichkeit],
     )
 
     pagebreak()
@@ -819,7 +820,7 @@ Im Anschluss an diese Gespräche sind #glossary("nils") und ich die Ergebnisse z
 Über diesen allgemeinen Prozess konnten wir wiederholt Probleme frühzeitig erkennen.
 Außerdem haben wir mit den Erkenntnissen über besonders gut gelaufene Situationen unsere Prozesse im Unternehmen weiter optimieren können.
 
-=== 04.05.11 #TODO (2/3) Chancen und Risiken
+=== 04.05.11 #MAYBE (2-3/3) Chancen und Risiken
 Die nachfolgenden KCIs beziehen sich alle auf den Aufbau des neuen Import-Moduls für unser Produktdatenmanagementsystem.
 Konkret geht es dabei um die Schnittstelle zwischen dem Import-Modul und der Produktdatenbank, die gegen Fehler abzusichern war.
 
@@ -829,19 +830,29 @@ Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
 - Fehlerhaftes abspeichern der Neudaten
 - Fehlerhafte Anpassung bestehender Daten
 - Unvollständigkeit der Daten bei abgebrochenem Import-Vorgang
-#v(-10pt)
+#v(-6pt)
 Alle drei Kategorien waren in der weiterführenden Bewertung zu betrachten und Maßnahmen zu ermitteln (siehe nächste KCIs).
 
-==== *04.05.11.03* #TODO Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren
-#todo("Anforderungen")
-
+==== *04.05.11.03* #MAYBE Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren <wahrscheinlichkeit>
 Die zuvor identifizierten Fehlerkategorien waren in ihrem potentiellen Ausmaß zu bewerten.
 
-Die Fehlerkategorien habe ich jeweils quantitativ ("Wie viele Datensätze sind betroffen?") und qualitativ ("Wie aufwändig ist die Korrektur der einzelnen Fehler?") beurteilt.
+Bei den Fehlerkategorien handelt es sich jeweils um fehlerhafte Zugriffe auf die Datenbank.
+Entsprechend war mir klar, dass die Quelle dieser Fehler in jedem Fall der Code ist, der diesen Zugriff initiiert.\
+Ich konnte zudem unterschiedliche Bedingungen festhalten, die für das Eintreten der Fehler erfüllt sein mussten:
+- Unzureichende Kontrolle der abzuspeichernden Daten
+- Fehlerhafte Verwendung der Datenbank-Library, die den tatsächlichen Zugriff durchführt
+- Abbruch des Imports entweder durch den Nutzer, oder durch einen unbehandelten Fehler an beliebiger anderer Stelle des Codes
+#v(-6pt)
+Insb. die letzte Bedingung habe ich dabei als kritisch bewertet, da hier ein beliebiger Fehler an beliebiger Stelle zu einem Abbruch führen könnte. Es würde also nahezu unmöglich sein diese Eintrittsbedingung gänzlich zu vermeiden.\
+Um die Auswirkungen der Fehler besser einzuschätzen, habe ich zudem die Fehlerkategorien in 3 Messgrößen bewertet:
+- Auftrittswahrscheinlichkeit ("Wie wahrscheinlich sind Fehler dieser Kategorie?")
+- Tragweite ("Wie viele Datensätze sind im Normalfall betroffen, wenn dieser Fehler auftritt?")
+- Komplexität ("Wie aufwändig ist die Korrektur eines Fehlers der betrachteten Kategorie?")
+#v(-6pt)
 Diese Beurteilung habe ich in einer Tabelle festgehalten (für eine Rekonstruktion siehe @import_error_analysis).\
-Zudem habe ich die Auftrittswahrscheinlichkeit der Kategorien beurteilt und in derselben Aufstellung festgehalten.
 
-Die Bewertung der Risiken wurde verwendet, um angemessene Maßnahmen zu entwerfen.
+Anhand der Bewertung der Risiken konnte ich anschließend sinnvolle Maßnahmen entwerfen und vor allem meinen Fokus auf den Abbruch eines Imports als kritischstes Risiko legen.
+Eine nähere quantitative Bewertung der Risiken, um genauere Messgrößen zu erzeugen, wurde von #glossary("nils") und mir als überflüssig beurteilt und nicht durchgeführt.
 
 ==== *04.05.11.04* #DONE Strategien auswählen und Maßnahmen implementieren, um Chancen und Risiken zu adressieren
 Durch die Bewertung der Risiken konnte ich einschätzen, dass der Abbruch eines laufenden Import-Vorganges das größte Risiko darstellt, sowohl in seiner Auftrittswahrscheinlichkeit, als auch in den Auswirkungen.
