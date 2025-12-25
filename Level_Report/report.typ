@@ -87,6 +87,7 @@
         "1.3", "25.12.2025", "KCI 04.05.03.02 detaillierter ausgeführt", [@leistung_strukturieren],
         "1.3", "25.12.2025", "KCI 04.05.04.02 detaillierter ausgeführt", [@aufwand_ermitteln],
         "1.3", "25.12.2025", "KCI 04.05.11.03 detaillierter ausgeführt", [@wahrscheinlichkeit],
+        "1.3", "25.12.2025", "KCI 04.05.11.05 detaillierter ausgeführt", [@risiken_tracken],
         "1.3", "25.12.2025", "KCI 04.03.05.02 detaillierter ausgeführt", [@formelle_werte],
     )
 
@@ -830,7 +831,7 @@ Im Anschluss an diese Gespräche sind #glossary("nils") und ich die Ergebnisse z
 Über diesen allgemeinen Prozess konnten wir wiederholt Probleme frühzeitig erkennen.
 Außerdem haben wir mit den Erkenntnissen über besonders gut gelaufene Situationen unsere Prozesse im Unternehmen weiter optimieren können.
 
-=== 04.05.11 #MAYBE() (2-3/3) Chancen und Risiken
+=== 04.05.11 #MAYBE(good: true) (2-4/3) Chancen und Risiken
 Die nachfolgenden KCIs beziehen sich alle auf den Aufbau des neuen Import-Moduls für unser Produktdatenmanagementsystem.
 Konkret geht es dabei um die Schnittstelle zwischen dem Import-Modul und der Produktdatenbank, die gegen Fehler abzusichern war.
 
@@ -876,13 +877,18 @@ Da es sich in beiden Fällen im Zweifelsfall um Fehler in der Korrektheit des Mo
 Ich habe entsprechende Test-Cases eingeplant, die diese Fehlerkategorien abdecken.\
 Mittels entsprechendem Testen nach Fertigstellung des Moduls konnten diese beiden Risiken ebenfalls minimiert werden.
 
-==== *04.05.11.05* #TODO Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen
-#todo("Anforderungen")
+==== *04.05.11.05* #MAYBE() Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen <risiken_tracken>
+Im Rahmen der Implementierung der Rollback-Funktion für den Import-Vorgang wurde schnell klar, dass diese in Teilen nur eine Verschiebung des Risikos darstellt, nicht eine Lösung.
+In dem Fall, dass ein Rollback scheitert, ergeben sich die gleichen Probleme, die auch ein abgebrochener Import schon verursachen würde.
 
-Die oben beschriebenen Risiken und Maßnahmen habe ich im Rahmen unserer regelmäßigen Update-Gespräche mit #glossary("nils") näher besprochen.
-Für die Erweiterung mit der Rollback-Funktion war ohnehin eine Freigabe notwendig.
-Aber auch die anderen Maßnahmen habe ich ihm dargestellt und rechtfertigt.\
-#glossary("nils") war mit der Bewertung und den getroffenen Maßnahmen einverstanden.
+Diesen Aspekt der Rollback-Funktion habe ich zunächst näher analysiert, um zu beurteilen wie sich dieses neue Risiko verhält.
+Dabei bin ich zu dem Schluss gekommen, dass die Tragweite zwar vergleichbar, aber die Eintrittswahrscheinlichkeit geringer ist.
+Da die Quelle eines gescheiterten Rollbacks ausschließlich im Code liegen kann, nicht in den Daten selbst, handelt es sich hier zudem um einen Fehler, der mittels zusätzlichen Test-Cases in seiner Eintrittswahrscheinlichkeit reduziert werden kann.\
+Mit dieser Erkenntnis habe ich als zusätzliche Maßnahme weitere Test-Cases eingeplant, die den Fall eines gescheiterten Rollbacks abdecken.
+
+Das erkannte Risiko habe ich mit #glossary("nils") besprochen, um mir für die neue Maßnahme eine Freigabe erteilen zu lassen.
+Diese wurde bewilligt und wir haben zusätzlich entschieden, dass im Notfall, sollten alle geplanten Maßnahme scheitern, wir die Datenbank aus unseren regulären Backups vollständig wiederherstellen können.
+Dieser Schritt würde zwar zusätzlichen Aufwand erzeugen, da er händisch ausgeführt werden muss, aber fängt das Rest-Risiko nach Umsetzung der Maßnahmen ab.
 
 === 04.05.12 #LOSS (1/3) Stakeholder
 ==== *04.05.12.02* #TODO Stakeholder Strategie und einen Kommunikationsplan entwickeln und aufrechterhalten
