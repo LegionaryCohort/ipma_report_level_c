@@ -84,6 +84,7 @@
         "1.2", "23.12.2025", "KCI 04.05.05.01 detaillierter ausgeführt", [@info_beduerfnisse],
         "1.2", "23.12.2025", "KCI 04.05.07.04 entfernt", [@kosten ff.],
         "1.3", "24.12.2025", "KCI 04.05.08.02 detaillierter ausgeführt", [@ressourcen_bedarf],
+        "1.3", "25.12.2025", "KCI 04.05.03.02 detaillierter ausgeführt", [@leistung_strukturieren],
         "1.3", "25.12.2025", "KCI 04.05.11.03 detaillierter ausgeführt", [@wahrscheinlichkeit],
         "1.3", "25.12.2025", "KCI 04.03.05.02 detaillierter ausgeführt", [@formelle_werte],
     )
@@ -422,7 +423,7 @@ Entsprechend habe ich die Abbildung der #abbr("hmv")-Nummern priorisiert.
 
 Gemäß der Priorisierung wurden die betroffenen Arbeitspakete angepasst.
 
-=== 04.05.03 #MAYBE() (1-2/2) Leistungsumfang und Lieferobjekte
+=== 04.05.03 #MAYBE(good: true) (1-3/2) Leistungsumfang und Lieferobjekte
 Im Folgenden geht es um das Projekt, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
 Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
 
@@ -446,17 +447,24 @@ Diese Reports sind in @qrs_design als blaue Kacheln wiederzufinden.
 In der weiteren Planung habe ich die konkreten Arbeitspakete anhand der übergeordneten Lieferobjekte ausdefiniert.
 Mit der Aufschlüsselung der Lieferobjekte konnte ich im späteren Verlauf den Fortschritt im Projekt auch detaillierter an #glossary("nils") berichten, ohne unübersichtlich zu werden.
 
-==== *04.05.03.02* #TODO Leistungsumfang strukturieren
-#todo("Anforderungen")
+==== *04.05.03.02* #MAYBE() Leistungsumfang strukturieren <leistung_strukturieren>
+Es galt für die Umsetzung des Projektes die Lieferobjekte und daran hängenden Leistungen zu strukturieren und über das Vorgehensmodell zu entscheiden.
 
-Für das Projekt musste nun ein Vorgehensmodell begründet ausgewählt werden.
+Um den Leistungsumfang genauer aufzuschlüsseln, habe ich zunächst für jedes im vorherigen KCI beschriebene Modul die bekannten Rahmenfaktoren und -Bedingungen festgehalten.
+Aus diesen konnte ich jeweils ableiten welche Strukturen aufzubauen waren, um die Details später umsetzen zu können.
+Ich habe damit quasi jeweils ein Mini-Framework definiert, innerhalb dessen alles weitere einzubauen war.\
+Für diese Frameworks war zunächst unklar wie genau im Detail weiter vorzugehen war.
+Ab dieser Detailtiefe standen noch viele offene Fragen im Raum, die sich erst mit der Umsetzung der konkreten Report-Definitionen (mit denen das ganze System später arbeiten sollte) klären würden.
+Für die betroffenen Bereiche habe ich zunächst nur festgehalten, dass an dieser Stelle weitere Konzeptionierungsarbeit notwendig sein würde.\
+Aufgrund der unvollständigen und noch nicht klar ausdefinierbaren Teile der Struktur, habe ich entschieden das Projekt in einem hybriden Ansatz abzuwickeln.
+Dabei wurden die planbaren und bekannten Teile des Projektes planbasiert umgesetzt.
+Die noch unbekannten Bereiche wurden dann parallel iterativ in agiler Arbeitsweise ausgearbeitet.
+Dabei wurde aus den Struktur- und Architekturentscheidungen, die für die Umsetzung der Reports getroffen wurden, abgeleitet wie genau die Struktur der jeweils betroffenen Module aussehen muss.
+Mit diesen Informationen konnte dann ausgearbeitet werden wie die Module im Detail umzusetzen waren.
 
-Auf der einen Seite hatte ich die Lieferobjekte klar definiert und konnte daraus bereits erste Arbeitspakete ableiten.
-Auf der anderen Seite hatten die Entwickler im Unternehmen sich im Laufe vergangener Projekte auf eine agile Arbeitsweise eingependelt.
-Um den etablierten und gewohnten Workflow aufrecht zu erhalten, aber die Klarheit der vorhandenen Planung voll auszunutzen, habe ich mich für einen hybriden Ansatz entschieden.
-Dabei wurden die einzelnen Arbeitspakete in dem üblichen Ablauf bearbeitet, aber die übergreifende Planung folgte einem planbasierten Ansatz.
-
-Entsprechend stand das Vorgehensmodell fest und wurde anschließend umgesetzt.
+Gemäß meiner Entscheidung wurde das Projekt hybrid umgesetzt.
+Durch die Schrittweise Entwicklung konnte flexibel auf nötige Änderungen in der Detailstruktur der Module, die erst mit der Umsetzung der Reports auffielen, reagiert werden.
+Dadurch konnten wir viel unnötige Anpassungsarbeit einsparen und das Projekt verhältnismäßig zügig umsetzen.
 
 ==== *04.05.03.03* #DONE Arbeitspakete definieren
 Für die Projektumsetzung waren Arbeitspakete zu definieren.
