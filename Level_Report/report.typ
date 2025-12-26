@@ -5,8 +5,8 @@
 #import "report_abbr.typ": abbr, abbr_entries
 #import "report_glossary.typ": glossary, glossary_entries
 
-#let report_version = "1.x"
-#let report_date = "xx.12.2025"
+#let report_version = "2.0"
+#let report_date = "26.12.2025"
 
 #set page(margin: 2.4cm, numbering: none)
 #set text(size: 11pt, lang: "de")
@@ -93,7 +93,7 @@
         "1.4", "26.12.2025", "KCI 04.05.08.04 detaillierter ausgeführt", [@ressourcen_zuteilung],
         "1.4", "26.12.2025", "KCI 04.03.05.01 hinzugefügt und beschrieben", [@local_culture],
         "1.4", "26.12.2025", "KCI 04.04.03.03: andere Situation gewählt und beschrieben", [@kommunikations_arten],
-        "2.0", "23.12.2025", "KCI 04.05.06.05 entfernt", [@qualitaet ff.],
+        "2.0", "26.12.2025", "KCI 04.05.06.05 entfernt", [@qualitaet ff.],
     )
 
     pagebreak()
@@ -131,7 +131,7 @@
 }
 
 #set page(footer: page_footer(<main_numbering_end>), numbering: "1")
-#set par(justify: true, leading: 0.5em, spacing: 1.2em)
+#set par(justify: true, leading: 0.49em, spacing: 1.2em)
 #set heading(numbering: (..n) => {
     if n.pos().len() <= 2 {
         numbering("1.1", ..n)
