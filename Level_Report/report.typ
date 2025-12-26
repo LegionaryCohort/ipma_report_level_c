@@ -89,8 +89,9 @@
         "1.3", "25.12.2025", "KCI 04.05.11.03 detaillierter ausgeführt", [@wahrscheinlichkeit],
         "1.3", "25.12.2025", "KCI 04.05.11.05 detaillierter ausgeführt", [@risiken_tracken],
         "1.3", "25.12.2025", "KCI 04.03.05.02 detaillierter ausgeführt", [@formelle_werte],
+        "1.4", "26.12.2025", "KCI 04.05.08.04 detaillierter ausgeführt", [@ressourcen_zuteilung],
         "1.4", "26.12.2025", "KCI 04.03.05.01 hinzugefügt und beschrieben", [@local_culture],
-        "1.4", "26.12.2025", "KCI 04.04.03.03 andere Situation gewählt und beschrieben", [@kommunikations_arten],
+        "1.4", "26.12.2025", "KCI 04.04.03.03: andere Situation gewählt und beschrieben", [@kommunikations_arten],
     )
 
     pagebreak()
@@ -688,7 +689,7 @@ Anschließend, sofern die Idee weiterhin sinnvoll erschien, habe ich, wie oben b
 
 Zu allen für sinnvoll erachteten Projektideen konnte #glossary("nils") einen Projektplan mit #glossary("sebastian") besprechen und über die Budgetfreigabe entscheiden.
 
-=== 04.05.08 #MAYBE() (2-3/3) Ressourcen
+=== 04.05.08 #MAYBE(good: true) (2-4/3) Ressourcen
 Das Projekt für die Entwicklung des #abbr("qrs") deckte mehrere Bereiche von bereits bestehender Software ab, die weiterentwickelt werden sollte.
 Für diese Bereiche, sowie die anfallenden Aufgaben, waren unsere verschiedenen Entwickler unterschiedlich qualifiziert.
 
@@ -733,16 +734,25 @@ Anschließend habe ich #glossary("nils") die Option angeboten, den Entwickler nu
 
 Der Entwickler wurde für begrenzte Zeit meinem Projekt zugewiesen, wobei der Umfang der Aufgaben wie vereinbart reduziert wurde.
 
-==== *04.05.08.04* #TODO Ressourcen gemäß dem festgelegten Bedarf zuweisen und verteilen
-#todo("Anforderungen")
+==== *04.05.08.04* #MAYBE() Ressourcen gemäß dem festgelegten Bedarf zuweisen und verteilen <ressourcen_zuteilung>
+Für das Projekt waren die Aufgaben klar zuzuteilen und entsprechende Aufgabenlisten zu erstellen.
 
-Für den im letzten KCI beschriebenen Entwickler war eine klare Aufgabenliste zu erstellen.
+Da der Großteil der Design-Arbeit bereits von mir durchgeführt wurde, habe ich die entsprechende Umsetzung ebenfalls mir selbst zugeteilt.
+Dadurch entstanden an dieser Stelle keine zusätzlichen Aufwände durch Übergaben oder Missverständnisse im Design.
+Die Umsetzung umfasste dabei den Aufbau der Reports sowie dem Kern des #abbr("qrs"), das die tatsächliche Datenverarbeitung vornahm.\
+Die Kontrolle der Ergebnisse, insb. solcher, die später von anderen verwendet werden sollten (also die Report-Definitionen, sowie die Protokolle und Fehlerlisten, die als Zwischenergebnisse produziert werden), habe ich #glossary("nils") zugewiesen.
+Dabei habe ich berücksichtigt, dass er noch diverse andere Tätigkeiten als Geschäftsführer auszuführen hatte.
+Dementsprechend habe ich sichergestellt, dass die konkrete Aufgabenliste für ihn ausschließlich solche Aufgaben enthielt, die ich nicht selbst übernehmen konnte bzw. sollte.
+Konkret waren vor allem die von mir entworfenen Zwischenergebnisse nicht von mir selber zu prüfen, hier war explizit ein 4-Augen-Prinzip vorgesehen.\
+Für die Anbindung des #abbr("qrs") habe ich die im vorherigen KCI beschriebenen Aufgaben dem Entwickler zugewiesen, der bei uns das Expertenwissen zur Plattform hielt.
+Auch hier habe ich eine Aufgabenliste erstellt, um dem Entwickler eine möglichst klare Übersicht zu schaffen was zu erledigen war.
+Für diese Aufgabenliste habe ich ebenfalls geprüft, dass sie keine Aufgaben enthielt, die ich nicht auch selbst übernehmen könnte.\
+Zu guter letzt habe ich mir eine eigene Übersicht über die verbleibenden Aufgaben erstellt.
+Diese habe ich in Form eines Kanban-Boards für mich selbst angelegt, auf dem ich im weiteren Verlauf den Fortschritt festgehalten habe.
+In dieser Übersicht habe ich zudem markiert, welche Aufgaben zwingend erfüllt sein mussten, bevor ich die ausgelagerten Aufgaben an den Entwickler bzw. an #glossary("nils") abgeben konnte.
 
-Um die Aufteilung des oben beschriebenen Arbeitspaketes zu ermöglichen, hatte ich zunächst das anvisierte Ergebnis des Arbeitspaketes in die kleinstmöglichen Teilergebnisse zerlegt und diese dann wie beschrieben unterteilt.
-Daraus ergab sich bereits eine klare Liste von Aufgaben, sowie eine Liste von Aufgaben, die explizit nicht durch den Entwickler zu erledigen waren.
-Diese Listen habe ich in einer für den Entwickler sinnvollen Form abgefasst.
-
-Der Entwickler hat eine Liste von Aufgaben vorgelegt bekommen, sowie eine Liste expliziter Abgrenzungen zu Teilen, die nicht durch ihn zu implementieren waren.
+Mithilfe der klaren Zuteilung und zugehörigen Aufgabenlisten konnte ich sicherstellen, dass stets einfach einsehbar war, was die nächsten zu erledigenden Schritte sind.
+Der zusätzliche Entwickler und #glossary("nils") wurden von mir klar informiert welche Aufgaben sie wann erledigen mussten, sodass sie sich diese Tätigkeiten frühzeitig einplanen konnten.
 
 === 04.05.09 #DONE (2/2) Beschaffung<beschaffung>
 Über die aufgebaute Schnittstelle zu #glossary("optadata_focus") werden in regelmäßigen Abständen unsere Produktdaten übertragen.
