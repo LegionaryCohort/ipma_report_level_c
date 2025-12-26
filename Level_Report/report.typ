@@ -93,6 +93,7 @@
         "1.4", "26.12.2025", "KCI 04.05.08.04 detaillierter ausgeführt", [@ressourcen_zuteilung],
         "1.4", "26.12.2025", "KCI 04.03.05.01 hinzugefügt und beschrieben", [@local_culture],
         "1.4", "26.12.2025", "KCI 04.04.03.03: andere Situation gewählt und beschrieben", [@kommunikations_arten],
+        "2.0", "23.12.2025", "KCI 04.05.06.05 entfernt", [@qualitaet ff.],
     )
 
     pagebreak()
@@ -591,7 +592,7 @@ In allen Nachrichten, Berichten und Besprechungen wurden nur die Links auf die e
 
 Durch die Verwendung von #glossary("notion"), sowie unsere fortlaufende Optimierung unserer Seiten und Templates darin, kam es nur selten zu Fehlkommunikationen oder Missverständnissen.
 
-=== 04.05.06 #DONE (4/3) Qualität<qualitaet>
+=== 04.05.06 #DONE (3/3) Qualität<qualitaet>
 ==== *04.05.06.02* #DONE Projekt mit seinen Lieferobjekten überprüfen, um sicherzustellen, dass sie die Anforderungen des Qualitätsmanagementplans weiterhin erfüllen
 Für das Schnittstellenprojekt zum ERP-System #glossary("optadata_focus") musste mit dem Kunden abgeklärt werden, wie wir die Qualität der von uns entwickelten Endpoints sicherstellen wollen.
 
@@ -629,24 +630,6 @@ Unter anderem wird auf diesem die Software zur Abnahme durch den Endanwendern va
 Für das #abbr("qrs") Projekt habe ich den gewohnten Prozess wie oben beschrieben eingeführt und dementsprechend die Validierung mit den Endanwendern durchgeführt.
 
 Das #abbr("qrs") wurde erfolgreich validiert und anschließend abgenommen.
-
-==== *04.05.06.05* #DONE Qualität im Verlauf des Projekts sicherstellen
-Im Laufe der Jahre haben wir im Unternehmen ein Standard-Vorgehen für unsere Projekte entwickelt.
-Dieses beinhaltete einen Standard-Prozess für die Qualitätssicherung:
-- Jeglicher entwickelter Code wird von den Entwicklern lokal getestet
-- Code, der vom Entwickler als fertig erachtet und lokal getestet wurde, wird auf einem Test/QA-Server deployed
-- Dort wird der Code erneut vom Entwickler unter live-ähnlichen Bedingungen getestet
-- Wenn keine Fehler gefunden wurden, wird der Code aus Nutzer-Sicht von mindestens einem Endanwender getestet und validiert
-- Wenn dieser Test ebenfalls erfolgreich verlief, dann wird der Code in eine Live-Umgebung deployed und nochmals von den Endanwendern getestet, um zu verifizieren, dass das Deployment fehlerfrei verlaufen ist
-- Anschließend erfolgt die offizielle Abnahme
-
-Für jedes der Projekte unter meiner Verantwortung galt es diesen Qualitätsprozess mit einzuführen.
-
-Ich habe für jedes Projekt zunächst beurteilt, ob der zugehörige Code auf einem eigenen Server laufen sollte, oder auf einem bereits bestehenden Server deployed werden soll.
-Da wir für jeden Server im Live-Betrieb einen zugehörigen QA-Server haben, ergab sich aus dieser Zuordnung entweder direkt der zu verwendende QA-Server, oder (im Falle eines neuen Live-Servers für das Projekt) die Notwendigkeit einen neuen QA-Server mit aufzusetzen.\
-Desweiteren wurden die Deploymentprozesse für Software übernommen und für das jeweilige Projekt konfiguriert.
-
-Durch den konsequenten Einsatz unseres Prozesses wurden wiederholt Fehler und Probleme mit der Software frühzeitig entdeckt und konnten behoben werden, bevor ein größerer Schaden entstehen konnte.
 
 === 04.05.07 #LOSS (1/3) Kosten und Finanzierung <kosten>
 ==== *04.05.07.01* #DONE Projektkosten abschätzen
