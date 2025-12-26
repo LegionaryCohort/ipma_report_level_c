@@ -36,7 +36,7 @@
 // #let todo(body, color: red) = []
 // #let LOSS = []
 // #let TODO = []
-// #let MAYBE = []
+// #let MAYBE(good: false) = []
 // #let DONE = []
 
 #let weblink(display: str, url: str) = {
