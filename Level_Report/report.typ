@@ -89,6 +89,7 @@
         "1.3", "25.12.2025", "KCI 04.05.11.03 detaillierter ausgeführt", [@wahrscheinlichkeit],
         "1.3", "25.12.2025", "KCI 04.05.11.05 detaillierter ausgeführt", [@risiken_tracken],
         "1.3", "25.12.2025", "KCI 04.03.05.02 detaillierter ausgeführt", [@formelle_werte],
+        "1.4", "26.12.2025", "KCI 04.03.05.01 hinzugefügt und beschrieben", [@local_culture],
     )
 
     pagebreak()
@@ -938,7 +939,7 @@ Neben der Ermittlung der fachlichen Anforderungen, habe ich in diesen Gespräche
 Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv den Kontakt zu mir gesucht, um Informationen und neue Ideen zu liefern.
 
 == PM-Wahlelemente
-=== 04.03.01 #MAYBE() (2-3/3) Strategie
+=== 04.03.01 #MAYBE(good: true) (2-3/3) Strategie
 ==== *04.03.01.01* #MAYBE() Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen <einklang_vision>
 Zu Beginn des QRS Projektes stand zunächst nur die Idee im Raum, mittels Daten-Qualitätsprüfungen unsere Aufwände in der Datenpflege zu reduzieren und somit Kosten zu sparen.
 
@@ -984,7 +985,20 @@ In Zukunft würde der Importer schnell unzureichend werden.\
 Aus diesem Grund konnte ich den Bau des neuen Import-Moduls als sinnvoll bewerten.
 Für den Übergang, während das neue Modul aufgebaut wird, konnten wir den alten Importer weiter nutzen, aber das Ablösen des alten Importers war strategisch eine sinnvolle und notwendige Entscheidung.
 
-=== 04.03.05 #MAYBE() (1-2/2) Kultur und Werte
+=== 04.03.05 #MAYBE(good: true) (1-3/2) Kultur und Werte
+==== *04.03.05.01* #MAYBE() Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen <local_culture>
+Die #glossary("audoora") hat ausschließlich Mitarbeiter in Deutschland.
+Entsprechend gab es gewisse kulturellen Normen und Erwartungen, die einzuhalten waren.
+
+Im Allgemeinen ist die Arbeitskultur in Deutschland bekannt dafür, dass Pünktlichkeit, Ordnung, Struktur und ein respektvoller Umgang mit der Freizeit der Kollegen sehr groß geschrieben werden.
+So auch in unserem Unternehmen, wo von unseren Mitarbeitern insbesondere Wert auf die letzten beiden Punkte gelegt wurde.
+Ich habe dementsprechend sichergestellt, dass ich bei der Übergabe von Informationen oder Aufgaben stets eine möglichst strukturierte Aufstellung der relevanten Punkte erstellt habe und diese in ordentlicher Form an den entsprechenden Kollegen überreicht habe.
+Zudem habe ich darauf geachtet möglichst keine Nachrichten oder E-Mails an Kollegen zu senden, wenn diese gerade in ihrer Freizeit oder im Urlaub waren.
+Sollte ich doch mal innerhalb dieser Zeiten geschrieben haben, habe ich immer darauf geachtet in der Nachricht klar zu betonen, dass ich keine Antwort erwarte, bis der Kollege wieder in seine reguläre Arbeitszeit zurückgekehrt ist.
+
+Es gab wiederholt das Feedback von unseren Mitarbeitern, dass sie es sehr schätzen wie ihre Freizeit respektiert wird.
+Insgesamt herrschte eine hohe Zufriedenheit im gesamten Unternehmen bzgl. der Arbeitskultur.
+
 ==== *04.03.05.02* #MAYBE() Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen <formelle_werte>
 Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an (im Gegensatz zu dem weit verbreiteten Fokus auf nur Hörgeräte).
 Als Teil dieser Mission legt die #glossary("audoora") viel Wert auf hochwertige und moderne Software-Standards.
