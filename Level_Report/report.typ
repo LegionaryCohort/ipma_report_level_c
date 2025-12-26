@@ -1,4 +1,5 @@
 #import "@preview/cheq:0.3.0": checklist
+#import "utils.typ": todo
 #show: checklist
 
 #import "report_abbr.typ": abbr, abbr_entries
@@ -746,6 +747,8 @@ Diese Modelle habe ich anschließend im Austausch mit #glossary("nils") gegenüb
 ==== *04.05.09.04* Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen
 Es galt die identifizierten Maßnahmen zum Managen der Vertragserfüllung umzusetzen.
 
+#todo("Rückbezug nicht mehr vorhanden!")
+
 Die im vorherigen KCI identifizierten Änderungen an unseren Endpoints habe ich in die entsprechenden Arbeitspakete mit eingeplant.
 Da ich eingeschätzt hatte, dass es sich dabei weitesgehend um geringfügige Anpassungen handelte, änderte der Umfang der Arbeitspakete sich nicht nennenswert.
 Eine Anpassung des Terminplans habe ich entsprechend als nicht notwendig bewertet.
@@ -823,7 +826,7 @@ Konkret geht es dabei um die Schnittstelle zwischen dem Import-Modul und der Pro
 ==== *04.05.11.02* Chancen und Risiken identifizieren
 Da das Import-Modul direkten Zugang zu unserer Produktdatenbank zwingend erfordert, um die Imports durchzuführen, habe ich im Rahmen der Planung direkt das Risiko identifiziert, dass fehlerhafte Zugriffe auf die Datenbank zu erheblichem Schaden an unseren Daten führen könnte.
 Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
-- Fehlerhaftes abspeichern der Neudaten
+- Fehlerhaftes Abspeichern der Neudaten
 - Fehlerhafte Anpassung bestehender Daten
 - Unvollständigkeit der Daten bei abgebrochenem Import-Vorgang
 #v(-6pt)
@@ -897,7 +900,7 @@ Dort wurde die Kooperation leider abgelehnt.
 ==== *04.05.12.03* Geschäftsführung, Auftraggeber und höheres Management einbinden, um Commitment zu erreichen und um Interessen und Erwartungen zu managen
 In der Planung des #abbr("qrs") Projektes hatte #glossary("nils") als Auftraggeber bereits eine Vorstellung davon, was das #abbr("qrs") am Ende leisten sollte.
 Konkret wollte er ein System, das die Fehler in unserer Datenbank erkennt und direkt beheben kann.
-Im war klar, dass der Korrektur-Prozess nicht automatisch sein kann, da es sich bei Fehlern in den allermeisten Fällen um fehlende oder falsch eingetragene Daten handelte, die sich nicht automatisch korrigieren lassen.
+Ihm war klar, dass der Korrektur-Prozess nicht automatisch sein kann, da es sich bei Fehlern in den allermeisten Fällen um fehlende oder falsch eingetragene Daten handelte, die sich nicht automatisch korrigieren lassen.
 Allerdings hatte er die Vorstellung, dass wir einmal ein allgemeines System bauen könnten, das es erlaubt beliebige Korrekturen vorzunehmen, ohne spätere Anpassungen zu erfordern.
 
 Diese Erwartungen bzgl. des Projektes galt es zu managen.
@@ -980,6 +983,8 @@ Es gab wiederholt das Feedback von unseren Mitarbeitern, dass sie es sehr schät
 Insgesamt herrschte eine hohe Zufriedenheit im gesamten Unternehmen bzgl. der Arbeitskultur.
 
 ==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen <formelle_werte>
+#todo("Ggfs. neu formulieren, Abschnitt könnte besser strukturiert sein")
+
 Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an (im Gegensatz zu dem weit verbreiteten Fokus auf nur Hörgeräte).
 Als Teil dieser Mission legt die #glossary("audoora") viel Wert auf hochwertige und moderne Software-Standards.
 Das schließt neben modernen Nutzeroberflächen auch das Design der dahinterliegenden Code-Base, sowie die Qualität von Daten und Datenstandards, mit ein.\
