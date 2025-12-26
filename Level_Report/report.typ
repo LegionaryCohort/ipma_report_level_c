@@ -89,6 +89,7 @@
         "1.3", "25.12.2025", "KCI 04.05.11.03 detaillierter ausgeführt", [@wahrscheinlichkeit],
         "1.3", "25.12.2025", "KCI 04.05.11.05 detaillierter ausgeführt", [@risiken_tracken],
         "1.3", "25.12.2025", "KCI 04.03.05.02 detaillierter ausgeführt", [@formelle_werte],
+        "1.4", "26.12.2025", "KCI 04.05.05.02 detaillierter ausgeführt", [@verantwortlichkeiten],
         "1.4", "26.12.2025", "KCI 04.05.08.04 detaillierter ausgeführt", [@ressourcen_zuteilung],
         "1.4", "26.12.2025", "KCI 04.03.05.01 hinzugefügt und beschrieben", [@local_culture],
         "1.4", "26.12.2025", "KCI 04.04.03.03: andere Situation gewählt und beschrieben", [@kommunikations_arten],
@@ -543,7 +544,7 @@ Diese Verhältnisse habe ich in Form eines Ablaufdiagramms festgehalten (siehe @
 
 Die fertige Ablaufplanung diente für die Umsetzung des Projektes als leitende Referenz und de facto Todo-Liste.
 
-=== 04.05.05 #MAYBE() (1-2/2) Organisation, Information und Dokumentation
+=== 04.05.05 #MAYBE(good: true) (1-3/2) Organisation, Information und Dokumentation
 Für das gesamte Programm habe ich mich zu Beginn im Rahmen der Übergabe mit #glossary("nils") zusammengesetzt, um die Details der Zusammenarbeit zu klären.
 Ein Teil dieser Gespräche war die Klärung der verwendeten Informations- und Kommunikationsstrukturen.
 
@@ -562,15 +563,17 @@ Beispielsweise habe ich im #glossary("optadata_focus") Projekt mit dem Kunden ge
 
 Über die verschiedenen Kommunikationsarten und -kanäle war es mir möglich stets die benötigten Informationen an die richtigen Leute zu leiten.
 
-==== *04.05.05.02* #TODO Struktur, Rollen und Verantwortlichkeiten im Projekt definieren
-#todo("Anforderungen")
-
+==== *04.05.05.02* #MAYBE() Struktur, Rollen und Verantwortlichkeiten im Projekt definieren <verantwortlichkeiten>
 Es galt die konkreten Verantwortlichkeiten zu verteilen.
 
 Allgemein sind wir im Unternehmen Aufgaben meist kollaborativ angegangen, d.h. Verantwortung für Aufgaben wurde nicht auf Einzelpersonen übertragen, sondern auf mehrere Personen zusammen (in den allermeisten Fällen Personenpaare).
 Da sich dieser Ansatz in der Vergangenheit bewährt hatte, haben wir entschieden ihn für das Programm mit zu übernehmen.
 Konkret hieß das, dass ich die Planung der einzelnen Projekte in Leistungen, Zeit und Budget meist kollaborativ mit #glossary("nils") im Vier-Augen-Prinzip durchgeführt habe.
-Die Verantwortung für die tatsächliche Umsetzung und Überwachung derselben lag wiederum bei mir allein.
+Die Verantwortung für die tatsächliche Umsetzung und Überwachung derselben lag wiederum bei mir allein.\
+Wir haben zudem festgelegt, dass die Zuteilung von zusätzlichen Ressourcen, insb. Entwicklern, auf einer case-by-case Basis stattfinden würde.
+Dazu war es meine Aufgabe den Bedarf für das betreffende Projekt zu ermitteln und diesen an #glossary("nils") zu melden.
+Im gemeinsamen Gespräch wurde dann ermittelt wie wir diesen Bedarf konkret decken wollen und ggfs. entsprechende Freigaben durch #glossary("nils") erteilt.
+Mir wurde dabei nur die fachliche Weisungsbefugnis übertragen, und nur für die abgesprochene Dauer innerhalb des Projektes.
 
 Durch die geteilten Verantwortlichkeiten konnten wir sicherstellen, dass Blind-Spots früher erkannt wurden.
 Auch haben wir damit sichergestellt, dass alle Ideen und Ansätze robuster waren und es in der praktischen Umsetzung durch Abwesenheiten o.ä. nicht zu Verzögerungen kam.
