@@ -984,15 +984,12 @@ Es gab wiederholt das Feedback von unseren Mitarbeitern, dass sie es sehr schät
 Insgesamt herrschte eine hohe Zufriedenheit im gesamten Unternehmen bzgl. der Arbeitskultur.
 
 ==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen <formelle_werte>
-#todo("Ggfs. neu formulieren, Abschnitt könnte besser strukturiert sein")
-
-Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an (im Gegensatz zu dem weit verbreiteten Fokus auf nur Hörgeräte).
-Als Teil dieser Mission legt die #glossary("audoora") viel Wert auf hochwertige und moderne Software-Standards.
-Das schließt neben modernen Nutzeroberflächen auch das Design der dahinterliegenden Code-Base, sowie die Qualität von Daten und Datenstandards, mit ein.\
+Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an.
+Teil dieser übergeordneten Mission ist die Verwendung hochwertiger und moderner Software-Standards (moderne Nutzeroberflächen, hohe Code- und Datenqualität, etc.).\
 Als kleines Startup war unsere gesamte Kultur mit ihren Normen und Werten sehr flexibel und im Wandel.
 Vieles entwickelte sich im Laufe der Zeit und wurde ebenso regelmäßig wieder angepasst, wenn neue Erkenntnisse gewonnen wurden.
-Entsprechend gab es (abgesehen von der Mission) keine formell definierten Normen und Werte.
-Vielmehr galt es im Laufe unserer verschiedenen Projekte schrittweise festzuhalten, was sich für uns informell als Best-Practice mit der Zeit etabliert hatte.
+Entsprechend gab es (abgesehen von der Mission) keine formell definierten Normen und Werte, dafür umsomehr informelle.
+Im Laufe unserer verschiedenen Projekte wollten wir das, was sich für uns informell als Best-Practice mit der Zeit etabliert hatte, schrittweise festhalten und formalisieren.
 
 Unsere Mission war stets in meinen Projekten einzubringen und anzuwenden.
 Ebenso galt es die Normen und Werte, die wir informell einhielten, schrittweise festzuhalten und damit einen formellen Rahmen zu schaffen.
@@ -1009,7 +1006,7 @@ Diese Dokumentation und Standards habe ich dann sowohl in meinen eigenen Projekt
 
 Durch die Etablierung der besagten Standards konnte ich erreichen, dass wir für den Qualitätsanspruch unseres Unternehmens formelle Normen haben.
 Für meine eigenen Projekte haben diese bereits in der Entwicklung einige Fehler verhindern können, die sonst wahrscheinlich aufgetreten wären.
-Inwiefern die Standards in anderen Projekten Mehrwerte erzeugt haben, bzw. auch Projekt-übergreifend, kann ich nicht beurteilen, da ich das Unternehmen verlassen habe, bevor das Ganze nochmals reflektiert wurde.
+Inwiefern die Standards in anderen Projekten, bzw. auch Projekt-übergreifend, Mehrwerte erzeugt haben, kann ich nicht beurteilen, da ich das Unternehmen verlassen habe, bevor die Ergebnisse in dieser Hinsicht nochmals reflektiert wurden.
 
 ==== *04.03.05.03* Die informelle Kultur und Werte der Organisation und deren Auswirkungen auf das Projekt beurteilen
 Innerhalb des Unternehmens haben wir allgemein einen sehr lockeren und vertrauensbasierten Umgang miteinander gepflegt.
