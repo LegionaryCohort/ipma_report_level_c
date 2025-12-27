@@ -93,7 +93,8 @@
         "1.4", "26.12.2025", "KCI 04.05.08.04 detaillierter ausgeführt", [@ressourcen_zuteilung],
         "1.4", "26.12.2025", "KCI 04.03.05.01 hinzugefügt und beschrieben", [@local_culture],
         "1.4", "26.12.2025", "KCI 04.04.03.03: andere Situation gewählt und beschrieben", [@kommunikations_arten],
-        "2.0", "26.12.2025", "KCI 04.05.06.05 entfernt", [@qualitaet ff.],
+        "1.4", "26.12.2025", "KCI 04.05.06.05 entfernt", [@qualitaet ff.],
+        "2.0", "27.12.2025", "KCI 04.05.09.04: Rückbezug zu anderem KCI entfernt und Satz für Kontext ergänzt", [@vertragsausfuehrung ff.],
     )
 
     pagebreak()
@@ -744,12 +745,12 @@ Diese Modelle habe ich anschließend im Austausch mit #glossary("nils") gegenüb
 
 #glossary("nils") hat sich für die Vereinbarung eines Kooperationsvertrages entschieden.
 
-==== *04.05.09.04* Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen
+==== *04.05.09.04* Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen <vertragsausfuehrung>
+Um die vertraglich geforderte Zuverlässigkeit, Serverlast und Antwortgeschwindigkeit unseres Gateways sicherzustellen, hatte ich eine handvoll nötige Änderungen an unseren Gateway-Endpoints identifiziert.
+
 Es galt die identifizierten Maßnahmen zum Managen der Vertragserfüllung umzusetzen.
 
-#todo("Rückbezug nicht mehr vorhanden!")
-
-Die im vorherigen KCI identifizierten Änderungen an unseren Endpoints habe ich in die entsprechenden Arbeitspakete mit eingeplant.
+Die im identifizierten Änderungen an unseren Endpoints habe ich in die entsprechenden Arbeitspakete mit eingeplant.
 Da ich eingeschätzt hatte, dass es sich dabei weitesgehend um geringfügige Anpassungen handelte, änderte der Umfang der Arbeitspakete sich nicht nennenswert.
 Eine Anpassung des Terminplans habe ich entsprechend als nicht notwendig bewertet.
 
