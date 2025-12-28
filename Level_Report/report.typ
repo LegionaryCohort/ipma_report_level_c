@@ -6,6 +6,24 @@
 
 #let report_version = "2.0"
 #let report_date = "27.12.2025"
+#let change_mode = true
+
+
+#let delete(content) = {
+    if change_mode {
+        text(fill: maroon, strike(content))
+    } else {
+        []
+    }
+}
+
+#let add(content) = {
+    if change_mode {
+        text(fill: olive, underline(evade: true, stroke: 1pt, content))
+    } else {
+        content
+    }
+}
 
 #set page(margin: 2.4cm, numbering: none)
 #set text(size: 11pt, lang: "de")
