@@ -92,8 +92,8 @@
         "1.1", "22.12.2025", "KCI 04.05.09.03 entfernt", [@beschaffung_3],
         "1.1", "22.12.2025", "KCI 04.03.01.01 detaillierter ausgeführt", [@einklang_vision],
         "1.1", "22.12.2025", "KCI 04.04.03.04 detaillierter ausgeführt", [@virtual_teams],
-        "1.2", "23.12.2025", "KCI 04.03.03.04 entfernt", [@compliance ff.],
-        "1.2", "23.12.2025", "KCI 04.03.03.06 hinzugefügt und beschrieben", [@org_kompetenzen],
+        "1.2", "23.12.2025", "KCI 04.03.03.04 entfernt", [@compliance_4],
+        "1.2", "23.12.2025", "KCI 04.03.03.06 hinzugefügt und beschrieben", [@compliance_6],
         "1.2", "23.12.2025", "KCI 04.04.05.02 entfernt", [@fuehrung ff.],
         "1.2", "23.12.2025", "KCI 04.05.01.03 entfernt", [@projekt_design ff.],
         "1.2", "23.12.2025", "KCI 04.05.03.01 detaillierter ausgeführt", [@lieferobjekte],
@@ -273,7 +273,7 @@ In diesen Gesprächen habe ich ihm den Status der Projekte, sowie die angefallen
 
 Über die regelmäßigen Updates konnte #glossary("nils") alle notwendigen Informationen erhalten, die er brauchte, um seiner Verantwortung bzgl. der Finanzen nachzukommen.
 
-=== 04.03.03 Compliance, Standards und Regularien <compliance>
+=== 04.03.03 Compliance, Standards und Regularien
 ==== *04.03.03.01* Die für das Projekt gültigen Rechtsvorschriften identifizieren und einhalten
 Ein Teil der Schnittstelle zu #glossary("optadata_focus") erfordert die Übermittlung von E-Mail-Adressen und Kundennummern der Nutzer des #glossary("optadata_focus") Systems.
 
@@ -284,6 +284,16 @@ Diesem habe ich zunächst die geplanten Schnittstellen-Prozesse dargelegt und au
 Ich habe ihn dann gebeten zu beurteilen, welche Maßnahmen zur Sicherung der Daten notwendig sein würden und mir eine Übersicht über die einzuhaltenden Richtlinien zu erstellen.
 
 Mit der mir zur Verfügung gestellten Übersicht konnte ich in der weiteren Planung sicherstellen, dass die betroffenen Daten korrekt gehandhabt werden und alle Vorgaben der DSGVO eingehalten werden.
+
+#delete([
+    ==== *04.03.03.04* Für das Projekt relevante Prinzipien und Ziele der Nachhaltigkeit identifizieren und einhalten <compliance_4>
+    Eines der allgemeinen Ziele unseres Unternehmens war es, die Büroarbeit der Akustiker zu vereinfachen.
+    Dazu gehörte unter anderem das Ersetzen von Papier-Prozessen durch digitale Vorgänge.
+    Damit wurden nicht nur die Effizienzsteigerungen, die mit digitalen Prozessen einhergehen, verfolgt, sondern auch der positive Effekt auf die Umwelt durch die Reduzierung des Papierverbrauchs im operativen Alltag der Akustiker.
+
+    Während dieses Ziel nicht direkt im Vordergrund stand, so habe ich es dennoch oft in Gesprächen mit Akustikern mit angebracht als "Bonus-Effekt", der sich aus einer Umstellung ergibt.
+    Tatsächlich wurde in einer früheren Version unserer Produktdatenplattform auch damit geworben, dass #glossary("audoora") für abgeschlossene Einkäufe über die Plattform Bäume pflanzt. Zu dieser Zeit war ich in dem Projekt jedoch nur als Entwickler tätig, die Verantwortung für das Programm habe ich erst später übernommen.
+])
 
 ==== *04.03.03.05* Für das Projekt relevante fachliche Standards und Tools beurteilen, nutzen und weiterentwickeln
 Für die Produktdaten der Hörakustik-Branche existiert der #abbr("himsa") Standard.
@@ -301,19 +311,20 @@ Im Rahmen dieser Planung habe ich festgestellt, dass der #abbr("himsa") Standard
 Als Konsequenz daraus habe ich mit in die Planung aufgenommen, dass wir die Konvertierung zwischen unserer Struktur und dem Standard deutlich genauer betrachten müssen.
 Da eine Anpassung des Standards nicht in unserer Hand lag, wäre es notwendig geworden in der Konvertierung um diesen Umstand herumarbeiten zu müssen.
 
-==== *04.03.03.06* Die Projektmanagementkompetenz der Organisation beurteilen, vergleichen und verbessern <org_kompetenzen>
-Im Rahmen diverser Projekte, auch außerhalb meiner Verantwortung, war es immer wieder notwendig ein direktes Gespräch zwischen unseren Entwicklern auf der einen Seite und den Projekt-Kunden und -Stakeholdern auf der anderen, zu führen, um Detailfragen zu klären.
-Bei diesen Gesprächen kam es wiederholt zu Missverständnissen und unproduktiven Diskussionen.
+#add([
+    ==== *04.03.03.06* Die Projektmanagementkompetenz der Organisation beurteilen, vergleichen und verbessern <compliance_6>
+    Im Rahmen diverser Projekte, auch außerhalb meiner Verantwortung, war es immer wieder notwendig ein direktes Gespräch zwischen unseren Entwicklern auf der einen Seite und den Projekt-Kunden und -Stakeholdern auf der anderen, zu führen, um Detailfragen zu klären.
+    Bei diesen Gesprächen kam es wiederholt zu Missverständnissen und unproduktiven Diskussionen.
 
-Als Kern-Ursache haben wir ermittelt, dass die Kompetenzen einiger unserer Entwickler im Bereich Stakeholder-Management und -Kommunikation ausbaufähig waren.
+    Als Kern-Ursache haben wir ermittelt, dass die Kompetenzen einiger unserer Entwickler im Bereich Stakeholder-Management und -Kommunikation ausbaufähig waren.
 
-Um dem entgegenzuwirken, habe ich für meine Projekte im Vorfeld zu solchen Gesprächen mit den Entwicklern eine Vorbereitung durchgeführt.
-In dieser haben wir die zu klärenden Fragen sauber strukturiert und Formulierungen gesucht, die für den Kunden möglichst verständlich waren.
-Außerdem habe ich die Entwickler darin unterstützt sich mental auf die nicht-technische Natur des Gespräches einzustellen und einzulassen.
+    Um dem entgegenzuwirken, habe ich für meine Projekte im Vorfeld zu solchen Gesprächen mit den Entwicklern eine Vorbereitung durchgeführt.
+    In dieser haben wir die zu klärenden Fragen sauber strukturiert und Formulierungen gesucht, die für den Kunden möglichst verständlich waren.
+    Außerdem habe ich die Entwickler darin unterstützt sich mental auf die nicht-technische Natur des Gespräches einzustellen und einzulassen.
 
-Durch diese Vorbereitungen konnten wir in den Kundengesprächen unnötige Diskussionen vermeiden und Fragen schnell klären.
-Es war uns zudem möglich dem Kunden klar zu vermitteln, dass wir seine Anforderungen und Bedürfnisse verstanden haben und berücksichtigen.
-
+    Durch diese Vorbereitungen konnten wir in den Kundengesprächen unnötige Diskussionen vermeiden und Fragen schnell klären.
+    Es war uns zudem möglich dem Kunden klar zu vermitteln, dass wir seine Anforderungen und Bedürfnisse verstanden haben und berücksichtigen.
+])
 
 === 04.03.04 Macht und Interessen
 Im Rahmen des #glossary("optadata_focus") Projektes hatten wir unter anderem Kontakt mit der Einkaufsgemeinschaft #glossary("meditrend"), die ebenfalls ihre Produktdatenkataloge im neuen ERP-System anbieten und damit in direkte Konkurrenz mit uns treten wollten.
