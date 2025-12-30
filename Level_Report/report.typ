@@ -5,7 +5,7 @@
 #import "report_glossary.typ": glossary, glossary_entries
 
 #let report_version = "2.0"
-#let report_date = "27.12.2025"
+#let report_date = "30.12.2025"
 
 
 #let change_mode = true
@@ -111,10 +111,8 @@
         "1.4", "26.12.2025", "KCI 04.03.05.01 hinzugefügt und beschrieben", [@kultur_1],
         "1.4", "26.12.2025", "KCI 04.04.03.03: andere Situation gewählt und beschrieben", [@kommunikation_3],
         "1.4", "26.12.2025", "KCI 04.05.06.05 entfernt", [@qualitaet_5],
-        "2.0",
-        "27.12.2025",
-        "KCI 04.05.09.04: Rückbezug zu anderem KCI entfernt und Satz für Kontext ergänzt",
-        [@beschaffung_4],
+        "2.0", "27.12.2025", "KCI 04.05.09.04: Rückbezug zu anderem KCI mit Kontext ersetzt", [@beschaffung_4],
+        "2.0", "30.12.2025", "Report im Änderungsmodus dargestellt", [-],
     )
 
     pagebreak()
