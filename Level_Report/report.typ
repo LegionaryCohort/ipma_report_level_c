@@ -1047,11 +1047,13 @@ Diese Modelle habe ich anschließend im Austausch mit #glossary("nils") gegenüb
 ])
 
 ==== *04.05.09.04* Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen <beschaffung_4>
-Um die vertraglich geforderte Zuverlässigkeit, Serverlast und Antwortgeschwindigkeit unseres Gateways sicherzustellen, hatte ich eine handvoll nötige Änderungen an unseren Gateway-Endpoints identifiziert.
+#add([
+    Um die vertraglich geforderte Zuverlässigkeit, Serverlast und Antwortgeschwindigkeit unseres Gateways sicherzustellen, hatte ich eine handvoll nötige Änderungen an unseren Gateway-Endpoints identifiziert.
+])
 
 Es galt die identifizierten Maßnahmen zum Managen der Vertragserfüllung umzusetzen.
 
-Die im identifizierten Änderungen an unseren Endpoints habe ich in die entsprechenden Arbeitspakete mit eingeplant.
+Die #delete([im vorherigen KCI ])identifizierten Änderungen an unseren Endpoints habe ich in die entsprechenden Arbeitspakete mit eingeplant.
 Da ich eingeschätzt hatte, dass es sich dabei weitesgehend um geringfügige Anpassungen handelte, änderte der Umfang der Arbeitspakete sich nicht nennenswert.
 Eine Anpassung des Terminplans habe ich entsprechend als nicht notwendig bewertet.
 
