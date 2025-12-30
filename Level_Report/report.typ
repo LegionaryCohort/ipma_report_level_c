@@ -630,20 +630,37 @@ Mit den definierten Aufgaben wurde die weitere Planung vorgenommen.
 Im weiteren Verlauf der Planung wurden die Abhängigkeiten zwischen den Aufgaben, sowie die Phasen, in die das Projekt unterteilt wurde, hinzugefügt (siehe die nachfolgenden KCIs).
 
 ==== *04.05.04.02* Arbeitsaufwand und Dauer von Aktivitäten festlegen <termine_2>
-Für alle anstehend Aufgaben habe ich einige planungsrelevante Faktoren überprüft:
+#delete([
+    Für alle Aufgaben musste identifiziert werden, wer die Aufgaben umsetzen sollte.
+])
+
+#delete([Für alle Aufgaben habe ich zwei Aspekte])#add([Für alle anstehend Aufgaben habe ich einige planungsrelevante Faktoren]) überprüft:
 - In welchem System müssen Anpassungen vorgenommen werden?
 - Wird für die Aufgabe spezielles Wissen benötigt, und wenn ja, welches?
 #v(-6pt)
-Mithilfe dieser Informationen habe ich anschließend ermittelt, an wen die Aufgabe konkret abzugeben war.
-Diese Information war insofern wichtig, da ich die Schätzung des Zeitaufwandes den jeweils zuständigen Personen überlassen habe.
-Insb. im Falle von Aufgaben, zu denen ich selbst nicht die nötige Expertise hatte, war dies wichtig, um eine möglichst realistische Einschätzung zu erhalten.\
-Mit dem Wissen über die Zeitaufwände und zuständige Personen, konnte ich genauer prüfen inwiefern die Zuteilung umsetzbar war.
-Da sowohl auf unserer Seite, als auch seitens #glossary("optadata"), bestimmte Entwickler zeitweise nicht verfügbar waren, habe ich für einige Aufgaben ermittelt an welche andere Entwickler ich diese ggfs. übertragen kann.
-Gerade für die Konzeptionierung und die abschließenden Integration und Test-Phase habe ich sichergestellt, dass das dafür notwendige Expertenwissen verfügbar war.
+#delete([
+    Aus den Antworten auf die erste Fragen konnte ich zunächst ableiten welche Aufgaben von der #glossary("optadata") umzusetzen waren (da sie Änderungen am #glossary("optadata_focus") System erforderten).
+    Alle restlichen Aufgaben waren durch uns umzusetzen.
+    Dabei musste ich, gemäß den Antworten auf die zweite Frage, die Aufgaben denjenigen Entwicklern zuordnen, die über das nötige Spezialwissen verfügen.
+    Beispielsweise erforderten die Aufgaben bzgl. des Admin-Interfaces, dass der Entwickler sich mit unserer selbstentwickelten Management-Plattform auskennt, um das Interface dort korrekt einzubauen.
+])\
+#add([
+    Mithilfe dieser Informationen habe ich anschließend ermittelt, an wen die Aufgabe konkret abzugeben war.
+    Diese Information war insofern wichtig, da ich die Schätzung des Zeitaufwandes den jeweils zuständigen Personen überlassen habe.
+    Insb. im Falle von Aufgaben, zu denen ich selbst nicht die nötige Expertise hatte, war dies wichtig, um eine möglichst realistische Einschätzung zu erhalten.\
+    Mit dem Wissen über die Zeitaufwände und zuständige Personen, konnte ich genauer prüfen inwiefern die Zuteilung umsetzbar war.
+    Da sowohl auf unserer Seite, als auch seitens #glossary("optadata"), bestimmte Entwickler zeitweise nicht verfügbar waren, habe ich für einige Aufgaben ermittelt an welche andere Entwickler ich diese ggfs. übertragen kann.
+    Gerade für die Konzeptionierung und die abschließenden Integration und Test-Phase habe ich sichergestellt, dass das dafür notwendige Expertenwissen verfügbar war.
+])
 
-Mit den ermittelten Rahmenbedingungen der Aufgaben (Aufwand, erforderliches Wissen, etc.) konnte ich sowohl mit dem Kunden, als auch mit #glossary("nils"), die Verfügbarkeit der nötigen Leute abklären.
-In Teilen konnte ich dadurch auch Abhängigkeiten zwischen Aufgaben ermitteln, die ich zuvor nicht ermittelt hatte.
-Diese sind in die spätere Planung mit eingeflossen.
+#delete([
+    Mit der Zuordnung der Aufgaben konnte ich zum einen sehr schnell und klar dem Kunden kommunizieren welchen Aufgaben er nachkommen muss, und ich konnte mit #glossary("nils") die Verfügbarkeiten unserer Entwickler abklären.
+])\
+#add([
+    Mit den ermittelten Rahmenbedingungen der Aufgaben (Aufwand, erforderliches Wissen, etc.) konnte ich sowohl mit dem Kunden, als auch mit #glossary("nils"), die Verfügbarkeit der nötigen Leute abklären.
+    In Teilen konnte ich dadurch auch Abhängigkeiten zwischen Aufgaben ermitteln, die ich zuvor nicht ermittelt hatte.
+    Diese sind in die spätere Planung mit eingeflossen.
+])
 
 ==== *04.05.04.03* Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen <termine_3>
 #add([
