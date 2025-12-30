@@ -948,24 +948,41 @@ Anschließend habe ich #glossary("nils") die Option angeboten, den Entwickler nu
 Der Entwickler wurde für begrenzte Zeit meinem Projekt zugewiesen, wobei der Umfang der Aufgaben wie vereinbart reduziert wurde.
 
 ==== *04.05.08.04* Ressourcen gemäß dem festgelegten Bedarf zuweisen und verteilen <ressourcen_4>
-Für das Projekt waren die Aufgaben klar zuzuteilen und entsprechende Aufgabenlisten zu erstellen.
+#delete([
+    Für den im letzten KCI beschriebenen Entwickler war eine klare Aufgabenliste zu erstellen.
+])\
+#add([
+    Für das Projekt waren die Aufgaben klar zuzuteilen und entsprechende Aufgabenlisten zu erstellen.
+])
 
-Da der Großteil der Design-Arbeit bereits von mir durchgeführt wurde, habe ich die entsprechende Umsetzung ebenfalls mir selbst zugeteilt.
-Dadurch entstanden an dieser Stelle keine zusätzlichen Aufwände durch Übergaben oder Missverständnisse im Design.
-Die Umsetzung umfasste dabei den Aufbau der Reports sowie dem Kern des #abbr("qrs"), das die tatsächliche Datenverarbeitung vornahm.\
-Die Kontrolle der Ergebnisse, insb. solcher, die später von anderen verwendet werden sollten (also die Report-Definitionen, sowie die Protokolle und Fehlerlisten, die als Zwischenergebnisse produziert werden), habe ich #glossary("nils") zugewiesen.
-Dabei habe ich berücksichtigt, dass er noch diverse andere Tätigkeiten als Geschäftsführer auszuführen hatte.
-Dementsprechend habe ich sichergestellt, dass die konkrete Aufgabenliste für ihn ausschließlich solche Aufgaben enthielt, die ich nicht selbst übernehmen konnte bzw. sollte.
-Konkret waren vor allem die von mir entworfenen Zwischenergebnisse nicht von mir selber zu prüfen, hier war explizit ein 4-Augen-Prinzip vorgesehen.\
-Für die Anbindung des #abbr("qrs") habe ich die im vorherigen KCI beschriebenen Aufgaben dem Entwickler zugewiesen, der bei uns das Expertenwissen zur Plattform hielt.
-Auch hier habe ich eine Aufgabenliste erstellt, um dem Entwickler eine möglichst klare Übersicht zu schaffen was zu erledigen war.
-Für diese Aufgabenliste habe ich ebenfalls geprüft, dass sie keine Aufgaben enthielt, die ich nicht auch selbst übernehmen könnte.\
-Zu guter letzt habe ich mir eine eigene Übersicht über die verbleibenden Aufgaben erstellt.
-Diese habe ich in Form eines Kanban-Boards für mich selbst angelegt, auf dem ich im weiteren Verlauf den Fortschritt festgehalten habe.
-In dieser Übersicht habe ich zudem markiert, welche Aufgaben zwingend erfüllt sein mussten, bevor ich die ausgelagerten Aufgaben an den Entwickler bzw. an #glossary("nils") abgeben konnte.
+#delete([
+    Um die Aufteilung des oben beschriebenen Arbeitspaketes zu ermöglichen, hatte ich zunächst das anvisierte Ergebnis des Arbeitspaketes in die kleinstmöglichen Teilergebnisse zerlegt und diese dann wie beschrieben unterteilt.
+    Daraus ergab sich bereits eine klare Liste von Aufgaben, sowie eine Liste von Aufgaben, die explizit nicht durch den Entwickler zu erledigen waren.
+    Diese Listen habe ich in einer für den Entwickler sinnvollen Form abgefasst.
+])\
+#add([
+    Da der Großteil der Design-Arbeit bereits von mir durchgeführt wurde, habe ich die entsprechende Umsetzung ebenfalls mir selbst zugeteilt.
+    Dadurch entstanden an dieser Stelle keine zusätzlichen Aufwände durch Übergaben oder Missverständnisse im Design.
+    Die Umsetzung umfasste dabei den Aufbau der Reports sowie dem Kern des #abbr("qrs"), das die tatsächliche Datenverarbeitung vornahm.\
+    Die Kontrolle der Ergebnisse, insb. solcher, die später von anderen verwendet werden sollten (also die Report-Definitionen, sowie die Protokolle und Fehlerlisten, die als Zwischenergebnisse produziert werden), habe ich #glossary("nils") zugewiesen.
+    Dabei habe ich berücksichtigt, dass er noch diverse andere Tätigkeiten als Geschäftsführer auszuführen hatte.
+    Dementsprechend habe ich sichergestellt, dass die konkrete Aufgabenliste für ihn ausschließlich solche Aufgaben enthielt, die ich nicht selbst übernehmen konnte bzw. sollte.
+    Konkret waren vor allem die von mir entworfenen Zwischenergebnisse nicht von mir selber zu prüfen, hier war explizit ein 4-Augen-Prinzip vorgesehen.\
+    Für die Anbindung des #abbr("qrs") habe ich die im vorherigen KCI beschriebenen Aufgaben dem Entwickler zugewiesen, der bei uns das Expertenwissen zur Plattform hielt.
+    Auch hier habe ich eine Aufgabenliste erstellt, um dem Entwickler eine möglichst klare Übersicht zu schaffen was zu erledigen war.
+    Für diese Aufgabenliste habe ich ebenfalls geprüft, dass sie keine Aufgaben enthielt, die ich nicht auch selbst übernehmen könnte.\
+    Zu guter letzt habe ich mir eine eigene Übersicht über die verbleibenden Aufgaben erstellt.
+    Diese habe ich in Form eines Kanban-Boards für mich selbst angelegt, auf dem ich im weiteren Verlauf den Fortschritt festgehalten habe.
+    In dieser Übersicht habe ich zudem markiert, welche Aufgaben zwingend erfüllt sein mussten, bevor ich die ausgelagerten Aufgaben an den Entwickler bzw. an #glossary("nils") abgeben konnte.
+])
 
-Mithilfe der klaren Zuteilung und zugehörigen Aufgabenlisten konnte ich sicherstellen, dass stets einfach einsehbar war, was die nächsten zu erledigenden Schritte sind.
-Der zusätzliche Entwickler und #glossary("nils") wurden von mir klar informiert welche Aufgaben sie wann erledigen mussten, sodass sie sich diese Tätigkeiten frühzeitig einplanen konnten.
+#delete([
+    Der Entwickler hat eine Liste von Aufgaben vorgelegt bekommen, sowie eine Liste expliziter Abgrenzungen zu Teilen, die nicht durch ihn zu implementieren waren.
+])\
+#add([
+    Mithilfe der klaren Zuteilung und zugehörigen Aufgabenlisten konnte ich sicherstellen, dass stets einfach einsehbar war, was die nächsten zu erledigenden Schritte sind.
+    Der zusätzliche Entwickler und #glossary("nils") wurden von mir klar informiert welche Aufgaben sie wann erledigen mussten, sodass sie sich diese Tätigkeiten frühzeitig einplanen konnten.
+])
 
 === 04.05.09 Beschaffung<beschaffung>
 Über die aufgebaute Schnittstelle zu #glossary("optadata_focus") werden in regelmäßigen Abständen unsere Produktdaten übertragen.
