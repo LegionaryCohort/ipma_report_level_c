@@ -1239,29 +1239,55 @@ Es gab wiederholt das Feedback von unseren Mitarbeitern, dass sie es sehr schät
 Insgesamt herrschte eine hohe Zufriedenheit im gesamten Unternehmen bzgl. der Arbeitskultur.
 
 ==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen <kultur_2>
-Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an.
-Teil dieser übergeordneten Mission ist die Verwendung hochwertiger und moderner Software-Standards (moderne Nutzeroberflächen, hohe Code- und Datenqualität, etc.).\
-Als kleines Startup war unsere gesamte Kultur mit ihren Normen und Werten sehr flexibel und im Wandel.
-Vieles entwickelte sich im Laufe der Zeit und wurde ebenso regelmäßig wieder angepasst, wenn neue Erkenntnisse gewonnen wurden.
-Entsprechend gab es (abgesehen von der Mission) keine formell definierten Normen und Werte, dafür umsomehr informelle.
-Im Laufe unserer verschiedenen Projekte wollten wir das, was sich für uns informell als Best-Practice mit der Zeit etabliert hatte, schrittweise festhalten und formalisieren.
+Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an#delete([ (im Gegensatz zu dem weit verbreiteten Fokus auf nur Hörgeräte)]).
+Teil dieser #add([übergeordneten ])Mission ist
+#delete([
+    es, die Transparenz und Vergleichbarkeit von Produkten innerhalb der Branche zu steigern, um Endkunden darin zu unterstützen das für sie beste Gerät zu finden.\
+    Als Software-Unternehmen legt die #glossary("audoora") zudem viel Wert auf hochwertige und moderne Software-Standards.
+    Das schließt neben modernen Nutzeroberflächen auch das Design der dahinterliegenden Code-Base, sowie die Qualität von Daten und Datenstandards, mit ein.
+])
+#add([
+    die Verwendung hochwertiger und moderner Software-Standards (moderne Nutzeroberflächen, hohe Code- und Datenqualität, etc.).\
+    Als kleines Startup war unsere gesamte Kultur mit ihren Normen und Werten sehr flexibel und im Wandel.
+    Vieles entwickelte sich im Laufe der Zeit und wurde ebenso regelmäßig wieder angepasst, wenn neue Erkenntnisse gewonnen wurden.
+    Entsprechend gab es (abgesehen von der Mission) keine formell definierten Normen und Werte, dafür umsomehr informelle.
+    Im Laufe unserer verschiedenen Projekte wollten wir das, was sich für uns informell als Best-Practice mit der Zeit etabliert hatte, schrittweise festhalten und formalisieren.
+])
 
-Unsere Mission war stets in meinen Projekten einzubringen und anzuwenden.
-Ebenso galt es die Normen und Werte, die wir informell einhielten, schrittweise festzuhalten und damit einen formellen Rahmen zu schaffen.
+#delete([
+    Unsere Mission und Werte waren stets in meinen Projekten einzubringen und anzuwenden.
+])\
+#add([
+    Unsere Mission war stets in meinen Projekten einzubringen und anzuwenden.
+    Ebenso galt es die Normen und Werte, die wir informell einhielten, schrittweise festzuhalten und damit einen formellen Rahmen zu schaffen.
+])
 
-Die Leistungs- und Nutzungsziele meiner Projekte habe ich in jedem Fall zusammen mit #glossary("nils") entworfen.
-Dabei haben wir stets berücksichtigt inwiefern das Projekt zu unserer Mission beiträgt und die Ziele entsprechend formuliert.
-Damit haben wir sichergestellt, dass die Projekte mit der Mission des Unternehmens im Einklang waren.\
-Den Mangel an detaillierteren formellen Werten bzw. Normen habe ich wiederholt mit #glossary("nils") besprochen.
-Mir war schon in vorherigen Projekten aufgefallen, dass wir zwar stets gute Arbeit geleistet haben, diese aber im Detail sehr unterschiedlich ausfallen konnte, je nach verantwortlichem Entwickler.
-Insbesondere wenn für ein Projekt auf vorherige Arbeit eines anderen Entwicklers zurückgegriffen wurde, führte dies zu Ineffizienzen, da man sich zunächst in die Arbeit des anderen Entwicklers eindenken musste.\
-Um dem entgegen zu wirken, habe ich angefangen einige Standards, über die sich alle einig waren, zu dokumentieren.
-Zusätzlich habe ich einige unserer Coding-Standards und Test-Vorgehen formalisiert und weiterentwickelt.
-Diese Dokumentation und Standards habe ich dann sowohl in meinen eigenen Projekten als Grundlage verwendet, um einheitlichere Code-Qualität sicherzustellen, als auch für alle anderen Projekte zur Verfügung gestellt.
+#delete([
+    Um unsere Mission in meine Projekte einzubringen, musste ich nichts weiter tun, da das gesamte Projektdesign sich bereits aus dieser Mission ergab.
+    Die Leistungs- und Nutzungsziele der Projekte waren stets auf diese Mission ausgerichtet.\
+    Um zudem sicherzustellen, dass die entwickelte Software unseren Werten bzgl. Qualität entsprach, habe ich Coding-Standards für unsere Projekte mitentwickelt und in meinen Projekten etabliert.
+    Außerdem habe ich das allgemeine Test-Vorgehen in unserem Unternehmen mit entworfen und ebenfalls in meinen Projekten eingeführt.
+])\
+#add([
+    Die Leistungs- und Nutzungsziele meiner Projekte habe ich in jedem Fall zusammen mit #glossary("nils") entworfen.
+    Dabei haben wir stets berücksichtigt inwiefern das Projekt zu unserer Mission beiträgt und die Ziele entsprechend formuliert.
+    Damit haben wir sichergestellt, dass die Projekte mit der Mission des Unternehmens im Einklang waren.\
+    Den Mangel an detaillierteren formellen Werten bzw. Normen habe ich wiederholt mit #glossary("nils") besprochen.
+    Mir war schon in vorherigen Projekten aufgefallen, dass wir zwar stets gute Arbeit geleistet haben, diese aber im Detail sehr unterschiedlich ausfallen konnte, je nach verantwortlichem Entwickler.
+    Insbesondere wenn für ein Projekt auf vorherige Arbeit eines anderen Entwicklers zurückgegriffen wurde, führte dies zu Ineffizienzen, da man sich zunächst in die Arbeit des anderen Entwicklers eindenken musste.\
+    Um dem entgegen zu wirken, habe ich angefangen einige Standards, über die sich alle einig waren, zu dokumentieren.
+    Zusätzlich habe ich einige unserer Coding-Standards und Test-Vorgehen formalisiert und weiterentwickelt.
+    Diese Dokumentation und Standards habe ich dann sowohl in meinen eigenen Projekten als Grundlage verwendet, um einheitlichere Code-Qualität sicherzustellen, als auch für alle anderen Projekte zur Verfügung gestellt.
+])
 
-Durch die Etablierung der besagten Standards konnte ich erreichen, dass wir für den Qualitätsanspruch unseres Unternehmens formelle Normen haben.
-Für meine eigenen Projekte haben diese bereits in der Entwicklung einige Fehler verhindern können, die sonst wahrscheinlich aufgetreten wären.
-Inwiefern die Standards in anderen Projekten, bzw. auch Projekt-übergreifend, Mehrwerte erzeugt haben, kann ich nicht beurteilen, da ich das Unternehmen verlassen habe, bevor die Ergebnisse in dieser Hinsicht nochmals reflektiert wurden.
+#delete([
+    Durch die Etablierung der besagten Standards und Prozesse konnte ich sicherstellen, dass die Ergebnisse meiner Projekte dem allgemeinen Qualitäts-Niveau der #glossary("audoora") entsprachen.
+])\
+#add([
+    Durch die Etablierung der besagten Standards konnte ich erreichen, dass wir für den Qualitätsanspruch unseres Unternehmens formelle Normen haben.
+    Für meine eigenen Projekte haben diese bereits in der Entwicklung einige Fehler verhindern können, die sonst wahrscheinlich aufgetreten wären.
+    Inwiefern die Standards in anderen Projekten, bzw. auch Projekt-übergreifend, Mehrwerte erzeugt haben, kann ich nicht beurteilen, da ich das Unternehmen verlassen habe, bevor die Ergebnisse in dieser Hinsicht nochmals reflektiert wurden.
+])
 
 ==== *04.03.05.03* Die informelle Kultur und Werte der Organisation und deren Auswirkungen auf das Projekt beurteilen
 Innerhalb des Unternehmens haben wir allgemein einen sehr lockeren und vertrauensbasierten Umgang miteinander gepflegt.
