@@ -5,3 +5,6 @@
 *.pptx
 *.png
 *.lock
+*.odg
+
+.signature.svg
