@@ -1268,18 +1268,20 @@ Aus diesem Grund konnte ich den Bau des neuen Import-Moduls als sinnvoll bewerte
 Für den Übergang, während das neue Modul aufgebaut wird, konnten wir den alten Importer weiter nutzen, aber das Ablösen des alten Importers war strategisch eine sinnvolle und notwendige Entscheidung.
 
 === 04.03.05 Kultur und Werte
-==== *04.03.05.01* Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen <kultur_1>
-Die #glossary("audoora") hat ausschließlich Mitarbeiter in Deutschland.
-Entsprechend gab es gewisse kulturellen Normen und Erwartungen, die einzuhalten waren.
+#add([
+    ==== *04.03.05.01* Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen <kultur_1>
+    Die #glossary("audoora") hat ausschließlich Mitarbeiter in Deutschland.
+    Entsprechend gab es gewisse kulturellen Normen und Erwartungen, die einzuhalten waren.
 
-Im Allgemeinen ist die Arbeitskultur in Deutschland bekannt dafür, dass Pünktlichkeit, Ordnung, Struktur und ein respektvoller Umgang mit der Freizeit der Kollegen sehr groß geschrieben werden.
-So auch in unserem Unternehmen, wo von unseren Mitarbeitern insbesondere Wert auf die letzten beiden Punkte gelegt wurde.
-Ich habe dementsprechend sichergestellt, dass ich bei der Übergabe von Informationen oder Aufgaben stets eine möglichst strukturierte Aufstellung der relevanten Punkte erstellt habe und diese in ordentlicher Form an den entsprechenden Kollegen überreicht habe.
-Zudem habe ich darauf geachtet möglichst keine Nachrichten oder E-Mails an Kollegen zu senden, wenn diese gerade in ihrer Freizeit oder im Urlaub waren.
-Sollte ich doch mal innerhalb dieser Zeiten geschrieben haben, habe ich immer darauf geachtet in der Nachricht klar zu betonen, dass ich keine Antwort erwarte, bis der Kollege wieder in seine reguläre Arbeitszeit zurückgekehrt ist.
+    Im Allgemeinen ist die Arbeitskultur in Deutschland bekannt dafür, dass Pünktlichkeit, Ordnung, Struktur und ein respektvoller Umgang mit der Freizeit der Kollegen sehr groß geschrieben werden.
+    So auch in unserem Unternehmen, wo von unseren Mitarbeitern insbesondere Wert auf die letzten beiden Punkte gelegt wurde.
+    Ich habe dementsprechend sichergestellt, dass ich bei der Übergabe von Informationen oder Aufgaben stets eine möglichst strukturierte Aufstellung der relevanten Punkte erstellt habe und diese in ordentlicher Form an den entsprechenden Kollegen überreicht habe.
+    Zudem habe ich darauf geachtet möglichst keine Nachrichten oder E-Mails an Kollegen zu senden, wenn diese gerade in ihrer Freizeit oder im Urlaub waren.
+    Sollte ich doch mal innerhalb dieser Zeiten geschrieben haben, habe ich immer darauf geachtet in der Nachricht klar zu betonen, dass ich keine Antwort erwarte, bis der Kollege wieder in seine reguläre Arbeitszeit zurückgekehrt ist.
 
-Es gab wiederholt das Feedback von unseren Mitarbeitern, dass sie es sehr schätzen wie ihre Freizeit respektiert wird.
-Insgesamt herrschte eine hohe Zufriedenheit im gesamten Unternehmen bzgl. der Arbeitskultur.
+    Es gab wiederholt das Feedback von unseren Mitarbeitern, dass sie es sehr schätzen wie ihre Freizeit respektiert wird.
+    Insgesamt herrschte eine hohe Zufriedenheit im gesamten Unternehmen bzgl. der Arbeitskultur.
+])
 
 ==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen <kultur_2>
 Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an#delete([ (im Gegensatz zu dem weit verbreiteten Fokus auf nur Hörgeräte)]).
