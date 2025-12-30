@@ -90,31 +90,31 @@
         "1.1", "22.12.2025", "KCI 04.05.06.01 entfernt", [@qualitaet_1],
         "1.1", "22.12.2025", "KCI 04.05.09.01 entfernt", [@beschaffung_1],
         "1.1", "22.12.2025", "KCI 04.05.09.03 entfernt", [@beschaffung_3],
-        "1.1", "22.12.2025", "KCI 04.03.01.01 detaillierter ausgeführt", [@einklang_vision],
-        "1.1", "22.12.2025", "KCI 04.04.03.04 detaillierter ausgeführt", [@virtual_teams],
+        "1.1", "22.12.2025", "KCI 04.03.01.01 detaillierter ausgeführt", [@strategie_1],
+        "1.1", "22.12.2025", "KCI 04.04.03.04 detaillierter ausgeführt", [@kommunikation_4],
         "1.2", "23.12.2025", "KCI 04.03.03.04 entfernt", [@compliance_4],
         "1.2", "23.12.2025", "KCI 04.03.03.06 hinzugefügt und beschrieben", [@compliance_6],
         "1.2", "23.12.2025", "KCI 04.04.05.02 entfernt", [@fuehrung ff.],
         "1.2", "23.12.2025", "KCI 04.05.01.03 entfernt", [@projekt_design ff.],
-        "1.2", "23.12.2025", "KCI 04.05.03.01 detaillierter ausgeführt", [@lieferobjekte],
-        "1.2", "23.12.2025", "KCI 04.05.04.03 detaillierter ausgeführt", [@vorgehensweise],
-        "1.2", "23.12.2025", "KCI 04.05.05.01 detaillierter ausgeführt", [@info_beduerfnisse],
+        "1.2", "23.12.2025", "KCI 04.05.03.01 detaillierter ausgeführt", [@leistung_1],
+        "1.2", "23.12.2025", "KCI 04.05.04.03 detaillierter ausgeführt", [@termine_3],
+        "1.2", "23.12.2025", "KCI 04.05.05.01 detaillierter ausgeführt", [@org_info_1],
         "1.2", "23.12.2025", "KCI 04.05.07.04 entfernt", [@kosten ff.],
-        "1.3", "24.12.2025", "KCI 04.05.08.02 detaillierter ausgeführt", [@ressourcen_bedarf],
-        "1.3", "25.12.2025", "KCI 04.05.03.02 detaillierter ausgeführt", [@leistung_strukturieren],
-        "1.3", "25.12.2025", "KCI 04.05.04.02 detaillierter ausgeführt", [@aufwand_ermitteln],
-        "1.3", "25.12.2025", "KCI 04.05.11.03 detaillierter ausgeführt", [@wahrscheinlichkeit],
-        "1.3", "25.12.2025", "KCI 04.05.11.05 detaillierter ausgeführt", [@risiken_tracken],
-        "1.3", "25.12.2025", "KCI 04.03.05.02 detaillierter ausgeführt", [@formelle_werte],
-        "1.4", "26.12.2025", "KCI 04.05.05.02 detaillierter ausgeführt", [@verantwortlichkeiten],
-        "1.4", "26.12.2025", "KCI 04.05.08.04 detaillierter ausgeführt", [@ressourcen_zuteilung],
-        "1.4", "26.12.2025", "KCI 04.03.05.01 hinzugefügt und beschrieben", [@local_culture],
-        "1.4", "26.12.2025", "KCI 04.04.03.03: andere Situation gewählt und beschrieben", [@kommunikations_arten],
+        "1.3", "24.12.2025", "KCI 04.05.08.02 detaillierter ausgeführt", [@ressourcen_2],
+        "1.3", "25.12.2025", "KCI 04.05.03.02 detaillierter ausgeführt", [@leistung_2],
+        "1.3", "25.12.2025", "KCI 04.05.04.02 detaillierter ausgeführt", [@termine_2],
+        "1.3", "25.12.2025", "KCI 04.05.11.03 detaillierter ausgeführt", [@risiken_3],
+        "1.3", "25.12.2025", "KCI 04.05.11.05 detaillierter ausgeführt", [@risiken_5],
+        "1.3", "25.12.2025", "KCI 04.03.05.02 detaillierter ausgeführt", [@kultur_2],
+        "1.4", "26.12.2025", "KCI 04.05.05.02 detaillierter ausgeführt", [@org_info_2],
+        "1.4", "26.12.2025", "KCI 04.05.08.04 detaillierter ausgeführt", [@ressourcen_4],
+        "1.4", "26.12.2025", "KCI 04.03.05.01 hinzugefügt und beschrieben", [@kultur_1],
+        "1.4", "26.12.2025", "KCI 04.04.03.03: andere Situation gewählt und beschrieben", [@kommunikation_3],
         "1.4", "26.12.2025", "KCI 04.05.06.05 entfernt", [@qualitaet ff.],
         "2.0",
         "27.12.2025",
         "KCI 04.05.09.04: Rückbezug zu anderem KCI entfernt und Satz für Kontext ergänzt",
-        [@vertragsausfuehrung],
+        [@beschaffung_4],
     )
 
     pagebreak()
@@ -484,7 +484,7 @@ Gemäß der Priorisierung wurden die betroffenen Arbeitspakete angepasst.
 Im Folgenden geht es um das Projekt, in dem wir ein Quality Reporting System (#abbr("qrs")) für unsere Produktdatenbank aufgebaut haben.
 Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
 
-==== *04.05.03.01* Lieferobjekte definieren <lieferobjekte>
+==== *04.05.03.01* Lieferobjekte definieren <leistung_1>
 Die primären Nutzungsziele des #abbr("qrs") umfassten die Überprüfung unserer Daten auf konkrete Qualitätskriterien, die Zusammenfassung und Darstellung gefundener Probleme in menschen-lesbarer Form, sowie die Möglichkeit manuelle Korrekturen für gefundene Probleme vorzunehmen.
 
 Die Lieferobjekte waren zu definieren und mit diesen Nutzungszielen in Verbindung zu setzen.
@@ -504,7 +504,7 @@ Diese Reports sind in @qrs_design als blaue Kacheln wiederzufinden.
 In der weiteren Planung habe ich die konkreten Arbeitspakete anhand der übergeordneten Lieferobjekte ausdefiniert.
 Mit der Aufschlüsselung der Lieferobjekte konnte ich im späteren Verlauf den Fortschritt im Projekt auch detaillierter an #glossary("nils") berichten, ohne unübersichtlich zu werden.
 
-==== *04.05.03.02* Leistungsumfang strukturieren <leistung_strukturieren>
+==== *04.05.03.02* Leistungsumfang strukturieren <leistung_2>
 Es galt für die Umsetzung des Projektes die Lieferobjekte und daran hängenden Leistungen zu strukturieren und über das Vorgehensmodell zu entscheiden.
 
 Um den Leistungsumfang genauer aufzuschlüsseln, habe ich zunächst für jedes im vorherigen KCI beschriebene Modul die bekannten Rahmenfaktoren und -Bedingungen festgehalten.
@@ -549,7 +549,7 @@ Die Aufgaben habe ich als Kacheln in einem Diagramm festgehalten und sie farblic
 Mit den definierten Aufgaben wurde die weitere Planung vorgenommen.
 Im weiteren Verlauf der Planung wurden die Abhängigkeiten zwischen den Aufgaben, sowie die Phasen, in die das Projekt unterteilt wurde, hinzugefügt (siehe die nachfolgenden KCIs).
 
-==== *04.05.04.02* Arbeitsaufwand und Dauer von Aktivitäten festlegen <aufwand_ermitteln>
+==== *04.05.04.02* Arbeitsaufwand und Dauer von Aktivitäten festlegen <termine_2>
 Für alle anstehend Aufgaben habe ich einige planungsrelevante Faktoren überprüft:
 - In welchem System müssen Anpassungen vorgenommen werden?
 - Wird für die Aufgabe spezielles Wissen benötigt, und wenn ja, welches?
@@ -565,7 +565,7 @@ Mit den ermittelten Rahmenbedingungen der Aufgaben (Aufwand, erforderliches Wiss
 In Teilen konnte ich dadurch auch Abhängigkeiten zwischen Aufgaben ermitteln, die ich zuvor nicht ermittelt hatte.
 Diese sind in die spätere Planung mit eingeflossen.
 
-==== *04.05.04.03* Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen <vorgehensweise>
+==== *04.05.04.03* Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen <termine_3>
 Aus dem Fluss-Diagramm, in dem wir die Aufgaben festgehalten haben, ergab sich für das Projekt de facto ein Wasserfall-Ansatz.
 Dies haben wir jedoch im Projektverlauf nie explizit als solches festgehalten oder benannt.
 
@@ -599,7 +599,7 @@ Die fertige Ablaufplanung diente für die Umsetzung des Projektes als leitende R
 Für das gesamte Programm habe ich mich zu Beginn im Rahmen der Übergabe mit #glossary("nils") zusammengesetzt, um die Details der Zusammenarbeit zu klären.
 Ein Teil dieser Gespräche war die Klärung der verwendeten Informations- und Kommunikationsstrukturen.
 
-==== *04.05.05.01* Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen <info_beduerfnisse>
+==== *04.05.05.01* Bedürfnisse der Stakeholder bezüglich Information und Dokumentation beurteilen und bestimmen <org_info_1>
 Das übergreifende Produktdatenprogram selbst wurde als rein internes Thema gehandhabt, bei dem unsere Entwickler auch nur bedingt involviert waren.
 Entsprechend war hier nur #glossary("nils") informiert zu halten.
 Die formelle Dokumentation haben wir dabei, wie sonst im Unternehmen üblich, über #glossary("notion") gehandhabt, während alle weiteren Themen informell und nach Bedarf in Meetings oder Gesprächen zwischendurch geklärt wurden.
@@ -614,7 +614,7 @@ Beispielsweise habe ich im #glossary("optadata_focus") Projekt mit dem Kunden ge
 
 Über die verschiedenen Kommunikationsarten und -kanäle war es mir möglich stets die benötigten Informationen an die richtigen Leute zu leiten.
 
-==== *04.05.05.02* Struktur, Rollen und Verantwortlichkeiten im Projekt definieren <verantwortlichkeiten>
+==== *04.05.05.02* Struktur, Rollen und Verantwortlichkeiten im Projekt definieren <org_info_2>
 Es galt die konkreten Verantwortlichkeiten zu verteilen.
 
 Allgemein sind wir im Unternehmen Aufgaben meist kollaborativ angegangen, d.h. Verantwortung für Aufgaben wurde nicht auf Einzelpersonen übertragen, sondern auf mehrere Personen zusammen (in den allermeisten Fällen Personenpaare).
@@ -750,7 +750,7 @@ Mit dieser Übersicht habe ich abschließend zusammengestellt, wer für das Proj
 Eine Übersicht über die erforderlichen Entwickler wurde erstellt und #glossary("nils") vorgelegt.
 Diese hat, nach etwas Verhandlung (s.u.), beschlossen wer dem Projekt für wie lange zugeteilt wird.
 
-==== *04.05.08.02* Qualität und Menge der benötigten Ressourcen definieren <ressourcen_bedarf>
+==== *04.05.08.02* Qualität und Menge der benötigten Ressourcen definieren <ressourcen_2>
 Für das Projekt galt es die Menge und Qualität der benötigten Ressourcen zu definieren.
 
 Ich habe für jedes Arbeitspaket, das ich in meiner vorherigen Planung definiert hatte, den Bedarf an Wissen & Kompetenzen bestimmt.
@@ -781,7 +781,7 @@ Anschließend habe ich #glossary("nils") die Option angeboten, den Entwickler nu
 
 Der Entwickler wurde für begrenzte Zeit meinem Projekt zugewiesen, wobei der Umfang der Aufgaben wie vereinbart reduziert wurde.
 
-==== *04.05.08.04* Ressourcen gemäß dem festgelegten Bedarf zuweisen und verteilen <ressourcen_zuteilung>
+==== *04.05.08.04* Ressourcen gemäß dem festgelegten Bedarf zuweisen und verteilen <ressourcen_4>
 Für das Projekt waren die Aufgaben klar zuzuteilen und entsprechende Aufgabenlisten zu erstellen.
 
 Da der Großteil der Design-Arbeit bereits von mir durchgeführt wurde, habe ich die entsprechende Umsetzung ebenfalls mir selbst zugeteilt.
@@ -841,7 +841,7 @@ Diese Modelle habe ich anschließend im Austausch mit #glossary("nils") gegenüb
     Die notwendigen Änderungen konnten anschließend eingeplant und umgesetzt werden (s.u.).
 ])
 
-==== *04.05.09.04* Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen <vertragsausfuehrung>
+==== *04.05.09.04* Vertragsausführung überwachen, Probleme ansprechen und, falls notwendig, Entschädigungen verlangen <beschaffung_4>
 Um die vertraglich geforderte Zuverlässigkeit, Serverlast und Antwortgeschwindigkeit unseres Gateways sicherzustellen, hatte ich eine handvoll nötige Änderungen an unseren Gateway-Endpoints identifiziert.
 
 Es galt die identifizierten Maßnahmen zum Managen der Vertragserfüllung umzusetzen.
@@ -929,7 +929,7 @@ Dabei habe ich drei mögliche Fehlerkategorien festgehalten:
 #v(-6pt)
 Alle drei Kategorien waren in der weiterführenden Bewertung zu betrachten und Maßnahmen zu ermitteln (siehe nächste KCIs).
 
-==== *04.05.11.03* Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren <wahrscheinlichkeit>
+==== *04.05.11.03* Wahrscheinlichkeit und Auswirkungen von Chancen und Risiken analysieren <risiken_3>
 Die zuvor identifizierten Fehlerkategorien waren in ihrem potentiellen Ausmaß zu bewerten.
 
 Bei den Fehlerkategorien handelt es sich jeweils um fehlerhafte Zugriffe auf die Datenbank.
@@ -962,7 +962,7 @@ Da es sich in beiden Fällen im Zweifelsfall um Fehler in der Korrektheit des Mo
 Ich habe entsprechende Test-Cases eingeplant, die diese Fehlerkategorien abdecken.\
 Mittels entsprechendem Testen nach Fertigstellung des Moduls konnten diese beiden Risiken ebenfalls minimiert werden.
 
-==== *04.05.11.05* Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen <risiken_tracken>
+==== *04.05.11.05* Chancen, Risiken und implementierte Maßnahmen evaluieren und überwachen <risiken_5>
 Im Rahmen der Implementierung der Rollback-Funktion für den Import-Vorgang wurde schnell klar, dass diese in Teilen nur eine Verschiebung des Risikos darstellt, nicht eine Lösung.
 In dem Fall, dass ein Rollback scheitert, ergeben sich die gleichen Probleme, die auch ein abgebrochener Import schon verursachen würde.
 
@@ -1020,7 +1020,7 @@ Ein paar der Akustiker sind auf dieses Angebot angesprungen und haben proaktiv d
 
 == PM-Wahlelemente
 === 04.03.01 Strategie
-==== *04.03.01.01* Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen <einklang_vision>
+==== *04.03.01.01* Das Projekt mit der Mission und der Vision der Organisation in Einklang bringen <strategie_1>
 #add([
     Zu Beginn des QRS Projektes stand zunächst nur die Idee im Raum, mittels Daten-Qualitätsprüfungen unsere Aufwände in der Datenpflege zu reduzieren und somit Kosten zu sparen.
 ])
@@ -1081,7 +1081,7 @@ Aus diesem Grund konnte ich den Bau des neuen Import-Moduls als sinnvoll bewerte
 Für den Übergang, während das neue Modul aufgebaut wird, konnten wir den alten Importer weiter nutzen, aber das Ablösen des alten Importers war strategisch eine sinnvolle und notwendige Entscheidung.
 
 === 04.03.05 Kultur und Werte
-==== *04.03.05.01* Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen <local_culture>
+==== *04.03.05.01* Kultur und Werte der Gesellschaft und deren Auswirkungen auf das Projekt beurteilen <kultur_1>
 Die #glossary("audoora") hat ausschließlich Mitarbeiter in Deutschland.
 Entsprechend gab es gewisse kulturellen Normen und Erwartungen, die einzuhalten waren.
 
@@ -1094,7 +1094,7 @@ Sollte ich doch mal innerhalb dieser Zeiten geschrieben haben, habe ich immer da
 Es gab wiederholt das Feedback von unseren Mitarbeitern, dass sie es sehr schätzen wie ihre Freizeit respektiert wird.
 Insgesamt herrschte eine hohe Zufriedenheit im gesamten Unternehmen bzgl. der Arbeitskultur.
 
-==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen <formelle_werte>
+==== *04.03.05.02* Das Projekt mit der formellen Kultur und den Werten der Organisation in Einklang bringen <kultur_2>
 Die #glossary("audoora") strebt als Teil des #glossary("nh") die Verbesserung der gesamtheitlichen Hörgesundheitsversorgung an.
 Teil dieser übergeordneten Mission ist die Verwendung hochwertiger und moderner Software-Standards (moderne Nutzeroberflächen, hohe Code- und Datenqualität, etc.).\
 Als kleines Startup war unsere gesamte Kultur mit ihren Normen und Werten sehr flexibel und im Wandel.
@@ -1213,7 +1213,7 @@ Beispielsweise sprachen wir zu einem Punkt über ihre selbstgebauten Datenbankl�
 Ich fasste anschließend den eigentlichen Prozess zusammen, den ich aus ihren Ausführungen herausgehört hatte, und sie konnte mich dann korrigieren und einen Schritt klarstellen, den ich falsch verstanden hatte.
 Dadurch konnte ich ihr dann anschließend einen gezielten Ratschlag geben, wie sie ihre Strukturen optimieren konnte.
 
-==== *04.04.03.03* Kommunikationsarten und -kanäle auswählen, um die Bedürfnisse der Zielgruppe, der Situation und der Führungsebene zu erfüllen <kommunikations_arten>
+==== *04.04.03.03* Kommunikationsarten und -kanäle auswählen, um die Bedürfnisse der Zielgruppe, der Situation und der Führungsebene zu erfüllen <kommunikation_3>
 Im Rahmen der Weiterentwicklung unserer Online-Plattformen wurde von unserem Geschäftsführer #glossary("sebastian") der Vorschlag eingebracht einen allgemeinen KI-Chatbot mit einzubauen.
 Dieser sollte unsere Partner in der Verwendung unserer Tools unterstützen und einen vereinfachten Zugang zu unseren Services ermöglichen.
 Der Vorschlag wurde in einer Besprechung mit dem IT-Team stark kritisiert und auf technischer Ebene auseinandergenommen.
@@ -1229,7 +1229,7 @@ Dafür habe ich allerdings bewusst viel mit Metaphern und bildlicher Sprache gea
 Mittels dieser Veranschaulichungen konnte ich ihm verständlich machen welche Probleme wir mit dem Ansatz sehen und wie wir die notwendigen Kosten einschätzen, um so ein KI-Projekt für unseren Anwendungsfall erfolgreich umzusetzen.
 Durch unser Gespräch hat #glossary("sebastian") anschließend selbst nachvollziehen können, dass seine Idee so nicht umsetzbar wäre und hat diese anschließend verworfen.
 
-==== *04.04.03.04* Mit virtuellen Teams effektiv kommunizieren<virtual_teams>
+==== *04.04.03.04* Mit virtuellen Teams effektiv kommunizieren <kommunikation_4>
 Die Hälfte der Leute bei der #glossary("audoora") haben zu 100% remote gearbeitet.
 Dieser Umstand hatte sich bereits in den Anfängen des Unternehmens etabliert, da wir damals schon mit Leuten zusammengearbeitet haben, die nicht ansatzweise in der Nähe von Köln gewohnt haben.
 
