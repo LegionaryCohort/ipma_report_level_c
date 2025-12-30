@@ -54,7 +54,7 @@
 
     v(1fr)
     [
-        Version #report_version\
+        Version #report_version - Änderungsmodus\
         #report_date
     ]
     v(1fr)
