@@ -485,24 +485,55 @@ Im Folgenden geht es um das Projekt, in dem wir ein Quality Reporting System (#a
 Ziel des Projektes war es, dass wir Qualitätsmängel in den Daten zuverlässig erkennen und korrigieren können.
 
 ==== *04.05.03.01* Lieferobjekte definieren <leistung_1>
-Die primären Nutzungsziele des #abbr("qrs") umfassten die Überprüfung unserer Daten auf konkrete Qualitätskriterien, die Zusammenfassung und Darstellung gefundener Probleme in menschen-lesbarer Form, sowie die Möglichkeit manuelle Korrekturen für gefundene Probleme vorzunehmen.
+#add([
+    Die primären Nutzungsziele des #abbr("qrs") umfassten die Überprüfung unserer Daten auf konkrete Qualitätskriterien, die Zusammenfassung und Darstellung gefundener Probleme in menschen-lesbarer Form, sowie die Möglichkeit manuelle Korrekturen für gefundene Probleme vorzunehmen.
+])
 
-Die Lieferobjekte waren zu definieren und mit diesen Nutzungszielen in Verbindung zu setzen.
+#delete([
+    Die Lieferobjekte waren zu definieren.
+])\
+#add([
+    Die Lieferobjekte waren zu definieren und mit diesen Nutzungszielen in Verbindung zu setzen.
+])
 
-Übergeordnet wurde das gesamtheitliche #abbr("qrs") von #glossary("nils") als Lieferobjekt betrachtet.
-Dieses habe ich zur besseren Übersicht in drei Module aufgeschlüsselt, die weitesgehend unabhängig voneinander entwickelt werden konnten.
-Diese Module waren dabei für die Erfüllung je eines der drei primären Nutzungsziele zuständig.\
-Diese Zusammenhänge sind in der #abbr("qrs")-Übersicht (@qrs_design) visuell dargestellt.
-Die Nutzungsziele sind dort als "Benötigte Kernfunktionen" aufgeführt.
-Mit einem Pfeil sind diese jeweils mit dem zugehörigen Modul verbunden, das dieses Ziel erfüllen soll.\
-Um das #abbr("qrs") tatsächlich für den vorgesehenen Nutzen einsetzen zu können, war es zudem notwendig Qualitätskriterien zu definieren, auf die konkret geprüft werden sollte.
-Diese Kriterien habe ich in Form von Report-Definitionen festgehalten, die die konkreten Arbeitsanweisungen für das #abbr("qrs") enthielten.
-Da das #abbr("qrs") insgesamt so designed war, dass es sich mühelos um beliebige Report-Definitonen erweitern ließ, habe ich zunächst nur zwei konkrete Reports ausdefiniert.
-Diese habe ich ebenfalls als Lieferobjekte mit aufgenommen, da ohne diese das #abbr("qrs") nicht sinnvoll in Betrieb genommen werden könnte.
-Diese Reports sind in @qrs_design als blaue Kacheln wiederzufinden.
+#delete([
+    Das #abbr("qrs") war dabei als eine Erweiterung unseres Datenbank-Management-Systems vorgesehen.
+    In der Planung des Projektes haben wir per Brainstorming zunächst den Funktionsumfang der Erweiterung ausdefiniert.
+    Anschließend habe ich den typischen Ablauf einer Qualitätsprüfung designed.
+    Aus diesem Design habe ich die benötigten Systemmodule abgeleitet und die Stuktur der tatsächlichen Report-Spezifikationen festgelegt.
+    Das gesamte Design im Überblick ist nochmal in @qrs_design visuell dargestellt.\
+    Aus diesem Design habe ich folgende Lieferobjekte abgeleitet:
+    - Das #abbr("qrs") Framework (zuständig für die gesamte Ausführung von #abbr("qrs")-Reports)
+        - Das Datenbank-Prüf-Modul (zuständig für die Ausführung der Report-Prüfungs-Ablaufe)
+        - Das Report-Protokoll-Modul (zuständig für die Erstellung der Report-Prüf-Protokolle)
+        - Das Import-Modul (zuständig für die Durchführung von Report-Korrektur-Vorgängen)
+    - Mehrere #abbr("qrs")-Reports zu konkreten Qualitätskriterien
+        - Überprüfung von Artikelnummern und #abbr("gtin")s
+        - Überpüfung von Produktverknüpfungen und #abbr("hmv")-Nummern
+    - Dokumentation zur Verwendung des QRS für die Kollegen, die damit arbeiten sollten
+    #v(-6pt)
+])
+#add([
+    Übergeordnet wurde das gesamtheitliche #abbr("qrs") von #glossary("nils") als Lieferobjekt betrachtet.
+    Dieses habe ich zur besseren Übersicht in drei Module aufgeschlüsselt, die weitesgehend unabhängig voneinander entwickelt werden konnten.
+    Diese Module waren dabei für die Erfüllung je eines der drei primären Nutzungsziele zuständig.\
+    Diese Zusammenhänge sind in der #abbr("qrs")-Übersicht (@qrs_design) visuell dargestellt.
+    Die Nutzungsziele sind dort als "Benötigte Kernfunktionen" aufgeführt.
+    Mit einem Pfeil sind diese jeweils mit dem zugehörigen Modul verbunden, das dieses Ziel erfüllen soll.\
+    Um das #abbr("qrs") tatsächlich für den vorgesehenen Nutzen einsetzen zu können, war es zudem notwendig Qualitätskriterien zu definieren, auf die konkret geprüft werden sollte.
+    Diese Kriterien habe ich in Form von Report-Definitionen festgehalten, die die konkreten Arbeitsanweisungen für das #abbr("qrs") enthielten.
+    Da das #abbr("qrs") insgesamt so designed war, dass es sich mühelos um beliebige Report-Definitonen erweitern ließ, habe ich zunächst nur zwei konkrete Reports ausdefiniert.
+    Diese habe ich ebenfalls als Lieferobjekte mit aufgenommen, da ohne diese das #abbr("qrs") nicht sinnvoll in Betrieb genommen werden könnte.
+    Diese Reports sind in @qrs_design als blaue Kacheln wiederzufinden.
+])
 
-In der weiteren Planung habe ich die konkreten Arbeitspakete anhand der übergeordneten Lieferobjekte ausdefiniert.
-Mit der Aufschlüsselung der Lieferobjekte konnte ich im späteren Verlauf den Fortschritt im Projekt auch detaillierter an #glossary("nils") berichten, ohne unübersichtlich zu werden.
+#delete([
+    Anhand der definierten Lieferobjekte wurde die weitere Arbeitspaketplanung vorgenommen.
+])\
+#add([
+    In der weiteren Planung habe ich die konkreten Arbeitspakete anhand der übergeordneten Lieferobjekte ausdefiniert.
+    Mit der Aufschlüsselung der Lieferobjekte konnte ich im späteren Verlauf den Fortschritt im Projekt auch detaillierter an #glossary("nils") berichten, ohne unübersichtlich zu werden.
+])
 
 ==== *04.05.03.02* Leistungsumfang strukturieren <leistung_2>
 Es galt für die Umsetzung des Projektes die Lieferobjekte und daran hängenden Leistungen zu strukturieren und über das Vorgehensmodell zu entscheiden.
