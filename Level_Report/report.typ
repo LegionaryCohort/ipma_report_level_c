@@ -828,7 +828,7 @@ Für das #abbr("qrs") Projekt habe ich den gewohnten Prozess wie oben beschriebe
 
 Das #abbr("qrs") wurde erfolgreich validiert und anschließend abgenommen.
 
-#add([
+#delete([
     ==== *04.05.06.05* Qualität im Verlauf des Projekts sicherstellen <qualitaet_5>
     Im Laufe der Jahre haben wir im Unternehmen ein Standard-Vorgehen für unsere Projekte entwickelt.
     Dieses beinhaltete einen Standard-Prozess für die Qualitätssicherung:
