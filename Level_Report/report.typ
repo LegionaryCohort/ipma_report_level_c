@@ -864,20 +864,38 @@ Eine Übersicht über die erforderlichen Entwickler wurde erstellt und #glossary
 Diese hat, nach etwas Verhandlung (s.u.), beschlossen wer dem Projekt für wie lange zugeteilt wird.
 
 ==== *04.05.08.02* Qualität und Menge der benötigten Ressourcen definieren <ressourcen_2>
-Für das Projekt galt es die Menge und Qualität der benötigten Ressourcen zu definieren.
+#delete([
+    Für die Umsetzung des gesamten Projektes galt es, eine Ressourcenplanung aufzustellen.
+])\
+#add([
+    Für das Projekt galt es die Menge und Qualität der benötigten Ressourcen zu definieren.
+])
 
 Ich habe für jedes Arbeitspaket, das ich in meiner vorherigen Planung definiert hatte, den Bedarf an Wissen & Kompetenzen bestimmt.
-Konkret habe ich die benötigten Frontend- und Backend-Entwicklungsskills beurteilt, die für die Umsetzung der erforderlichen Änderungen benötigt wurden.
-Zudem habe ich analysiert welche Vorkenntnisse und/oder welches Spezialwissen zu bestehenden Systemen für die Aufgaben notwendig waren.
-Den ermittelten Bedarf an Wissen & Kompetenzen habe ich pro Arbeitspaket festgehalten.\
-Zudem bestand für die Umsetzung in jedem Fall pro eingesetztem Entwickler ein Bedarf an der nötigen Ausrüstung und zugehörigen Tools, um die Entwicklungsarbeit leisten zu können.
-Diese Bedarfe habe ich nicht mit aufgenommen, da diese Ressourcen unseren Entwicklern dauerhaft zugewiesen waren und somit nicht separat geplant werden mussten, da sie als "Gesamtpaket" gehandhabt wurden.\
-Zusätzlich habe ich den Bedarf an IT-Infrastruktur ermittelt.
-Da Teil unserer Aufgabe die Bereitstellung eines Gateway-Servers war, musste ich diesen (inkl. Einrichtungsaufwände & Co.) mit einplanen und von #glossary("nils") freigeben lassen.
-Diese Bedarfe an Infrastruktur habe ich separat zum Aufgabenplan aufgelistet und an #glossary("nils") übergeben.
+#delete([Dabei])#add([Konkret]) habe ich die benötigten Frontend- und Backend-Entwicklungsskills beurteilt,
+#delete([
+    sowie die benötigten Vorkenntnisse zu bestehenden Systemen (sofern relevant).
+])
+#add([
+    die für die Umsetzung der erforderlichen Änderungen benötigt wurden.
+    Zudem habe ich analysiert welche Vorkenntnisse und/oder welches Spezialwissen zu bestehenden Systemen für die Aufgaben notwendig waren.
+])
+#add([
+    Den ermittelten Bedarf an Wissen & Kompetenzen habe ich pro Arbeitspaket festgehalten.\
+    Zudem bestand für die Umsetzung in jedem Fall pro eingesetztem Entwickler ein Bedarf an der nötigen Ausrüstung und zugehörigen Tools, um die Entwicklungsarbeit leisten zu können.
+    Diese Bedarfe habe ich nicht mit aufgenommen, da diese Ressourcen unseren Entwicklern dauerhaft zugewiesen waren und somit nicht separat geplant werden mussten, da sie als "Gesamtpaket" gehandhabt wurden.\
+    Zusätzlich habe ich den Bedarf an IT-Infrastruktur ermittelt.
+    Da Teil unserer Aufgabe die Bereitstellung eines Gateway-Servers war, musste ich diesen (inkl. Einrichtungsaufwände & Co.) mit einplanen und von #glossary("nils") freigeben lassen.
+    Diese Bedarfe an Infrastruktur habe ich separat zum Aufgabenplan aufgelistet und an #glossary("nils") übergeben.
+])
 
-Mit den ermittelten Bedarfen an Expertenwissen und entwicklerischen Fähigkeiten habe ich die Arbeitspaket-Übersicht angereichert.
-Über diese Zuordnung konnte ich anschließend ermitteln in welchen Zeiträumen ich bestimmte Entwickler benötigen würde und bis wann der Gateway-Server verfügbar sein musste.
+#delete([
+    Die Übersicht der Arbeitspakete wurde mit den dafür notwendigen Kompetenzen angereichert und stand für die weitere Planung zur Verfügung.
+])\
+#add([
+    Mit den ermittelten Bedarfen an Expertenwissen und entwicklerischen Fähigkeiten habe ich die Arbeitspaket-Übersicht angereichert.
+    Über diese Zuordnung konnte ich anschließend ermitteln in welchen Zeiträumen ich bestimmte Entwickler benötigen würde und bis wann der Gateway-Server verfügbar sein musste.
+])
 
 ==== *04.05.08.03* Potenzielle Ressourcenquellen identifizieren und ihre Beschaffung verhandeln
 Unter anderem sollten die Funktionen des #abbr("qrs") über die bereits bestehende Management-Plattform verfügbar gemacht werden.
