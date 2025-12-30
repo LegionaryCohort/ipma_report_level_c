@@ -753,10 +753,12 @@ Allgemein sind wir im Unternehmen Aufgaben meist kollaborativ angegangen, d.h. V
 Da sich dieser Ansatz in der Vergangenheit bewährt hatte, haben wir entschieden ihn für das Programm mit zu übernehmen.
 Konkret hieß das, dass ich die Planung der einzelnen Projekte in Leistungen, Zeit und Budget meist kollaborativ mit #glossary("nils") im Vier-Augen-Prinzip durchgeführt habe.
 Die Verantwortung für die tatsächliche Umsetzung und Überwachung derselben lag wiederum bei mir allein.\
-Wir haben zudem festgelegt, dass die Zuteilung von zusätzlichen Ressourcen, insb. Entwicklern, auf einer case-by-case Basis stattfinden würde.
-Dazu war es meine Aufgabe den Bedarf für das betreffende Projekt zu ermitteln und diesen an #glossary("nils") zu melden.
-Im gemeinsamen Gespräch wurde dann ermittelt wie wir diesen Bedarf konkret decken wollen und ggfs. entsprechende Freigaben durch #glossary("nils") erteilt.
-Mir wurde dabei nur die fachliche Weisungsbefugnis übertragen, und nur für die abgesprochene Dauer innerhalb des Projektes.
+#add([
+    Wir haben zudem festgelegt, dass die Zuteilung von zusätzlichen Ressourcen, insb. Entwicklern, auf einer case-by-case Basis stattfinden würde.
+    Dazu war es meine Aufgabe den Bedarf für das betreffende Projekt zu ermitteln und diesen an #glossary("nils") zu melden.
+    Im gemeinsamen Gespräch wurde dann ermittelt wie wir diesen Bedarf konkret decken wollen und ggfs. entsprechende Freigaben durch #glossary("nils") erteilt.
+    Mir wurde dabei nur die fachliche Weisungsbefugnis übertragen, und nur für die abgesprochene Dauer innerhalb des Projektes.
+])
 
 Durch die geteilten Verantwortlichkeiten konnten wir sicherstellen, dass Blind-Spots früher erkannt wurden.
 Auch haben wir damit sichergestellt, dass alle Ideen und Ansätze robuster waren und es in der praktischen Umsetzung durch Abwesenheiten o.ä. nicht zu Verzögerungen kam.
