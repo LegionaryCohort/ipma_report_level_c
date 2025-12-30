@@ -597,20 +597,39 @@ In Teilen konnte ich dadurch auch Abhängigkeiten zwischen Aufgaben ermitteln, d
 Diese sind in die spätere Planung mit eingeflossen.
 
 ==== *04.05.04.03* Vorgehensweise für Termine und Phasen, ggf. Sprints festlegen <termine_3>
-Aus dem Fluss-Diagramm, in dem wir die Aufgaben festgehalten haben, ergab sich für das Projekt de facto ein Wasserfall-Ansatz.
-Dies haben wir jedoch im Projektverlauf nie explizit als solches festgehalten oder benannt.
+#add([
+    Aus dem Fluss-Diagramm, in dem wir die Aufgaben festgehalten haben, ergab sich für das Projekt de facto ein Wasserfall-Ansatz.
+    Dies haben wir jedoch im Projektverlauf nie explizit als solches festgehalten oder benannt.
+])
 
-Für die weitere Planung der Umsetzung und die eindeutige Kommunikation mit dem Kunden, waren die Phasen des Projektes festzulegen.
+#delete([Für die Umsetzung und])#add([Für die weitere Planung der Umsetzung und die]) eindeutige Kommunikation mit dem Kunden, waren die Phasen des Projektes festzulegen.
 
-Zunächst habe ich das Projekt in 3 Phasen unterteilt: "Specification", "Implementation" und "Integration & Test".
-Da die Phasen primär als Orientierung zur Kommunikation dienten, haben wir keine konkreten Zeiträume je Phase festgelegt.
-Vielmehr haben wir im Verlauf des Projektes Deadlines für einzelne Aufgaben definiert sobald wir diese angegangen sind.\
-Zu Beginn des Projektes sollte auf Kundenwunsch hin im Rahmen der Spezifikation auch geprüft werden, dass das Projekt so funktionieren würde, wie wir uns das vorgestellt haben.
-Aufgrund dieses Wunsches habe ich zusätzlich die "Test-Gateway"-Phase mit aufgenommen, in der zum Abschluss der Spezifikation genau diese Prüfung stattfinden sollte.
+#delete([
+    Ich habe das Projekt in 4 Phasen unterteilt:
+    - Spezifikationsphase: _Design der Gateway-Endpoint Spezifikationen_
+    - Aufbau eines Test-Gateways: _Bereitstellung des Gateway-Servers inkl. aller Endpoints mit vorläufigen Beispieldaten_
+    - Umsetzung der Backend-Logik: _Implementierung der tatsächlichen Logik innerhalb aller Endpoints_
+    - Testing & Fine-Tuning: _Gemeinsamer Integrations-Test des vollen Schnittstellenprozesses_
+    Der Abschluss jeder Phase stellte dabei einen Meilenstein dar, für den ich mit der #glossary("optadata") eine Deadline vereinbart habe.
+])\
+#add([
+    Zunächst habe ich das Projekt in 3 Phasen unterteilt: "Specification", "Implementation" und "Integration & Test".
+    Da die Phasen primär als Orientierung zur Kommunikation dienten, haben wir keine konkreten Zeiträume je Phase festgelegt.
+    Vielmehr haben wir im Verlauf des Projektes Deadlines für einzelne Aufgaben definiert sobald wir diese angegangen sind.\
+    Zu Beginn des Projektes sollte auf Kundenwunsch hin im Rahmen der Spezifikation auch geprüft werden, dass das Projekt so funktionieren würde, wie wir uns das vorgestellt haben.
+    Aufgrund dieses Wunsches habe ich zusätzlich die "Test-Gateway"-Phase mit aufgenommen, in der zum Abschluss der Spezifikation genau diese Prüfung stattfinden sollte.
+])
 
-Da wir die Umsetzung und Kontrolle des Projektes direkt anhand des Aufgaben-Fluss-Diagrammes vorgenommen haben, hatten die Phasen selbst hierfür wenig Bedeutung.
-Vielmehr dienten sie, wie bereits erwähnt, der klaren Kommunikation mit dem Kunden.
-Durch die Unterteilung in die verschiedenen Phasen konnte ich in Gesprächen mit dem Kunden immer schnell einen Orientierungspunkt geben, wo wir gerade stehen und was noch passieren muss, ohne dass wir jedes mal das Diagramm nach konkreten Aufgaben durchsuchen mussten.
+#delete([
+    Dank der groben Phasenplanung konnten wir besser mit der #glossary("optadata") koordinieren.
+    Anhand der Phasenplanung wurden alle weiteren (Detail-)Schritte definiert.
+    Siehe auch @gateway_tasks, in der die Phasen übergreifend mit abgebildet sind.
+])\
+#add([
+    Da wir die Umsetzung und Kontrolle des Projektes direkt anhand des Aufgaben-Fluss-Diagrammes vorgenommen haben, hatten die Phasen selbst hierfür wenig Bedeutung.
+    Vielmehr dienten sie, wie bereits erwähnt, der klaren Kommunikation mit dem Kunden.
+    Durch die Unterteilung in die verschiedenen Phasen konnte ich in Gesprächen mit dem Kunden immer schnell einen Orientierungspunkt geben, wo wir gerade stehen und was noch passieren muss, ohne dass wir jedes mal das Diagramm nach konkreten Aufgaben durchsuchen mussten.
+])
 
 ==== *04.05.04.04* Abfolge der Projektaktivitäten bestimmen und einen Ablauf- und Terminplan erstellen
 Einige der Aufgaben, z.B. die Bereitstellung von Testdaten, konnten erst umgesetzt werden, wenn andere Aufgaben zuvor erledigt wurden (Im Fall des Beispiels die Bereitstellung des Gateway-Servers mit entsprechenden Endpoints).
