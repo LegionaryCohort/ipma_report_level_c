@@ -1429,20 +1429,37 @@ Ich fasste anschließend den eigentlichen Prozess zusammen, den ich aus ihren Au
 Dadurch konnte ich ihr dann anschließend einen gezielten Ratschlag geben, wie sie ihre Strukturen optimieren konnte.
 
 ==== *04.04.03.03* Kommunikationsarten und -kanäle auswählen, um die Bedürfnisse der Zielgruppe, der Situation und der Führungsebene zu erfüllen <kommunikation_3>
-Im Rahmen der Weiterentwicklung unserer Online-Plattformen wurde von unserem Geschäftsführer #glossary("sebastian") der Vorschlag eingebracht einen allgemeinen KI-Chatbot mit einzubauen.
-Dieser sollte unsere Partner in der Verwendung unserer Tools unterstützen und einen vereinfachten Zugang zu unseren Services ermöglichen.
-Der Vorschlag wurde in einer Besprechung mit dem IT-Team stark kritisiert und auf technischer Ebene auseinandergenommen.
-Zum einen gab es Datenschutz-Bedenken, da davon auszugehen war, dass manche Partner auch medizinische Daten von Endkunden mit dem Chatbot teilen könnten.
-Zum anderen wurde hinterfragt, ob eine KI, die alle notwendigen Sicherheitskriterien erfüllt, überhaupt technisch in der Lage wäre den erhofften Support auf einem Qualitätsniveau zu leisten, das unseren Ansprüchen entsprach.
+#delete([
+    Im Rahmen der Einführung unseres Supports des #abbr("axc") Formates, ist uns ein Fehler im #glossary("amparex") System aufgefallen.
+    Diesen wollten wir zwecks Behebung an #glossary("amparex") berichten.
+    Dabei stellte sich heraus, dass die gewählte Kommunikation den Fehler per E-Mail mit einer kurzen Erklärung zu melden, nicht zielführend war.
 
-Im Rahmen dieses Gespräches habe ich, zusammen mit den anderen ITlern, versucht #glossary("sebastian") klar zu machen welche Einschränkungen wir einhalten müssten, um mit einer solchen KI Datenschutz-konform zu bleiben, und wie die damit einhergehenden technischen Einschränkungen sich auf die Funktionalität auswirken würden.
-Mir wurde allerdings im Gespräch schnell klar, dass diese Erklärungen sich zu sehr auf einer technischen Ebene bewegten, auf der #glossary("sebastian") dem Ganzen nicht sinnvoll folgen konnte.
-Ich habe im Anschluss an das Gespräch erneut den Kontakt zu #glossary("sebastian") gesucht und ihm angeboten in einem Einzelgespräch nochmal über das Thema zu sprechen und Fragen aufzuklären.
-In diesem Einzelgespräch habe ich ihm die Probleme, die wir identifiziert hatten, nochmals dargelegt.
-Dafür habe ich allerdings bewusst viel mit Metaphern und bildlicher Sprache gearbeitet, aus der Erfahrung heraus, dass #glossary("sebastian") eine Person ist, die sehr stark in dieser Art und Weise denkt.
+    Ich habe zunächst, wie erwähnt, den Fehler, mit einer kurzen Erklärung der Umstände und des Fehlers selbst, per E-Mail an #glossary("amparex") gemeldet.
+    Daraufhin erhielt ich lange keine Antwort, bis ich schließlich die Rückmeldung erhielt, dass der Fehler seitens #glossary("amparex") nicht nachvollzogen werden konnte.
+    Um den Fehler genauer zu erklären, habe ich anschließend versucht den zuständigen Ansprechpartner telefonisch zu erreichen.
+    Nach wiederholten Versuchen, bei denen niemand ans Telefon gegangen ist, habe ich diesen Weg aufgegeben und stattdessen den Fehler nochmals selbst genauer unter die Lupe genommen.
+    Ich konnte schließlich ein Minimal-Beispiel erstellen, mit dem der Fehler mit minimalem Aufwand reproduziert werden konnte.
+    Dieses Minimal-Beispiel habe ich dann erneut per E-Mail verschickt.
 
-Mittels dieser Veranschaulichungen konnte ich ihm verständlich machen welche Probleme wir mit dem Ansatz sehen und wie wir die notwendigen Kosten einschätzen, um so ein KI-Projekt für unseren Anwendungsfall erfolgreich umzusetzen.
-Durch unser Gespräch hat #glossary("sebastian") anschließend selbst nachvollziehen können, dass seine Idee so nicht umsetzbar wäre und hat diese anschließend verworfen.
+    Auf die letzte Mail erhielt ich ähnlich langsam die Antwort, dass der Fehler gefunden worden sei und behoben wird.
+    Mit der Veränderungen in der Art meiner Kommunikation, konkret in der Art, wie ich die relevanten Informationen zur Verfügung gestellt habe, konnte ich mein Ziel der Fehlerbehebung erreichen.
+])\
+#add([
+    Im Rahmen der Weiterentwicklung unserer Online-Plattformen wurde von unserem Geschäftsführer #glossary("sebastian") der Vorschlag eingebracht einen allgemeinen KI-Chatbot mit einzubauen.
+    Dieser sollte unsere Partner in der Verwendung unserer Tools unterstützen und einen vereinfachten Zugang zu unseren Services ermöglichen.
+    Der Vorschlag wurde in einer Besprechung mit dem IT-Team stark kritisiert und auf technischer Ebene auseinandergenommen.
+    Zum einen gab es Datenschutz-Bedenken, da davon auszugehen war, dass manche Partner auch medizinische Daten von Endkunden mit dem Chatbot teilen könnten.
+    Zum anderen wurde hinterfragt, ob eine KI, die alle notwendigen Sicherheitskriterien erfüllt, überhaupt technisch in der Lage wäre den erhofften Support auf einem Qualitätsniveau zu leisten, das unseren Ansprüchen entsprach.
+
+    Im Rahmen dieses Gespräches habe ich, zusammen mit den anderen ITlern, versucht #glossary("sebastian") klar zu machen welche Einschränkungen wir einhalten müssten, um mit einer solchen KI Datenschutz-konform zu bleiben, und wie die damit einhergehenden technischen Einschränkungen sich auf die Funktionalität auswirken würden.
+    Mir wurde allerdings im Gespräch schnell klar, dass diese Erklärungen sich zu sehr auf einer technischen Ebene bewegten, auf der #glossary("sebastian") dem Ganzen nicht sinnvoll folgen konnte.
+    Ich habe im Anschluss an das Gespräch erneut den Kontakt zu #glossary("sebastian") gesucht und ihm angeboten in einem Einzelgespräch nochmal über das Thema zu sprechen und Fragen aufzuklären.
+    In diesem Einzelgespräch habe ich ihm die Probleme, die wir identifiziert hatten, nochmals dargelegt.
+    Dafür habe ich allerdings bewusst viel mit Metaphern und bildlicher Sprache gearbeitet, aus der Erfahrung heraus, dass #glossary("sebastian") eine Person ist, die sehr stark in dieser Art und Weise denkt.
+
+    Mittels dieser Veranschaulichungen konnte ich ihm verständlich machen welche Probleme wir mit dem Ansatz sehen und wie wir die notwendigen Kosten einschätzen, um so ein KI-Projekt für unseren Anwendungsfall erfolgreich umzusetzen.
+    Durch unser Gespräch hat #glossary("sebastian") anschließend selbst nachvollziehen können, dass seine Idee so nicht umsetzbar wäre und hat diese anschließend verworfen.
+])
 
 ==== *04.04.03.04* Mit virtuellen Teams effektiv kommunizieren <kommunikation_4>
 Die Hälfte der Leute bei der #glossary("audoora") haben zu 100% remote gearbeitet.
